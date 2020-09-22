@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Jump Down
+  m_Name: Land From Jump
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,16 +20,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -5245436117249708049, guid: 73ce1eb948298974ca1253d92950eb51,
+      value: {fileID: -4226728690588540363, guid: 73ce1eb948298974ca1253d92950eb51,
         type: 3}
     - time: 0.083333336
-      value: {fileID: 4043469615504686039, guid: 73ce1eb948298974ca1253d92950eb51,
-        type: 3}
-    - time: 0.16666667
-      value: {fileID: 196614180849786550, guid: 73ce1eb948298974ca1253d92950eb51,
-        type: 3}
-    - time: 0.25
-      value: {fileID: -4552006480125786222, guid: 73ce1eb948298974ca1253d92950eb51,
+      value: {fileID: -599700044105978768, guid: 73ce1eb948298974ca1253d92950eb51,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -50,21 +44,19 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -5245436117249708049, guid: 73ce1eb948298974ca1253d92950eb51, type: 3}
-    - {fileID: 4043469615504686039, guid: 73ce1eb948298974ca1253d92950eb51, type: 3}
-    - {fileID: 196614180849786550, guid: 73ce1eb948298974ca1253d92950eb51, type: 3}
-    - {fileID: -4552006480125786222, guid: 73ce1eb948298974ca1253d92950eb51, type: 3}
+    - {fileID: -4226728690588540363, guid: 73ce1eb948298974ca1253d92950eb51, type: 3}
+    - {fileID: -599700044105978768, guid: 73ce1eb948298974ca1253d92950eb51, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.33333334
+    m_StopTime: 0.16666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 1
+    m_LoopTime: 0
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0

@@ -62,11 +62,12 @@ public class Player : MonoBehaviour
       {
          anim.SetBool("isJumping", false);
          anim.SetBool("isFalling", false);
-         
+
       }
       else
       {
          anim.SetBool("isJumping", true);
+         anim.SetBool("isFalling", true);
       }
 
       if (rb.velocity.y < 0 && this.reachedPeakJump == false)
@@ -74,11 +75,6 @@ public class Player : MonoBehaviour
          this.reachedPeakJump = true;
          anim.SetBool("atPeak", true);
          Invoke("SetReachedPeakToFlase", 0.05f);
-      }
-
-      if (rb.velocity.y < 0 && this.charIsFalling == false)
-      {
-         anim.SetBool("isFalling", true);
       }
       
       
