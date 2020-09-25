@@ -20,58 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Character Ghost.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Character Ghost.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Fading Dash.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Fading Dash.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Brownish Tileset 32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Brownish Tileset 32.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Brownish 32.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Brownish 32.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_0.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_0.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_10.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_10.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_11.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_11.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_12.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_12.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_13.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_13.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_14.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_14.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_15.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_15.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_16.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_16.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_6.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_6.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_7.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_8.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_9.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_9.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Character Ghost.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Character Ghost.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Prototyping 2.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Prototyping 2.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Training Dummy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Training Dummy/Attack.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Training Dummy/Attack.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Training Dummy/Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Training Dummy/Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Controllers/Enemy_Training Dummy.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Controllers/Enemy_Training Dummy.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Training Dummy.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Training Dummy/Training Dummy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Training Dummy/Training Dummy.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +100,7 @@
       <workItem from="1600852646316" duration="2146000" />
       <workItem from="1600939140621" duration="881000" />
       <workItem from="1600957642220" duration="2796000" />
-      <workItem from="1601020773426" duration="6024000" />
+      <workItem from="1601020773426" duration="6852000" />
     </task>
     <servers />
   </component>
