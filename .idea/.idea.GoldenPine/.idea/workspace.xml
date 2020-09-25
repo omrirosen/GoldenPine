@@ -20,15 +20,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Fall Down.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Fall Down.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Land From Jump.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Land From Jump.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Jump Down.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Jump Down.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Land From Fall.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Land From Fall.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Controllers/Player_MainCharacter.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Controllers/Player_MainCharacter.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototyping.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototyping.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Character Ghost.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Character Ghost.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Fading Dash.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Fading Dash.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Brownish Tileset 32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Brownish Tileset 32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Brownish 32.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Brownish 32.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_0.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_0.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_10.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_10.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_11.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_11.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_12.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_12.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_13.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_13.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_14.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_14.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_15.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_15.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_16.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_16.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_3.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_3.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_4.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_4.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_5.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_5.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_6.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_6.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_7.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_7.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_8.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_8.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_9.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Brownish Tileset 32_9.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Character Ghost.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Character Ghost.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Prototyping 2.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Prototyping 2.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +81,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       </list>
     </option>
@@ -90,6 +137,11 @@
       <option name="presentableId" value="Default" />
       <updated>1600780555686</updated>
       <workItem from="1600780572602" duration="1336000" />
+      <workItem from="1600848267085" duration="3975000" />
+      <workItem from="1600852646316" duration="2146000" />
+      <workItem from="1600939140621" duration="881000" />
+      <workItem from="1600957642220" duration="2796000" />
+      <workItem from="1601020773426" duration="6024000" />
     </task>
     <servers />
   </component>
@@ -108,6 +160,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

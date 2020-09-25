@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="EnemyPatrol.cs" t="Include" />
+          <e p="FadingGhost.cs" t="Include" />
           <e p="Player.cs" t="Include" />
         </e>
       </e>
