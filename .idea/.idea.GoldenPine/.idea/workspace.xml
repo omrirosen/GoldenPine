@@ -20,17 +20,102 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Training Dummy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Training Dummy/Attack.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Training Dummy/Attack.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Training Dummy/Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Training Dummy/Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Controllers/Enemy_Training Dummy.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Controllers/Enemy_Training Dummy.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Training Dummy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Training Dummy/Training Dummy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Training Dummy/Training Dummy.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Dash Move.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Dash Move.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Dash Stop.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Dash Stop.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Fall Down.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Fall Down.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Flip Left 2.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Flip Left 2.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Flip Right 2.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Flip Right 2.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Flip Single.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Flip Single.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Idle Left.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Idle Left.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Idle Right.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Idle Right.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Idle To Run.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Idle To Run.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Jump Peak.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Jump Peak.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Jump Side Land.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Jump Side Land.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Jump Straight Land.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Jump Straight Land.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Jump Straight UP.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Jump Straight UP.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Run To Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Run To Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Run.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Run.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Side Jump.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Side Jump.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Wall Contact.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Wall Contact.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Wall Slide.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/New Clips 27.09/Wall Slide.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Air Loop.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Air Loop.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Air Pop.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Air Pop.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Air Shine.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Air Shine.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Fall Prep.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Fall Prep.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Ground Loop.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Ground Loop.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Ground Pop.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Ground Pop.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Ground Prep.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Ground Prep.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Ground Shine.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Ground Shine.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Jump Side Prep.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Jump Side Prep.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Prep Jump Straight Up.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Shield Clips/Shield Prep Jump Straight Up.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Controllers/Character Ghost.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Controllers/Character Ghost.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Controllers/Player_New2709.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Controllers/Player_New2709.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Controllers/Shield Controller.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Animations/Controllers/Shield Controller.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Main Character/27.09.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Main Character/27.09/MainCharacter_SpriteSheet3 copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Main Character/27.09/MainCharacter_SpriteSheet3 copy.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Test 16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Test 16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tileset Test 48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tileset Test 48.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Test 16.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Test 16.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Tileset Test 48.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Tileset Test 48.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Test 16.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Test 16.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Test 48.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Test 48.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Prototyping 1.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Prototyping 1.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimationManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerAnimationManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Character Ghost.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Animation Clips/Main Character Clips/Character Ghost.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animations/Controllers/Player_MainCharacter.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Animations/Controllers/Player_MainCharacter.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Brownish Tileset 32.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Brownish Tileset 32.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Enemy/Enemy Walking Var 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Enemy/Enemy Walking Var 2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Main Character/MainCharacter_SpriteSheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Main Character/MainCharacter_SpriteSheet.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototyping 2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototyping 2.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototyping.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototyping.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototyping.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototyping.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +133,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimationManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       </list>
     </option>
@@ -101,6 +188,9 @@
       <workItem from="1600939140621" duration="881000" />
       <workItem from="1600957642220" duration="2796000" />
       <workItem from="1601020773426" duration="6852000" />
+      <workItem from="1601198566665" duration="1636000" />
+      <workItem from="1601368485662" duration="2843000" />
+      <workItem from="1601371607840" duration="4121000" />
     </task>
     <servers />
   </component>

@@ -79,7 +79,7 @@ public class Player : MonoBehaviour
       {
          FlipSprite();
       }
-      else if (moveInput < 0 && facingRight == true)
+      else if (moveInput < 0 && facingRight)
       {
          FlipSprite();
       }
@@ -89,7 +89,7 @@ public class Player : MonoBehaviour
    {
      
    isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
-   if (Input.GetButtonDown("Jump") && isGrounded == true)
+   if (Input.GetButtonDown("Jump") && isGrounded)
    {
       anim.SetTrigger("takeOff");
       isJumping = true;
@@ -97,7 +97,7 @@ public class Player : MonoBehaviour
       rb.velocity = new Vector2(rb.velocity.x, jumpForce);
    }
 
-   if (Input.GetButton("Jump") && isJumping == true)
+   if (Input.GetButton("Jump") && isJumping)
    {
       if (jumpTimeCounter > 0)
       {
@@ -120,7 +120,7 @@ public class Player : MonoBehaviour
    private void WallMovement()
    {
       isTouchingFront = Physics2D.OverlapCircle(frontCheck.position, checkRadius, whatIsGround);
-      if (isTouchingFront == true && isGrounded == false && moveInput != 0)
+      if (isTouchingFront && isGrounded == false && moveInput != 0)
       {
          wallSliding = true;
       }
@@ -129,18 +129,18 @@ public class Player : MonoBehaviour
          wallSliding = false;
       }
 
-      if (wallSliding == true)
+      if (wallSliding)
       {
          rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed,float.MaxValue));
       }
 
-      if (Input.GetButtonDown("Jump") && wallSliding == true)
+      if (Input.GetButtonDown("Jump") && wallSliding)
       {
          wallJumping = true;
          Invoke("SetWallJumpingToFalse", wallJumpTime);
       }
 
-      if (wallJumping == true)
+      if (wallJumping)
       {
          rb.velocity = new Vector2(xWallForce * -moveInput, yWallForce);
       }
@@ -152,6 +152,7 @@ public class Player : MonoBehaviour
       {
          if (Input.GetKeyDown(KeyCode.LeftShift))
          {
+            anim.SetBool("isDashing", true);
             if (!facingRight) // left 
             {
                fadingGhost.createGhost = true;
@@ -173,6 +174,7 @@ public class Player : MonoBehaviour
             direction = 0;
             dashTime = startDashTime;
             rb.velocity = Vector2.zero;
+            Invoke("SetIsDashingToFalse",0.2f);
          }
          else
          {
@@ -182,10 +184,13 @@ public class Player : MonoBehaviour
             if (direction == 1)
             {
                rb.velocity = Vector2.left * dashSpeed;
+               Invoke("SetIsDashingToFalse",0.2f);
+               
             }
             else if (direction == 2)
             {
                rb.velocity = Vector2.right * dashSpeed;
+               Invoke("SetIsDashingToFalse",0.2f);
             }
          }
       }
@@ -214,6 +219,11 @@ public class Player : MonoBehaviour
       anim.SetBool("atPeak", false);
    }
 
+   void SetIsDashingToFalse()
+   {
+      anim.SetBool("isDashing", false);
+   }
+
    private void AnimationSetup()
    {
       if (moveInput != 0)
@@ -225,17 +235,29 @@ public class Player : MonoBehaviour
          anim.SetBool("isRunning", false);
       }
 
-      if (isGrounded == true)
+      if (facingRight)
       {
+         anim.SetBool("facingRight", true);
+      }
+      else
+      {
+         anim.SetBool("facingRight", false);
+      }
+
+      if (isGrounded)
+      {
+         anim.SetBool("isGrounded", true);
          anim.SetBool("isJumping", false);
          anim.SetBool("isFalling", false);
 
       }
       else
       {
+         anim.SetBool("isGrounded", false);
          anim.SetBool("isJumping", true);
          anim.SetBool("isFalling", true);
       }
+      
 
       if (rb.velocity.y < 0 && this.reachedPeakJump == false)
       {
