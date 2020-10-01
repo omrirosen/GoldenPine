@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
    
    
    [Header("Collision Checks")]
-   [SerializeField] private float checkRadius;
+   [SerializeField] private Vector2 checkRadius;
    public Transform groundCheck;
    public Transform frontCheck;
    public LayerMask whatIsGround;
@@ -64,7 +64,7 @@ public class Player : MonoBehaviour
       AnimationSetup();
       HandleDash();
    }
-
+   
    private void PlayerControls()
    {
       HorizontalMovement();
@@ -88,7 +88,7 @@ public class Player : MonoBehaviour
    private void PlayerJump()
    {
      
-   isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
+   isGrounded = Physics2D.OverlapBox(groundCheck.position, checkRadius, whatIsGround);
    if (Input.GetButtonDown("Jump") && isGrounded)
    {
       anim.SetTrigger("takeOff");
@@ -119,7 +119,7 @@ public class Player : MonoBehaviour
 
    private void WallMovement()
    {
-      isTouchingFront = Physics2D.OverlapCircle(frontCheck.position, checkRadius, whatIsGround);
+      isTouchingFront = Physics2D.OverlapBox(frontCheck.position, checkRadius, whatIsGround);
       if (isTouchingFront && isGrounded == false && moveInput != 0)
       {
          wallSliding = true;
@@ -156,13 +156,13 @@ public class Player : MonoBehaviour
             if (!facingRight) // left 
             {
                fadingGhost.createGhost = true;
-               Invoke("SetCreateGhostToFalse",dashSpeed);
+               Invoke("SetCreateGhostToFalse",dashTime);
                direction = 1;
             }
             else if (facingRight) // right 
             {
                fadingGhost.createGhost = true;
-               Invoke("SetCreateGhostToFalse",dashSpeed);
+               Invoke("SetCreateGhostToFalse",dashTime);
                direction = 2;
             }
          }
@@ -257,13 +257,28 @@ public class Player : MonoBehaviour
          anim.SetBool("isJumping", true);
          anim.SetBool("isFalling", true);
       }
+
+      if (wallSliding)
+      {
+         anim.SetBool("wallSliding", true);
+      }
+      else
+      {
+         anim.SetBool("wallSliding", false);
+      }
       
 
-      if (rb.velocity.y < 0 && this.reachedPeakJump == false)
+      if (rb.velocity.y < 0 && reachedPeakJump == false)
       {
          this.reachedPeakJump = true;
          anim.SetBool("atPeak", true);
          Invoke("SetReachedPeakToFlase", 0.05f);
       }
+   }
+
+   private void OnDrawGizmos()
+   {
+      Gizmos.color = Color.red;
+      Gizmos.DrawCube(groundCheck.position, checkRadius);
    }
 }

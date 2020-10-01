@@ -10,7 +10,7 @@
           <e p="EnemyPatrol.cs" t="Include" />
           <e p="FadingGhost.cs" t="Include" />
           <e p="Player.cs" t="Include" />
-          <e p="PlayerAnimationManager.cs" t="Include" />
+          <e p="Player2.cs" t="Include" />
         </e>
       </e>
       <e p="GoldenPine.sln" t="IncludeFlat" />
