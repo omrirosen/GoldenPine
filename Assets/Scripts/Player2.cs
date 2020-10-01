@@ -263,12 +263,12 @@ public class Player2 : MonoBehaviour
 
    void FlipSprite()
    {
-      if (!isWallSliding)
-      {
+     // if (!isWallSliding)
+     // {
          wallJumpDirection *= -1;
          facingRight = !facingRight;
          transform.Rotate(0, 180, 0);
-      }
+     // }
    }
 
    private void SetCreateGhostToFalse()
