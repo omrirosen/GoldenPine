@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player2 : MonoBehaviour
+public class PlayerWithShield : MonoBehaviour
 {
    [Header("Movement Config")]
    [SerializeField] private float playerSpeed;
@@ -16,7 +16,6 @@ public class Player2 : MonoBehaviour
    [SerializeField] private float jumpForce;
    [SerializeField] private float jumpTime;
    private float jumpTimeCounter;
-   public bool isGrounded;
    private bool isFalling = false;
    public bool isJumping;
    private bool reachedPeakJump;
@@ -31,7 +30,6 @@ public class Player2 : MonoBehaviour
    [SerializeField] private float wallJumpForce;
    private float wallJumpDirection = -1;
    
-
    [Header("DashConfig")] 
    [SerializeField] private float dashSpeed;
    [SerializeField] private float startDashTime;
@@ -40,24 +38,22 @@ public class Player2 : MonoBehaviour
    private float dashTime;
    private int direction;
 
-   [Header("Collision Check")] 
-   [SerializeField] private LayerMask groundLayer;
-   [SerializeField] private Transform groundCheckPos;
-   [SerializeField] private Vector2 groundCheckSize;
-   [SerializeField] private Transform wallCheckPos;
-   [SerializeField] private Vector2 wallCheckSize;
+   [Header("ShieldBubble Config")] 
+   private bool isShielding;
    
-   
-
    // Component Caches
    private Rigidbody2D rb;
    private Animator anim;
+   private GameObject shieldBubble;
+   private CollisionCheck collisionCheck;
 
    private void Awake()
    {
       rb = GetComponent<Rigidbody2D>();
       anim = GetComponent<Animator>();
+      collisionCheck = GetComponent<CollisionCheck>();
       fadingGhost = FindObjectOfType<FadingGhost>();
+
    }
 
    private void Start()
@@ -69,18 +65,14 @@ public class Player2 : MonoBehaviour
    private void Update()
    {
       Inputs();
-      AnimationSetup();
       PlayerJump();
-      WallJump();
-   }
-
-   private void FixedUpdate()
-   {
-      CollisionChecks();
       PlayerMovement();
+      WallJump();
       HandleDash();
       WallSlide();
+      AnimationSetup();
    }
+   
 
    private void Inputs()
    
@@ -93,14 +85,14 @@ public class Player2 : MonoBehaviour
       {
          isDashing = true;
       }
+      
+      //Shield Inputs
+      if (Input.GetKey(KeyCode.X))
+      {
+         isShielding = true;
+      }
    }
-
-   private void CollisionChecks()
-   {
-      isGrounded = Physics2D.OverlapBox(groundCheckPos.position, groundCheckSize, 0, groundLayer);
-      isTouchingWall = Physics2D.OverlapBox(wallCheckPos.position, wallCheckSize, 0, groundLayer);
-   }
-
+   
 
    private void PlayerMovement()
    {
@@ -120,7 +112,7 @@ public class Player2 : MonoBehaviour
          rb.velocity = new Vector2(xMoveInput * playerSpeed, rb.velocity.y);
       }
      
-      else if (!isGrounded &&(!isWallSliding || !isTouchingWall) && xMoveInput != 0)
+      else if (!collisionCheck.onGround &&(!isWallSliding || !collisionCheck.onWall) && xMoveInput != 0)
       {
          rb.AddForce(new Vector2(airMoveSpeed * xMoveInput,0));
          if (Mathf.Abs(rb.velocity.x) > playerSpeed)
@@ -148,7 +140,7 @@ public class Player2 : MonoBehaviour
    private void PlayerJump()
    {
       
-      if (Input.GetButtonDown("Jump") && isGrounded)
+      if (Input.GetButtonDown("Jump") && collisionCheck.onGround)
       {
          anim.SetTrigger("takeOff");
          isJumping = true;
@@ -228,10 +220,11 @@ public class Player2 : MonoBehaviour
       }
       
    }
+   
 
    void WallSlide()
    {
-      if (isTouchingWall && !isGrounded && rb.velocity.y < 0)
+      if (collisionCheck.onWall && !collisionCheck.onGround && rb.velocity.y < 0)
       {
          anim.SetTrigger("touchedWall");
          isWallSliding = true;
@@ -251,7 +244,7 @@ public class Player2 : MonoBehaviour
    {
       if (Input.GetButtonDown("Jump"))
       {
-         if ((isWallSliding) && !isGrounded)
+         if ((isWallSliding) && !collisionCheck.onGround)
          {
             rb.AddForce(new Vector2(wallJumpForce * wallJumpAngle.x * wallJumpDirection, wallJumpForce * wallJumpAngle.y), ForceMode2D.Impulse);
             FlipSprite();
@@ -263,12 +256,12 @@ public class Player2 : MonoBehaviour
 
    void FlipSprite()
    {
-     // if (!isWallSliding)
-     // {
+      if (!collisionCheck.onWall)
+      {
          wallJumpDirection *= -1;
          facingRight = !facingRight;
          transform.Rotate(0, 180, 0);
-     // }
+      }
    }
 
    private void SetCreateGhostToFalse()
@@ -289,8 +282,8 @@ public class Player2 : MonoBehaviour
    private void AnimationSetup()
    {
       anim.SetBool("isMoving", isMoving);
-      anim.SetBool("isGrounded", isGrounded);
-      anim.SetBool("isTouchingWall", isTouchingWall);
+      anim.SetBool("isGrounded", collisionCheck.onGround);
+      anim.SetBool("isTouchingWall", collisionCheck.onWall);
       anim.SetBool("isDashing", isDashing);
       anim.SetBool("atPeakJump", reachedPeakJump);
 
@@ -300,12 +293,5 @@ public class Player2 : MonoBehaviour
          Invoke("SetReachedPeakToFlase", 0.05f);
       }
    }
-
-   private void OnDrawGizmos()
-   {
-      Gizmos.color = Color.blue;
-      Gizmos.DrawCube(groundCheckPos.position, groundCheckSize);
-      Gizmos.color = Color.red;
-      Gizmos.DrawCube(wallCheckPos.position, wallCheckSize);
-   }
+   
 }

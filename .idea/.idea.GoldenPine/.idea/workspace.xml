@@ -23,8 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player With Shield.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Player With Shield.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Player_2909.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Player_2909.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototyping 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototyping 2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player2.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +47,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Desktop/Desktop Random Folder/WallJump/Script/Final/PlayerMovement4.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -48,12 +57,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player3.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCeleste.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       </list>
     </option>
   </component>
@@ -117,6 +127,8 @@
       <workItem from="1601537157483" duration="10654000" />
       <workItem from="1601549689479" duration="2240000" />
       <workItem from="1601632581282" duration="618000" />
+      <workItem from="1601914512042" duration="26000" />
+      <workItem from="1601914618702" duration="1324000" />
     </task>
     <servers />
   </component>
