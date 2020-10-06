@@ -31,8 +31,8 @@
           <e p="PlayerAnimation.cs" t="Include" />
           <e p="PlayerCeleste.cs" t="Include" />
           <e p="PlayerWithShield.cs" t="Include" />
-          <e p="ShieldBubble.cs" t="Include" />
         </e>
+        <e p="ShieldBubble.cs" t="Include" />
       </e>
       <e p="GoldenPine.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

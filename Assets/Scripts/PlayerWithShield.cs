@@ -9,7 +9,7 @@ public class PlayerWithShield : MonoBehaviour
    [SerializeField] private float playerSpeed;
    [SerializeField] private float airMoveSpeed;
    private float xMoveInput;
-   private bool isMoving;
+   public bool isMoving;
    private bool facingRight = true;
    
    [Header("Jump Config")]
@@ -39,12 +39,15 @@ public class PlayerWithShield : MonoBehaviour
    private int direction;
 
    [Header("ShieldBubble Config")] 
-   private bool isShielding;
+   [SerializeField] private GameObject shieldBubble;
+   [SerializeField] private SpriteRenderer shieldBubbleSR;
+   [SerializeField] private CircleCollider2D shieldBubbleCC2D;
+   public bool isShielding;
    
    // Component Caches
    private Rigidbody2D rb;
    private Animator anim;
-   private GameObject shieldBubble;
+   
    private CollisionCheck collisionCheck;
 
    private void Awake()
@@ -53,6 +56,9 @@ public class PlayerWithShield : MonoBehaviour
       anim = GetComponent<Animator>();
       collisionCheck = GetComponent<CollisionCheck>();
       fadingGhost = FindObjectOfType<FadingGhost>();
+      shieldBubbleSR = shieldBubble.GetComponent<SpriteRenderer>();
+      shieldBubbleCC2D = shieldBubble.GetComponent<CircleCollider2D>();
+
 
    }
 
@@ -69,6 +75,7 @@ public class PlayerWithShield : MonoBehaviour
       PlayerMovement();
       WallJump();
       HandleDash();
+      HandleShield();
       WallSlide();
       AnimationSetup();
    }
@@ -90,6 +97,10 @@ public class PlayerWithShield : MonoBehaviour
       if (Input.GetKey(KeyCode.X))
       {
          isShielding = true;
+      }
+      else
+      {
+         isShielding = false;
       }
    }
    
@@ -219,6 +230,20 @@ public class PlayerWithShield : MonoBehaviour
          }
       }
       
+   }
+
+   void HandleShield()
+   {
+      if (isShielding)
+      {
+         shieldBubbleSR.enabled = true;
+         shieldBubbleCC2D.enabled = true;
+      }
+      else
+      {
+         shieldBubbleSR.enabled = false;
+         shieldBubbleCC2D.enabled = false;
+      }
    }
    
 
