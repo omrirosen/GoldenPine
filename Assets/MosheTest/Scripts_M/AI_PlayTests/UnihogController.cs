@@ -52,6 +52,7 @@ public class UnihogController : MonoBehaviour
                     // do once
                     isactive = true;
                     AI_patroll_tween = transform.DOLocalPath(path,Time.deltaTime* speed, PathType.CatmullRom,PathMode.Sidescroller2D);
+                   // AI_patroll_tween.SetEase<>
                     
                 }
                 if (!AI_patroll_tween.IsPlaying())
