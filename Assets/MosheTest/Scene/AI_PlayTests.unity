@@ -344,6 +344,18 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &101577655 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346267630366107682, guid: 6134fdd0e7799ff4ea2d84c1df4687d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1623165156}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &101577658 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3346267630366107686, guid: 6134fdd0e7799ff4ea2d84c1df4687d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1623165156}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &248792320
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,8 +386,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d6c1e145363a9247baf90e991349ebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GFX: {fileID: 0}
-  speed: 5
+  GFX: {fileID: 1056166262}
+  speed: 0.5
+  patrol_distance: 3
+  path:
+  - {x: 0, y: 0, z: 0}
+  - {x: -8, y: -0.994, z: 0}
+  - {x: -12, y: -0.994, z: 0}
+  - {x: -12, y: -0.994, z: 0}
+  isactive: 0
+  animator: {fileID: 1056166261}
 --- !u!4 &248792322
 Transform:
   m_ObjectHideFlags: 0
@@ -384,7 +404,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248792320}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.946, y: -0.717, z: 0}
+  m_LocalPosition: {x: -10, y: -0.994, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1056166263}
@@ -404,7 +424,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.016050339, y: -0.040125728}
+  m_Offset: {x: -0.008825898, y: 0.26203945}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -415,7 +435,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.574667, y: 0.4382398}
+  m_Size: {x: 0.59125113, y: 0.37566084}
   m_EdgeRadius: 0
 --- !u!1 &419297908
 GameObject:
@@ -843,8 +863,7 @@ SpriteRenderer:
   m_SortingLayerID: -407760177
   m_SortingLayer: 2
   m_SortingOrder: 2
-  m_Sprite: {fileID: 5937854781525698775, guid: 4e4f11cea55eb8b4395de0a15f06c262,
-    type: 3}
+  m_Sprite: {fileID: 481101596192411534, guid: 4e4f11cea55eb8b4395de0a15f06c262, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1155,6 +1174,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player With Shield
       objectReference: {fileID: 0}
+    - target: {fileID: 3346267631563758070, guid: 6134fdd0e7799ff4ea2d84c1df4687d8,
+        type: 3}
+      propertyPath: shieldBubble
+      value: 
+      objectReference: {fileID: 101577655}
+    - target: {fileID: 3346267631563758070, guid: 6134fdd0e7799ff4ea2d84c1df4687d8,
+        type: 3}
+      propertyPath: shieldBubbleSR
+      value: 
+      objectReference: {fileID: 101577658}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6134fdd0e7799ff4ea2d84c1df4687d8, type: 3}
 --- !u!1 &1676558278

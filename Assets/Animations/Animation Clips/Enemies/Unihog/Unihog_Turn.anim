@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unihog_PostRoll_Left
+  m_Name: Unihog_Turn
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 481101596192411534, guid: 4e4f11cea55eb8b4395de0a15f06c262,
+      value: {fileID: -2980175943571900216, guid: 2783f429fede32c42897c2eee3b1be59,
+        type: 3}
+    - time: 0.125
+      value: {fileID: -3963570216779566697, guid: 2783f429fede32c42897c2eee3b1be59,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -41,13 +44,14 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 481101596192411534, guid: 4e4f11cea55eb8b4395de0a15f06c262, type: 3}
+    - {fileID: -2980175943571900216, guid: 2783f429fede32c42897c2eee3b1be59, type: 3}
+    - {fileID: -3963570216779566697, guid: 2783f429fede32c42897c2eee3b1be59, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.125
+    m_StopTime: 0.25
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
