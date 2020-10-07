@@ -6,22 +6,22 @@ using UnityEngine;
 public class PlayerWithShield : MonoBehaviour
 {
    [Header("Movement Config")]
-   [SerializeField] private float playerSpeed;
-   [SerializeField] private float airMoveSpeed;
+   [SerializeField] private float playerSpeed = 5f;
+   [SerializeField] private float airMoveSpeed = 5f;
    private float xMoveInput;
    public bool isMoving;
    private bool facingRight = true;
    
    [Header("Jump Config")]
-   [SerializeField] private float jumpForce;
-   [SerializeField] private float jumpTime;
+   [SerializeField] private float jumpForce = 8f;
+   [SerializeField] private float jumpTime = .35f;
    private float jumpTimeCounter;
    private bool isFalling = false;
    public bool isJumping;
    private bool reachedPeakJump;
 
    [Header("Wall Slide Config")]
-   [SerializeField] private float wallSlideSpeed;
+   [SerializeField] private float wallSlideSpeed = .5f;
    private bool isTouchingWall;
    private bool isWallSliding;
    
@@ -100,7 +100,7 @@ public class PlayerWithShield : MonoBehaviour
       }
       else
       {
-         isShielding = false;
+         Invoke("SetIsShieldingToFalse",0.4f);
       }
    }
    
@@ -303,6 +303,12 @@ public class PlayerWithShield : MonoBehaviour
    {
       isDashing = false;
    }
+
+   void SetIsShieldingToFalse()
+   {
+      isShielding = false;
+   }
+   
 
    private void AnimationSetup()
    {
