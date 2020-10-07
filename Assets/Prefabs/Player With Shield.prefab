@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 3346267630366107683}
   - component: {fileID: 3346267630366107680}
   - component: {fileID: 3346267630366107686}
-  - component: {fileID: 3346267630366107681}
+  - component: {fileID: 4449578566242233166}
+  - component: {fileID: 229127942}
+  - component: {fileID: 229127943}
   m_Layer: 0
   m_Name: Shield
   m_TagString: Untagged
@@ -90,7 +92,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -3113625923913577935, guid: dcb256f02adf4fb46bd1ce636fdf3d59,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -103,7 +105,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3346267630366107681
+--- !u!114 &4449578566242233166
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,9 +114,43 @@ MonoBehaviour:
   m_GameObject: {fileID: 3346267630366107682}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 018feaf640e66c048bbb895110ed5fd6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b90f91f67f8ce046a3d1d80a9c44206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isShielding: 0
+  isGrounded: 0
+  isMoving: 0
+--- !u!58 &229127942
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3346267630366107682}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.02, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.4410972
+--- !u!114 &229127943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3346267630366107682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b90f91f67f8ce046a3d1d80a9c44206, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isShielding: 0
+  isGrounded: 0
+  isMoving: 0
 --- !u!1 &3346267631563758064
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,7 +227,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -407760177
   m_SortingLayer: 2
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 5433506594201726402, guid: dcb256f02adf4fb46bd1ce636fdf3d59,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -285,6 +321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSpeed: 5
   airMoveSpeed: 5
+  isMoving: 0
   jumpForce: 8
   jumpTime: 0.35
   isJumping: 0
@@ -293,6 +330,10 @@ MonoBehaviour:
   wallJumpForce: 20
   dashSpeed: 20
   startDashTime: 0.2
+  shieldBubble: {fileID: 3346267630366107682}
+  shieldBubbleSR: {fileID: 3346267630366107686}
+  shieldBubbleCC2D: {fileID: 229127942}
+  isShielding: 0
 --- !u!114 &3346267631563758024
 MonoBehaviour:
   m_ObjectHideFlags: 0

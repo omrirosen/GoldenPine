@@ -7,6 +7,13 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="MosheTest" t="Include">
+          <e p="Scripts_M" t="Include">
+            <e p="AI_PlayTests" t="Include">
+              <e p="UnihogController.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
@@ -31,8 +38,8 @@
           <e p="PlayerAnimation.cs" t="Include" />
           <e p="PlayerCeleste.cs" t="Include" />
           <e p="PlayerWithShield.cs" t="Include" />
+          <e p="ShieldBubble.cs" t="Include" />
         </e>
-        <e p="ShieldBubble.cs" t="Include" />
       </e>
       <e p="GoldenPine.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

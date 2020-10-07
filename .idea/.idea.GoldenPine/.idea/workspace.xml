@@ -23,12 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Shield Clips/Shield Ground Pop.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Shield Clips/Shield Ground Pop.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Shield Clips/Shield Ground Shine.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Shield Clips/Shield Ground Shine.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Shield Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Shield Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/AI_PlayTest_Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Prototyping 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Prototyping 2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShieldBubble.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ShieldBubble.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +45,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ShieldBubble.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Desktop/Desktop Random Folder/WallJump/Script/Final/PlayerMovement4.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" root0="FORCE_HIGHLIGHTING" />
@@ -129,6 +133,7 @@
       <workItem from="1601976473230" duration="4697000" />
       <workItem from="1601990732007" duration="108000" />
       <workItem from="1601990858547" duration="651000" />
+      <workItem from="1602053733195" duration="2025000" />
     </task>
     <servers />
   </component>
