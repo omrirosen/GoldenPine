@@ -17,8 +17,6 @@ public class ShieldBubble : MonoBehaviour
         playerScript = GetComponentInParent<PlayerWithShield>();
         collisionCheck = GetComponentInParent<CollisionCheck>();
         shieldAnimator = GetComponent<Animator>();
-        
-        
     }
 
     private void Update()
