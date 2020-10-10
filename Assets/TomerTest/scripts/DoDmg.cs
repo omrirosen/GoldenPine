@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TakeDmg : MonoBehaviour
+public class DoDmg : MonoBehaviour
 {
     private PlayerStats PS;
     private GameObject player;
@@ -20,4 +20,6 @@ public class TakeDmg : MonoBehaviour
             PS.TakeDmg(1);
         }
     }
+
+    
 }
