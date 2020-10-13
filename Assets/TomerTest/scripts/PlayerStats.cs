@@ -19,7 +19,6 @@ public class PlayerStats : MonoBehaviour
     {
         HealPlayer();
         ShieldUp();
-        Debug.Log(ParryWindow);
         Dashed();
     }
 
@@ -84,6 +83,7 @@ public class PlayerStats : MonoBehaviour
             shieldOn = false;
             ParryWindow = true;
             Invoke("ParryEnd", 2f);
+
         }
     }
     
@@ -99,7 +99,13 @@ public class PlayerStats : MonoBehaviour
             DashStock = DashStock +1;
             StaminaAnimator.SetFloat("StaminaUi", DashStock);
         }
-        Debug.Log(DashStock);
+        Time.timeScale = 0.3f;
+        Invoke("RestTime", 0.2f);
+    }
+
+    private void RestTime()
+    {
+        Time.timeScale = 1f;
     }
 
     private void Dashed()

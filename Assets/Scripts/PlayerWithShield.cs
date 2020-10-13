@@ -18,7 +18,7 @@ public class PlayerWithShield : MonoBehaviour
    private float jumpTimeCounter;
    private bool isFalling = false;
    public bool isJumping;
-   private bool reachedPeakJump;
+   public bool reachedPeakJump;
 
    [Header("Wall Slide Config")]
    [SerializeField] private float wallSlideSpeed = .5f;
@@ -249,15 +249,18 @@ public class PlayerWithShield : MonoBehaviour
 
    void WallSlide()
    {
+        
       if (collisionCheck.onWall && !collisionCheck.onGround && rb.velocity.y < 0)
       {
          anim.SetTrigger("touchedWall");
          isWallSliding = true;
-      }
+            anim.SetBool("StartSlide", true);
+        }
       else
       {
          isWallSliding = false;
-      }
+            anim.SetBool("StartSlide", false);
+        }
 
       if (isWallSliding)
       {
@@ -287,6 +290,7 @@ public class PlayerWithShield : MonoBehaviour
          facingRight = !facingRight;
          transform.Rotate(0, 180, 0);
       }
+
    }
 
    private void SetCreateGhostToFalse()

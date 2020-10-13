@@ -679,7 +679,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_Sprite: {fileID: -2980175943571900216, guid: 2783f429fede32c42897c2eee3b1be59,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -18933,6 +18933,7 @@ MonoBehaviour:
   isShielding: 0
   isGrounded: 0
   isMoving: 0
+  reachedPeackJump: 0
 --- !u!114 &2566402653506961420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18948,6 +18949,7 @@ MonoBehaviour:
   isShielding: 0
   isGrounded: 0
   isMoving: 0
+  reachedPeackJump: 0
 --- !u!1 &3471695947765138272
 GameObject:
   m_ObjectHideFlags: 0
@@ -19038,9 +19040,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingLayerID: -407760177
+  m_SortingLayer: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -3113625923913577935, guid: dcb256f02adf4fb46bd1ce636fdf3d59,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -19202,6 +19204,7 @@ MonoBehaviour:
   jumpForce: 8
   jumpTime: 0.35
   isJumping: 0
+  reachedPeakJump: 0
   wallSlideSpeed: 0.5
   wallJumpAngle: {x: 1, y: 8}
   wallJumpForce: 20
