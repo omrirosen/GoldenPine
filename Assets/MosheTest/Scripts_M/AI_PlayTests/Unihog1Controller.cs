@@ -4,9 +4,18 @@ using UnityEngine;
 
 public class Unihog1Controller : MonoBehaviour
 {
+
     [SerializeField] float moveSpeed = 1f;
     [SerializeField] Animator animator;
+    [SerializeField] float eyes_Range ;
+    [SerializeField] Vector3 offset;
+    [SerializeField] LayerMask eyes_Layer;
+    [SerializeField] float max_Speed;
     public bool isTurning = false;
+    public enum stateMachine { roming, attack };
+    public stateMachine state;
+    private GameObject target;
+    
 
 
     Rigidbody2D rb2d;
@@ -14,31 +23,86 @@ public class Unihog1Controller : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        state = stateMachine.roming;
        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!isTurning)
+        
+        StateMachineControll();
+        if(rb2d!=null )
         {
-            if (IsFacingRight())
-            {
-                rb2d.velocity = new Vector2(moveSpeed, 0);
-                
-                animator.SetBool("IsMoving", true);
+            
+            Debug.DrawRay(transform.position + offset, (transform.TransformDirection(rb2d.velocity)).normalized*eyes_Range, Color.red);
+        }
+        LookForTarget();
 
-            }
-            else
-            {
-                rb2d.velocity = new Vector2(-moveSpeed, 0);
-                animator.SetBool("IsMoving", true);
-            }
+    }
+
+    private void StateMachineControll()
+    {
+        switch (state)
+        {
+            case stateMachine.roming:
+                if (!isTurning)
+                {
+                    if (IsFacingRight())
+                    {
+                        rb2d.velocity = new Vector2(moveSpeed, 0);
+
+                        animator.SetBool("IsMoving", true);
+
+                    }
+                    else
+                    {
+                        rb2d.velocity = new Vector2(-moveSpeed, 0);
+                        animator.SetBool("IsMoving", true);
+                    }
+                }
+                else
+                {
+                    rb2d.velocity = Vector2.zero;
+                    animator.SetBool("IsMoving", false);
+                }
+
+                break;
+            case stateMachine.attack:
+                animator.SetBool("isAttacking", true);
+                
+                    transform.localScale = new Vector2((Mathf.Sign(rb2d.velocity.x)), transform.localScale.y);
+                    float dirX = target.transform.position.x - transform.position.x;
+                    if (Mathf.Abs(dirX) > 0.2f)
+                    {
+                        rb2d.velocity = (new Vector2(dirX, 0).normalized * moveSpeed );
+                        MaxRollSpeed(rb2d);
+                    }
+                    else
+                    {
+                    moveSpeed = Mathf.Lerp(moveSpeed, 1f, 5f * Time.deltaTime);
+                    //print("reach target");
+                     animator.SetBool("isAttacking", false);
+                    
+
+                    }
+                
+
+                break;
+            default:
+                break;
+        }
+    }
+
+    private void MaxRollSpeed(Rigidbody2D player)
+    {
+        if(player.velocity.magnitude< max_Speed)
+        {
+            moveSpeed += Time.deltaTime;
         }
         else
         {
-            rb2d.velocity = Vector2.zero;
-            animator.SetBool("IsMoving", false);
+           player.velocity= player.velocity.normalized* max_Speed;
         }
     }
 
@@ -50,12 +114,13 @@ public class Unihog1Controller : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         
-        if (!isTurning)
+        if (!isTurning && collision.tag!="Player")
         {
             StartCoroutine(Turn());
             transform.localScale = new Vector2(-(Mathf.Sign(rb2d.velocity.x)), transform.localScale.y);
         }
     }
+    
 
     IEnumerator Turn()
     {
@@ -64,6 +129,34 @@ public class Unihog1Controller : MonoBehaviour
         yield return new WaitForSeconds(0.3f);  
         isTurning = false;
         animator.SetBool("IsTurning", isTurning);
+    }
+
+    private void LookForTarget()
+    {
+        if (rb2d != null)
+        {
+            RaycastHit2D hit2D = Physics2D.Raycast(transform.position + offset, transform.TransformDirection(rb2d.velocity),
+                eyes_Range, eyes_Layer);
+            if (hit2D.collider != null)
+            {
+                if (hit2D.collider.CompareTag("Player"))
+                {
+                    // print("see");
+                    target = hit2D.collider.gameObject;
+                    state = stateMachine.attack;
+                }
+               
+            }
+            else
+            {
+              //  print("CantSee");
+                moveSpeed = Mathf.Lerp(moveSpeed, 1f, 5f*Time.deltaTime);
+                target = null;
+                animator.SetBool("isAttacking", false);
+                state = stateMachine.roming;
+            }
+        }
+
     }
 
 }
