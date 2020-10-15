@@ -18,7 +18,7 @@ public class Unihog1Controller : MonoBehaviour
     
 
 
-    Rigidbody2D rb2d;
+   public Rigidbody2D rb2d;
     
     void Start()
     {
@@ -108,7 +108,7 @@ public class Unihog1Controller : MonoBehaviour
         }
     }
 
-    private bool IsFacingRight()
+    public bool IsFacingRight()
     {
         return transform.localScale.x > -Mathf.Epsilon;
     }
@@ -162,4 +162,9 @@ public class Unihog1Controller : MonoBehaviour
 
     }
 
+
+    public void killme()
+    {
+        Destroy(gameObject);
+    }
 }
