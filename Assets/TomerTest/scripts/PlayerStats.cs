@@ -11,10 +11,16 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private GameObject PlayerSelf;
     [SerializeField] private Animator animator;
     [SerializeField] private Animator StaminaAnimator;
+    [SerializeField] private SpriteRenderer sRenderer;
     bool shieldOn = false;
     public bool ParryWindow = false;
-    
+    private Color OGcolor;
+    public Color DashColor;
 
+    private void Awake()
+    {
+        OGcolor = sRenderer.color;
+    }
     private void Update()
     {
         HealPlayer();
@@ -115,7 +121,14 @@ public class PlayerStats : MonoBehaviour
             DashStock = DashStock - 1;
             StaminaAnimator.SetFloat("StaminaUi", DashStock);
             StaminaAnimator.Play("StaminaDown");
+            sRenderer.color = DashColor ;
+            Invoke("BackToOGColor", 0.5f);
         }
+    }
+
+    private void BackToOGColor()
+    {
+        sRenderer.color = OGcolor;
     }
 
 }
