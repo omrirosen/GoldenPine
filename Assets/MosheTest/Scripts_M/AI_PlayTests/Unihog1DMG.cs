@@ -12,7 +12,7 @@ public class Unihog1DMG : MonoBehaviour
         {
             print("hit");
             collision.GetComponent<PlayerStats>().TakeDmg(dmg);
-            //TODO dmg the player
+          //  if(collision.GetComponent<PlayerStats>()
         }
     }
 }
