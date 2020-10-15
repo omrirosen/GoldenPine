@@ -81,8 +81,9 @@ public class Unihog1Controller : MonoBehaviour
                     else
                     {
                     moveSpeed = Mathf.Lerp(moveSpeed, 1f, 5f * Time.deltaTime);
+                    animator.speed= Mathf.Lerp(moveSpeed, 1f, 5f * Time.deltaTime);
                     //print("reach target");
-                     animator.SetBool("isAttacking", false);
+                    animator.SetBool("isAttacking", false);
                     
 
                     }
@@ -99,6 +100,7 @@ public class Unihog1Controller : MonoBehaviour
         if(player.velocity.magnitude< max_Speed)
         {
             moveSpeed += Time.deltaTime;
+            animator.speed += Time.deltaTime;
         }
         else
         {
@@ -151,6 +153,7 @@ public class Unihog1Controller : MonoBehaviour
             {
               //  print("CantSee");
                 moveSpeed = Mathf.Lerp(moveSpeed, 1f, 5f*Time.deltaTime);
+                animator.speed = Mathf.Lerp(moveSpeed, 1f, 5f * Time.deltaTime);
                 target = null;
                 animator.SetBool("isAttacking", false);
                 state = stateMachine.roming;
