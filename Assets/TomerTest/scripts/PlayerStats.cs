@@ -12,7 +12,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private Animator StaminaAnimator;
     bool shieldOn = false;
-    bool ParryWindow = false;
+    public bool ParryWindow = false;
     
 
     private void Update()
