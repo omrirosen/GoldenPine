@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Unihog1DMG : MonoBehaviour
 {
-    [SerializeField] float dmg;
+    [SerializeField] int dmg;
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
             print("hit");
+            collision.GetComponent<PlayerStats>().TakeDmg(dmg);
             //TODO dmg the player
         }
     }

@@ -82,7 +82,7 @@ public class PlayerStats : MonoBehaviour
         {
             shieldOn = false;
             ParryWindow = true;
-            Invoke("ParryEnd", 2f);
+            Invoke("ParryEnd", 0.5f);
 
         }
     }
@@ -99,18 +99,18 @@ public class PlayerStats : MonoBehaviour
             DashStock = DashStock +1;
             StaminaAnimator.SetFloat("StaminaUi", DashStock);
         }
-        Time.timeScale = 0.3f;
-        Invoke("RestTime", 0.2f);
+       
+        
     }
 
     private void RestTime()
     {
-        Time.timeScale = 1f;
+        
     }
 
     private void Dashed()
     {
-        if(Input.GetKeyDown(KeyCode.LeftShift) && DashStock >= 1)
+        if(Input.GetKeyDown(KeyCode.LeftShift) && Input.GetKeyDown(KeyCode.Z) && DashStock >= 1)
         {
             DashStock = DashStock - 1;
             StaminaAnimator.SetFloat("StaminaUi", DashStock);
