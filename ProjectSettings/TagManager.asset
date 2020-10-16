@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Block
   - Enemy
+  - AudioManager
   layers:
   - Default
   - TransparentFX
@@ -48,4 +49,16 @@ TagManager:
     locked: 0
   - name: Foreground Tiles
     uniqueID: 3887207119
+    locked: 0
+  - name: Props No Outline
+    uniqueID: 3857614709
+    locked: 0
+  - name: Props With Outline
+    uniqueID: 2550561307
+    locked: 0
+  - name: Platforms
+    uniqueID: 3616612453
+    locked: 0
+  - name: Supporting Grass Black
+    uniqueID: 2196771597
     locked: 0
