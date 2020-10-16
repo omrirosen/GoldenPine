@@ -33,7 +33,7 @@ public class PlayerWithShield : MonoBehaviour
    [Header("DashConfig")] 
    [SerializeField] private float dashSpeed;
    [SerializeField] private float startDashTime;
-   private bool isDashing;
+   public bool isDashing;
    private FadingGhost fadingGhost;
    private float dashTime;
    private int direction;
@@ -339,9 +339,9 @@ public class PlayerWithShield : MonoBehaviour
             Debug.Log("hitEnemy");
             if (PS.DashAttacked == true)
             {
+                Debug.Log("DIE YOU PIG");
                 collision.gameObject.GetComponent<Unihog1Controller>().killme();
             }
         }
     }
-
 }

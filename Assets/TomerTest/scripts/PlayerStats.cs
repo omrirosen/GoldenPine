@@ -22,6 +22,7 @@ public class PlayerStats : MonoBehaviour
     private void Awake()
     {
         OGcolor = sRenderer.color;
+        playerWithShield = this.GetComponent<PlayerWithShield>();
     }
     private void Update()
     {
@@ -32,7 +33,7 @@ public class PlayerStats : MonoBehaviour
 
     public void TakeDmg(int Dmg)
     {
-        if (shieldOn == false && ParryWindow == false)
+        if (shieldOn == false && ParryWindow == false && playerWithShield.isDashing == false)
         {
             playerHealth -= Dmg;
             animator.SetInteger("PlayerHealthUI", playerHealth);
