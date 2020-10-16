@@ -11,6 +11,7 @@ public class Unihog1Controller : MonoBehaviour
     [SerializeField] Vector3 offset;
     [SerializeField] LayerMask eyes_Layer;
     [SerializeField] float max_Speed;
+    
     public bool isTurning = false;
     public enum stateMachine { roming, attack };
     public stateMachine state;
@@ -124,7 +125,7 @@ public class Unihog1Controller : MonoBehaviour
     }
     
 
-    IEnumerator Turn()
+   public IEnumerator Turn()
     {
         isTurning = true;
         animator.SetBool("IsTurning", isTurning);
