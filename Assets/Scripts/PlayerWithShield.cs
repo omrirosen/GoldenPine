@@ -78,6 +78,7 @@ public class PlayerWithShield : MonoBehaviour
       HandleShield();
       WallSlide();
       AnimationSetup();
+      FlipSprite();
    }
    
 
@@ -138,14 +139,7 @@ public class PlayerWithShield : MonoBehaviour
       
       
       // for flipping
-      if (xMoveInput < 0 && facingRight )
-      {
-         FlipSprite();
-      }
-      else if (xMoveInput > 0 && !facingRight)
-      {
-         FlipSprite();
-      }
+      
    }
 
    private void PlayerJump()
@@ -283,12 +277,30 @@ public class PlayerWithShield : MonoBehaviour
    {
       if (!collisionCheck.onWall)
       {
-         wallJumpDirection *= -1;
-         facingRight = !facingRight;
+         if (xMoveInput < 0 && facingRight)
+         {
+            facingRight = !facingRight;
+            transform.Rotate(0, 180, 0);
+         }
+         else if (xMoveInput > 0 && !facingRight)
+         {
+            facingRight = !facingRight;
+            transform.Rotate(0, 180, 0);
+         }
+      }
+         /*
+      if (collisionCheck.onRightWall && facingRight)
+      {
          transform.Rotate(0, 180, 0);
       }
+      else if (collisionCheck.onLeftWall && !facingRight)
+      {
+         transform.Rotate(0, 180, 0);
+      }
+      */
+      
    }
-
+   
    private void SetCreateGhostToFalse()
    {
       fadingGhost.createGhost = false;
