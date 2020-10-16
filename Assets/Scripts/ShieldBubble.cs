@@ -11,7 +11,7 @@ public class ShieldBubble : MonoBehaviour
     public bool isShielding;
     public bool isGrounded;
     public bool isMoving;
-
+    public bool reachedPeackJump;
     private void Awake()
     {
         playerScript = GetComponentInParent<PlayerWithShield>();
@@ -25,6 +25,9 @@ public class ShieldBubble : MonoBehaviour
         isShielding = playerScript.isShielding;
         isGrounded = collisionCheck.onGround;
         isMoving = playerScript.isMoving;
+        reachedPeackJump = playerScript.reachedPeakJump;
+
+
     }
     
     private void AnimationSetup()
@@ -32,6 +35,7 @@ public class ShieldBubble : MonoBehaviour
         shieldAnimator.SetBool("isGrounded", isGrounded);
         shieldAnimator.SetBool("isShielding", isShielding);
         shieldAnimator.SetBool("isMoving", isMoving);
+        shieldAnimator.SetBool("isFalling", reachedPeackJump);
         if (Input.GetKeyDown(KeyCode.X))
         {
             shieldAnimator.SetTrigger("startedShielding");
@@ -39,7 +43,15 @@ public class ShieldBubble : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.X))
         {
-            shieldAnimator.SetTrigger("stoppedShielding");
+            if (isGrounded)
+            {
+                shieldAnimator.Play("Shield Ground Pop");
+            }
+            else
+            {
+                shieldAnimator.Play("Shield Ground Pop");
+            }
+            
         }
     }
     
