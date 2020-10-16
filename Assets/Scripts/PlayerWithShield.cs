@@ -52,6 +52,9 @@ public class PlayerWithShield : MonoBehaviour
    
    private CollisionCheck collisionCheck;
 
+
+    
+
    private void Awake()
    {
       rb = GetComponent<Rigidbody2D>();
@@ -341,8 +344,14 @@ public class PlayerWithShield : MonoBehaviour
             if (PS.DashAttacked == true)
             {
                 Debug.Log("DIE YOU PIG");
-                collision.gameObject.GetComponent<Unihog1Controller>().killme();
+                collision.gameObject.GetComponent<Unihog1DMG>().killMe();
+
             }
         }
+        else
+        {
+            print(collision.gameObject.tag);
+        }
     }
+
 }

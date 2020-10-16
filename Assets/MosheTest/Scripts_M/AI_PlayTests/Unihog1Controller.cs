@@ -168,4 +168,9 @@ public class Unihog1Controller : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    public void print()
+    {
+        print("Hong");
+    }
 }

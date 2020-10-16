@@ -56,7 +56,10 @@ public class Unihog1DMG : MonoBehaviour
         }
     }
 
-    
+    public void killMe()
+    {
+        Destroy(unihog.gameObject);
+    }
 
    
 }
