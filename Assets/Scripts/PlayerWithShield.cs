@@ -93,7 +93,7 @@ public class PlayerWithShield : MonoBehaviour
       xMoveInput = Input.GetAxisRaw("Horizontal"); //GetAxisRaw meaning snappy movement, remove raw for fluidity
       
       //Dash Inputs
-      if (Input.GetKeyDown(KeyCode.LeftShift))
+      if (Input.GetKeyUp(KeyCode.LeftShift))
       {
          isDashing = true;
       }

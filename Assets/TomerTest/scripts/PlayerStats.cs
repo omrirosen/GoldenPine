@@ -130,6 +130,7 @@ public class PlayerStats : MonoBehaviour
             sRenderer.color = DashColor ;
             Invoke("BackToOGColor", 0.5f);
             DashAttacked = true;
+            playerWithShield.isDashing = true;
         }
     }
 
@@ -137,6 +138,7 @@ public class PlayerStats : MonoBehaviour
     {
         sRenderer.color = OGcolor;
         DashAttacked = false;
+        playerWithShield.isDashing = false;
     }
 
 }
