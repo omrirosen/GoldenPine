@@ -1,7 +1,163 @@
 fileFormatVersion: 2
 guid: f0fed0b29f22d3f4398d23b3c46082f5
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1576721884842351683
+    second: Buddy_0
+  - first:
+      213: -4377933194041625968
+    second: Buddy_1
+  - first:
+      213: -518141308207477193
+    second: Buddy_2
+  - first:
+      213: 7034144869561894227
+    second: Buddy_3
+  - first:
+      213: 6818242672717790440
+    second: Buddy_4
+  - first:
+      213: -1568958078837975154
+    second: Buddy_5
+  - first:
+      213: -4248690907810347370
+    second: Buddy_6
+  - first:
+      213: 868145921729919766
+    second: Buddy_7
+  - first:
+      213: 8424445811540889343
+    second: Buddy_8
+  - first:
+      213: -8967804850820853744
+    second: Buddy_9
+  - first:
+      213: -4739403130480715456
+    second: Buddy_10
+  - first:
+      213: -4796272460357675616
+    second: Buddy_11
+  - first:
+      213: -6416319644901166326
+    second: Buddy_12
+  - first:
+      213: 6170059437363331997
+    second: Buddy_13
+  - first:
+      213: 3662566034940634657
+    second: Buddy_14
+  - first:
+      213: 7725415748061971039
+    second: Buddy_15
+  - first:
+      213: -8142438339066060559
+    second: Buddy_16
+  - first:
+      213: 2040237005153548532
+    second: Buddy_17
+  - first:
+      213: 2909449877699615004
+    second: Buddy_18
+  - first:
+      213: -7181777425706544093
+    second: Buddy_19
+  - first:
+      213: -1976947763232491452
+    second: Buddy_20
+  - first:
+      213: -5413197965947320187
+    second: Buddy_21
+  - first:
+      213: 891212509481017785
+    second: Buddy_22
+  - first:
+      213: 3243260608222042464
+    second: Buddy_23
+  - first:
+      213: 6482883852401612456
+    second: Buddy_24
+  - first:
+      213: -3031647357544843175
+    second: Buddy_25
+  - first:
+      213: 1806505430698073544
+    second: Buddy_26
+  - first:
+      213: 4591337297526769508
+    second: Buddy_27
+  - first:
+      213: 6400532249626985509
+    second: Buddy_28
+  - first:
+      213: -1506413135657130602
+    second: Buddy_29
+  - first:
+      213: -8852634789124090486
+    second: Buddy_30
+  - first:
+      213: 2797909122960147949
+    second: Buddy_31
+  - first:
+      213: 4868818385900033054
+    second: Buddy_32
+  - first:
+      213: -1115334158961031219
+    second: Buddy_33
+  - first:
+      213: -1871584082057344220
+    second: Buddy_34
+  - first:
+      213: -7179868833394703989
+    second: Buddy_35
+  - first:
+      213: -5260819676539635067
+    second: Buddy_36
+  - first:
+      213: -797119538220891084
+    second: Buddy_37
+  - first:
+      213: 2629003156073523236
+    second: Buddy_38
+  - first:
+      213: -2582535327672924345
+    second: Buddy_39
+  - first:
+      213: 9023767975714487178
+    second: Buddy_40
+  - first:
+      213: 8530581716282649887
+    second: Buddy_41
+  - first:
+      213: 1302823135897162844
+    second: Buddy_42
+  - first:
+      213: 6807180796406828765
+    second: Buddy_43
+  - first:
+      213: 359774574815899777
+    second: Buddy_44
+  - first:
+      213: -5292433875967156673
+    second: Buddy_45
+  - first:
+      213: -7293584159904548122
+    second: Buddy_46
+  - first:
+      213: 1029648213774354410
+    second: Buddy_47
+  - first:
+      213: 6538267876326404682
+    second: Buddy_48
+  - first:
+      213: 6024775789334805667
+    second: Buddy_49
+  - first:
+      213: -6450801902898123428
+    second: Buddy_50
+  - first:
+      213: 221986017833529820
+    second: Buddy_51
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +187,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +196,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -64,7 +220,31 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -73,7 +253,1099 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Buddy_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 462
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db32360bccb5e1ae0800000000000000
+      internalID: -1576721884842351683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 462
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092f1ce84f47e33c0800000000000000
+      internalID: -4377933194041625968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 459
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e46d4b9313fc8f0800000000000000
+      internalID: -518141308207477193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 457
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3558fd88d7d4e9160800000000000000
+      internalID: 7034144869561894227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 457
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecf0c316934f9e50800000000000000
+      internalID: 6818242672717790440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 459
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e871263a0f0f93ae0800000000000000
+      internalID: -1568958078837975154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_6
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 462
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696488f312e9905c0800000000000000
+      internalID: -4248690907810347370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 460
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b7aedbd164c0c00800000000000000
+      internalID: 868145921729919766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_8
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 459
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe0c6ab4d4a9e470800000000000000
+      internalID: 8424445811540889343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 417
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0105ccb6005fb8380800000000000000
+      internalID: -8967804850820853744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 417
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049925896f14a3eb0800000000000000
+      internalID: -4739403130480715456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_11
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 414
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5546aeb97307db0800000000000000
+      internalID: -4796272460357675616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_12
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 412
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a033e403747a4f6a0800000000000000
+      internalID: -6416319644901166326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_13
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 412
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93861f2e5470a550800000000000000
+      internalID: 6170059437363331997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_14
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 414
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1262c07576c04d230800000000000000
+      internalID: 3662566034940634657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_15
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 417
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52417d11b0363b60800000000000000
+      internalID: 7725415748061971039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_16
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 415
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0227a987f300f80800000000000000
+      internalID: -8142438339066060559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_17
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 414
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8b8cd1fb0605c10800000000000000
+      internalID: 2040237005153548532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 362
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19d614bf31706820800000000000000
+      internalID: 2909449877699615004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_19
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 313
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32497d46b73355c90800000000000000
+      internalID: -7181777425706544093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_20
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 314
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4483601db787094e0800000000000000
+      internalID: -1976947763232491452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 316
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588c7dc512570e4b0800000000000000
+      internalID: -5413197965947320187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 313
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b120073e093e5c00800000000000000
+      internalID: 891212509481017785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 265
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0699713f650620d20800000000000000
+      internalID: 3243260608222042464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 266
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a693861484d7f950800000000000000
+      internalID: 6482883852401612456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 268
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958b9496acc6de5d0800000000000000
+      internalID: -3031647357544843175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_26
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 270
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd92913e1ff11910800000000000000
+      internalID: 1806505430698073544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 270
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467c51732f4b7bf30800000000000000
+      internalID: 4591337297526769508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 269
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524c2786b2243d850800000000000000
+      internalID: 6400532249626985509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 267
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695ac240c35281be0800000000000000
+      internalID: -1506413135657130602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_30
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 275
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a855ef3009f152580800000000000000
+      internalID: -8852634789124090486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 217
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de54ddbf58b24d620800000000000000
+      internalID: 2797909122960147949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_32
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 218
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14567f9684819340800000000000000
+      internalID: 4868818385900033054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 220
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7c441ed798580f0800000000000000
+      internalID: -1115334158961031219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_34
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 222
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b42b5813cc606e0800000000000000
+      internalID: -1871584082057344220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_35
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 222
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b814c9b265bfb5c90800000000000000
+      internalID: -7179868833394703989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_36
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 221
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a38709060ddf6b0800000000000000
+      internalID: -5260819676539635067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 219
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43402d8d00010f4f0800000000000000
+      internalID: -797119538220891084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_38
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 227
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428a42ff0781c7420800000000000000
+      internalID: 2629003156073523236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_39
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 147
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74788266dcdf82cd0800000000000000
+      internalID: -2582535327672924345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_40
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 174
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bf108f92dda3d70800000000000000
+      internalID: 9023767975714487178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_41
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 96
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d287ebfd6b26670800000000000000
+      internalID: 8530581716282649887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_42
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 97
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c549f4c4dbe841210800000000000000
+      internalID: 1302823135897162844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_43
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 60
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde80bb4ed6f77e50800000000000000
+      internalID: 6807180796406828765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_44
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 25
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1807e13d11d2ef400800000000000000
+      internalID: 359774574815899777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_45
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 26
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3edbb92e6f7d86b0800000000000000
+      internalID: -5292433875967156673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 28
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea397189dbf7ca90800000000000000
+      internalID: -7293584159904548122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_47
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 30
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7c2a9589b0a4e00800000000000000
+      internalID: 1029648213774354410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_48
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 30
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4278c60ef79cba50800000000000000
+      internalID: 6538267876326404682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_49
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 29
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acbca6e8ad4c9350800000000000000
+      internalID: 6024775789334805667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_50
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 27
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5de75dd8d52a76a0800000000000000
+      internalID: -6450801902898123428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buddy_51
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 25
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1321a6b17a41300800000000000000
+      internalID: 221986017833529820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
