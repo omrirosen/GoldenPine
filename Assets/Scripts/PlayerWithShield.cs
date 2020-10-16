@@ -44,7 +44,7 @@ public class PlayerWithShield : MonoBehaviour
    [SerializeField] private CircleCollider2D shieldBubbleCC2D;
     public bool isShielding;
     [SerializeField] private PlayerStats PS;
-
+    
     // Component Caches
     private Rigidbody2D rb;
    private Animator anim;
@@ -99,6 +99,7 @@ public class PlayerWithShield : MonoBehaviour
       if (Input.GetKey(KeyCode.X))
       {
          isShielding = true;
+         
       }
       else
       {
