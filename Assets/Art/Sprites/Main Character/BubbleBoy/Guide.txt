@@ -1,0 +1,12 @@
+BUDDY GUIDE
+
+Row 1 - Up
+Row 2 - SideJump
+Row 3 - Flip
+Row 4 - Dash
+Row 5 - Idle
+Row 6 - Down
+Row 7 - Hit2
+Row 8 - Hit1
+Row 9 - AfterHit1
+Row 10 - Run
