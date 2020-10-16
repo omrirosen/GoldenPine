@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerWithShield : MonoBehaviour
+public class PlayerWithShield1 : MonoBehaviour
 {
    [Header("Movement Config")]
    [SerializeField] private float playerSpeed = 5f;
@@ -47,7 +47,7 @@ public class PlayerWithShield : MonoBehaviour
    // Component Caches
    private Rigidbody2D rb;
    private Animator anim;
-   
+   private AudioManager _audio;
    private CollisionCheck collisionCheck;
 
    private void Awake()
@@ -58,7 +58,6 @@ public class PlayerWithShield : MonoBehaviour
       fadingGhost = FindObjectOfType<FadingGhost>();
       shieldBubbleSR = shieldBubble.GetComponent<SpriteRenderer>();
       shieldBubbleCC2D = shieldBubble.GetComponent<CircleCollider2D>();
-
 
    }
 
@@ -97,6 +96,8 @@ public class PlayerWithShield : MonoBehaviour
       //Shield Inputs
       if (Input.GetKey(KeyCode.X))
       {
+         FindObjectOfType<AudioManager>().play("Pop");
+
          isShielding = true;
       }
       else
@@ -123,7 +124,7 @@ public class PlayerWithShield : MonoBehaviour
       {
          rb.velocity = new Vector2(xMoveInput * playerSpeed, rb.velocity.y);
       }
-     
+
       else if (!collisionCheck.onGround &&(!isWallSliding || !collisionCheck.onWall) && xMoveInput != 0)
       {
          rb.AddForce(new Vector2(airMoveSpeed * xMoveInput,0));
