@@ -42,11 +42,13 @@ public class PlayerWithShield : MonoBehaviour
    [SerializeField] private GameObject shieldBubble;
    [SerializeField] private SpriteRenderer shieldBubbleSR;
    [SerializeField] private CircleCollider2D shieldBubbleCC2D;
-   public bool isShielding;
-   
-   // Component Caches
-   private Rigidbody2D rb;
+    public bool isShielding;
+    [SerializeField] private PlayerStats PS;
+
+    // Component Caches
+    private Rigidbody2D rb;
    private Animator anim;
+  
    
    private CollisionCheck collisionCheck;
 
@@ -328,5 +330,18 @@ public class PlayerWithShield : MonoBehaviour
          Invoke("SetReachedPeakToFlase", 0.05f);
       }
    }
-   
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("bla");
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Debug.Log("hitEnemy");
+            if (PS.DashAttacked == true)
+            {
+                collision.gameObject.GetComponent<Unihog1Controller>().killme();
+            }
+        }
+    }
+
 }

@@ -16,6 +16,8 @@ public class PlayerStats : MonoBehaviour
     public bool ParryWindow = false;
     private Color OGcolor;
     public Color DashColor;
+    public bool DashAttacked = false;
+    private PlayerWithShield playerWithShield;
 
     private void Awake()
     {
@@ -123,12 +125,14 @@ public class PlayerStats : MonoBehaviour
             StaminaAnimator.Play("StaminaDown");
             sRenderer.color = DashColor ;
             Invoke("BackToOGColor", 0.5f);
+            DashAttacked = true;
         }
     }
 
     private void BackToOGColor()
     {
         sRenderer.color = OGcolor;
+        DashAttacked = false;
     }
 
 }
