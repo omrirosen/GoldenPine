@@ -23,22 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Dashes/Dash.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Dashes/Dash.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Shield/Short - Ploppy Plop.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Shield/Short - Ploppy Plop.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Parallax.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Energy/234546__electroviolence__magic-bubbles.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Energy/234546__electroviolence__magic-bubbles.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Energy/401324__alanmcki__magical-portal-open.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Energy/401324__alanmcki__magical-portal-open.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Omri/AI_PlayTests 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Omri/AI_PlayTests 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,17 +41,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Omri/AI_PlayTests 1.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/ShieldBubble1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Omri/AI_PlayTests 1.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -81,6 +66,7 @@
         <option value="$PROJECT_DIR$/Assets/Omri/Scripts/ShieldBubble1.cs" />
         <option value="$PROJECT_DIR$/Assets/Audio Manager/Scripts/Carter Games/Audio Manager/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" />
       </list>
     </option>
   </component>
@@ -114,16 +100,22 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -161,11 +153,13 @@
       <workItem from="1602600350197" duration="1277000" />
       <workItem from="1602831940020" duration="2820000" />
       <workItem from="1602836717590" duration="2655000" />
+      <workItem from="1602850094092" duration="2701000" />
+      <workItem from="1602853697856" duration="1623000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -174,13 +168,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

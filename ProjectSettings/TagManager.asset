@@ -50,6 +50,18 @@ TagManager:
   - name: Foreground Tiles
     uniqueID: 3887207119
     locked: 0
+  - name: Parallax 4
+    uniqueID: 2737360977
+    locked: 0
+  - name: Parallax 3
+    uniqueID: 2240058339
+    locked: 0
+  - name: Parallax 2
+    uniqueID: 79434053
+    locked: 0
+  - name: Parallax 1
+    uniqueID: 273435733
+    locked: 0
   - name: Props No Outline
     uniqueID: 3857614709
     locked: 0
