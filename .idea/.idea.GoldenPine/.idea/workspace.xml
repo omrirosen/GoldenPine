@@ -23,23 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Dashes/Dash.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Dashes/Dash.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Shield/Short - Ploppy Plop.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Shield/Short - Ploppy Plop.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.shader.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Energy/234546__electroviolence__magic-bubbles.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Energy/234546__electroviolence__magic-bubbles.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Energy/401324__alanmcki__magical-portal-open.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Energy/401324__alanmcki__magical-portal-open.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Omri/AI_PlayTests 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Omri/AI_PlayTests 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +144,7 @@
       <workItem from="1602578947155" duration="692000" />
       <workItem from="1602600350197" duration="1277000" />
       <workItem from="1602831940020" duration="2820000" />
-      <workItem from="1602836717590" duration="2655000" />
+      <workItem from="1602836717590" duration="3647000" />
     </task>
     <servers />
   </component>
