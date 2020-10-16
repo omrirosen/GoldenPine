@@ -91,6 +91,8 @@ public class PlayerWithShield1 : MonoBehaviour
       if (Input.GetKeyDown(KeyCode.LeftShift))
       {
          isDashing = true;
+         FindObjectOfType<AudioManager>().play("Dash");
+         FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
       }
       
       //Shield Inputs
