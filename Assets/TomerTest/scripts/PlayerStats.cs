@@ -18,6 +18,7 @@ public class PlayerStats : MonoBehaviour
     public Color DashColor;
     public bool DashAttacked = false;
     private PlayerWithShield playerWithShield;
+    [SerializeField] private GameObject Buddy;
 
     private void Awake()
     {
@@ -85,12 +86,14 @@ public class PlayerStats : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             shieldOn = true;
+            Buddy.SetActive(false);
         }
 
         if (Input.GetKeyUp(KeyCode.X))
         {
             shieldOn = false;
             ParryWindow = true;
+            Buddy.SetActive(true);
             Invoke("ParryEnd", 0.5f);
 
         }

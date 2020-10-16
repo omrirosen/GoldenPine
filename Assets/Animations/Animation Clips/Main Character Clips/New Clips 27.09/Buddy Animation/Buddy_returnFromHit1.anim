@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shield Prep Jump Straight Up
+  m_Name: Buddy_returnFromHit1
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,19 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -4336169052113081287, guid: ee37549f2bc1f8e41976ae1812560e0d,
-        type: 3}
-    - time: 0.083333336
-      value: {fileID: 5222984985043898150, guid: dcb256f02adf4fb46bd1ce636fdf3d59,
-        type: 3}
-    - time: 0.16666667
-      value: {fileID: -534488532473872273, guid: dcb256f02adf4fb46bd1ce636fdf3d59,
+      value: {fileID: -2582535327672924345, guid: f0fed0b29f22d3f4398d23b3c46082f5,
         type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 12
+  m_SampleRate: 10
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -47,20 +41,18 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -4336169052113081287, guid: ee37549f2bc1f8e41976ae1812560e0d, type: 3}
-    - {fileID: 5222984985043898150, guid: dcb256f02adf4fb46bd1ce636fdf3d59, type: 3}
-    - {fileID: -534488532473872273, guid: dcb256f02adf4fb46bd1ce636fdf3d59, type: 3}
+    - {fileID: -2582535327672924345, guid: f0fed0b29f22d3f4398d23b3c46082f5, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.25
+    m_StopTime: 0.1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
+    m_LoopTime: 1
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
