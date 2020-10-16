@@ -33,7 +33,7 @@ public class PlayerWithShield : MonoBehaviour
    [Header("DashConfig")] 
    [SerializeField] private float dashSpeed;
    [SerializeField] private float startDashTime;
-   private bool isDashing;
+   public bool isDashing;
    private FadingGhost fadingGhost;
    private float dashTime;
    private int direction;
@@ -42,11 +42,13 @@ public class PlayerWithShield : MonoBehaviour
    [SerializeField] private GameObject shieldBubble;
    [SerializeField] private SpriteRenderer shieldBubbleSR;
    [SerializeField] private CircleCollider2D shieldBubbleCC2D;
-   public bool isShielding;
-   
-   // Component Caches
-   private Rigidbody2D rb;
+    public bool isShielding;
+    [SerializeField] private PlayerStats PS;
+
+    // Component Caches
+    private Rigidbody2D rb;
    private Animator anim;
+  
    
    private CollisionCheck collisionCheck;
 
@@ -78,7 +80,6 @@ public class PlayerWithShield : MonoBehaviour
       HandleShield();
       WallSlide();
       AnimationSetup();
-      FlipSprite();
    }
    
 
@@ -139,7 +140,14 @@ public class PlayerWithShield : MonoBehaviour
       
       
       // for flipping
-      
+      if (xMoveInput < 0 && facingRight )
+      {
+         FlipSprite();
+      }
+      else if (xMoveInput > 0 && !facingRight)
+      {
+         FlipSprite();
+      }
    }
 
    private void PlayerJump()
@@ -243,15 +251,18 @@ public class PlayerWithShield : MonoBehaviour
 
    void WallSlide()
    {
+        
       if (collisionCheck.onWall && !collisionCheck.onGround && rb.velocity.y < 0)
       {
          anim.SetTrigger("touchedWall");
          isWallSliding = true;
-      }
+            anim.SetBool("StartSlide", true);
+        }
       else
       {
          isWallSliding = false;
-      }
+            anim.SetBool("StartSlide", false);
+        }
 
       if (isWallSliding)
       {
@@ -277,30 +288,13 @@ public class PlayerWithShield : MonoBehaviour
    {
       if (!collisionCheck.onWall)
       {
-         if (xMoveInput < 0 && facingRight)
-         {
-            facingRight = !facingRight;
-            transform.Rotate(0, 180, 0);
-         }
-         else if (xMoveInput > 0 && !facingRight)
-         {
-            facingRight = !facingRight;
-            transform.Rotate(0, 180, 0);
-         }
-      }
-         /*
-      if (collisionCheck.onRightWall && facingRight)
-      {
+         wallJumpDirection *= -1;
+         facingRight = !facingRight;
          transform.Rotate(0, 180, 0);
       }
-      else if (collisionCheck.onLeftWall && !facingRight)
-      {
-         transform.Rotate(0, 180, 0);
-      }
-      */
-      
+
    }
-   
+
    private void SetCreateGhostToFalse()
    {
       fadingGhost.createGhost = false;
@@ -336,5 +330,18 @@ public class PlayerWithShield : MonoBehaviour
          Invoke("SetReachedPeakToFlase", 0.05f);
       }
    }
-   
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("bla");
+        if (collision.gameObject.tag == "Enemy")
+        {
+            Debug.Log("hitEnemy");
+            if (PS.DashAttacked == true)
+            {
+                Debug.Log("DIE YOU PIG");
+                collision.gameObject.GetComponent<Unihog1Controller>().killme();
+            }
+        }
+    }
 }
