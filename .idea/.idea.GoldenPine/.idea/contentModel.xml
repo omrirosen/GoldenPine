@@ -55,6 +55,10 @@
           <e p="PlayerAnimation.cs" t="Include" />
           <e p="PlayerCeleste.cs" t="Include" />
           <e p="PlayerWithShield.cs" t="Include" />
+          <e p="RippleEffect" t="Include">
+            <e p="RippleEffect.cs" t="Include" />
+            <e p="RippleEffect.shader" t="Include" />
+          </e>
           <e p="ShieldBubble.cs" t="Include" />
           <e p="Sound.cs" t="Include" />
         </e>
