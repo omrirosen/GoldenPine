@@ -96,6 +96,7 @@ public class PlayerWithShield : MonoBehaviour
       if (Input.GetKeyUp(KeyCode.LeftShift))
       {
          isDashing = true;
+         FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
       }
       
       //Shield Inputs
