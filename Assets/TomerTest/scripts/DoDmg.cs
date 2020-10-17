@@ -17,7 +17,7 @@ public class DoDmg : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            PS.TakeDmg(1);
+            PS.TakeDmg(1,Vector3.zero);
         }
     }
 

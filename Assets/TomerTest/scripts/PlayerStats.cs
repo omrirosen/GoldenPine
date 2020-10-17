@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 
 
 public class PlayerStats : MonoBehaviour
@@ -20,39 +21,63 @@ public class PlayerStats : MonoBehaviour
     private PlayerWithShield playerWithShield;
     [SerializeField] private GameObject Buddy;
 
+
+    private bool isImpect_ON = false;
+    private Rigidbody2D rb2d;
+    [SerializeField] float impact_Force;
+    [SerializeField] float impact_JumpForce;
+    private Tween Impact;
+
     private void Awake()
     {
         OGcolor = sRenderer.color;
         playerWithShield = this.GetComponent<PlayerWithShield>();
+        rb2d = GetComponent<Rigidbody2D>();
     }
     private void Update()
     {
+       
         HealPlayer();
         ShieldUp();
         Dashed();
+        if (Impact != null)
+        {
+            if (!Impact.IsPlaying())
+            {
+                isImpect_ON = false;
+            }
+        }
     }
 
-    public void TakeDmg(int Dmg)
+    public void TakeDmg(int Dmg,Vector3 dir)
     {
         if (shieldOn == false && ParryWindow == false && playerWithShield.isDashing == false)
         {
             playerHealth -= Dmg;
             animator.SetInteger("PlayerHealthUI", playerHealth);
+            if (!isImpect_ON)
+            {
+                isImpect_ON = true;
+                Impact = rb2d.DOJump(transform.position - dir * impact_Force, impact_JumpForce, 0, 0.5f);
+                Impact.SetEase(Ease.Flash);
+            }
         }
 
-        if ( ParryWindow == true) 
-        {
+       if ( ParryWindow == true) 
+       {
+            
             Parry();
-        }
+       }
 
-        if (playerHealth <= 0)
-        {
+       if (playerHealth <= 0)
+       {
             Die();
-        }
+       }
     }
 
     private void Die()
     {
+       
         PlayerSelf.SetActive(false);
     }
     
@@ -106,6 +131,7 @@ public class PlayerStats : MonoBehaviour
     
     private void Parry()
     {
+       
         if (DashStock < 1)
         {
             DashStock = DashStock +1;

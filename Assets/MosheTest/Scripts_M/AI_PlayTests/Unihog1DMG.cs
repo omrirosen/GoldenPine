@@ -11,10 +11,12 @@ public class Unihog1DMG : MonoBehaviour
     [SerializeField] float jumpForce;
     private bool isunderImpact = false;
     private Tween impact;
+    private bool attack = false;
 
     private void Update()
     {
-        if(impact!=null)
+        
+        if (impact!=null)
         {
             if(!impact.IsPlaying())
             {
@@ -27,31 +29,54 @@ public class Unihog1DMG : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-           // print("hit");
-            collision.GetComponent<PlayerStats>().TakeDmg(dmg);
-            if(collision.GetComponent<PlayerStats>().ParryWindow)
+            
+            // print("hit");
+            if (collision.GetComponent<PlayerStats>() != null)
             {
-                if (!isunderImpact)
+                if (!attack)
                 {
-                    // print("Parry");
                     if (unihog.IsFacingRight())
                     {
-
-                        print("Right");
-                        impact = unihog.rb2d.DOJump((transform.position - Vector3.right * force), jumpForce, 0, 0.5f);
-                        impact.SetEase(Ease.Flash);
-                        isunderImpact = true;
-
+                        attack = true;
+                        collision.GetComponent<PlayerStats>().TakeDmg(dmg, Vector3.left);
+                        Invoke("resetAttack", 0.5f);
                     }
                     else if (!unihog.IsFacingRight())
                     {
-                        print("left");
-                        impact = unihog.rb2d.DOJump((transform.position - Vector3.left * force), jumpForce, 0, 0.5f);
-                        impact.SetEase(Ease.Flash);
-                        isunderImpact = true;
-
+                        attack = true;
+                        collision.GetComponent<PlayerStats>().TakeDmg(dmg, Vector3.right);
+                        Invoke("resetAttack", 0.5f);
                     }
+
                 }
+
+                if (collision.GetComponent<PlayerStats>().ParryWindow)
+                {
+                    if (!isunderImpact)
+                    {
+                        // print("Parry");
+                        if (unihog.IsFacingRight())
+                        {
+
+                           // print("Right");
+                            impact = unihog.rb2d.DOJump((transform.position - Vector3.right * force), jumpForce, 0, 0.5f);
+                            impact.SetEase(Ease.Flash);
+                            isunderImpact = true;
+
+                        }
+                        else if (!unihog.IsFacingRight())
+                        {
+                           // print("left");
+                            impact = unihog.rb2d.DOJump((transform.position - Vector3.left * force), jumpForce, 0, 0.5f);
+                            impact.SetEase(Ease.Flash);
+                            isunderImpact = true;
+
+                        }
+                    }
+                   
+                }
+                
+            
             }
         }
     }
@@ -59,6 +84,11 @@ public class Unihog1DMG : MonoBehaviour
     public void killMe()
     {
         Destroy(unihog.gameObject);
+    }
+
+    public void resetAttack()
+    {
+        attack = false;
     }
 
    
