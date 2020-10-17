@@ -48,7 +48,7 @@ public class PlayerWithShield : MonoBehaviour
     // Component Caches
     private Rigidbody2D rb;
    private Animator anim;
-  
+   public BuddyController Buddy;
    
    private CollisionCheck collisionCheck;
 
@@ -97,6 +97,7 @@ public class PlayerWithShield : MonoBehaviour
       {
          isDashing = true;
          FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
+            Buddy.Dash();
       }
       
       //Shield Inputs
@@ -118,10 +119,13 @@ public class PlayerWithShield : MonoBehaviour
       if (xMoveInput !=0)
       {
          isMoving = true;
+            Buddy.Run();
+            print("Running");
       }
       else
       {
          isMoving = false;
+            Buddy.StopRun();
       }
       
       // for movement
@@ -296,6 +300,7 @@ public class PlayerWithShield : MonoBehaviour
          wallJumpDirection *= -1;
          facingRight = !facingRight;
          transform.Rotate(0, 180, 0);
+            Buddy.flip();
       }
 
    }
