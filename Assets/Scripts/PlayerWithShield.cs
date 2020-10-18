@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 
 public class PlayerWithShield : MonoBehaviour
@@ -46,14 +47,14 @@ public class PlayerWithShield : MonoBehaviour
     [SerializeField] private PlayerStats PS;
     
     // Component Caches
-    private Rigidbody2D rb;
+   private Rigidbody2D rb;
    private Animator anim;
    public BuddyController Buddy;
-   
    private CollisionCheck collisionCheck;
+   [SerializeField] private CinemachineImpulseSource pulseSource;
 
 
-    
+
 
    private void Awake()
    {
@@ -98,6 +99,7 @@ public class PlayerWithShield : MonoBehaviour
          isDashing = true;
          FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
             Buddy.Dash();
+            pulseSource.GenerateImpulse();
       }
       
       //Shield Inputs

@@ -23,20 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Music.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Music/JeffSpeed68_-_Urban_Desert.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Music/JeffSpeed68_-_Urban_Desert.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Shield/Pop2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Shield/Pop2.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Shield/Pop3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Shield/Pop3.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Shield/ShieldBubble1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Shield/ShieldBubble1.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Camera.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Camera/Impulses.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Camera/Impulses/CinemachineFixedSignal.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Camera/Impulses/CinemachineFixedSignal.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Omri/Omri's Test Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Omri/Omri's Test Scene.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/FootStep1.mp3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/FootStep1.mp3.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/AI_PlayTest_Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Omri/AI_PlayTests 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Omri/AI_PlayTests 1.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,12 +44,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Omri/AI_PlayTests 1.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/ShieldBubble1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" root0="FORCE_HIGHLIGHTING" />
@@ -80,6 +76,8 @@
         <option value="$PROJECT_DIR$/Assets/Audio Manager/Scripts/Carter Games/Audio Manager/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CamShakeSimple.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
       </list>
     </option>
@@ -164,6 +162,7 @@
       <workItem from="1602850094092" duration="2701000" />
       <workItem from="1602853697856" duration="1623000" />
       <workItem from="1602947383990" duration="135000" />
+      <workItem from="1603009565902" duration="4934000" />
     </task>
     <servers />
   </component>
