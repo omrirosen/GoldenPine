@@ -46,6 +46,10 @@ public class PlayerStats : MonoBehaviour
             {
                 isImpect_ON = false;
             }
+            else
+            {
+               
+            }
         }
     }
 
