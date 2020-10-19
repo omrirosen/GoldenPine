@@ -170,6 +170,7 @@ public class PlayerWithShield : MonoBehaviour
          isJumping = true;
          jumpTimeCounter = jumpTime;
          rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            Buddy.Jump();
       }
 
       if (Input.GetButton("Jump") && isJumping)
@@ -182,6 +183,7 @@ public class PlayerWithShield : MonoBehaviour
          else
          {
             isJumping = false;
+                Buddy.StopJump();
          }
          
       }
@@ -189,7 +191,8 @@ public class PlayerWithShield : MonoBehaviour
       if (Input.GetButtonUp("Jump"))
       {
          isJumping = false;
-      }
+            Buddy.StopJump();
+        }
       
    }
    

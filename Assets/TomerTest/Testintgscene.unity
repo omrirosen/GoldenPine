@@ -1112,6 +1112,12 @@ Rigidbody2D:
     type: 3}
   m_PrefabInstance: {fileID: 668618580}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1028917177 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7683090657920955220, guid: 47b32208fd8d43c4aa6614214ba687f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 7683090658700441987}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1184324881
 GameObject:
   m_ObjectHideFlags: 0
@@ -19073,6 +19079,26 @@ PrefabInstance:
       propertyPath: StaminaAnimator
       value: 
       objectReference: {fileID: 783382500}
+    - target: {fileID: 7683090657920955225, guid: 47b32208fd8d43c4aa6614214ba687f5,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683090657920955225, guid: 47b32208fd8d43c4aa6614214ba687f5,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683090657920955225, guid: 47b32208fd8d43c4aa6614214ba687f5,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7683090657920955226, guid: 47b32208fd8d43c4aa6614214ba687f5,
+        type: 3}
+      propertyPath: Anim
+      value: 
+      objectReference: {fileID: 1028917177}
     - target: {fileID: 7683090657920955227, guid: 47b32208fd8d43c4aa6614214ba687f5,
         type: 3}
       propertyPath: m_WasSpriteAssigned
