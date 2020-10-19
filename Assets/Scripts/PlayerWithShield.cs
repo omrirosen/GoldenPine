@@ -122,7 +122,7 @@ public class PlayerWithShield : MonoBehaviour
       {
          isMoving = true;
             Buddy.Run();
-            print("Running");
+           // print("Running");
       }
       else
       {
@@ -356,10 +356,7 @@ public class PlayerWithShield : MonoBehaviour
 
             }
         }
-        else
-        {
-            print(collision.gameObject.tag);
-        }
+       
     }
 
 }

@@ -27,12 +27,15 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] float impact_Force;
     [SerializeField] float impact_JumpForce;
     private Tween Impact;
+    public float sensetive_Parry = 0;
+    [SerializeField] CollisionCheck collisionCheck;
 
     private void Awake()
     {
         OGcolor = sRenderer.color;
         playerWithShield = this.GetComponent<PlayerWithShield>();
         rb2d = GetComponent<Rigidbody2D>();
+        collisionCheck = GetComponent<CollisionCheck>();
     }
     private void Update()
     {
@@ -48,8 +51,13 @@ public class PlayerStats : MonoBehaviour
             }
             else
             {
-               
+                if(collisionCheck.onWall)
+                {
+                    Impact.Kill();
+                }
             }
+                
+            
         }
     }
 
@@ -78,6 +86,8 @@ public class PlayerStats : MonoBehaviour
             Die();
        }
     }
+
+    
 
     private void Die()
     {
@@ -112,18 +122,28 @@ public class PlayerStats : MonoBehaviour
 
     private void ShieldUp()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKey(KeyCode.X))
         {
             shieldOn = true;
             Buddy.SetActive(false);
+            sensetive_Parry += Time.deltaTime;
         }
 
         if (Input.GetKeyUp(KeyCode.X))
         {
-            shieldOn = false;
-            ParryWindow = true;
+            shieldOn = false;            
             Buddy.SetActive(true);
-            Invoke("ParryEnd", 0.5f);
+            if(sensetive_Parry<=1f)
+            {
+                ParryWindow = true;
+                Invoke("ParryEnd", 0.5f);
+                sensetive_Parry = 0f;
+            }
+            else
+            {
+                sensetive_Parry = 0f;
+            }
+            
 
         }
     }

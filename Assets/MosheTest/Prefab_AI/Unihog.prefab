@@ -45,7 +45,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.36313236, y: 0.21738541}
+  m_Offset: {x: 0.17, y: 0.21738541}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -74,6 +74,36 @@ MonoBehaviour:
   unihog: {fileID: 5412783622459689583}
   force: 1
   jumpForce: 0.5
+--- !u!1 &1217215457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1217215458}
+  m_Layer: 11
+  m_Name: WallCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1217215458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217215457}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.507, y: 0.249, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5412783622459689582}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1440807825
 GameObject:
   m_ObjectHideFlags: 0
@@ -220,6 +250,7 @@ GameObject:
   - component: {fileID: 5412783622459689583}
   - component: {fileID: 2006446232}
   - component: {fileID: 2006446233}
+  - component: {fileID: 2000855913}
   m_Layer: 11
   m_Name: Unihog
   m_TagString: Enemy
@@ -241,6 +272,7 @@ Transform:
   - {fileID: 5412783621431076576}
   - {fileID: 505488983}
   - {fileID: 1440807826}
+  - {fileID: 1217215458}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -357,5 +389,23 @@ MonoBehaviour:
   ray_Distance: 0.05
   rb2d: {fileID: 0}
   ground_Layer:
+    serializedVersion: 2
+    m_Bits: 512
+  originalY: -1
+--- !u!114 &2000855913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5412783622459689585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 797b5f36f9f5d5a43b5d074e3e97b13f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPos: {fileID: 1217215458}
+  unihog: {fileID: 0}
+  raylayer:
     serializedVersion: 2
     m_Bits: 512

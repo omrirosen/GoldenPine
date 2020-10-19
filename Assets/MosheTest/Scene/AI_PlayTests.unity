@@ -427,6 +427,16 @@ PrefabInstance:
       propertyPath: StaminaAnimator
       value: 
       objectReference: {fileID: 1870161357}
+    - target: {fileID: 6535324685710691131, guid: 47b32208fd8d43c4aa6614214ba687f5,
+        type: 3}
+      propertyPath: impact_Force
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6535324685710691131, guid: 47b32208fd8d43c4aa6614214ba687f5,
+        type: 3}
+      propertyPath: impact_JumpForce
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47b32208fd8d43c4aa6614214ba687f5, type: 3}
 --- !u!95 &355290030 stripped
@@ -625,7 +635,7 @@ GameObject:
   - component: {fileID: 1676558282}
   m_Layer: 9
   m_Name: Tilemap_FG
-  m_TagString: Untagged
+  m_TagString: TileMapCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18569,18 +18579,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 505488984, guid: 01a25fcb8e6eef140ba7dce6fa73c80c, type: 3}
-      propertyPath: jumpForce
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 505488985, guid: 01a25fcb8e6eef140ba7dce6fa73c80c, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 2006446233, guid: 01a25fcb8e6eef140ba7dce6fa73c80c, type: 3}
-      propertyPath: originalY
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 5412783622459689582, guid: 01a25fcb8e6eef140ba7dce6fa73c80c,
         type: 3}
       propertyPath: m_LocalPosition.x
