@@ -53,7 +53,7 @@ public class PlayerWithShield : MonoBehaviour
    public BuddyController Buddy;
    private CollisionCheck collisionCheck;
    [SerializeField] private CinemachineImpulseSource pulseSource;
-
+   public bool DashAttack = false;
     
 
 
@@ -326,6 +326,7 @@ public class PlayerWithShield : MonoBehaviour
    void SetIsDashingToFalse()
    {
       isDashing = false;
+      DashAttack = false;
    }
 
    void SetIsShieldingToFalse()
@@ -341,6 +342,7 @@ public class PlayerWithShield : MonoBehaviour
       anim.SetBool("isTouchingWall", collisionCheck.onWall);
       anim.SetBool("isDashing", isDashing);
       anim.SetBool("atPeakJump", reachedPeakJump);
+      anim.SetBool("IsDashAttack", DashAttack);
 
       if (rb.velocity.y < 0 && reachedPeakJump == false)
       {
@@ -364,5 +366,5 @@ public class PlayerWithShield : MonoBehaviour
         }
        
     }
-
+   
 }
