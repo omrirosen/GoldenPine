@@ -124,9 +124,10 @@ public class PlayerStats : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.X))
         {
-            shieldOn = true;
-            Buddy.SetActive(false);
-            sensetive_Parry += Time.deltaTime;
+
+         shieldOn = true;  
+         Buddy.SetActive(false);
+         sensetive_Parry += Time.deltaTime;
         }
 
         if (Input.GetKeyUp(KeyCode.X))
@@ -147,6 +148,8 @@ public class PlayerStats : MonoBehaviour
 
         }
     }
+
+   
     
     private void ParryEnd()
     {

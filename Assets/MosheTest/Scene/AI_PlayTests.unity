@@ -417,6 +417,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player With Shield 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6535324685710691127, guid: 47b32208fd8d43c4aa6614214ba687f5,
+        type: 3}
+      propertyPath: dmg
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6535324685710691131, guid: 47b32208fd8d43c4aa6614214ba687f5,
         type: 3}
       propertyPath: animator

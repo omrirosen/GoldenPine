@@ -74,6 +74,7 @@ MonoBehaviour:
   unihog: {fileID: 5412783622459689583}
   force: 1
   jumpForce: 0.5
+  isunderImpact: 0
 --- !u!1 &1217215457
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,8 +344,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   max_Speed: 5
+  health: 1
   isTurning: 0
   state: 0
+  attacking: 0
   rb2d: {fileID: 5412783622459689581}
 --- !u!61 &2006446232
 BoxCollider2D:
@@ -406,6 +409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPos: {fileID: 1217215458}
   unihog: {fileID: 0}
+  dMG: {fileID: 505488984}
   raylayer:
     serializedVersion: 2
     m_Bits: 512

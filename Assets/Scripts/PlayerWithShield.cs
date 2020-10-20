@@ -34,6 +34,7 @@ public class PlayerWithShield : MonoBehaviour
    [Header("DashConfig")] 
    [SerializeField] private float dashSpeed;
    [SerializeField] private float startDashTime;
+   [SerializeField] int dmg;
    public bool isDashing;
    private FadingGhost fadingGhost;
    private float dashTime;
@@ -53,10 +54,10 @@ public class PlayerWithShield : MonoBehaviour
    private CollisionCheck collisionCheck;
    [SerializeField] private CinemachineImpulseSource pulseSource;
 
+    
 
 
-
-   private void Awake()
+    private void Awake()
    {
       rb = GetComponent<Rigidbody2D>();
       anim = GetComponent<Animator>();
@@ -105,14 +106,16 @@ public class PlayerWithShield : MonoBehaviour
       //Shield Inputs
       if (Input.GetKey(KeyCode.X))
       {
-         isShielding = true;
-         
-      }
+
+            isShielding = true;
+        }
       else
       {
          Invoke("SetIsShieldingToFalse",1f);
       }
    }
+
+    
    
 
    private void PlayerMovement()
@@ -355,7 +358,7 @@ public class PlayerWithShield : MonoBehaviour
             if (PS.DashAttacked == true)
             {
                // Debug.Log("DIE YOU PIG");
-                collision.gameObject.GetComponent<Unihog1DMG>().killMe();
+                collision.gameObject.GetComponent<Unihog1DMG>().killMe(dmg);
 
             }
         }

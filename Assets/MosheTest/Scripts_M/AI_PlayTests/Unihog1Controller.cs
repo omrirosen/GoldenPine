@@ -6,16 +6,18 @@ public class Unihog1Controller : MonoBehaviour
 {
 
     [SerializeField] float moveSpeed = 1f;
-    [SerializeField] Animator animator;
+    [SerializeField]  Animator animator;
     [SerializeField] float eyes_Range ;
     [SerializeField] Vector3 offset;
     [SerializeField] LayerMask eyes_Layer;
     [SerializeField] float max_Speed;
+    [SerializeField] int health;
     
     public bool isTurning = false;
-    public enum stateMachine { roming, attack };
+    public enum stateMachine { roming, attack,death };
     public stateMachine state;
     private GameObject target;
+    public bool attacking = false;
     
 
 
@@ -31,7 +33,11 @@ public class Unihog1Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (health <= 0)
+        {
+            state = stateMachine.death;
+            // Destroy(gameObject);
+        }
         StateMachineControll();
         if(rb2d!=null )
         {
@@ -47,6 +53,7 @@ public class Unihog1Controller : MonoBehaviour
         switch (state)
         {
             case stateMachine.roming:
+                attacking = false;
                 if (!isTurning)
                 {
                     if (IsFacingRight())
@@ -70,6 +77,7 @@ public class Unihog1Controller : MonoBehaviour
 
                 break;
             case stateMachine.attack:
+                attacking = true;
                 animator.SetBool("isAttacking", true);
                 
                     transform.localScale = new Vector2((Mathf.Sign(rb2d.velocity.x)), transform.localScale.y);
@@ -91,10 +99,28 @@ public class Unihog1Controller : MonoBehaviour
                 
 
                 break;
-            default:
+            case stateMachine.death:
+                float deathloop = animator.GetFloat("DeatLoop");
+                attacking = false;
+                rb2d.velocity = Vector2.zero;
+                animator.SetBool("IsMoving", false);
+                animator.SetBool("isAttacking", false);
+                animator.SetBool("isDeath", true);
+                animator.SetFloat("DeatLoop", deathloop += Time.deltaTime);
+                if(deathloop>=1.5f)
+                {
+                    
+                    animator.SetBool("isDeath", false);
+                }
+                if(deathloop>=10f)
+                {
+                    Destroy(gameObject);
+                }
                 break;
         }
     }
+
+  
 
     private void MaxRollSpeed(Rigidbody2D player)
     {
@@ -136,11 +162,12 @@ public class Unihog1Controller : MonoBehaviour
 
     private void LookForTarget()
     {
-        if (rb2d != null)
+
+        if (rb2d != null || health > 0)
         {
             RaycastHit2D hit2D = Physics2D.Raycast(transform.position + offset, transform.TransformDirection(rb2d.velocity),
                 eyes_Range, eyes_Layer);
-            if (hit2D.collider != null)
+            if (hit2D.collider != null )
             {
                 if (hit2D.collider.CompareTag("Player"))
                 {
@@ -160,17 +187,16 @@ public class Unihog1Controller : MonoBehaviour
                 state = stateMachine.roming;
             }
         }
+       
 
     }
 
 
-    public void killme()
+    public void killme(int dmg)
     {
-        Destroy(gameObject);
+        health -= dmg;
+   
     }
 
-    public void print()
-    {
-        print("Hong");
-    }
+   
 }

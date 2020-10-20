@@ -20,7 +20,7 @@ public class BuddyController : MonoBehaviour
     private void Update()
     {
         attack();
-        print(JustAttacked);
+       // print(JustAttacked);
     }
 
     public void flip()
