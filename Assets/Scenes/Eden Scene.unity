@@ -6780,6 +6780,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parallaxEffectMultiplier: {x: 0.2, y: 0.3}
   doIDuplicateVertically: 0
+--- !u!114 &696169997 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7683090657920955226, guid: 47b32208fd8d43c4aa6614214ba687f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1734823310}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745c0c08f9c5b104db61d45a6db48cb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &910231958
 GameObject:
   m_ObjectHideFlags: 0
@@ -8481,6 +8493,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player With Shield 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6535324685710691127, guid: 47b32208fd8d43c4aa6614214ba687f5,
+        type: 3}
+      propertyPath: Buddy
+      value: 
+      objectReference: {fileID: 696169997}
     - target: {fileID: 6535324686627273447, guid: 47b32208fd8d43c4aa6614214ba687f5,
         type: 3}
       propertyPath: m_SortingLayerID
