@@ -6,18 +6,20 @@ public class BuddyController : MonoBehaviour
 {
     private GameObject Self;
     [SerializeField] private Animator Anim;
+    private SpriteRenderer SRenderer;
     private Collider2D AttackColl;
     bool IsJumping = false;
     bool JustAttacked = false;
     int NumOfClicks = 0;
     float LastClickedTime = 0f;
-    float MaxComboDelay = 0.3f;
+    float MaxComboDelay = 0.4f;
     private void Awake()
     {
         Anim = GetComponent<Animator>();
         Self = this.gameObject;
         AttackColl = GetComponent<BoxCollider2D>();
-
+        SRenderer = GetComponent<SpriteRenderer>();
+        
     }
 
     private void Update()
@@ -94,12 +96,13 @@ public class BuddyController : MonoBehaviour
         {
             LastClickedTime = Time.time;
             NumOfClicks++;
-
+            SRenderer.sortingOrder = 10;
+            Invoke("ResetSortingOrder", 0.7f);
             if(NumOfClicks == 1)
             {
                 Anim.SetBool("Attack1", true);
             }
-            NumOfClicks = Mathf.Clamp(NumOfClicks, 0, 2);
+            
 
             if(NumOfClicks == 2)
             {
@@ -112,7 +115,14 @@ public class BuddyController : MonoBehaviour
         {
             Anim.SetBool("Attack1", false);
             Anim.SetBool("Attack2", false);
+           
         }
+        NumOfClicks = Mathf.Clamp(NumOfClicks, 0, 2);
+    }
+
+    private void ResetSortingOrder()
+    {
+        SRenderer.sortingOrder = 1;
     }
 
     private void ComboTimeOut()
@@ -121,7 +131,18 @@ public class BuddyController : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        Unihog1DMG enemy = collision.gameObject.GetComponent<Unihog1DMG>();
+        if(enemy == null)
+        {
+
+        }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                print("HitEnemy");
+            }
+        }
     }
 }
 
