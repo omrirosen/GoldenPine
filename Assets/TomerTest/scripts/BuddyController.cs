@@ -13,6 +13,10 @@ public class BuddyController : MonoBehaviour
     int NumOfClicks = 0;
     float LastClickedTime = 0f;
     float MaxComboDelay = 0.4f;
+    [SerializeField] private Transform AttackTransform;
+    [SerializeField]private Transform OGTransform;
+    [SerializeField]float Speed = 1f;
+    float MoveSpeed;
     private void Awake()
     {
         Anim = GetComponent<Animator>();
@@ -25,7 +29,7 @@ public class BuddyController : MonoBehaviour
     private void Update()
     {
         Attack();
-       // print(JustAttacked);
+       MoveSpeed = Speed * Time.deltaTime;
     }
 
     public void flip()
@@ -62,52 +66,35 @@ public class BuddyController : MonoBehaviour
         IsJumping = false;
     }
 
-    /* private void attack()
-     {
-         if (Input.GetKeyDown(KeyCode.Z))
-         {
-
-             if (JustAttacked == true)
-             {
-                 print("hit2");
-                 Anim.Play("buddy_hit2");
-                 JustAttacked = false;
-             }
-
-             if (JustAttacked == false)
-             {
-                 print("hit1");
-                 Anim.Play("Buddy_hit1");
-                 JustAttacked = true;
-                 //Invoke("ComboTimeOut", 0.3f);
-             }
-
-         }
-     }*/
-
     private void Attack()
     {
         if(Time.time - LastClickedTime > MaxComboDelay)
         {
             NumOfClicks = 0;
+            
         }
 
         if (Input.GetKeyDown(KeyCode.Z))
         {
             LastClickedTime = Time.time;
             NumOfClicks++;
+            
             SRenderer.sortingOrder = 10;
             Invoke("ResetSortingOrder", 0.7f);
             if(NumOfClicks == 1)
             {
                 Anim.SetBool("Attack1", true);
+                MoveToAttackPoint();
+                Invoke("BackToOGPos", 0.5f);
+                Invoke("SetAttack1False", 0.1f);
             }
             
 
-            if(NumOfClicks == 2)
+            if (NumOfClicks == 2)
             {
                 Anim.SetBool("Attack2", true);
                 Anim.SetBool("Attack1", false);
+                MoveToAttackPoint();
             }
         }
 
@@ -115,9 +102,25 @@ public class BuddyController : MonoBehaviour
         {
             Anim.SetBool("Attack1", false);
             Anim.SetBool("Attack2", false);
-           
+            BackToOGPos();
         }
-        NumOfClicks = Mathf.Clamp(NumOfClicks, 0, 2);
+        NumOfClicks = Mathf.Clamp(NumOfClicks, 0, 1);
+    }
+
+    private void SetAttack1False()
+    {
+        Anim.SetBool("Attack1", false);
+    }
+
+    private void MoveToAttackPoint()
+    {
+        Self.transform.position = AttackTransform.position;
+    }
+
+    private void BackToOGPos()
+    {
+        
+        Self.transform.position = Vector3.MoveTowards(Self.transform.position, OGTransform.position , MoveSpeed );
     }
 
     private void ResetSortingOrder()

@@ -80,7 +80,7 @@ public class PlayerWithShield : MonoBehaviour
       Inputs();
       PlayerJump();
       PlayerMovement();
-      WallJump();
+      //WallJump();
       HandleDash();
       HandleShield();
       WallSlide();
@@ -162,6 +162,7 @@ public class PlayerWithShield : MonoBehaviour
       {
          FlipSprite();
       }
+
    }
 
    private void PlayerJump()
@@ -169,6 +170,7 @@ public class PlayerWithShield : MonoBehaviour
       
       if (Input.GetButtonDown("Jump") && collisionCheck.onGround)
       {
+          
          anim.SetTrigger("takeOff");
          isJumping = true;
          jumpTimeCounter = jumpTime;
@@ -343,8 +345,8 @@ public class PlayerWithShield : MonoBehaviour
       anim.SetBool("isDashing", isDashing);
       anim.SetBool("atPeakJump", reachedPeakJump);
       anim.SetBool("IsDashAttack", DashAttack);
-
-      if (rb.velocity.y < 0 && reachedPeakJump == false)
+      anim.SetBool("FacingRight", facingRight);
+        if (rb.velocity.y < 0 && reachedPeakJump == false)
       {
          reachedPeakJump = true;
          Invoke("SetReachedPeakToFlase", 0.05f);
