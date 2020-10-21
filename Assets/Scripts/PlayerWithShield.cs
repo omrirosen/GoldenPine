@@ -9,6 +9,10 @@ public class PlayerWithShield : MonoBehaviour
    [Header("Movement Config")]
    [SerializeField] private float playerSpeed = 3f;
    [SerializeField] private float airMoveSpeed = 3f;
+   [SerializeField] private float originalPlayerSpeed = 3f;
+   [SerializeField] private float shieldingPlayerSpeed = 1.5f;
+   [SerializeField] private float originalJumpForce = 5f;
+   [SerializeField] private float shieldingJumpForce = 2.5f;
    private float xMoveInput;
    public bool isMoving;
    private bool facingRight = true;
@@ -80,7 +84,7 @@ public class PlayerWithShield : MonoBehaviour
       Inputs();
       PlayerJump();
       PlayerMovement();
-      WallJump();
+      //WallJump();
       HandleDash();
       HandleShield();
       WallSlide();
@@ -162,6 +166,7 @@ public class PlayerWithShield : MonoBehaviour
       {
          FlipSprite();
       }
+
    }
 
    private void PlayerJump()
@@ -169,6 +174,7 @@ public class PlayerWithShield : MonoBehaviour
       
       if (Input.GetButtonDown("Jump") && collisionCheck.onGround)
       {
+          
          anim.SetTrigger("takeOff");
          isJumping = true;
          jumpTimeCounter = jumpTime;
@@ -257,11 +263,17 @@ public class PlayerWithShield : MonoBehaviour
       {
          shieldBubbleSR.enabled = true;
          shieldBubbleCC2D.enabled = true;
+         playerSpeed = shieldingPlayerSpeed;
+         airMoveSpeed = shieldingPlayerSpeed;
+         jumpForce = shieldingJumpForce;
       }
       else
       {
          shieldBubbleSR.enabled = false;
          shieldBubbleCC2D.enabled = false;
+         playerSpeed = originalPlayerSpeed;
+         airMoveSpeed = originalPlayerSpeed;
+         jumpForce = originalJumpForce;
       }
    }
    
@@ -343,8 +355,8 @@ public class PlayerWithShield : MonoBehaviour
       anim.SetBool("isDashing", isDashing);
       anim.SetBool("atPeakJump", reachedPeakJump);
       anim.SetBool("IsDashAttack", DashAttack);
-
-      if (rb.velocity.y < 0 && reachedPeakJump == false)
+      anim.SetBool("FacingRight", facingRight);
+        if (rb.velocity.y < 0 && reachedPeakJump == false)
       {
          reachedPeakJump = true;
          Invoke("SetReachedPeakToFlase", 0.05f);
