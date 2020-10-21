@@ -63,6 +63,9 @@ TagManager:
   - name: Parallax 1
     uniqueID: 273435733
     locked: 0
+  - name: Background Trees 1
+    uniqueID: 4145939275
+    locked: 0
   - name: Props No Outline
     uniqueID: 3857614709
     locked: 0
