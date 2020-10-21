@@ -18856,6 +18856,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1087676955898984495, guid: 33652bf30f5e55f42810a8dfb69cf8f4,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4554763750778937939, guid: 33652bf30f5e55f42810a8dfb69cf8f4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18925,6 +18930,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player With Shield 21.10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4554763750778937966, guid: 33652bf30f5e55f42810a8dfb69cf8f4,
+        type: 3}
+      propertyPath: dmg
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33652bf30f5e55f42810a8dfb69cf8f4, type: 3}

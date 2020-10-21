@@ -104,7 +104,7 @@ public class PlayerWithShield : MonoBehaviour
          isDashing = true;
          FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
             Buddy.Dash();
-            pulseSource.GenerateImpulse();
+            GeneratPulse();
       }
       
       //Shield Inputs
@@ -118,7 +118,10 @@ public class PlayerWithShield : MonoBehaviour
          Invoke("SetIsShieldingToFalse",1f);
       }
    }
-
+    public void GeneratPulse()
+    {
+        pulseSource.GenerateImpulse();
+    }
     
    
 
