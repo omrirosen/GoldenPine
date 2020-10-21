@@ -29,6 +29,7 @@ public class PlayerStats : MonoBehaviour
     private Tween Impact;
     public float sensetive_Parry = 0;
     [SerializeField] CollisionCheck collisionCheck;
+    
 
     private void Awake()
     {
@@ -179,13 +180,15 @@ public class PlayerStats : MonoBehaviour
             DashAttacked = true;
             playerWithShield.DashAttack = true;
             playerWithShield.isDashing = true;
+            playerWithShield.GeneratPulse();
+            FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
             Invoke("BackToOGColor", 0.5f);
+            
         }
     }
 
     private void BackToOGColor()
     {
-        sRenderer.color = OGcolor;
         DashAttacked = false;
         playerWithShield.isDashing = false;
     }
