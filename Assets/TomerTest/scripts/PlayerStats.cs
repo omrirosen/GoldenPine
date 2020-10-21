@@ -168,22 +168,18 @@ public class PlayerStats : MonoBehaviour
         
     }
 
-    private void RestTime()
-    {
-        
-    }
 
     private void Dashed()
     {
-        if(Input.GetKeyDown(KeyCode.LeftShift) && Input.GetKeyDown(KeyCode.Z) && DashStock >= 1)
+        if (Input.GetKeyDown(KeyCode.LeftControl) && DashStock >= 1)
         {
             DashStock = DashStock - 1;
             StaminaAnimator.SetFloat("StaminaUi", DashStock);
             StaminaAnimator.Play("StaminaDown");
-            sRenderer.color = DashColor ;
-            Invoke("BackToOGColor", 0.5f);
             DashAttacked = true;
+            playerWithShield.DashAttack = true;
             playerWithShield.isDashing = true;
+            Invoke("BackToOGColor", 0.5f);
         }
     }
 
