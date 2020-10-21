@@ -23,154 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_50.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_51.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_52.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_53.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_54.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_55.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_55.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_56.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_57.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_58.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_60.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_61.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_62.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_63.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_64.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_65.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_66.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_67.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_68.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_69.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_70.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_71.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_72.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_73.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_74.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_74.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_85.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/BushTileset 16_96.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_100.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_108.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_111.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_119.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_130.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_138.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_15.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_22.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_23.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_24.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_25.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_26.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_26.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_27.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_28.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_29.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_30.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_31.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_32.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_33.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_34.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_35.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_36.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_37.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_38.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_39.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_45.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_56.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_67.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/GreenLand Props With Outline Tiled 1_97.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Hanging Platforms_0.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Hanging Platforms_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Hanging Platforms_2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Hanging Platforms_3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Hanging Platforms_4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Hanging Platforms_5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_107.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_110.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_118.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_121.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_129.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_13.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_140.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_148.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_151.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_159.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_162.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_181.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_189.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_192.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_206.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_217.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_24.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_247.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_250.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_288.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_305.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_335.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_346.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_35.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_365.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_376.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_387.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_390.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_400.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_401.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_402.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_403.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_404.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_404.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_405.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_406.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_407.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_408.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_409.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_410.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_423.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_434.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Props With And Without Outline_65.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Spikes_0.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Spikes_10.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Spikes_11.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Spikes_12.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Spikes_13.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Spikes_14.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Spikes_15.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Suporting Black Grass Tileset 1_24.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Buddy_controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Buddy_controller.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/BushTileset 16.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/BushTileset 16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/BushTileset 16.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/BushTileset 16.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/GreenLand Props NO Outline Tiled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/GreenLand Props NO Outline Tiled.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/GreenLand Props With Outline Tiled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/GreenLand Props With Outline Tiled.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Background.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Background.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Brownish 32.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Brownish 32.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/BushTileset 16.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/BushTileset 16.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Green Props No Outline.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Green Props No Outline.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Green Props With Outline.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Green Props With Outline.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Platforms.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Platforms.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Supporting Grass Black.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Supporting Grass Black.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Test 16.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Test 16.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Test 48.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Test 48.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/AI_PlayTest_Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,18 +38,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/ShieldBubble1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -249,22 +106,16 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
-      </option>
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
-      </option>
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -310,11 +161,12 @@
       <workItem from="1603093635495" duration="1107000" />
       <workItem from="1603189032465" duration="599000" />
       <workItem from="1603190009738" duration="1465000" />
+      <workItem from="1603286325830" duration="622000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -323,12 +175,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
