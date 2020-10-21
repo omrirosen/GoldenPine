@@ -30,10 +30,11 @@ public class FadingGhost : MonoBehaviour
                 //generate a ghost
                 GameObject currentGhost = Instantiate(characterGhost, transform.position, Quaternion.identity);
                 Sprite currentSprite = GetComponent<SpriteRenderer>().sprite;
-                currentGhost.transform.localScale = this.transform.localScale;
+                currentGhost.transform.rotation = transform.rotation;
                 currentGhost.GetComponent<SpriteRenderer>().sprite = currentSprite;
                 ghostDelaySecondes = ghostDelay;
                 Destroy(currentGhost, destroyDelay);
+
             }  
         }
         

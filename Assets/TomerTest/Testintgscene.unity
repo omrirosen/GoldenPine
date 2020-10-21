@@ -18931,6 +18931,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player With Shield 21.10
       objectReference: {fileID: 0}
+    - target: {fileID: 4554763750778937966, guid: 33652bf30f5e55f42810a8dfb69cf8f4,
+        type: 3}
+      propertyPath: dmg
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33652bf30f5e55f42810a8dfb69cf8f4, type: 3}
 --- !u!4 &3471695948983743113 stripped
