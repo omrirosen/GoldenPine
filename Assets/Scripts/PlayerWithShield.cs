@@ -7,14 +7,14 @@ using UnityEngine;
 public class PlayerWithShield : MonoBehaviour
 {
    [Header("Movement Config")]
-   [SerializeField] private float playerSpeed = 5f;
-   [SerializeField] private float airMoveSpeed = 5f;
+   [SerializeField] private float playerSpeed = 3f;
+   [SerializeField] private float airMoveSpeed = 3f;
    private float xMoveInput;
    public bool isMoving;
    private bool facingRight = true;
    
    [Header("Jump Config")]
-   [SerializeField] private float jumpForce = 8f;
+   [SerializeField] private float jumpForce = 5f;
    [SerializeField] private float jumpTime = .35f;
    private float jumpTimeCounter;
    private bool isFalling = false;
@@ -30,9 +30,9 @@ public class PlayerWithShield : MonoBehaviour
    [SerializeField] private Vector2 wallJumpAngle;
    [SerializeField] private float wallJumpForce;
    private float wallJumpDirection = -1;
-   
+
    [Header("DashConfig")] 
-   [SerializeField] private float dashSpeed;
+   [SerializeField] private float dashSpeed = 10f;
    [SerializeField] private float startDashTime;
    [SerializeField] int dmg;
    public bool isDashing;

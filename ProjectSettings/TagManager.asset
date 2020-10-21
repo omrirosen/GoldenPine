@@ -66,11 +66,14 @@ TagManager:
   - name: Props No Outline
     uniqueID: 3857614709
     locked: 0
-  - name: Props With Outline
-    uniqueID: 2550561307
-    locked: 0
   - name: Platforms
     uniqueID: 3616612453
+    locked: 0
+  - name: Player
+    uniqueID: 4190560393
+    locked: 0
+  - name: Props WITH Outline
+    uniqueID: 3563724601
     locked: 0
   - name: Supporting Grass Black
     uniqueID: 2196771597
