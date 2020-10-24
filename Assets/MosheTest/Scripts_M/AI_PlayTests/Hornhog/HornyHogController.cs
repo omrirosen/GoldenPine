@@ -126,11 +126,12 @@ public class HornyHogController : MonoBehaviour
         {
             deathTime += Time.deltaTime;
         }
-        else if(deathTime > 0.7f && deathTime < 10f)
+        else if(deathTime > 0.7f && deathTime < 8f)
         {
             deathTime += Time.deltaTime;
             animator.SetFloat("DeathTime", 0.8f);
         }
+        
         else if(deathTime >=10f)
         {
             Destroy(gameObject);
@@ -166,4 +167,5 @@ public class HornyHogController : MonoBehaviour
       //  print("TakeDMG");
        
     }
+  
 }

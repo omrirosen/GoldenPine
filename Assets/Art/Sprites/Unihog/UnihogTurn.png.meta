@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: -3963570216779566697
     second: UnihogTurn_1
+  - first:
+      213: 708147277382014028
+    second: UnihogTurn_0
+  - first:
+      213: -6555311509185106892
+    second: UnihogTurn_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -108,10 +114,10 @@ TextureImporter:
       name: UnihogTurn_0
       rect:
         serializedVersion: 2
-        x: 9
+        x: 0
         y: 0
-        width: 29
-        height: 26
+        width: 48
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +125,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c87b3bd4c944a6d0800000000000000
-      internalID: -2980175943571900216
+      spriteID: c44d3056238d3d900800000000000000
+      internalID: 708147277382014028
       vertices: []
       indices: 
       edges: []
@@ -129,10 +135,10 @@ TextureImporter:
       name: UnihogTurn_1
       rect:
         serializedVersion: 2
-        x: 57
+        x: 48
         y: 0
-        width: 32
-        height: 26
+        width: 48
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +146,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 791398243e19ef8c0800000000000000
-      internalID: -3963570216779566697
+      spriteID: 43cedf6f9ead605a0800000000000000
+      internalID: -6555311509185106892
       vertices: []
       indices: 
       edges: []

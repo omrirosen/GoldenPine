@@ -1,70 +1,55 @@
 fileFormatVersion: 2
-guid: 750796a9decdbc446baa816c734a845f
+guid: 7a88f5b4145e2b24f9617c1381a8dddf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1620180502937103439
-    second: UnihogRollNew_0
+      213: -7038611638135059955
+    second: HornyHogDeathAnimation2_0
   - first:
-      213: -5819541429551007007
-    second: UnihogRollNew_1
+      213: 5626739854666307821
+    second: HornyHogDeathAnimation2_1
   - first:
-      213: 3079065204320400841
-    second: UnihogRollNew_2
+      213: 4963809619755659333
+    second: HornyHogDeathAnimation2_2
   - first:
-      213: 7981975211204153708
-    second: UnihogRollNew_3
+      213: -369029058618672358
+    second: HornyHogDeathAnimation2_3
   - first:
-      213: 1686626926348576048
-    second: UnihogRollNew_4
+      213: 3137010188590107481
+    second: HornyHogDeathAnimation2_4
   - first:
-      213: -1731166168461260968
-    second: UnihogRollNew_5
+      213: -3352083153227136900
+    second: HornyHogDeathAnimation2_5
   - first:
-      213: -4066882079291064010
-    second: UnihogRollNew_6
+      213: -886827821304086267
+    second: HornyHogDeathAnimation2_6
   - first:
-      213: -6008933579096537527
-    second: UnihogRollNew_7
+      213: 2584976336816904081
+    second: HornyHogDeathAnimation2_7
   - first:
-      213: 6691895360183819992
-    second: UnihogRollNew_8
+      213: -2922086087584850805
+    second: HornyHogDeathAnimation2_0
   - first:
-      213: -7234410752556522808
-    second: UnihogRollNew_9
+      213: -8914487559443262012
+    second: HornyHogDeathAnimation2_1
   - first:
-      213: -7524328173962334413
-    second: UnihogRollNew_10
+      213: 596223217258478757
+    second: HornyHogDeathAnimation2_2
   - first:
-      213: 7856791606516203749
-    second: UnihogRollNew_0
+      213: -6801223572783525511
+    second: HornyHogDeathAnimation2_3
   - first:
-      213: 4142922017309620016
-    second: UnihogRollNew_1
+      213: -739175973671006299
+    second: HornyHogDeathAnimation2_4
   - first:
-      213: 8874858748999256351
-    second: UnihogRollNew_2
+      213: 7507715075333976703
+    second: HornyHogDeathAnimation2_5
   - first:
-      213: -7367672824081555095
-    second: UnihogRollNew_3
+      213: 333608297870022656
+    second: HornyHogDeathAnimation2_6
   - first:
-      213: -7867077909094527888
-    second: UnihogRollNew_4
-  - first:
-      213: -2443335577840924401
-    second: UnihogRollNew_5
-  - first:
-      213: 1013313009077947927
-    second: UnihogRollNew_6
-  - first:
-      213: -4860365218951787741
-    second: UnihogRollNew_7
-  - first:
-      213: 6728473663873370130
-    second: UnihogRollNew_8
-  - first:
-      213: 1883488972899421856
-    second: UnihogRollNew_9
+      213: 5126684082440113832
+    second: HornyHogDeathAnimation2_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -129,7 +114,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -141,7 +126,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -153,7 +138,19 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -162,13 +159,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UnihogRollNew_0
+      name: HornyHogDeathAnimation2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 48
-        height: 48
+        width: 92
+        height: 92
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e04bacc65ee80d60800000000000000
-      internalID: 7856791606516203749
+      spriteID: b8cd46a6f2aa277d0800000000000000
+      internalID: -2922086087584850805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UnihogRollNew_1
+      name: HornyHogDeathAnimation2_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 92
         y: 0
-        width: 48
-        height: 48
+        width: 92
+        height: 92
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03772e5ef9d9e7930800000000000000
-      internalID: 4142922017309620016
+      spriteID: 4c5deb0bbc0694480800000000000000
+      internalID: -8914487559443262012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UnihogRollNew_2
+      name: HornyHogDeathAnimation2_2
       rect:
         serializedVersion: 2
-        x: 96
+        x: 184
         y: 0
-        width: 48
-        height: 48
+        width: 92
+        height: 92
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f194eddd205d92b70800000000000000
-      internalID: 8874858748999256351
+      spriteID: 5ac388f6bd5364800800000000000000
+      internalID: 596223217258478757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UnihogRollNew_3
+      name: HornyHogDeathAnimation2_3
       rect:
         serializedVersion: 2
-        x: 144
+        x: 276
         y: 0
-        width: 48
-        height: 48
+        width: 92
+        height: 92
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 961e1532a94c0c990800000000000000
-      internalID: -7367672824081555095
+      spriteID: 971993ae1333d91a0800000000000000
+      internalID: -6801223572783525511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UnihogRollNew_4
+      name: HornyHogDeathAnimation2_4
       rect:
         serializedVersion: 2
-        x: 192
+        x: 368
         y: 0
-        width: 48
-        height: 48
+        width: 92
+        height: 92
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07c0910c25682d290800000000000000
-      internalID: -7867077909094527888
+      spriteID: 5af06d64e5bedb5f0800000000000000
+      internalID: -739175973671006299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UnihogRollNew_5
+      name: HornyHogDeathAnimation2_5
       rect:
         serializedVersion: 2
-        x: 240
+        x: 460
         y: 0
-        width: 48
-        height: 48
+        width: 92
+        height: 92
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +278,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f09c7bfbc37871ed0800000000000000
-      internalID: -2443335577840924401
+      spriteID: f72702c5513c03860800000000000000
+      internalID: 7507715075333976703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UnihogRollNew_6
+      name: HornyHogDeathAnimation2_6
       rect:
         serializedVersion: 2
-        x: 288
+        x: 552
         y: 0
-        width: 48
-        height: 48
+        width: 92
+        height: 92
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71e8f5020d2001e00800000000000000
-      internalID: 1013313009077947927
+      spriteID: 0085aa8baf631a400800000000000000
+      internalID: 333608297870022656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UnihogRollNew_7
+      name: HornyHogDeathAnimation2_7
       rect:
         serializedVersion: 2
-        x: 336
+        x: 644
         y: 0
-        width: 48
-        height: 48
+        width: 92
+        height: 92
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,50 +320,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32b07bda5938c8cb0800000000000000
-      internalID: -4860365218951787741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UnihogRollNew_8
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2184eb7f527506d50800000000000000
-      internalID: 6728473663873370130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UnihogRollNew_9
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 0
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ae0900ed3f732a10800000000000000
-      internalID: 1883488972899421856
+      spriteID: 8ae0e79b204a52740800000000000000
+      internalID: 5126684082440113832
       vertices: []
       indices: 
       edges: []

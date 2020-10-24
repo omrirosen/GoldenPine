@@ -1,70 +1,43 @@
 fileFormatVersion: 2
-guid: 750796a9decdbc446baa816c734a845f
+guid: fe9dd0116258c504e89197869ed7d640
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1620180502937103439
-    second: UnihogRollNew_0
+      213: 1896263246688081936
+    second: UnihogDeathAnimation2_0
   - first:
-      213: -5819541429551007007
-    second: UnihogRollNew_1
+      213: 8381579526123194686
+    second: UnihogDeathAnimation2_1
   - first:
-      213: 3079065204320400841
-    second: UnihogRollNew_2
+      213: 8617822783215381134
+    second: UnihogDeathAnimation2_2
   - first:
-      213: 7981975211204153708
-    second: UnihogRollNew_3
+      213: 8211937782413457768
+    second: UnihogDeathAnimation2_3
   - first:
-      213: 1686626926348576048
-    second: UnihogRollNew_4
+      213: 516908930737253705
+    second: UnihogDeathAnimation2_4
   - first:
-      213: -1731166168461260968
-    second: UnihogRollNew_5
+      213: -7837662037289240441
+    second: UnihogDeathAnimation2_5
   - first:
-      213: -4066882079291064010
-    second: UnihogRollNew_6
+      213: -5826360818973234937
+    second: UnihogDeathAnimation2_0
   - first:
-      213: -6008933579096537527
-    second: UnihogRollNew_7
+      213: -5628443144535429739
+    second: UnihogDeathAnimation2_1
   - first:
-      213: 6691895360183819992
-    second: UnihogRollNew_8
+      213: 2923734541537200115
+    second: UnihogDeathAnimation2_2
   - first:
-      213: -7234410752556522808
-    second: UnihogRollNew_9
+      213: -3236896495799218127
+    second: UnihogDeathAnimation2_3
   - first:
-      213: -7524328173962334413
-    second: UnihogRollNew_10
+      213: 6178590287396364195
+    second: UnihogDeathAnimation2_4
   - first:
-      213: 7856791606516203749
-    second: UnihogRollNew_0
-  - first:
-      213: 4142922017309620016
-    second: UnihogRollNew_1
-  - first:
-      213: 8874858748999256351
-    second: UnihogRollNew_2
-  - first:
-      213: -7367672824081555095
-    second: UnihogRollNew_3
-  - first:
-      213: -7867077909094527888
-    second: UnihogRollNew_4
-  - first:
-      213: -2443335577840924401
-    second: UnihogRollNew_5
-  - first:
-      213: 1013313009077947927
-    second: UnihogRollNew_6
-  - first:
-      213: -4860365218951787741
-    second: UnihogRollNew_7
-  - first:
-      213: 6728473663873370130
-    second: UnihogRollNew_8
-  - first:
-      213: 1883488972899421856
-    second: UnihogRollNew_9
+      213: -9085334204101057532
+    second: UnihogDeathAnimation2_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -158,11 +131,23 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UnihogRollNew_0
+      name: UnihogDeathAnimation2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -176,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e04bacc65ee80d60800000000000000
-      internalID: 7856791606516203749
+      spriteID: 709a8db54bb942fa0800000000000000
+      internalID: -5826360818973234937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UnihogRollNew_1
+      name: UnihogDeathAnimation2_1
       rect:
         serializedVersion: 2
         x: 48
@@ -197,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03772e5ef9d9e7930800000000000000
-      internalID: 4142922017309620016
+      spriteID: 59dab73e7c0c3e1b0800000000000000
+      internalID: -5628443144535429739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UnihogRollNew_2
+      name: UnihogDeathAnimation2_2
       rect:
         serializedVersion: 2
         x: 96
@@ -218,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f194eddd205d92b70800000000000000
-      internalID: 8874858748999256351
+      spriteID: 3f74ddd2311339820800000000000000
+      internalID: 2923734541537200115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UnihogRollNew_3
+      name: UnihogDeathAnimation2_3
       rect:
         serializedVersion: 2
         x: 144
@@ -239,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 961e1532a94c0c990800000000000000
-      internalID: -7367672824081555095
+      spriteID: 1305e2179cb3413d0800000000000000
+      internalID: -3236896495799218127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UnihogRollNew_4
+      name: UnihogDeathAnimation2_4
       rect:
         serializedVersion: 2
         x: 192
@@ -260,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07c0910c25682d290800000000000000
-      internalID: -7867077909094527888
+      spriteID: 3af50fc7123ceb550800000000000000
+      internalID: 6178590287396364195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UnihogRollNew_5
+      name: UnihogDeathAnimation2_5
       rect:
         serializedVersion: 2
         x: 240
@@ -281,92 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f09c7bfbc37871ed0800000000000000
-      internalID: -2443335577840924401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UnihogRollNew_6
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71e8f5020d2001e00800000000000000
-      internalID: 1013313009077947927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UnihogRollNew_7
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 0
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32b07bda5938c8cb0800000000000000
-      internalID: -4860365218951787741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UnihogRollNew_8
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2184eb7f527506d50800000000000000
-      internalID: 6728473663873370130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: UnihogRollNew_9
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 0
-        width: 48
-        height: 48
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ae0900ed3f732a10800000000000000
-      internalID: 1883488972899421856
+      spriteID: 404a9d27da86ae180800000000000000
+      internalID: -9085334204101057532
       vertices: []
       indices: 
       edges: []

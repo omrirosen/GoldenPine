@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: 3100840060248381644
     second: UnihogWalkNew_3
+  - first:
+      213: 8854098266929686757
+    second: UnihogWalkNew_0
+  - first:
+      213: -6643157792352178113
+    second: UnihogWalkNew_1
+  - first:
+      213: -8123298960600675500
+    second: UnihogWalkNew_2
+  - first:
+      213: 4357259430269831085
+    second: UnihogWalkNew_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -114,10 +126,10 @@ TextureImporter:
       name: UnihogWalkNew_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 2
-        width: 33
-        height: 26
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -125,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3f4ba0698d3fc3d0800000000000000
-      internalID: -3184258751285997761
+      spriteID: 5e8eeb6767310ea70800000000000000
+      internalID: 8854098266929686757
       vertices: []
       indices: 
       edges: []
@@ -135,10 +147,10 @@ TextureImporter:
       name: UnihogWalkNew_1
       rect:
         serializedVersion: 2
-        x: 55
+        x: 48
         y: 0
-        width: 32
-        height: 26
+        width: 48
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 979c31740c63e0580800000000000000
-      internalID: -8859083217537087111
+      spriteID: f30faff4f23cec3a0800000000000000
+      internalID: -6643157792352178113
       vertices: []
       indices: 
       edges: []
@@ -156,10 +168,10 @@ TextureImporter:
       name: UnihogWalkNew_2
       rect:
         serializedVersion: 2
-        x: 103
-        y: 2
-        width: 32
-        height: 26
+        x: 96
+        y: 0
+        width: 48
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aa8f3c879449c370800000000000000
-      internalID: 8343275202364279464
+      spriteID: 45bc81962ae344f80800000000000000
+      internalID: -8123298960600675500
       vertices: []
       indices: 
       edges: []
@@ -177,10 +189,10 @@ TextureImporter:
       name: UnihogWalkNew_3
       rect:
         serializedVersion: 2
-        x: 151
+        x: 144
         y: 0
-        width: 32
-        height: 26
+        width: 48
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,8 +200,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc8d7681b95680b20800000000000000
-      internalID: 3100840060248381644
+      spriteID: da74477bd58187c30800000000000000
+      internalID: 4357259430269831085
       vertices: []
       indices: 
       edges: []
