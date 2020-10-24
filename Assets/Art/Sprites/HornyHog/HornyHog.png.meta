@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: 57ff946781f52a6449af26b99c5bc690
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 299964492231474652
+    second: HornyHog_0
+  - first:
+      213: -3260092700442418351
+    second: HornyHog_1
+  - first:
+      213: -5917620402529506560
+    second: HornyHog_2
+  - first:
+      213: 8057971041072437729
+    second: HornyHog_3
+  - first:
+      213: 8792231365109564041
+    second: HornyHog_4
+  - first:
+      213: -8409973519971443813
+    second: HornyHog_5
+  - first:
+      213: 2295796488773437578
+    second: HornyHog_6
+  - first:
+      213: -6331003595053134352
+    second: HornyHog_7
+  - first:
+      213: -2881131629035982049
+    second: HornyHog_8
+  - first:
+      213: 8761987775041492911
+    second: HornyHog_9
+  - first:
+      213: 678953138917278852
+    second: HornyHog_10
+  - first:
+      213: -928023171798450365
+    second: HornyHog_11
+  - first:
+      213: 725201139089623801
+    second: HornyHog_12
+  - first:
+      213: -4451948761417637379
+    second: HornyHog_13
+  - first:
+      213: -3049236035779479519
+    second: HornyHog_14
+  - first:
+      213: 3697539062762602695
+    second: HornyHog_15
+  - first:
+      213: -2926921574207565612
+    second: HornyHog_16
+  - first:
+      213: -3925825208223453659
+    second: HornyHog_17
+  - first:
+      213: -7087116052173451063
+    second: HornyHog_18
+  - first:
+      213: 7373251930320584306
+    second: HornyHog_19
+  - first:
+      213: -5696289699992162519
+    second: HornyHog_20
+  - first:
+      213: -5181467788519366453
+    second: HornyHog_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HornyHog_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 92
+        width: 44
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddffaccd10b92400800000000000000
+      internalID: 299964492231474652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 92
+        width: 44
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153294f26f2d1c2d0800000000000000
+      internalID: -3260092700442418351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 92
+        width: 44
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bef97c89360eda0800000000000000
+      internalID: -5917620402529506560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_3
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 92
+        width: 44
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9d18908f9a3df60800000000000000
+      internalID: 8057971041072437729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 92
+        width: 44
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9824764e7d7440a70800000000000000
+      internalID: 8792231365109564041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_5
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 92
+        width: 44
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b19ab34a5c94b80800000000000000
+      internalID: -8409973519971443813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_6
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 92
+        width: 44
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a880eed2ebe4cdf10800000000000000
+      internalID: 2295796488773437578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_idleend
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 92
+        width: 44
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd032df5c1c328a0800000000000000
+      internalID: -6331003595053134352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 42
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13fa2c5c0a2408d0800000000000000
+      internalID: -2881131629035982049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_9
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 41
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7d9a95575d89970800000000000000
+      internalID: 8761987775041492911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_10
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 41
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4840d4858402c6900800000000000000
+      internalID: 678953138917278852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_11
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 0
+        width: 41
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f3f9597dffe13f0800000000000000
+      internalID: -928023171798450365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_12
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 0
+        width: 41
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa452ef79e601a00800000000000000
+      internalID: 725201139089623801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_13
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 0
+        width: 75
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1267d50308732c0800000000000000
+      internalID: -4451948761417637379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_14
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 92
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1283b032bffeea5d0800000000000000
+      internalID: -3049236035779479519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_15
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 7
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0881bef2c405330800000000000000
+      internalID: 3697539062762602695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_16
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 7
+        width: 9
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d05ee3f55c7167d0800000000000000
+      internalID: -2926921574207565612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_17
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 0
+        width: 83
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e2195e5caa489c0800000000000000
+      internalID: -3925825208223453659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_18
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 15
+        width: 6
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c09b3cef7185ad90800000000000000
+      internalID: -7087116052173451063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_19
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 0
+        width: 87
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27eb832c09d035660800000000000000
+      internalID: 7373251930320584306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_20
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 0
+        width: 86
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f2046b2b6b2f0b0800000000000000
+      internalID: -5696289699992162519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HornyHog_attackend
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 0
+        width: 41
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0ac2abf7ab718b0800000000000000
+      internalID: -5181467788519366453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

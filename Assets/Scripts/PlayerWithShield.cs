@@ -368,14 +368,15 @@ public class PlayerWithShield : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-      //  Debug.Log("bla");
+       // Debug.Log("bla");
         if (collision.gameObject.tag == "Enemy")
         {
            // Debug.Log("hitEnemy");
             if (PS.DashAttacked == true)
             {
                // Debug.Log("DIE YOU PIG");
-                collision.gameObject.GetComponent<Unihog1DMG>().killMe(dmg);
+                collision.gameObject.GetComponent<Unihog1DMG>()?.killMe(dmg);
+                collision.gameObject.GetComponent<HornyHogController>()?.TakeDMG(dmg);
 
             }
         }

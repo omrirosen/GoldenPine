@@ -40,7 +40,7 @@ public class PlayerStats : MonoBehaviour
     }
     private void Update()
     {
-       
+        print(playerHealth);
         HealPlayer();
         ShieldUp();
         Dashed();
