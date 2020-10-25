@@ -3,5 +3,6 @@ namespace JSAM {
         Footsteps
     }
     public enum Music {
+        BG_Music
     }
 }
