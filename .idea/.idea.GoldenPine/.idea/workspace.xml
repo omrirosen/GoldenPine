@@ -23,45 +23,277 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Audio Files.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/AudioEnums.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/AudioEnums.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/BG_Music.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/BG_Music.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/AI_PlayTest_Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/AudioEnums.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/AudioEnums.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/AudioManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/AudioManager/BG_Music.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/AudioManager/BG_Music.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/AudioManager/Footsteps.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/AudioManager/Footsteps.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/AudioEnums - ExampleCrossfade.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/AudioEnums - ExampleCrossfade.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/Music.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/Music/Menu.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/Music/Menu.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/Music/MenuPitched.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/Music/MenuPitched.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio/Menu(Pitched).ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio/Menu(Pitched).ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio/Menu.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio/Menu.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Credits+License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/Credits+License.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/CrossFadeExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/CrossFadeExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/ExampleCrossfade.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Dynamic Music/ExampleCrossfade.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Crouch.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Crouch.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Equip.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Equip.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Fire.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Fire.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Reload - Full.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Reload - Full.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Reload.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Reload.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Shot Recovery.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Shot Recovery.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Single Fire.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Single Fire.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Sprint.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Sprint.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Zoom.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Zoom.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/AudioEnums - Example3D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/AudioEnums - Example3D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/BGM.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/BGM.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Chamber.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Chamber.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Dry Fire.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Dry Fire.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Equip.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Equip.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Grab.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Grab.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Insert.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Insert.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Remove.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Remove.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Tap.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Tap.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/Gunshot.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/Gunshot.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Abstract Pop.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Abstract Pop.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Crouch.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Crouch.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Running.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Running.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Walk.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Walk.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/371041__morganpurkis__single-gunshot-3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/371041__morganpurkis__single-gunshot-3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/390663__morganpurkis__submachine-gun.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/390663__morganpurkis__submachine-gun.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/391725__morganpurkis__battle-rifle.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/391725__morganpurkis__battle-rifle.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/391847__morganpurkis__single-gunshot-5-4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/391847__morganpurkis__single-gunshot-5-4.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/BlacificBlenu.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/BlacificBlenu.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Crouch.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Crouch.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/chamber.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/chamber.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/empty.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/empty.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/equip.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/equip.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_grab.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_grab.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_insert.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_insert.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_remove.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_remove.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_tap.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_tap.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/abstractpop.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/abstractpop.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/machinegun_fire.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/machinegun_fire.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/running (loop).wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/running (loop).wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/walk (loop).wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/walk (loop).wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Credits+License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Credits+License.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Example3D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Example3D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/FPS Animations.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/FPS Animations.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Brick_Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Brick_Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Brown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Brown.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Chipboard.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Chipboard.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Cobalt.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Cobalt.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Dark_Olive.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Dark_Olive.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/FrontColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/FrontColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gold.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gold.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray8.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray8.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Redwood.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Redwood.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/WarmGray6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/WarmGray6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/WarmGray8.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/WarmGray8.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/machinegunLauncher.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/machinegunLauncher.mtl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/machinegunLauncher.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/machinegunLauncher.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Prefabs/Discarded Mag.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Prefabs/Discarded Mag.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/FPSAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/FPSAnimator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/FPSMouseLook.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/FPSMouseLook.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/FPSWalker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/FPSWalker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/RandomForceEmitter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/RandomForceEmitter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/TimeScaleUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/TimeScaleUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/Audio Files.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/Audio Files/AudioEnums - LoopPointExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/Audio Files/AudioEnums - LoopPointExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/Audio Files/Intro+Loop.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/Audio Files/Intro+Loop.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/Audio/Intro+Loop.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/Audio/Intro+Loop.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/Credits+License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/Credits+License.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/LoopPointExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/LoopPointExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/LoopPointExample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/LoopPointExample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/LoopPointExampleSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Loop Points/LoopPointExampleSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/PauseMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/PauseMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/README.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Sample Volume Controls.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Sample Volume Controls.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/Cube.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/Cube.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/CubeOrbit.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/CubeOrbit.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/P1idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/P1idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/P1left.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/P1left.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/P1right.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/P1right.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/Player1.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/Player1.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/AudioEnums - Example2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/AudioEnums - Example2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Music.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Music/Main Theme Combined.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Music/Main Theme Combined.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Music/Main Theme.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Music/Main Theme.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Music/Side Theme.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Music/Side Theme.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Sounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Sounds/BulletHit.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Sounds/BulletHit.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Sounds/Shooting.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Sounds/Shooting.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/Music.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/Music/Italian Slice ~ Indian Spice.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/Music/Italian Slice ~ Indian Spice.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/Music/MainChorusv4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/Music/MainChorusv4.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/Music/MainIntro.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/Music/MainIntro.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/SFX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/SFX/bulletHit.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/SFX/bulletHit.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/SFX/knifethrow.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/SFX/knifethrow.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Credits+License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Credits+License.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Example2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Example2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Graphics.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Graphics/chefSpriteSheetPadded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Graphics/chefSpriteSheetPadded.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Graphics/knife_double_transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Graphics/knife_double_transparent.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Prefabs/KnifeBullet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Prefabs/KnifeBullet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/ObjectPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/ObjectPool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/PlayerBulletBasic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/PlayerBulletBasic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/SceneLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/SceneLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/ShipController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/ShipController.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/BigExplosion.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/BigExplosion.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Buzzer.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Buzzer.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/DemoSceneSoundManager.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/DemoSceneSoundManager.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Explosion.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Explosion.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Laser.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Laser.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music1.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music1.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music2.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music2.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music3.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music3.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music4.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music4.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Notification.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Notification.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Phasor.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Phasor.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/SoundManagerDemo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/SoundManagerDemo.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Torpedo.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Torpedo.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Readme.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/SoundManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/SoundManager.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +306,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/ShieldBubble1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Editor/AudioFileMusicObjectEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" root0="FORCE_HIGHLIGHTING" />
@@ -197,6 +430,7 @@
       <workItem from="1603266369954" duration="27000" />
       <workItem from="1603293781235" duration="606000" />
       <workItem from="1603624096093" duration="674000" />
+      <workItem from="1603638998296" duration="656000" />
     </task>
     <servers />
   </component>

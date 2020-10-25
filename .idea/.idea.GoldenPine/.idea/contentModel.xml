@@ -4,6 +4,7 @@
     <e p="C:\Users\omrin\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\omrin\.Rider2019.3\system\resharper-host\Local\Transient\ReSharperHost\v193\SolutionCaches\_GoldenPine.930933162.00" t="ExcludeRecursive" />
     <e p="D:\Game Design\Unity\GoldenPine\GoldenPine" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -15,6 +16,9 @@
               </e>
             </e>
           </e>
+        </e>
+        <e p="Audio Files" t="Include">
+          <e p="AudioEnums.cs" t="Include" />
         </e>
         <e p="MosheTest" t="Include">
           <e p="Scripts_M" t="Include">
@@ -52,6 +56,46 @@
               </e>
               <e p="readme.txt" t="Include" />
             </e>
+          </e>
+          <e p="Jacky's Simple Audio Manager" t="Include">
+            <e p="Editor" t="Include">
+              <e p="AudioCollisionFeedbackEditor.cs" t="Include" />
+              <e p="AudioEventsEditor.cs" t="Include" />
+              <e p="AudioFileMusicObjectEditor.cs" t="Include" />
+              <e p="AudioFileObjectEditor.cs" t="Include" />
+              <e p="AudioManagerEditor.cs" t="Include" />
+              <e p="AudioManagerSettingsEditor.cs" t="Include" />
+              <e p="AudioMusicZoneEditor.cs" t="Include" />
+              <e p="AudioParticlesEditor.cs" t="Include" />
+              <e p="AudioPlaybackToolEditor.cs" t="Include" />
+              <e p="AudioPlayerEditor.cs" t="Include" />
+              <e p="AudioPlayerMusicEditor.cs" t="Include" />
+              <e p="AudioTriggerFeedbackEditor.cs" t="Include" />
+              <e p="BaseAudioEditor.cs" t="Include" />
+              <e p="BaseAudioMusicEditor.cs" t="Include" />
+              <e p="EditorCompatability.cs" t="Include" />
+            </e>
+            <e p="Plugins" t="Include">
+              <e p="ATL.xml" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="AudioChannelHelper.cs" t="Include" />
+              <e p="AudioCollisionFeedback.cs" t="Include" />
+              <e p="AudioEvents.cs" t="Include" />
+              <e p="AudioFileMusicObject.cs" t="Include" />
+              <e p="AudioFileObject.cs" t="Include" />
+              <e p="AudioManager.cs" t="Include" />
+              <e p="AudioManagerSettings.cs" t="Include" />
+              <e p="AudioMusicZone.cs" t="Include" />
+              <e p="AudioParticles.cs" t="Include" />
+              <e p="AudioPlayer.cs" t="Include" />
+              <e p="AudioPlayerMusic.cs" t="Include" />
+              <e p="AudioTriggerFeedback.cs" t="Include" />
+              <e p="BaseAudioFeedback.cs" t="Include" />
+              <e p="BaseAudioMusicFeedback.cs" t="Include" />
+              <e p="JSAMExtensions.cs" t="Include" />
+            </e>
+            <e p="Third-Party Licenses.txt" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">
