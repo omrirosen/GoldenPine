@@ -47,7 +47,6 @@ public class PlayerWithShield1 : MonoBehaviour
    // Component Caches
    private Rigidbody2D rb;
    private Animator anim;
-   private AudioManager _audio;
    private CollisionCheck collisionCheck;
 
    private void Awake()
@@ -91,15 +90,12 @@ public class PlayerWithShield1 : MonoBehaviour
       if (Input.GetKeyDown(KeyCode.LeftShift))
       {
          isDashing = true;
-         FindObjectOfType<AudioManager>().play("Dash");
          FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
       }
       
       //Shield Inputs
       if (Input.GetKey(KeyCode.X))
       {
-         FindObjectOfType<AudioManager>().play("Pop");
-
          isShielding = true;
       }
       else

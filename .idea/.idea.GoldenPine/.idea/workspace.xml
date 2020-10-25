@@ -23,92 +23,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer1 Dark Var.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer1 Dark Var.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer1 Light Var.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer1 Light Var.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer2 Dark Var.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer2 Dark Var.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer2 Light Var.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer2 Light Var.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer3 Dark Var.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer3 Dark Var.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer3 Light Var.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer3 Light Var.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Sky Dark Var.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Sky Dark Var.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Sky Light Var.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Sky Light Var.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutte White.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutte White.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutte.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutte.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/BushTileset 16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/BushTileset 16.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Corner Grass Support &amp; Floating Platforms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Corner Grass Support &amp; Floating Platforms.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Hanging Platforms.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Hanging Platforms.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Spikes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Spikes.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Suporting Black Grass Tileset 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Suporting Black Grass Tileset 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Suporting Black Grass Tileset.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Suporting Black Grass Tileset.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Test 16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Test 16.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Tileset Test 48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Tileset Test 48.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Corner Grass Support &amp; Floating Platforms_0.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Corner Grass Support &amp; Floating Platforms_0.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Corner Grass Support &amp; Floating Platforms_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Corner Grass Support &amp; Floating Platforms_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Corner Grass Support &amp; Floating Platforms_2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Corner Grass Support &amp; Floating Platforms_2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Corner Grass Support &amp; Floating Platforms_3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Corner Grass Support &amp; Floating Platforms_3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Corner Grass Support &amp; Floating Platforms_4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Corner Grass Support &amp; Floating Platforms_4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Corner Grass Support &amp; Floating Platforms_5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Corner Grass Support &amp; Floating Platforms_5.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/BG_Layer1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/BG_Layer1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/BG_Layer2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/BG_Layer2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/BG_Layer3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/BG_Layer3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/BG_Sky.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/BG_Sky.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Brownish Tileset 32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Brownish Tileset 32.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/BushTileset 16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/BushTileset 16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/GreenLand Props.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/GreenLand Props.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Hanging Platforms.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Hanging Platforms.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/SPA_Background brown tint.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/SPA_Background brown tint.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/SPA_Rock_Grass_Water.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/SPA_Rock_Grass_Water.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Spikes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Spikes.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Suporting Black Grass Tileset 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Suporting Black Grass Tileset 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Suporting Black Grass Tileset.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Suporting Black Grass Tileset.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Test 16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Test 16.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Tileset Test 48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Tileset Test 48.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/New Platforms.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/New Platforms.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/Supporting Grass Black.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Supporting Grass Black.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/AI_PlayTest_Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/BigExplosion.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/BigExplosion.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Buzzer.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Buzzer.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/DemoSceneSoundManager.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/DemoSceneSoundManager.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Explosion.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Explosion.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Laser.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Laser.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music1.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music2.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music3.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Music4.ogg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Notification.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Notification.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Phasor.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Phasor.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/SoundManagerDemo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/SoundManagerDemo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Torpedo.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Demo/Torpedo.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/Readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/SoundManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SoundManager/SoundManager.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,18 +72,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/ShieldBubble1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -149,11 +101,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" />
         <option value="$PROJECT_DIR$/Assets/Omri/Scripts/ShieldBubble1.cs" />
         <option value="$PROJECT_DIR$/Assets/Audio Manager/Scripts/Carter Games/Audio Manager/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CamShakeSimple.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
+        <option value="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" />
       </list>
     </option>
   </component>
@@ -187,22 +139,16 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
-      </option>
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
-      </option>
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -250,11 +196,12 @@
       <workItem from="1603190009738" duration="1465000" />
       <workItem from="1603266369954" duration="27000" />
       <workItem from="1603293781235" duration="606000" />
+      <workItem from="1603624096093" duration="674000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -263,12 +210,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

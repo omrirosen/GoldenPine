@@ -16,13 +16,19 @@
             </e>
           </e>
         </e>
-        <e p="GroundCheck.cs" t="Include" />
         <e p="MosheTest" t="Include">
           <e p="Scripts_M" t="Include">
             <e p="AI_PlayTests" t="Include">
-              <e p="Unihog1Controller.cs" t="Include" />
-              <e p="Unihog1DMG.cs" t="Include" />
-              <e p="WallCheck_Unihog.cs" t="Include" />
+              <e p="Hornhog" t="Include">
+                <e p="HornyHogController.cs" t="Include" />
+                <e p="HornyHogDMG.cs" t="Include" />
+              </e>
+              <e p="Unihog" t="Include">
+                <e p="GroundCheck.cs" t="Include" />
+                <e p="Unihog1Controller.cs" t="Include" />
+                <e p="Unihog1DMG.cs" t="Include" />
+                <e p="WallCheck_Unihog.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>
@@ -49,7 +55,6 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="AudioManager.cs" t="Include" />
           <e p="BetterJumping.cs" t="Include" />
           <e p="CollisionCheck.cs" t="Include" />
           <e p="EnemyPatrol.cs" t="Include" />
@@ -64,13 +69,6 @@
           </e>
           <e p="ShieldBubble.cs" t="Include" />
           <e p="Sound.cs" t="Include" />
-        </e>
-        <e p="SoundManager" t="Include">
-          <e p="Demo" t="Include">
-            <e p="SoundManagerDemo.cs" t="Include" />
-          </e>
-          <e p="readme.txt" t="Include" />
-          <e p="SoundManager.cs" t="Include" />
         </e>
         <e p="TomerTest" t="Include">
           <e p="Scripts" t="Include">
