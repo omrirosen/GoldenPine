@@ -68,6 +68,7 @@ public class PlayerStats : MonoBehaviour
         {
             playerHealth -= Dmg;
             animator.SetInteger("PlayerHealthUI", playerHealth);
+            playerWithShield.UnderImpactAnim();
             if (!isImpect_ON)
             {
                 isImpect_ON = true;
@@ -84,7 +85,8 @@ public class PlayerStats : MonoBehaviour
 
        if (playerHealth <= 0)
        {
-            Die();
+            Invoke("Die", 1f);
+            playerWithShield.PlayerDeath();
        }
     }
 

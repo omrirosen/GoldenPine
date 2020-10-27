@@ -58,6 +58,8 @@ public class PlayerWithShield : MonoBehaviour
    private CollisionCheck collisionCheck;
    [SerializeField] private CinemachineImpulseSource pulseSource;
    public bool DashAttack = false;
+
+    bool IsDead = false;
     
 
 
@@ -81,15 +83,18 @@ public class PlayerWithShield : MonoBehaviour
 
    private void Update()
    {
-      Inputs();
-      PlayerJump();
-      PlayerMovement();
-      //WallJump();
-      HandleDash();
-      HandleShield();
-      WallSlide();
-      AnimationSetup();
-   }
+      if(IsDead == false) 
+      { 
+          Inputs();
+          PlayerJump();
+          PlayerMovement();
+          //WallJump();
+          HandleDash();
+          HandleShield();
+          WallSlide();
+          AnimationSetup();
+      }
+    }
    
 
    private void Inputs()
@@ -382,5 +387,30 @@ public class PlayerWithShield : MonoBehaviour
         }
        
     }
+
+    public void UnderImpactAnim()
+    {
+        print("Impact");
+        anim.SetBool("IsUnderImpact", true);
+        Invoke("EndImpact", 0.3f);
+    }
+
+    private void EndImpact()
+    {
+        anim.SetBool("IsUnderImpact", false);
+    }
    
+    public void PlayerDeath()
+    {
+        IsDead = true;
+        anim.Play("Death");
+        anim.SetBool("isMoving", false);
+        anim.SetBool("isGrounded", false);
+        anim.SetBool("isTouchingWall", false);
+        anim.SetBool("isDashing", false);
+        anim.SetBool("atPeakJump", false);
+        anim.SetBool("IsDashAttack", false);
+        anim.SetBool("FacingRight", false);
+        anim.SetBool("IsUnderImpact", false);
+    }
 }
