@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using JSAM;
 using UnityEngine;
 
 public class BuddyController : MonoBehaviour
@@ -87,6 +88,7 @@ public class BuddyController : MonoBehaviour
                 MoveToAttackPoint();
                 Invoke("BackToOGPos", 0.5f);
                 Invoke("SetAttack1False", 0.1f);
+                JSAM.AudioManager.PlaySound(Sounds.BuddyHit);
             }
             
 

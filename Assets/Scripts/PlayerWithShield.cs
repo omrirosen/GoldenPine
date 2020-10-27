@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Cinemachine;
+using JSAM;
 using UnityEngine;
 
 public class PlayerWithShield : MonoBehaviour
@@ -182,7 +183,7 @@ public class PlayerWithShield : MonoBehaviour
       
       if (Input.GetButtonDown("Jump") && collisionCheck.onGround)
       {
-          
+         JSAM.AudioManager.PlaySound(Sounds.Jump); 
          anim.SetTrigger("takeOff");
          isJumping = true;
          jumpTimeCounter = jumpTime;
@@ -226,12 +227,14 @@ public class PlayerWithShield : MonoBehaviour
                fadingGhost.createGhost = true;
                Invoke("SetCreateGhostToFalse",dashTime);
                direction = 1;
+               JSAM.AudioManager.PlaySound(Sounds.DashLeft);
             }
             else if (facingRight) // right 
             {
                fadingGhost.createGhost = true;
                Invoke("SetCreateGhostToFalse",dashTime);
                direction = 2;
+               JSAM.AudioManager.PlaySound(Sounds.DashRight);
             }
          }
       }
