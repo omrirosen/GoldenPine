@@ -23,414 +23,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/BuddyHit.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/BuddyHit.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/DashLeft.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/DashLeft.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/DashRight.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/DashRight.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/Footsteps.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/Footsteps.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/Jump.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/Jump.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps/step1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps/step1.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps/step2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps/step2.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps/step3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps/step3.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps/step4.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps/step4.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps/step5.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps/step5.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps/step6.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps/step6.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps/step7.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Footsteps/DanSteps/step7.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/Impacts_PROCESSED_002.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/Impacts_PROCESSED_002.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/SPLAT Crush 01.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/SPLAT Crush 01.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/SUCCESS PICKUP Collect Chime 01.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/SUCCESS PICKUP Collect Chime 01.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/SWIPE Whoosh Double 01.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/SWIPE Whoosh Double 01.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/WATER Bubbles 02.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/WATER Bubbles 02.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/block.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/block.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/dash1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/dash1.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/dash2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/dash2.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/spring-weather-1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/spring-weather-1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/velcro-strap-2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/velcro-strap-2.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/whip-whoosh-03.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/More stuff/whip-whoosh-03.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioCollisionFeedbackEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioCollisionFeedbackEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioEventsEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioEventsEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioFileMusicObjectEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioFileMusicObjectEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioFileObjectEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioFileObjectEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioManagerEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioManagerEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioManagerSettingsEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioManagerSettingsEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioMusicZoneEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioMusicZoneEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioParticlesEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioParticlesEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioPlaybackToolEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioPlaybackToolEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioPlayerEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioPlayerEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioPlayerMusicEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioPlayerMusicEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioTriggerFeedbackEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/AudioTriggerFeedbackEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/BaseAudioEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/BaseAudioEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/BaseAudioMusicEditor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/BaseAudioMusicEditor.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/EditorCompatability.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/EditorCompatability.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/JSAMEditorHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Editor/JSAMEditorHelper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/AudioEnums - ExampleCrossfade.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/AudioEnums - ExampleCrossfade.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/Music.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/Music/Menu.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/Music/Menu.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/Music/MenuPitched.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/Music/MenuPitched.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/Music/Testlol.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio Files/Music/Testlol.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio/Menu(Pitched).ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio/Menu(Pitched).ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio/Menu.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Audio/Menu.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Credits+License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/Credits+License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/CrossFadeExample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/CrossFadeExample.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/ExampleCrossfade.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Dynamic Music/ExampleCrossfade.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Crouch.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Crouch.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Equip.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Equip.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Fire.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Fire.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Reload - Full.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Reload - Full.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Reload.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Reload.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Shot Recovery.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Shot Recovery.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Single Fire.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Single Fire.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Sprint.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Sprint.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Zoom.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Animations/Zoom.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/AudioEnums - Example3D.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/AudioEnums - Example3D.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/BGM.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/BGM.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Chamber.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Chamber.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Dry Fire.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Dry Fire.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Equip.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Equip.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Grab.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Grab.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Insert.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Insert.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Remove.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Remove.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Tap.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/AK Mag Tap.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/Gunshot.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/AK Sounds/Gunshot.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Abstract Pop.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Abstract Pop.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Crouch.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Crouch.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Running.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Running.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Walk.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio Files/Sounds/Walk.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/371041__morganpurkis__single-gunshot-3.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/371041__morganpurkis__single-gunshot-3.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/390663__morganpurkis__submachine-gun.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/390663__morganpurkis__submachine-gun.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/391725__morganpurkis__battle-rifle.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/391725__morganpurkis__battle-rifle.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/391847__morganpurkis__single-gunshot-5-4.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/391847__morganpurkis__single-gunshot-5-4.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/BlacificBlenu.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/BlacificBlenu.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Crouch.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Crouch.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/chamber.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/chamber.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/empty.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/empty.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/equip.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/equip.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_grab.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_grab.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_insert.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_insert.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_remove.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_remove.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_tap.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/Gun/mag_tap.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/abstractpop.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/abstractpop.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/machinegun_fire.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/machinegun_fire.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/running (loop).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/running (loop).wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/walk (loop).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Audio/walk (loop).wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Credits+License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Credits+License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Example3D.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Example3D.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/FPS Animations.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/FPS Animations.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Brick_Red.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Brick_Red.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Brown.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Brown.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Chipboard.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Chipboard.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Cobalt.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Cobalt.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Dark_Olive.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Dark_Olive.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/FrontColor.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/FrontColor.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gold.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gold.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray4.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray4.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray5.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray5.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray6.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray6.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray8.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Gray8.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Red.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Red.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Redwood.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/Redwood.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/WarmGray6.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/WarmGray6.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/WarmGray8.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/WarmGray8.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/machinegunLauncher.mtl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/machinegunLauncher.mtl.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/machinegunLauncher.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/machinegunLauncher.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Prefabs/Discarded Mag.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Prefabs/Discarded Mag.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/FPSAnimator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/FPSAnimator.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/FPSMouseLook.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/FPSMouseLook.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/FPSWalker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/FPSWalker.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/RandomForceEmitter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/RandomForceEmitter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/TimeScaleUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Scripts/TimeScaleUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/Audio Files.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/Audio Files/AudioEnums - LoopPointExample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/Audio Files/AudioEnums - LoopPointExample.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/Audio Files/Intro+Loop.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/Audio Files/Intro+Loop.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/Audio.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/Audio/Intro+Loop.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/Audio/Intro+Loop.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/Credits+License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/Credits+License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/LoopPointExample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/LoopPointExample.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/LoopPointExample.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/LoopPointExample.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/LoopPointExampleSettings.lighting" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Loop Points/LoopPointExampleSettings.lighting.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/PauseMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/PauseMenu.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/README.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Sample Volume Controls.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Sample Volume Controls.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/Cube.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/Cube.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/CubeOrbit.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/CubeOrbit.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/P1idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/P1idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/P1left.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/P1left.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/P1right.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/P1right.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/Player1.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Animations/Player1.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/AudioEnums - Example2D.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/AudioEnums - Example2D.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Music.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Music/Main Theme Combined.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Music/Main Theme Combined.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Music/Main Theme.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Music/Main Theme.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Music/Side Theme.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Music/Side Theme.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Sounds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Sounds/BulletHit.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Sounds/BulletHit.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Sounds/Shooting.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio Files/Sounds/Shooting.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/Music.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/Music/Italian Slice ~ Indian Spice.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/Music/Italian Slice ~ Indian Spice.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/Music/MainChorusv4.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/Music/MainChorusv4.ogg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/Music/MainIntro.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/Music/MainIntro.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/SFX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/SFX/bulletHit.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/SFX/bulletHit.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/SFX/knifethrow.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Audio/SFX/knifethrow.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Credits+License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Credits+License.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Example2D.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Example2D.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Graphics.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Graphics/chefSpriteSheetPadded.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Graphics/chefSpriteSheetPadded.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Graphics/knife_double_transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Graphics/knife_double_transparent.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Prefabs/KnifeBullet.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Prefabs/KnifeBullet.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/ObjectPool.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/ObjectPool.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/PlayerBulletBasic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/PlayerBulletBasic.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/SceneLoader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/SceneLoader.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/ShipController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/Shmup 2D/Scripts/ShipController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/LICENSE.md.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Plugins.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Plugins/ATL.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Plugins/ATL.dll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Plugins/ATL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Plugins/ATL.xml.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Prefabs/Audio Channel.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Prefabs/Audio Channel.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Prefabs/Audio Manager.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Prefabs/Audio Manager.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Presets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Presets/Spatial Sound.preset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Presets/Spatial Sound.preset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Presets/UI Sound.preset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Presets/UI Sound.preset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioChannelHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioChannelHelper.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioCollisionFeedback.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioCollisionFeedback.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioEvents.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioEvents.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioFileMusicObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioFileMusicObject.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioFileObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioFileObject.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioManagerSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioManagerSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioMusicZone.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioMusicZone.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioParticles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioParticles.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioPlayer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioPlayer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioPlayerMusic.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioPlayerMusic.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioTriggerFeedback.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/AudioTriggerFeedback.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/BaseAudioFeedback.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/BaseAudioFeedback.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/BaseAudioMusicFeedback.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/BaseAudioMusicFeedback.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/JSAMExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Scripts/JSAMExtensions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Third-Party Licenses.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Third-Party Licenses.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Jackys.Simple.Audio.Manager.2.1.5.unitypackage.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Bushes With Outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Bushes With Outline.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Bushes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Bushes.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ParallaxNoDuplication.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ParallaxNoDuplication.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Music/Quirky-Game-World.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Music/Quirky-Game-World.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Hits/335357__andre-desartistes__cork-pop.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Hits/335357__andre-desartistes__cork-pop.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Hits/49694__ejfortin__energy-whip-1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Hits/49694__ejfortin__energy-whip-1.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Hits/49695__ejfortin__energy-whip-2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Hits/49695__ejfortin__energy-whip-2.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Hits/528771__itsthatroboguy__sci-fi-energy-gun.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Sound Effects/Hits/528771__itsthatroboguy__sci-fi-energy-gun.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jackys.Simple.Audio.Manager.2.1.5.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -441,18 +62,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/ShieldBubble1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RippleEffect/RippleEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/ShieldBubble1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -471,12 +92,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" />
         <option value="$PROJECT_DIR$/Assets/Omri/Scripts/ShieldBubble1.cs" />
         <option value="$PROJECT_DIR$/Assets/Audio Manager/Scripts/Carter Games/Audio Manager/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CamShakeSimple.cs" />
         <option value="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Parallax2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ParallaxNoDuplication.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" />
       </list>
     </option>
   </component>
@@ -510,16 +133,22 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -570,11 +199,12 @@
       <workItem from="1603624096093" duration="674000" />
       <workItem from="1603638998296" duration="656000" />
       <workItem from="1603792899209" duration="1926000" />
+      <workItem from="1603808863592" duration="2551000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -583,13 +213,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

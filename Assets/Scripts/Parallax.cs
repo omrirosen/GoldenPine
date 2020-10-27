@@ -40,5 +40,6 @@ public class Parallax : MonoBehaviour
             float offsetPosY = (cameraTransform.position.y - transform.position.y) % textureUnitSizeY;
             transform.position = new Vector3(transform.position.x, cameraTransform.position.y + offsetPosY);
         }
+        
     }
 }
