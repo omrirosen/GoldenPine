@@ -332,6 +332,7 @@ public class PlayerWithShield : MonoBehaviour
          facingRight = !facingRight;
          transform.Rotate(0, 180, 0);
             Buddy.flip();
+            Buddy.SetHitOffset();
       }
 
    }
@@ -415,5 +416,6 @@ public class PlayerWithShield : MonoBehaviour
         anim.SetBool("IsDashAttack", false);
         anim.SetBool("FacingRight", false);
         anim.SetBool("IsUnderImpact", false);
+        
     }
 }

@@ -18,13 +18,17 @@ public class BuddyController : MonoBehaviour
     [SerializeField]private Transform OGTransform;
     [SerializeField]float Speed = 1f;
     float MoveSpeed;
+    [SerializeField] PlayerStats playerstats;
+    public Vector2 Offset;
+    public LayerMask AIlayer;
+    public Vector2 OffsetLeft;
+    public Vector2 OffsetRight;
     private void Awake()
     {
         Anim = GetComponent<Animator>();
         Self = this.gameObject;
         AttackColl = GetComponent<BoxCollider2D>();
         SRenderer = GetComponent<SpriteRenderer>();
-        
     }
 
     private void Update()
@@ -89,6 +93,12 @@ public class BuddyController : MonoBehaviour
                 Invoke("BackToOGPos", 0.5f);
                 Invoke("SetAttack1False", 0.1f);
                 JSAM.AudioManager.PlaySound(Sounds.BuddyHit);
+                Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
+                //Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
+                if (Enemy != null)
+                {
+                    playerstats.IncreaseStamina();
+                }
             }
             
 
@@ -97,6 +107,13 @@ public class BuddyController : MonoBehaviour
                 Anim.SetBool("Attack2", true);
                 Anim.SetBool("Attack1", false);
                 MoveToAttackPoint();
+                //Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
+                Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
+                Enemy.GetComponent<Unihog1Controller>();
+                if(Enemy != null)
+                {
+                    playerstats.IncreaseStamina();
+                }
             }
         }
 
@@ -134,19 +151,25 @@ public class BuddyController : MonoBehaviour
     {
         JustAttacked = false;
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Unihog1DMG enemy = collision.gameObject.GetComponent<Unihog1DMG>();
-        if(enemy == null)
-        {
 
-        }
-        else
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+
+        Gizmos.DrawWireSphere((Vector2)transform.position + Offset, 0.25f);
+    }
+
+    public void SetHitOffset()
+    {
+        if(Offset == OffsetRight)
         {
-            if (Input.GetKeyDown(KeyCode.Z))
-            {
-                print("HitEnemy");
-            }
+            Offset = OffsetLeft;
+        }
+
+        if (Offset == OffsetLeft)
+        {
+            Offset = OffsetRight;
         }
     }
 }

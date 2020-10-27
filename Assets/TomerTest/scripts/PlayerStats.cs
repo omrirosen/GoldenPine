@@ -29,7 +29,12 @@ public class PlayerStats : MonoBehaviour
     private Tween Impact;
     public float sensetive_Parry = 0;
     [SerializeField] CollisionCheck collisionCheck;
-    
+    [SerializeField] GameObject ParryPopGround;
+    [SerializeField] GameObject ParryPopAir;
+    [SerializeField] Transform hitpoint;
+    [SerializeField] Transform hitpoint1;
+    [SerializeField] GameObject ShieldHit1;
+
 
     private void Awake()
     {
@@ -75,6 +80,19 @@ public class PlayerStats : MonoBehaviour
                 Impact = rb2d.DOJump(transform.position - dir * impact_Force, impact_JumpForce, 0, 0.5f);
                 Impact.SetEase(Ease.Flash);
             }
+        }
+
+        if(shieldOn == true)
+        {
+            if(dir.x <= 0)
+            {
+                Instantiate(ShieldHit1, hitpoint.transform.position, transform.rotation);
+            }
+            if (dir.x >= 0)
+            {
+                Instantiate(ShieldHit1, hitpoint1.transform.position, transform.rotation);
+            }
+
         }
 
        if ( ParryWindow == true) 
@@ -166,9 +184,20 @@ public class PlayerStats : MonoBehaviour
         {
             DashStock = DashStock +1;
             StaminaAnimator.SetFloat("StaminaUi", DashStock);
+            
         }
-       
+
+        if (collisionCheck.onGround)
+        {
+            Instantiate(ParryPopGround, transform.position, transform.rotation);
+        }
+        else
+        {
+            Instantiate(ParryPopAir, transform.position, transform.rotation);
+        }
         
+        
+
     }
 
 
@@ -193,6 +222,13 @@ public class PlayerStats : MonoBehaviour
     {
         DashAttacked = false;
         playerWithShield.isDashing = false;
+    }
+
+    public void IncreaseStamina()
+    {
+        DashStock += 0.2f;
+        StaminaAnimator.SetFloat("StaminaUi", DashStock);
+        print(DashStock);
     }
 
 }

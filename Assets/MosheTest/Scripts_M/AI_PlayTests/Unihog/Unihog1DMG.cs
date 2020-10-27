@@ -42,12 +42,18 @@ public class Unihog1DMG : MonoBehaviour
                             attack = true;
                             collision.GetComponent<PlayerStats>().TakeDmg(dmg, Vector3.left);
                             Invoke("resetAttack", 0.5f);
+                            impact = unihog.rb2d.DOJump((transform.position - Vector3.right * force), jumpForce, 0, 0.5f);
+                            impact.SetEase(Ease.Flash);
+                            isunderImpact = true;
                         }
                         else if (!unihog.IsFacingRight())
                         {
                             attack = true;
                             collision.GetComponent<PlayerStats>().TakeDmg(dmg, Vector3.right);
                             Invoke("resetAttack", 0.5f);
+                            impact = unihog.rb2d.DOJump((transform.position - Vector3.left * force), jumpForce, 0, 0.5f);
+                            impact.SetEase(Ease.Flash);
+                            isunderImpact = true;
                         }
 
                     }

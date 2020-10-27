@@ -1106,6 +1106,36 @@ Transform:
   m_Father: {fileID: 3471695948983743113}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &760704982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 760704983}
+  m_Layer: 10
+  m_Name: HitPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &760704983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760704982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.363, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3471695947765138273}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &783382500 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 6822023273146794410, guid: 9e8b2417f64b8dc47be6ad0853ce88c4,
@@ -18920,7 +18950,6 @@ GameObject:
   - component: {fileID: 1920338646}
   - component: {fileID: 1920338648}
   - component: {fileID: 1920338647}
-  - component: {fileID: 1920338650}
   - component: {fileID: 1920338649}
   m_Layer: 10
   m_Name: Buddy
@@ -19029,32 +19058,43 @@ MonoBehaviour:
   AttackTransform: {fileID: 753608950}
   OGTransform: {fileID: 1298466737}
   Speed: 4
---- !u!61 &1920338650
-BoxCollider2D:
+  playerstats: {fileID: 3471695948983743160}
+  Offset: {x: 0, y: 0}
+  AIlayer:
+    serializedVersion: 2
+    m_Bits: 2048
+  OffsetLeft: {x: -0.7, y: 0}
+  OffsetRight: {x: 0.7, y: 0}
+--- !u!1 &2142638294
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1920338645}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.5407827, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.72166777, y: 1}
-  m_EdgeRadius: 0
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2142638295}
+  m_Layer: 10
+  m_Name: HitPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2142638295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142638294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.353, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3471695947765138273}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &2188087221586779204
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19134,7 +19174,9 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.006, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 760704983}
+  - {fileID: 2142638295}
   m_Father: {fileID: 3471695948983743113}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19468,10 +19510,18 @@ MonoBehaviour:
   DashColor: {r: 0.20784314, g: 0.36078432, b: 0.49019608, a: 0.49019608}
   DashAttacked: 0
   Buddy: {fileID: 1920338645}
-  impact_Force: 4
-  impact_JumpForce: 0.5
+  impact_Force: 2
+  impact_JumpForce: 0.3
   sensetive_Parry: 0
-  collisionCheck: {fileID: 0}
+  collisionCheck: {fileID: 3471695948983743114}
+  ParryPopGround: {fileID: 2299495682279440700, guid: 3920466e71b12cb4889e2b19d5efda25,
+    type: 3}
+  ParryPopAir: {fileID: 7102400396691952623, guid: f69799ba4a22d834f951faf90130f8aa,
+    type: 3}
+  hitpoint: {fileID: 760704983}
+  hitpoint1: {fileID: 2142638295}
+  ShieldHit1: {fileID: 2512026605178568978, guid: 130896913d43f9944b78fad95f52c866,
+    type: 3}
 --- !u!1001 &6822023272720086606
 PrefabInstance:
   m_ObjectHideFlags: 0
