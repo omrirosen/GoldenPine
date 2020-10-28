@@ -164,7 +164,7 @@ public class HornyHogController : MonoBehaviour
         {
             health -= dmg;
         }
-      //  print("TakeDMG");
+        print("TakeDMG");
        
     }
   

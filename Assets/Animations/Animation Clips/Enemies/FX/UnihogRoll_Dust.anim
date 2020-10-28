@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HornyHogLeft_DeathIdle
+  m_Name: UnihogRoll_Dust
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,12 +20,28 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: aa601f9abe74d784eaf9e764ef0941a4, type: 3}
+      value: {fileID: 7724082979436238142, guid: 3674e88b80f67d34caafab6948ecdd7b,
+        type: 3}
+    - time: 0.125
+      value: {fileID: -3442489220828877121, guid: 3674e88b80f67d34caafab6948ecdd7b,
+        type: 3}
+    - time: 0.25
+      value: {fileID: 5557312112651869527, guid: 3674e88b80f67d34caafab6948ecdd7b,
+        type: 3}
+    - time: 0.375
+      value: {fileID: 2178446798226041924, guid: 3674e88b80f67d34caafab6948ecdd7b,
+        type: 3}
+    - time: 0.5
+      value: {fileID: -3764352603822869982, guid: 3674e88b80f67d34caafab6948ecdd7b,
+        type: 3}
+    - time: 0.625
+      value: {fileID: 3670902580668435808, guid: ea890c3cae2846145b296372e5d66756,
+        type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 60
+  m_SampleRate: 8
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -40,18 +56,23 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: aa601f9abe74d784eaf9e764ef0941a4, type: 3}
+    - {fileID: 7724082979436238142, guid: 3674e88b80f67d34caafab6948ecdd7b, type: 3}
+    - {fileID: -3442489220828877121, guid: 3674e88b80f67d34caafab6948ecdd7b, type: 3}
+    - {fileID: 5557312112651869527, guid: 3674e88b80f67d34caafab6948ecdd7b, type: 3}
+    - {fileID: 2178446798226041924, guid: 3674e88b80f67d34caafab6948ecdd7b, type: 3}
+    - {fileID: -3764352603822869982, guid: 3674e88b80f67d34caafab6948ecdd7b, type: 3}
+    - {fileID: 3670902580668435808, guid: ea890c3cae2846145b296372e5d66756, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.016666668
+    m_StopTime: 0.75
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 1
+    m_LoopTime: 0
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0

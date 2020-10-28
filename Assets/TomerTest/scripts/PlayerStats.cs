@@ -13,7 +13,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private Animator StaminaAnimator;
     [SerializeField] private SpriteRenderer sRenderer;
-    bool shieldOn = false;
+    public bool shieldOn = false;
     public bool ParryWindow = false;
     private Color OGcolor;
     public Color DashColor;
@@ -45,7 +45,7 @@ public class PlayerStats : MonoBehaviour
     }
     private void Update()
     {
-        print(playerHealth);
+       // print(playerHealth);
         HealPlayer();
         ShieldUp();
         Dashed();

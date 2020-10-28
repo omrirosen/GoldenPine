@@ -11,13 +11,15 @@ public class Unihog1Controller : MonoBehaviour
     [SerializeField] Vector3 offset;
     [SerializeField] LayerMask eyes_Layer;
     [SerializeField] float max_Speed;
-    [SerializeField] int health;
+    [SerializeField] public int health;
+    [SerializeField] AnimationEffects effects;
     
     public bool isTurning = false;
-    public enum stateMachine { roming, attack,death };
+    public enum stateMachine { roming, attack,death,Flying };
     public stateMachine state;
     private GameObject target;
     public bool attacking = false;
+    public bool isFlying = false;
     
 
 
@@ -117,6 +119,11 @@ public class Unihog1Controller : MonoBehaviour
                     Destroy(gameObject);
                 }
                 break;
+
+            case stateMachine.Flying:
+                animator.Play("Unihog_NewRoll_Left");
+
+                break;
         }
     }
 
@@ -177,7 +184,7 @@ public class Unihog1Controller : MonoBehaviour
                 }
                
             }
-            else
+            else if (hit2D.collider == null && !isFlying)
             {
               //  print("CantSee");
                 moveSpeed = Mathf.Lerp(moveSpeed, 1f, 5f*Time.deltaTime);
@@ -185,7 +192,19 @@ public class Unihog1Controller : MonoBehaviour
                 target = null;
                 animator.SetBool("isAttacking", false);
                 state = stateMachine.roming;
+                effects.didPlayRollDust = false;
             }
+            else if (hit2D.collider == null && isFlying)
+            {
+                
+                state = stateMachine.Flying;
+                
+            }
+        }
+        else
+        {
+            state = stateMachine.death;
+            
         }
        
 

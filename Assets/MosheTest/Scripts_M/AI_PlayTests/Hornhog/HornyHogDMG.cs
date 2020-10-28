@@ -10,6 +10,7 @@ public class HornyHogDMG : MonoBehaviour
     public bool IsFachingRight;
     public bool isdealDMG = false;
     public bool isActive = false;
+    public bool isBlocked = false;
 
     private void Awake()
     {
@@ -45,15 +46,31 @@ public class HornyHogDMG : MonoBehaviour
                 {
                     isdealDMG = true;
                     collision.GetComponent<PlayerStats>()?.TakeDmg(DMG, Vector3.left);
+                    if(collision.GetComponent<PlayerStats>().shieldOn || collision.GetComponent<PlayerStats>().ParryWindow)
+                    {
+                        isBlocked = true;
+                        animator.SetBool("IsBlocked", isBlocked);
+                    }
                 }
                 else
                 {
                     isdealDMG = true;
                     collision.GetComponent<PlayerStats>()?.TakeDmg(DMG, Vector3.right);
+                    if (collision.GetComponent<PlayerStats>().shieldOn || collision.GetComponent<PlayerStats>().ParryWindow)
+                    {
+                        isBlocked = true;
+                        animator.SetBool("IsBlocked", isBlocked);
+                    }
                 }
             }
             
         }
+    }
+
+    public void resetBlock()
+    {
+        isBlocked = false;
+        animator.SetBool("IsBlocked", isBlocked);
     }
 
 
