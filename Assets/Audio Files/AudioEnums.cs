@@ -9,6 +9,7 @@ namespace JSAM {
         ShieldUp
     }
     public enum Music {
-        BG_Music
+        BG_Music,
+        ForestAmbient
     }
 }

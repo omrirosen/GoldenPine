@@ -116,7 +116,6 @@ public class PlayerWithShield : MonoBehaviour
       //Shield Inputs
       if (Input.GetKeyDown(KeyCode.X))
       {
-         AudioManager.PlaySound(Sounds.ShieldUp);
          isShielding = true;
       }
       
@@ -156,15 +155,6 @@ public class PlayerWithShield : MonoBehaviour
       if (isMoving)
       {
          rb.velocity = new Vector2(xMoveInput * playerSpeed, rb.velocity.y);
-      }
-      
-      if (collisionCheck.onGround && isMoving)
-      {
-         rb.velocity = new Vector2(xMoveInput * playerSpeed, rb.velocity.y);
-         if (!AudioManager.IsSoundPlaying(Sounds.Footsteps))
-         {
-            AudioManager.PlaySound(Sounds.Footsteps);
-         }
       }
 
       else if (!collisionCheck.onGround &&(!isWallSliding || !collisionCheck.onWall) && xMoveInput != 0)
@@ -433,6 +423,5 @@ public class PlayerWithShield : MonoBehaviour
         anim.SetBool("IsDashAttack", false);
         anim.SetBool("FacingRight", false);
         anim.SetBool("IsUnderImpact", false);
-        
     }
 }

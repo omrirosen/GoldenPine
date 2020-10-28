@@ -116,7 +116,12 @@
           <e p="PlayerCeleste.cs" t="Include" />
           <e p="PlayerWithShield.cs" t="Include" />
           <e p="ShieldBubble.cs" t="Include" />
-          <e p="Sound.cs" t="Include" />
+          <e p="Sound Managers" t="Include">
+            <e p="BuddySoundManager.cs" t="Include" />
+            <e p="PlayerSoundManager.cs" t="Include" />
+            <e p="ShieldSoundManager.cs" t="Include" />
+            <e p="UnihogSoundManager.cs" t="Include" />
+          </e>
         </e>
         <e p="TomerTest" t="Include">
           <e p="Scripts" t="Include">
