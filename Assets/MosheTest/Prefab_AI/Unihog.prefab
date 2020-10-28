@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &321481987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 321481988}
+  m_Layer: 11
+  m_Name: RollDust_pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &321481988
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321481987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.211, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5412783621431076576}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &505488982
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,6 +176,7 @@ GameObject:
   - component: {fileID: 5412783621431076576}
   - component: {fileID: 5412783621431076574}
   - component: {fileID: 5412783621431076577}
+  - component: {fileID: 406397053}
   m_Layer: 11
   m_Name: GFX
   m_TagString: Untagged
@@ -163,7 +194,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 321481988}
   m_Father: {fileID: 5412783622459689582}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -206,13 +238,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5937854781525698775, guid: 4e4f11cea55eb8b4395de0a15f06c262,
+  m_Sprite: {fileID: -141816050917497269, guid: 4e4f11cea55eb8b4395de0a15f06c262,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.6666667, y: 0.5416667}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -237,6 +269,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &406397053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5412783621431076579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3776ac4cabe1e6341b582f263c4eb2e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UnihogRollDust_ins: {fileID: 1234887506838826486, guid: c2149917dce9ad14bad2e83351dccce7,
+    type: 3}
+  UnihogRollDust_position: {fileID: 321481988}
+  didPlayRollDust: 0
 --- !u!1 &5412783622459689585
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,9 +393,11 @@ MonoBehaviour:
     m_Bits: 1024
   max_Speed: 5
   health: 1
+  effects: {fileID: 406397053}
   isTurning: 0
   state: 0
   attacking: 0
+  isFlying: 0
   rb2d: {fileID: 5412783622459689581}
 --- !u!61 &2006446232
 BoxCollider2D:
@@ -389,12 +439,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gravity: -9.8
   check_Pos: {fileID: 1440807826}
-  ray_Distance: 0.05
+  ray_Distance: 0.1
   rb2d: {fileID: 0}
   ground_Layer:
     serializedVersion: 2
     m_Bits: 512
-  originalY: -1
+  originalY: 5.68
 --- !u!114 &2000855913
 MonoBehaviour:
   m_ObjectHideFlags: 0

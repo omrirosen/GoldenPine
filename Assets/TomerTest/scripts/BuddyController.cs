@@ -92,7 +92,6 @@ public class BuddyController : MonoBehaviour
                 MoveToAttackPoint();
                 Invoke("BackToOGPos", 0.5f);
                 Invoke("SetAttack1False", 0.1f);
-                JSAM.AudioManager.PlaySound(Sounds.BuddyHit);
                 Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
                 //Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
                 if (Enemy != null)

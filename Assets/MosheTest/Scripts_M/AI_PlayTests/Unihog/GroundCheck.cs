@@ -10,10 +10,12 @@ public class GroundCheck : MonoBehaviour
     [SerializeField] Rigidbody2D rb2d;
     [SerializeField] LayerMask ground_Layer;
     [SerializeField] float originalY;
+    private Unihog1Controller unihog;
 
     private void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        unihog = GetComponent<Unihog1Controller>();
     }
     
 
@@ -24,10 +26,20 @@ public class GroundCheck : MonoBehaviour
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, gravity);
         }
-        else
+        else if(hit2D.collider == null && Mathf.Abs(originalY - transform.position.y) <= 1.5f)
         {
             transform.position = new Vector2(transform.position.x, originalY);
         }
+
+        if(Mathf.Abs(originalY-transform.position.y)>1.5f)
+        {
+            if (hit2D.collider)
+            {
+                print("Fall to dead");
+                unihog.health = 0;
+            }
+        }
+       
         //Debug.DrawRay(check_Pos.position, Vector2.down * ray_Distance, Color.black);
     }
 }
