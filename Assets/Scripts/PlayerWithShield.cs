@@ -424,4 +424,9 @@ public class PlayerWithShield : MonoBehaviour
         anim.SetBool("FacingRight", false);
         anim.SetBool("IsUnderImpact", false);
     }
+
+    public void HitShield()
+    {
+        //Invoke("SetIsShieldingToFalse", 1f);
+    }
 }

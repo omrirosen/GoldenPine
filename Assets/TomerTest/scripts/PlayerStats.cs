@@ -34,7 +34,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] Transform hitpoint;
     [SerializeField] Transform hitpoint1;
     [SerializeField] GameObject ShieldHit1;
-
+    [SerializeField] ShieldBubble ShieldReff;
 
     private void Awake()
     {
@@ -42,6 +42,7 @@ public class PlayerStats : MonoBehaviour
         playerWithShield = this.GetComponent<PlayerWithShield>();
         rb2d = GetComponent<Rigidbody2D>();
         collisionCheck = GetComponent<CollisionCheck>();
+        ShieldReff = GetComponent<ShieldBubble>();
     }
     private void Update()
     {
@@ -84,6 +85,7 @@ public class PlayerStats : MonoBehaviour
 
         if(shieldOn == true)
         {
+
             if(dir.x <= 0)
             {
                 Instantiate(ShieldHit1, hitpoint.transform.position, transform.rotation);
@@ -92,6 +94,7 @@ public class PlayerStats : MonoBehaviour
             {
                 Instantiate(ShieldHit1, hitpoint1.transform.position, transform.rotation);
             }
+            ShieldReff.HitShield();
 
         }
 

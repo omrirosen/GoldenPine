@@ -13,7 +13,7 @@ public class BuddyController : MonoBehaviour
     bool JustAttacked = false;
     int NumOfClicks = 0;
     float LastClickedTime = 0f;
-    float MaxComboDelay = 0.4f;
+    float MaxComboDelay = 0.5f;
     [SerializeField] private Transform AttackTransform;
     [SerializeField]private Transform OGTransform;
     [SerializeField]float Speed = 1f;
@@ -108,7 +108,7 @@ public class BuddyController : MonoBehaviour
                 MoveToAttackPoint();
                 //Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
                 Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
-                Enemy.GetComponent<Unihog1Controller>();
+                Invoke("SetAttack2False", 0.1f);
                 if(Enemy != null)
                 {
                     playerstats.IncreaseStamina();
@@ -128,6 +128,12 @@ public class BuddyController : MonoBehaviour
     private void SetAttack1False()
     {
         Anim.SetBool("Attack1", false);
+    }
+    
+    private void SetAttack2False()
+    {
+        Anim.SetBool("Attack2", false);
+        NumOfClicks = 0;
     }
 
     private void MoveToAttackPoint()

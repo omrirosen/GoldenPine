@@ -56,5 +56,19 @@ public class ShieldBubble : MonoBehaviour
             
         }
     }
+
+    public void HitShield()
+    {
+        
+        if (isGrounded)
+        {
+            shieldAnimator.Play("Shield Ground Pop");
+        }
+        else
+        {
+            shieldAnimator.Play("Shield Ground Pop");
+        }
+        AudioManager.PlaySound(Sounds.ShieldPop);
+    }
     
 }
