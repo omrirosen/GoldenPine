@@ -7,6 +7,7 @@ public class HornyHogDMG : MonoBehaviour
     [SerializeField] int DMG;
     [SerializeField] Animator animator;
     [SerializeField] BoxCollider2D dmg_Collider;
+    
     public bool IsFachingRight;
     public bool isdealDMG = false;
     public bool isActive = false;

@@ -1,40 +1,22 @@
 fileFormatVersion: 2
-guid: 22efe3c720b6bad409126cfd7d425333
+guid: c0ac5a1f653654442ac27b1becc675b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6014992531293726994
-    second: HornyHogBlockedBLACK_0
+      213: 7407748859258644784
+    second: ParticleHit1_0
   - first:
-      213: -5438914218532641893
-    second: HornyHogBlockedBLACK_1
+      213: 8692316286429404678
+    second: ParticleHit1_1
   - first:
-      213: -657201678305492069
-    second: HornyHogBlockedBLACK_2
+      213: -519613192917370010
+    second: ParticleHit1_2
   - first:
-      213: 7061391621992958352
-    second: HornyHogBlockedBLACK_3
+      213: 5064485934493161028
+    second: ParticleHit1_3
   - first:
-      213: -6220400788225901352
-    second: HornyHogBlockedBLACK_4
-  - first:
-      213: -1447137336058095196
-    second: HornyHogBlockedBLACK_5
-  - first:
-      213: 4433780582683393763
-    second: HornyHogBlockedBLACK_6
-  - first:
-      213: -2777962730870412029
-    second: HornyHogBlockedBLACK_7
-  - first:
-      213: 1550608540480271552
-    second: HornyHogBlockedBLACK_8
-  - first:
-      213: -8411923825552006073
-    second: HornyHogBlockedBLACK_9
-  - first:
-      213: 1504773170034967257
-    second: HornyHogBlockedBLACK_10
+      213: 5590540273401594230
+    second: ParticleHit1_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -144,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HornyHogBlockedBLACK_0
+      name: ParticleHit1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 92
-        height: 92
+        width: 48
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee61c9d5924768ca0800000000000000
-      internalID: -6014992531293726994
+      spriteID: 039aa6de65c9dc660800000000000000
+      internalID: 7407748859258644784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HornyHogBlockedBLACK_1
+      name: ParticleHit1_1
       rect:
         serializedVersion: 2
-        x: 92
+        x: 48
         y: 0
-        width: 92
-        height: 92
+        width: 48
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b936a88b5581584b0800000000000000
-      internalID: -5438914218532641893
+      spriteID: 60e97ffcb9f41a870800000000000000
+      internalID: 8692316286429404678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HornyHogBlockedBLACK_2
+      name: ParticleHit1_2
       rect:
         serializedVersion: 2
-        x: 184
+        x: 96
         y: 0
-        width: 92
-        height: 92
+        width: 48
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b938fca3e8621e6f0800000000000000
-      internalID: -657201678305492069
+      spriteID: 66bbd87dd86f9c8f0800000000000000
+      internalID: -519613192917370010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HornyHogBlockedBLACK_3
+      name: ParticleHit1_3
       rect:
         serializedVersion: 2
-        x: 276
+        x: 144
         y: 0
-        width: 92
-        height: 92
+        width: 48
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0994fc0744a1ff160800000000000000
-      internalID: 7061391621992958352
+      spriteID: 4465d67ef1ba84640800000000000000
+      internalID: 5064485934493161028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HornyHogBlockedBLACK_4
+      name: ParticleHit1_4
       rect:
         serializedVersion: 2
-        x: 368
+        x: 192
         y: 0
-        width: 92
-        height: 92
+        width: 48
+        height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,71 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dc3c31b072bca9a0800000000000000
-      internalID: -6220400788225901352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HornyHogBlockedBLACK_5
-      rect:
-        serializedVersion: 2
-        x: 460
-        y: 0
-        width: 92
-        height: 92
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a95d07924cbaebe0800000000000000
-      internalID: -1447137336058095196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HornyHogBlockedBLACK_6
-      rect:
-        serializedVersion: 2
-        x: 644
-        y: 0
-        width: 92
-        height: 92
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ee3ed2e2f3f78d30800000000000000
-      internalID: 4433780582683393763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HornyHogBlockedBLACK_7
-      rect:
-        serializedVersion: 2
-        x: 552
-        y: 0
-        width: 92
-        height: 92
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30de1335d91b279d0800000000000000
-      internalID: -2777962730870412029
+      spriteID: 6710e9a32c6959d40800000000000000
+      internalID: 5590540273401594230
       vertices: []
       indices: 
       edges: []

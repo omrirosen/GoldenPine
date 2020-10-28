@@ -10,6 +10,7 @@ public class HornyHogController : MonoBehaviour
     [SerializeField] LayerMask eyes_Layer;
     [SerializeField] HornyHogDMG hogDMG;
     [SerializeField] int health;
+    [SerializeField] GameObject HitPartical_ins;
     private Transform target;
     private bool isDeath = false;
     private float deathTime = 0;
@@ -163,6 +164,7 @@ public class HornyHogController : MonoBehaviour
         if (!isDeath)
         {
             health -= dmg;
+            var temp = Instantiate(HitPartical_ins, transform.position, Quaternion.identity);
         }
         print("TakeDMG");
        

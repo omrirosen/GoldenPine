@@ -13,7 +13,8 @@ public class Unihog1Controller : MonoBehaviour
     [SerializeField] float max_Speed;
     [SerializeField] public int health;
     [SerializeField] AnimationEffects effects;
-    
+    [SerializeField] GameObject HitPartical_ins;
+
     public bool isTurning = false;
     public enum stateMachine { roming, attack,death,Flying };
     public stateMachine state;
@@ -55,6 +56,7 @@ public class Unihog1Controller : MonoBehaviour
         switch (state)
         {
             case stateMachine.roming:
+                effects.didPlayRollDust = false;
                 attacking = false;
                 if (!isTurning)
                 {
@@ -192,7 +194,7 @@ public class Unihog1Controller : MonoBehaviour
                 target = null;
                 animator.SetBool("isAttacking", false);
                 state = stateMachine.roming;
-                effects.didPlayRollDust = false;
+               
             }
             else if (hit2D.collider == null && isFlying)
             {
@@ -214,6 +216,7 @@ public class Unihog1Controller : MonoBehaviour
     public void killme(int dmg)
     {
         health -= dmg;
+        var temp = Instantiate(HitPartical_ins, transform.position, Quaternion.identity);
    
     }
 

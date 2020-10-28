@@ -81,6 +81,8 @@ MonoBehaviour:
     m_Bits: 1024
   hogDMG: {fileID: 5238089193216047974}
   health: 1
+  HitPartical_ins: {fileID: 8679130280484342764, guid: 5c3f8fd6eeef3e7489c8ffaee431c7b8,
+    type: 3}
 --- !u!1 &5238089192598306450
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,7 +216,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 299964492231474652, guid: 57ff946781f52a6449af26b99c5bc690, type: 3}
+  m_Sprite: {fileID: 2868380616643299060, guid: 80599c1901fc0644cbfe0c76c4c6d80c,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -288,3 +291,4 @@ MonoBehaviour:
   IsFachingRight: 0
   isdealDMG: 0
   isActive: 0
+  isBlocked: 0
