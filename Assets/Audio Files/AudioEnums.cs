@@ -4,9 +4,12 @@ namespace JSAM {
         DashLeft,
         DashRight,
         Footsteps,
-        Jump
+        Jump,
+        ShieldPop,
+        ShieldUp
     }
     public enum Music {
-        BG_Music
+        BG_Music,
+        ForestAmbient
     }
 }

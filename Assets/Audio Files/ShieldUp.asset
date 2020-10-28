@@ -10,22 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d15ae218647a2d4f85e14306846c10c, type: 3}
-  m_Name: Footsteps
+  m_Name: ShieldUp
   m_EditorClassIdentifier: 
-  file: {fileID: 8300000, guid: 98aedadafe7d6a649a29bb2f7830e697, type: 3}
-  files:
-  - {fileID: 8300000, guid: e8924050e04564442a07cf2903a22d1f, type: 3}
-  - {fileID: 8300000, guid: 7aa17ce8938ac0644afcd2cf4ce7d87b, type: 3}
-  - {fileID: 8300000, guid: be2870354adb6e047924ba29b13d8aea, type: 3}
-  - {fileID: 8300000, guid: 4025874ca18f6ef4e8092eb38c280be0, type: 3}
-  - {fileID: 8300000, guid: 862bcfc262e288343b5290899beaee7e, type: 3}
-  - {fileID: 8300000, guid: e487fea87b97fcb47b102a2d804ac974, type: 3}
-  - {fileID: 8300000, guid: b88184a1cc5a39f49913c1a1ab9b1b2d, type: 3}
+  file: {fileID: 8300000, guid: 367e9f3f1ba357840ab6ed84dfd9e8d5, type: 3}
+  files: []
   useLibrary: 0
-  neverRepeat: 1
+  neverRepeat: 0
   lastClipIndex: -1
   category: 
-  relativeVolume: 0.02
+  relativeVolume: 0.146
   spatialize: 0
   maxDistance: 0
   priority: 128
@@ -42,7 +35,7 @@ MonoBehaviour:
   bypassEffects: 0
   bypassListenerEffects: 0
   bypassReverbZones: 0
-  safeName: Footsteps
+  safeName: ShieldUp
   chorusFilter:
     enabled: 0
     dryMix: 0

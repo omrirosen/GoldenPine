@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\EdenA\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\EdenA\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_GoldenPine.1204931424.00" t="ExcludeRecursive" />
-    <e p="C:\Users\EdenA\OneDrive\Documents\Shenkar\Unity\Unity Projects\GoldenPine Final Project GIT\GoldenPine" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+    <e p="C:\Users\omrin\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\omrin\.Rider2019.3\system\resharper-host\Local\Transient\ReSharperHost\v193\SolutionCaches\_GoldenPine.930933162.00" t="ExcludeRecursive" />
+    <e p="D:\Game Design\Unity\GoldenPine\GoldenPine" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -20,89 +20,11 @@
         <e p="Audio Files" t="Include">
           <e p="AudioEnums.cs" t="Include" />
         </e>
-        <e p="Jacky's Simple Audio Manager" t="Include">
-          <e p="Editor" t="Include">
-            <e p="AudioCollisionFeedbackEditor.cs" t="Include" />
-            <e p="AudioEventsEditor.cs" t="Include" />
-            <e p="AudioFileMusicObjectEditor.cs" t="Include" />
-            <e p="AudioFileObjectEditor.cs" t="Include" />
-            <e p="AudioManagerEditor.cs" t="Include" />
-            <e p="AudioManagerSettingsEditor.cs" t="Include" />
-            <e p="AudioMusicZoneEditor.cs" t="Include" />
-            <e p="AudioParticlesEditor.cs" t="Include" />
-            <e p="AudioPlaybackToolEditor.cs" t="Include" />
-            <e p="AudioPlayerEditor.cs" t="Include" />
-            <e p="AudioPlayerMusicEditor.cs" t="Include" />
-            <e p="AudioTriggerFeedbackEditor.cs" t="Include" />
-            <e p="BaseAudioEditor.cs" t="Include" />
-            <e p="BaseAudioMusicEditor.cs" t="Include" />
-            <e p="EditorCompatability.cs" t="Include" />
-            <e p="JSAMEditorHelper.cs" t="Include" />
+        <e p="Effects &amp; Shaders" t="Include">
+          <e p="RippleEffect" t="Include">
+            <e p="RippleEffect.cs" t="Include" />
+            <e p="RippleEffect.shader" t="Include" />
           </e>
-          <e p="Examples" t="Include">
-            <e p="Dynamic Music" t="Include">
-              <e p="Audio Files" t="Include">
-                <e p="AudioEnums - ExampleCrossfade.cs" t="Include" />
-              </e>
-              <e p="Credits+License.txt" t="Include" />
-              <e p="CrossFadeExample.cs" t="Include" />
-            </e>
-            <e p="First-Person 3D" t="Include">
-              <e p="Audio Files" t="Include">
-                <e p="AudioEnums - Example3D.cs" t="Include" />
-              </e>
-              <e p="Credits+License.txt" t="Include" />
-              <e p="Scripts" t="Include">
-                <e p="FPSAnimator.cs" t="Include" />
-                <e p="FPSMouseLook.cs" t="Include" />
-                <e p="FPSWalker.cs" t="Include" />
-                <e p="RandomForceEmitter.cs" t="Include" />
-                <e p="TimeScaleUI.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Loop Points" t="Include">
-              <e p="Audio Files" t="Include">
-                <e p="AudioEnums - LoopPointExample.cs" t="Include" />
-              </e>
-              <e p="Credits+License.txt" t="Include" />
-              <e p="LoopPointExample.cs" t="Include" />
-            </e>
-            <e p="PauseMenu.cs" t="Include" />
-            <e p="readme.txt" t="Include" />
-            <e p="Shmup 2D" t="Include">
-              <e p="Audio Files" t="Include">
-                <e p="AudioEnums - Example2D.cs" t="Include" />
-              </e>
-              <e p="Credits+License.txt" t="Include" />
-              <e p="Scripts" t="Include">
-                <e p="ObjectPool.cs" t="Include" />
-                <e p="PlayerBulletBasic.cs" t="Include" />
-                <e p="SceneLoader.cs" t="Include" />
-                <e p="ShipController.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Plugins" t="Include">
-            <e p="ATL.xml" t="Include" />
-          </e>
-          <e p="Scripts" t="Include">
-            <e p="AudioChannelHelper.cs" t="Include" />
-            <e p="AudioCollisionFeedback.cs" t="Include" />
-            <e p="AudioEvents.cs" t="Include" />
-            <e p="AudioFileMusicObject.cs" t="Include" />
-            <e p="AudioFileObject.cs" t="Include" />
-            <e p="AudioManager.cs" t="Include" />
-            <e p="AudioManagerSettings.cs" t="Include" />
-            <e p="AudioMusicZone.cs" t="Include" />
-            <e p="AudioParticles.cs" t="Include" />
-            <e p="AudioPlayer.cs" t="Include" />
-            <e p="AudioPlayerMusic.cs" t="Include" />
-            <e p="AudioTriggerFeedback.cs" t="Include" />
-            <e p="BaseAudioFeedback.cs" t="Include" />
-            <e p="BaseAudioMusicFeedback.cs" t="Include" />
-            <e p="JSAMExtensions.cs" t="Include" />
-          </e>
-          <e p="Third-Party Licenses.txt" t="Include" />
         </e>
         <e p="MosheTest" t="Include">
           <e p="Scripts_M" t="Include">
@@ -141,6 +63,47 @@
               <e p="readme.txt" t="Include" />
             </e>
           </e>
+          <e p="Jacky's Simple Audio Manager" t="Include">
+            <e p="Editor" t="Include">
+              <e p="AudioCollisionFeedbackEditor.cs" t="Include" />
+              <e p="AudioEventsEditor.cs" t="Include" />
+              <e p="AudioFileMusicObjectEditor.cs" t="Include" />
+              <e p="AudioFileObjectEditor.cs" t="Include" />
+              <e p="AudioManagerEditor.cs" t="Include" />
+              <e p="AudioManagerSettingsEditor.cs" t="Include" />
+              <e p="AudioMusicZoneEditor.cs" t="Include" />
+              <e p="AudioParticlesEditor.cs" t="Include" />
+              <e p="AudioPlaybackToolEditor.cs" t="Include" />
+              <e p="AudioPlayerEditor.cs" t="Include" />
+              <e p="AudioPlayerMusicEditor.cs" t="Include" />
+              <e p="AudioTriggerFeedbackEditor.cs" t="Include" />
+              <e p="BaseAudioEditor.cs" t="Include" />
+              <e p="BaseAudioMusicEditor.cs" t="Include" />
+              <e p="EditorCompatability.cs" t="Include" />
+              <e p="JSAMEditorHelper.cs" t="Include" />
+            </e>
+            <e p="Plugins" t="Include">
+              <e p="ATL.xml" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="AudioChannelHelper.cs" t="Include" />
+              <e p="AudioCollisionFeedback.cs" t="Include" />
+              <e p="AudioEvents.cs" t="Include" />
+              <e p="AudioFileMusicObject.cs" t="Include" />
+              <e p="AudioFileObject.cs" t="Include" />
+              <e p="AudioManager.cs" t="Include" />
+              <e p="AudioManagerSettings.cs" t="Include" />
+              <e p="AudioMusicZone.cs" t="Include" />
+              <e p="AudioParticles.cs" t="Include" />
+              <e p="AudioPlayer.cs" t="Include" />
+              <e p="AudioPlayerMusic.cs" t="Include" />
+              <e p="AudioTriggerFeedback.cs" t="Include" />
+              <e p="BaseAudioFeedback.cs" t="Include" />
+              <e p="BaseAudioMusicFeedback.cs" t="Include" />
+              <e p="JSAMExtensions.cs" t="Include" />
+            </e>
+            <e p="Third-Party Licenses.txt" t="Include" />
+          </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="BetterJumping.cs" t="Include" />
@@ -152,16 +115,18 @@
           <e p="PlayerAnimation.cs" t="Include" />
           <e p="PlayerCeleste.cs" t="Include" />
           <e p="PlayerWithShield.cs" t="Include" />
-          <e p="RippleEffect" t="Include">
-            <e p="RippleEffect.cs" t="Include" />
-            <e p="RippleEffect.shader" t="Include" />
-          </e>
           <e p="ShieldBubble.cs" t="Include" />
-          <e p="Sound.cs" t="Include" />
+          <e p="Sound Managers" t="Include">
+            <e p="BuddySoundManager.cs" t="Include" />
+            <e p="PlayerSoundManager.cs" t="Include" />
+            <e p="ShieldSoundManager.cs" t="Include" />
+            <e p="UnihogSoundManager.cs" t="Include" />
+          </e>
         </e>
         <e p="TomerTest" t="Include">
           <e p="Scripts" t="Include">
             <e p="BuddyController.cs" t="Include" />
+            <e p="DestroyParryPop.cs" t="Include" />
             <e p="DoDmg.cs" t="Include" />
             <e p="PlayerStats.cs" t="Include" />
           </e>

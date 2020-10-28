@@ -114,11 +114,16 @@ public class PlayerWithShield : MonoBehaviour
       }
       
       //Shield Inputs
+      if (Input.GetKeyDown(KeyCode.X))
+      {
+         isShielding = true;
+      }
+      
       if (Input.GetKey(KeyCode.X))
       {
-
-            isShielding = true;
-        }
+         isShielding = true;
+      }
+      
       else
       {
          Invoke("SetIsShieldingToFalse",1f);
@@ -151,7 +156,7 @@ public class PlayerWithShield : MonoBehaviour
       {
          rb.velocity = new Vector2(xMoveInput * playerSpeed, rb.velocity.y);
       }
-     
+
       else if (!collisionCheck.onGround &&(!isWallSliding || !collisionCheck.onWall) && xMoveInput != 0)
       {
          rb.AddForce(new Vector2(airMoveSpeed * xMoveInput,0));
@@ -277,6 +282,7 @@ public class PlayerWithShield : MonoBehaviour
          playerSpeed = shieldingPlayerSpeed;
          airMoveSpeed = shieldingPlayerSpeed;
          jumpForce = shieldingJumpForce;
+         rb.gravityScale = 2;
       }
       else
       {
@@ -285,6 +291,7 @@ public class PlayerWithShield : MonoBehaviour
          playerSpeed = originalPlayerSpeed;
          airMoveSpeed = originalPlayerSpeed;
          jumpForce = originalJumpForce;
+         rb.gravityScale = 4;
       }
    }
    
@@ -416,6 +423,5 @@ public class PlayerWithShield : MonoBehaviour
         anim.SetBool("IsDashAttack", false);
         anim.SetBool("FacingRight", false);
         anim.SetBool("IsUnderImpact", false);
-        
     }
 }
