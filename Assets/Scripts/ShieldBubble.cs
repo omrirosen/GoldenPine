@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using JSAM;
 
 public class ShieldBubble : MonoBehaviour
 {
@@ -43,6 +44,7 @@ public class ShieldBubble : MonoBehaviour
 
         if (Input.GetKeyUp(KeyCode.X))
         {
+            AudioManager.PlaySound(Sounds.ShieldPop);
             if (isGrounded)
             {
                 shieldAnimator.Play("Shield Ground Pop");
