@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 1234887508174396128}
   - component: {fileID: 1234887508174396129}
   - component: {fileID: 1234887508174396134}
+  - component: {fileID: 7780002462706443021}
   m_Layer: 0
   m_Name: UnihogRollDust_0
   m_TagString: Untagged
@@ -133,3 +134,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7780002462706443021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234887508174396135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0ce172787a33ca439d7b604bbfe641a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
