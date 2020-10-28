@@ -23,34 +23,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Bushes With Outline.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Bushes With Outline.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Bushes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Bushes.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 7.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ParallaxNoDuplication.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ParallaxNoDuplication.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer1 White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer1 White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer2 White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer2 White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer3 White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Layer3 White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Bushes/Bushes Dark Big Circle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Bushes/Bushes Dark Big Circle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Bushes/Bushes Dark Flat.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Bushes/Bushes Dark Flat.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Bushes/Bushes Dark Medium Circle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Bushes/Bushes Dark Medium Circle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Bushes/Bushes Dark Narrow Long.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Bushes/Bushes Dark Narrow Long.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Bushes/Bushes Dark Small Circle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Bushes/Bushes Dark Small Circle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene/Global Volume Profile 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene/Global Volume Profile 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene_Profiles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene_Profiles/GameObject Profile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene_Profiles/GameObject Profile.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene_Profiles/Silhouette Plants Profile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene_Profiles/Silhouette Plants Profile.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Jackys.Simple.Audio.Manager.2.1.5.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Main Character Clips/FX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Main Character Clips/FX.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/WarmGray6.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/WarmGray6.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/WarmGray8.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Jacky's Simple Audio Manager/Examples/First-Person 3D/Models/Weapons/Materials/WarmGray8.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/UniversalRenderPipelineAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/URP/UniversalRenderPipelineAsset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,11 +76,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/ShieldBubble1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,11 +102,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CamShakeSimple.cs" />
         <option value="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parallax2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParallaxNoDuplication.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
       </list>
     </option>
   </component>
@@ -200,6 +207,8 @@
       <workItem from="1603638998296" duration="656000" />
       <workItem from="1603792899209" duration="1926000" />
       <workItem from="1603808863592" duration="2551000" />
+      <workItem from="1603876970749" duration="618000" />
+      <workItem from="1603893891424" duration="14000" />
     </task>
     <servers />
   </component>

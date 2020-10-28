@@ -162,6 +162,7 @@
         <e p="TomerTest" t="Include">
           <e p="Scripts" t="Include">
             <e p="BuddyController.cs" t="Include" />
+            <e p="DestroyParryPop.cs" t="Include" />
             <e p="DoDmg.cs" t="Include" />
             <e p="PlayerStats.cs" t="Include" />
           </e>
