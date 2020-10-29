@@ -29,11 +29,14 @@
         <e p="MosheTest" t="Include">
           <e p="Scripts_M" t="Include">
             <e p="AI_PlayTests" t="Include">
+              <e p="HitParticleRandom.cs" t="Include" />
               <e p="Hornhog" t="Include">
                 <e p="HornyHogController.cs" t="Include" />
                 <e p="HornyHogDMG.cs" t="Include" />
               </e>
+              <e p="KillMe.cs" t="Include" />
               <e p="Unihog" t="Include">
+                <e p="AnimationEffects.cs" t="Include" />
                 <e p="GroundCheck.cs" t="Include" />
                 <e p="Unihog1Controller.cs" t="Include" />
                 <e p="Unihog1DMG.cs" t="Include" />
