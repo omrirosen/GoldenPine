@@ -35,6 +35,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] Transform hitpoint1;
     [SerializeField] GameObject ShieldHit1;
     [SerializeField] ShieldBubble ShieldReff;
+    bool ShieldCoolDown = false;
 
     private void Awake()
     {
@@ -42,7 +43,6 @@ public class PlayerStats : MonoBehaviour
         playerWithShield = this.GetComponent<PlayerWithShield>();
         rb2d = GetComponent<Rigidbody2D>();
         collisionCheck = GetComponent<CollisionCheck>();
-        ShieldReff = GetComponent<ShieldBubble>();
     }
     private void Update()
     {
@@ -50,6 +50,7 @@ public class PlayerStats : MonoBehaviour
         HealPlayer();
         ShieldUp();
         Dashed();
+        print(ShieldCoolDown);
         if (Impact != null)
         {
             if (!Impact.IsPlaying())
@@ -70,7 +71,7 @@ public class PlayerStats : MonoBehaviour
 
     public void TakeDmg(int Dmg,Vector3 dir)
     {
-        if (shieldOn == false && ParryWindow == false && playerWithShield.isDashing == false)
+        if (ShieldCoolDown == true || shieldOn == false && ParryWindow == false && playerWithShield.isDashing == false)
         {
             playerHealth -= Dmg;
             animator.SetInteger("PlayerHealthUI", playerHealth);
@@ -83,10 +84,12 @@ public class PlayerStats : MonoBehaviour
             }
         }
 
-        if(shieldOn == true)
+        if(shieldOn == true && ShieldCoolDown == false)
         {
-
-            if(dir.x <= 0)
+            ShieldCoolDown = true;
+            shieldOn = false;
+            Invoke("SetShieldCoolTime", 1.5f);
+            if (dir.x <= 0)
             {
                 Instantiate(ShieldHit1, hitpoint.transform.position, transform.rotation);
             }
@@ -95,7 +98,7 @@ public class PlayerStats : MonoBehaviour
                 Instantiate(ShieldHit1, hitpoint1.transform.position, transform.rotation);
             }
             ShieldReff.HitShield();
-
+            playerWithShield.HitShield();
         }
 
        if ( ParryWindow == true) 
@@ -146,7 +149,7 @@ public class PlayerStats : MonoBehaviour
 
     private void ShieldUp()
     {
-        if (Input.GetKey(KeyCode.X))
+        if (Input.GetKey(KeyCode.X) && ShieldCoolDown == false)
         {
 
          shieldOn = true;  
@@ -198,9 +201,6 @@ public class PlayerStats : MonoBehaviour
         {
             Instantiate(ParryPopAir, transform.position, transform.rotation);
         }
-        
-        
-
     }
 
 
@@ -216,8 +216,7 @@ public class PlayerStats : MonoBehaviour
             playerWithShield.isDashing = true;
             playerWithShield.GeneratPulse();
             FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
-            Invoke("BackToOGColor", 0.5f);
-            
+            Invoke("BackToOGColor", 0.5f); 
         }
     }
 
@@ -234,4 +233,8 @@ public class PlayerStats : MonoBehaviour
         print(DashStock);
     }
 
+    private void SetShieldCoolTime()
+    {
+         ShieldCoolDown = false;
+    }
 }

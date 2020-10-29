@@ -61,7 +61,7 @@ public class PlayerWithShield : MonoBehaviour
    public bool DashAttack = false;
 
     bool IsDead = false;
-    
+    bool CanShield = true;
 
 
     private void Awake()
@@ -114,12 +114,8 @@ public class PlayerWithShield : MonoBehaviour
       }
       
       //Shield Inputs
-      if (Input.GetKeyDown(KeyCode.X))
-      {
-         isShielding = true;
-      }
       
-      if (Input.GetKey(KeyCode.X))
+      if (Input.GetKey(KeyCode.X) && CanShield == true)
       {
          isShielding = true;
       }
@@ -188,7 +184,7 @@ public class PlayerWithShield : MonoBehaviour
       
       if (Input.GetButtonDown("Jump") && collisionCheck.onGround)
       {
-         JSAM.AudioManager.PlaySound(Sounds.Jump); 
+         //JSAM.AudioManager.PlaySound(Sounds.Jump); 
          anim.SetTrigger("takeOff");
          isJumping = true;
          jumpTimeCounter = jumpTime;
@@ -215,7 +211,7 @@ public class PlayerWithShield : MonoBehaviour
       {
          isJumping = false;
             Buddy.StopJump();
-        }
+      }
       
    }
    
@@ -341,7 +337,6 @@ public class PlayerWithShield : MonoBehaviour
             Buddy.flip();
             Buddy.SetHitOffset();
       }
-
    }
 
    private void SetCreateGhostToFalse()
@@ -376,10 +371,10 @@ public class PlayerWithShield : MonoBehaviour
       anim.SetBool("IsDashAttack", DashAttack);
       anim.SetBool("FacingRight", facingRight);
         if (rb.velocity.y < 0 && reachedPeakJump == false)
-      {
+        {
          reachedPeakJump = true;
          Invoke("SetReachedPeakToFlase", 0.05f);
-      }
+        }
    }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -427,6 +422,13 @@ public class PlayerWithShield : MonoBehaviour
 
     public void HitShield()
     {
-        //Invoke("SetIsShieldingToFalse", 1f);
+        CanShield = false; 
+        Invoke("SetIsShieldingToFalse", 0.5f);
+        Invoke("SetCanShieldTrue", 1.5f);
+    }
+
+    private void SetCanShieldTrue()
+    {
+        CanShield = true;
     }
 }
