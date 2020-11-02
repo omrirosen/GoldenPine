@@ -40,6 +40,9 @@ public class PlayerWithShield : MonoBehaviour
    [SerializeField] private float dashSpeed = 10f;
    [SerializeField] private float startDashTime;
    [SerializeField] int dmg;
+   private float HoldDashStartTime;
+   private float HoldDashTime;
+   private float DashSpeedMax = 20f;
    public bool isDashing;
    private FadingGhost fadingGhost;
    private float dashTime;
@@ -85,7 +88,8 @@ public class PlayerWithShield : MonoBehaviour
    private void Update()
    {
       if(IsDead == false) 
-      { 
+      {
+          
           Inputs();
           PlayerJump();
           PlayerMovement();
@@ -103,15 +107,25 @@ public class PlayerWithShield : MonoBehaviour
    {
       //Horizontal Inputs
       xMoveInput = Input.GetAxisRaw("Horizontal"); //GetAxisRaw meaning snappy movement, remove raw for fluidity
-      
-      //Dash Inputs
+                                                  //Dash Inputs
+      if (Input.GetKeyDown(KeyCode.LeftShift))
+      {
+
+            HoldDashStartTime = Time.time;
+            
+      }
+     
       if (Input.GetKeyUp(KeyCode.LeftShift))
       {
+            float HoldDownTime = Time.time - HoldDashStartTime;
+            dashSpeed = CalculateDashTime(HoldDownTime);
+            if (dashSpeed < 10f) dashSpeed = 10f;
          isDashing = true;
          FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
             Buddy.Dash();
             GeneratPulse();
-      }
+            print(dashSpeed);
+        }
       
       //Shield Inputs
       
@@ -125,6 +139,13 @@ public class PlayerWithShield : MonoBehaviour
          Invoke("SetIsShieldingToFalse",1f);
       }
    }
+    private float CalculateDashTime(float HoldTime)
+    {
+        float MaxSpeedHoldTime = 2f;
+        float NormalizedHoldTime = Mathf.Clamp01(HoldTime / MaxSpeedHoldTime);
+        float force = NormalizedHoldTime * DashSpeedMax;
+        return force;
+    }
     public void GeneratPulse()
     {
         pulseSource.GenerateImpulse();
@@ -202,7 +223,7 @@ public class PlayerWithShield : MonoBehaviour
          else
          {
             isJumping = false;
-                Buddy.StopJump();
+            Buddy.StopJump();
          }
          
       }
@@ -228,14 +249,14 @@ public class PlayerWithShield : MonoBehaviour
                fadingGhost.createGhost = true;
                Invoke("SetCreateGhostToFalse",dashTime);
                direction = 1;
-               JSAM.AudioManager.PlaySound(Sounds.DashLeft);
+               //JSAM.AudioManager.PlaySound(Sounds.DashLeft);
             }
             else if (facingRight) // right 
             {
                fadingGhost.createGhost = true;
                Invoke("SetCreateGhostToFalse",dashTime);
                direction = 2;
-               JSAM.AudioManager.PlaySound(Sounds.DashRight);
+               //JSAM.AudioManager.PlaySound(Sounds.DashRight);
             }
          }
       }
@@ -431,4 +452,6 @@ public class PlayerWithShield : MonoBehaviour
     {
         CanShield = true;
     }
+
+
 }
