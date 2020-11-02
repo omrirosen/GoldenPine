@@ -81,6 +81,12 @@ TagManager:
   - name: Supporting Grass Black
     uniqueID: 2196771597
     locked: 0
+  - name: Rocks 2
+    uniqueID: 2230958609
+    locked: 0
+  - name: Rocks 1
+    uniqueID: 1767168087
+    locked: 0
   - name: Foreground 3
     uniqueID: 1118958547
     locked: 0

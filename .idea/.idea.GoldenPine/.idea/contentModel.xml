@@ -20,6 +20,7 @@
         <e p="Audio Files" t="Include">
           <e p="AudioEnums.cs" t="Include" />
         </e>
+        <e p="CloudGeneratorScript.cs" t="Include" />
         <e p="Effects &amp; Shaders" t="Include">
           <e p="RippleEffect" t="Include">
             <e p="RippleEffect.cs" t="Include" />
@@ -104,6 +105,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="BetterJumping.cs" t="Include" />
+          <e p="CloudScript.cs" t="Include" />
           <e p="CollisionCheck.cs" t="Include" />
           <e p="EnemyPatrol.cs" t="Include" />
           <e p="FadingGhost.cs" t="Include" />
