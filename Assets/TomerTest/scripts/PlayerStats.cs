@@ -8,7 +8,7 @@ using DG.Tweening;
 public class PlayerStats : MonoBehaviour
 {
     private int playerHealth = 4;
-    private float DashStock = 0;
+    public float DashStock = 0;
     [SerializeField] private GameObject PlayerSelf;
     [SerializeField] private Animator animator;
     [SerializeField] private Animator StaminaAnimator;
@@ -36,6 +36,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] GameObject ShieldHit1;
     [SerializeField] ShieldBubble ShieldReff;
     bool ShieldCoolDown = false;
+    public bool DashAttackOn = false;
 
     private void Awake()
     {
@@ -46,11 +47,12 @@ public class PlayerStats : MonoBehaviour
     }
     private void Update()
     {
-       // print(playerHealth);
+        // print(playerHealth);
+        print(DashAttackOn);
         HealPlayer();
         ShieldUp();
         Dashed();
-        print(ShieldCoolDown);
+        //print(ShieldCoolDown);
         if (Impact != null)
         {
             if (!Impact.IsPlaying())
@@ -206,14 +208,14 @@ public class PlayerStats : MonoBehaviour
 
     private void Dashed()
     {
-        if (Input.GetKeyDown(KeyCode.LeftControl) && DashStock >= 1)
+        if (DashStock >= 1 && DashAttackOn == true)
         {
             DashStock = DashStock - 1;
             StaminaAnimator.SetFloat("StaminaUi", DashStock);
             StaminaAnimator.Play("StaminaDown");
-            DashAttacked = true;
             playerWithShield.DashAttack = true;
-            playerWithShield.isDashing = true;
+            //playerWithShield.isDashing = true;
+            DashAttacked = true;
             playerWithShield.GeneratPulse();
             FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
             Invoke("BackToOGColor", 0.5f); 

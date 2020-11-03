@@ -62,10 +62,10 @@ public class PlayerWithShield : MonoBehaviour
    private CollisionCheck collisionCheck;
    [SerializeField] private CinemachineImpulseSource pulseSource;
    public bool DashAttack = false;
-
+    [SerializeField] GameObject ChargAnim;
     bool IsDead = false;
     bool CanShield = true;
-
+    GameObject Player;
 
     private void Awake()
    {
@@ -75,7 +75,7 @@ public class PlayerWithShield : MonoBehaviour
       fadingGhost = FindObjectOfType<FadingGhost>();
       shieldBubbleSR = shieldBubble.GetComponent<SpriteRenderer>();
       shieldBubbleCC2D = shieldBubble.GetComponent<CircleCollider2D>();
-
+        Player = this.gameObject;
 
    }
 
@@ -89,7 +89,6 @@ public class PlayerWithShield : MonoBehaviour
    {
       if(IsDead == false) 
       {
-          
           Inputs();
           PlayerJump();
           PlayerMovement();
@@ -98,8 +97,12 @@ public class PlayerWithShield : MonoBehaviour
           HandleShield();
           WallSlide();
           AnimationSetup();
+          if(PS.DashStock >=1 && dashSpeed >= 12)
+          {
+                Instantiate(ChargAnim, Player.transform.position, Player.transform.rotation);
+          }
       }
-    }
+   }
    
 
    private void Inputs()
@@ -118,14 +121,16 @@ public class PlayerWithShield : MonoBehaviour
       if (Input.GetKeyUp(KeyCode.LeftShift))
       {
             float HoldDownTime = Time.time - HoldDashStartTime;
-            dashSpeed = CalculateDashTime(HoldDownTime);
-            if (dashSpeed < 10f) dashSpeed = 10f;
-         isDashing = true;
-         FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
+            dashSpeed = dashSpeed + CalculateDashTime(HoldDownTime);
+            if(dashSpeed > 20) dashSpeed = 20;
+            if(dashSpeed < 12 || PS.DashStock <1) dashSpeed = 10;
+            if(dashSpeed >= 12) PS.DashAttackOn = true;
+            isDashing = true;
+            FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
             Buddy.Dash();
             GeneratPulse();
-            print(dashSpeed);
-        }
+            Invoke("BackToOGDashSpeed", 0.5f);
+      }
       
       //Shield Inputs
       
@@ -145,6 +150,12 @@ public class PlayerWithShield : MonoBehaviour
         float NormalizedHoldTime = Mathf.Clamp01(HoldTime / MaxSpeedHoldTime);
         float force = NormalizedHoldTime * DashSpeedMax;
         return force;
+    }
+
+    private void BackToOGDashSpeed()
+    {
+        dashSpeed = 10f;
+        PS.DashAttackOn = false;
     }
     public void GeneratPulse()
     {
