@@ -11,7 +11,7 @@ public class AnimationEffects :MonoBehaviour
 
     public void playRollDust()
     {
-        print("Dust");
+       // print("Dust");
         if (!didPlayRollDust)
         {
             didPlayRollDust = true;
@@ -27,6 +27,7 @@ public class AnimationEffects :MonoBehaviour
             }
 
         }
+        
         
     }
 
