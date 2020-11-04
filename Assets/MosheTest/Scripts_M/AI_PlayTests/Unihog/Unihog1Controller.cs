@@ -56,7 +56,7 @@ public class Unihog1Controller : MonoBehaviour
         switch (state)
         {
             case stateMachine.roming:
-                effects.didPlayRollDust = false;
+               
                 attacking = false;
                 if (!isTurning)
                 {
@@ -65,12 +65,14 @@ public class Unihog1Controller : MonoBehaviour
                         rb2d.velocity = new Vector2(moveSpeed, 0);
 
                         animator.SetBool("IsMoving", true);
+                        effects.didPlayRollDust = false;
 
                     }
                     else
                     {
                         rb2d.velocity = new Vector2(-moveSpeed, 0);
                         animator.SetBool("IsMoving", true);
+                        effects.didPlayRollDust = false;
                     }
                 }
                 else

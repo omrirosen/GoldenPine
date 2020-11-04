@@ -19549,6 +19549,8 @@ MonoBehaviour:
   Buddy: {fileID: 1920338649}
   pulseSource: {fileID: 7683090657872728394}
   DashAttack: 0
+  ChargAnim: {fileID: 4963713097162528885, guid: 3161caa1d7f091847a8c0a52b798b6ba,
+    type: 3}
 --- !u!68 &3471695948983743157
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -19628,6 +19630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb17f413055b1364380246fca3e6fc49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DashStock: 0
   PlayerSelf: {fileID: 3471695948983743154}
   animator: {fileID: 1221847726}
   StaminaAnimator: {fileID: 783382500}
@@ -19650,6 +19653,7 @@ MonoBehaviour:
   ShieldHit1: {fileID: 2512026605178568978, guid: 130896913d43f9944b78fad95f52c866,
     type: 3}
   ShieldReff: {fileID: 2566402653506961420}
+  DashAttackOn: 0
 --- !u!114 &3471695948983743161
 MonoBehaviour:
   m_ObjectHideFlags: 0
