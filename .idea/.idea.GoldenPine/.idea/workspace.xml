@@ -23,175 +23,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Big White.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Big White.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Cloud Var 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Cloud Var 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Cloud Var 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Cloud Var 2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 7.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 8.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Clouds Var 9.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 8.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Plants/Plant 9.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Rock Var 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Rock Var 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Rock Var 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Rock Var 2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Rock Var 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Rock Var 3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Rock Var 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Rock Var 4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Rock Var 5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Rock Var 5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Rock Var 6 (BIG).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Rock Var 6 (BIG).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Rock Underground Tileset.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/Rock Underground Tileset.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/UndergroundTileset1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Tilesets Sprites/UndergroundTileset1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_0.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_0.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_10.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_10.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_11.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_11.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_12.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_12.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_13.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_13.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_14.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_14.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_15.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_15.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_16.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_16.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_17.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_17.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_18.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_18.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_19.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_19.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_6.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_6.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_7.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_8.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_9.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/Rock Underground Tileset_9.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_0.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_0.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_1.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_1.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_10.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_10.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_11.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_11.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_12.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_12.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_13.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_13.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_14.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_14.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_15.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_15.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_16.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_16.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_17.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_17.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_18.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_18.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_19.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_19.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_2.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_2.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_3.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_3.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_4.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_4.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_5.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_5.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_6.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_6.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_7.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_7.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_8.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_8.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_9.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/UndergroundTileset1_9.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CloudGeneratorScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Cloud Generator.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Cloud Generator.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 10.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 10.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 4.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 4.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 5.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 5.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 6.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 6.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 7.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 7.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 8.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 8.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 9.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 9.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Rocks Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Rocks Prefabs/Rock Var 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Rocks Prefabs/Rock Var 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Rocks Prefabs/Rock Var 2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Rocks Prefabs/Rock Var 2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Rocks Prefabs/Rock Var 3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Rocks Prefabs/Rock Var 3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Rocks Prefabs/Rock Var 4.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Rocks Prefabs/Rock Var 4.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Rocks Prefabs/Rock Var 5.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Rocks Prefabs/Rock Var 5.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Rocks Prefabs/Rock Var 6 (BIG).prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Rocks Prefabs/Rock Var 6 (BIG).prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CloudScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CloudScript.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tilemaps/New Platforms.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/New Platforms.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Bushes_Dan_Big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Bushes_Dan_Big.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Bushes_Dan_Mid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Bushes_Dan_Mid.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Bushes_Dan_Small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/BG_Bushes_Dan_Small.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Moon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Moon1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/NightSky1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/NightSky1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/NightSky2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/NightSky2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutter Var 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutter Var 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutter Var 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutter Var 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutter Var 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutter Var 3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Cloud Eden.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Clouds/Cloud Eden.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/BG Sky.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/BG Sky.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/NightSky1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/NightSky1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/NightSky2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Tilemaps/Caches/NightSky2.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/BG Bushes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/BG Bushes/BG_Bushes Big.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/BG Bushes/BG_Bushes Big.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/BG Bushes/BG_Bushes Mid.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/BG Bushes/BG_Bushes Mid.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/BG Bushes/BG_Bushes Small.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/BG Bushes/BG_Bushes Small.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Cloud Eden Flip.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Cloud Eden Flip.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Cloud Eden.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Cloud Eden.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 10 Flip.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 10 Flip.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 2 Flip.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 2 Flip.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 3 Flip.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 3 Flip.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 4 Flip.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 4 Flip.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 5 Flip.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 5 Flip.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 6 Flip.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 6 Flip.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 7 Flip.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 7 Flip.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 9 Flip.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Clouds Var 9 Flip.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Tree.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Tree/Tree Siloutte Var 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Tree/Tree Siloutte Var 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Tree/Tree Siloutte Var 2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Tree/Tree Siloutte Var 2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Tree/Tree Siloutte Var 3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Tree/Tree Siloutte Var 3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Tree/Tree Siloutte Var 4.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Tree/Tree Siloutte Var 4.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CloudGeneratorScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CloudGeneratorScript.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutte White.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutte White.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutte White.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutte White.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutte.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Sprites/Background/Tree Siloutte.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CloudGeneratorScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CloudGeneratorScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Cloud Generator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Cloud Generator.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +110,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CloudScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CloudGeneratorScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
@@ -345,6 +249,7 @@
       <workItem from="1603893891424" duration="14000" />
       <workItem from="1603973704507" duration="395000" />
       <workItem from="1604321468379" duration="6201000" />
+      <workItem from="1604419016837" duration="34000" />
     </task>
     <servers />
   </component>

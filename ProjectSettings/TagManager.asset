@@ -22,7 +22,7 @@ TagManager:
   - Player
   - AI
   - PP
-  - 
+  - Camera Confiner
   - 
   - 
   - 
@@ -57,8 +57,14 @@ TagManager:
   - name: Parallax 3
     uniqueID: 2240058339
     locked: 0
+  - name: Rocks 2
+    uniqueID: 2230958609
+    locked: 0
   - name: Parallax 2
     uniqueID: 79434053
+    locked: 0
+  - name: Rocks 1
+    uniqueID: 1767168087
     locked: 0
   - name: Parallax 1
     uniqueID: 273435733
@@ -80,12 +86,6 @@ TagManager:
     locked: 0
   - name: Supporting Grass Black
     uniqueID: 2196771597
-    locked: 0
-  - name: Rocks 2
-    uniqueID: 2230958609
-    locked: 0
-  - name: Rocks 1
-    uniqueID: 1767168087
     locked: 0
   - name: Foreground 3
     uniqueID: 1118958547
