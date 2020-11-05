@@ -9,12 +9,20 @@ public class DashTutorial : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        dashTutorialCanvas.SetActive(true);
+        if (other.gameObject.CompareTag("Player"))
+        {
+            dashTutorialCanvas.SetActive(true);
+        }
+        
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        Invoke("EndTutorial", 1f);
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Invoke("EndTutorial", 1f);
+        }
+        
     }
     
 

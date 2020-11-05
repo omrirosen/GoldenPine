@@ -9,12 +9,20 @@ public class WallSlideTutorial : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        wallslideTutorialCanvas.SetActive(true);
+        if (other.gameObject.CompareTag("Player"))
+        {
+            wallslideTutorialCanvas.SetActive(true);
+        }
+        
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        Invoke("EndTutorial", 1f);
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Invoke("EndTutorial", 1f);
+        }
+        
     }
     
 

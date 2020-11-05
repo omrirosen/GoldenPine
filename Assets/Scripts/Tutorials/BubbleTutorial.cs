@@ -3,15 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class JumpTutorial : MonoBehaviour
+public class BubbleTutorial : MonoBehaviour
 {
-    [SerializeField] private GameObject jumpTutorialCanvas;
+    [SerializeField] private GameObject bubbleTutorialCanvas;
     
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            jumpTutorialCanvas.SetActive(true);
+            bubbleTutorialCanvas.SetActive(true);
         }
         
     }
@@ -22,10 +22,12 @@ public class JumpTutorial : MonoBehaviour
         {
             Invoke("EndTutorial", 1f);
         }
+        
     }
     
+
     void EndTutorial()
     {
-        jumpTutorialCanvas.SetActive(false);
+        bubbleTutorialCanvas.SetActive(false);
     }
 }

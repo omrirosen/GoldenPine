@@ -23,21 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tutorials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tutorials/DashTutorial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tutorials/DashTutorial.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tutorials/JumpTutorial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tutorials/JumpTutorial.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tutorials/WallSlideTutorial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tutorials/BubbleTutorial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tutorials/BubbleTutorial.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/UI/Text Fade/Text Fade.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/UI/Text Fade/Text Fade.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Cloud Eden Flip.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Cloud Eden Flip.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Cloud Eden.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Cloud Eden.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Cloud Generator.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Art Prefabs/Clouds Prefab/Cloud Generator.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tutorials.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tutorials.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tutorials/DashTutorial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tutorials/DashTutorial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tutorials/JumpTutorial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tutorials/JumpTutorial.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tutorials/WallSlideTutorial.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tutorials/WallSlideTutorial.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,9 +79,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CloudScript.cs" />
         <option value="$PROJECT_DIR$/Assets/CloudGeneratorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials/BubbleTutorial.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials/WallSlideTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials/DashTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials/JumpTutorial.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials/WallSlideTutorial.cs" />
       </list>
     </option>
   </component>
@@ -197,6 +190,7 @@
       <workItem from="1604419016837" duration="34000" />
       <workItem from="1604504547490" duration="843000" />
       <workItem from="1604566928741" duration="2800000" />
+      <workItem from="1604574007679" duration="1722000" />
     </task>
     <servers />
   </component>

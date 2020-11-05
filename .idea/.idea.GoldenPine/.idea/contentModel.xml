@@ -122,6 +122,7 @@
             <e p="UnihogSoundManager.cs" t="Include" />
           </e>
           <e p="Tutorials" t="Include">
+            <e p="BubbleTutorial.cs" t="Include" />
             <e p="DashTutorial.cs" t="Include" />
             <e p="JumpTutorial.cs" t="Include" />
             <e p="WallSlideTutorial.cs" t="Include" />
