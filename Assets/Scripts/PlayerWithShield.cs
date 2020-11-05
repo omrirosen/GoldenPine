@@ -47,7 +47,7 @@ public class PlayerWithShield : MonoBehaviour
    private FadingGhost fadingGhost;
    private float dashTime;
    private int direction;
-
+    float HoldDownTime;
    [Header("ShieldBubble Config")] 
    [SerializeField] private GameObject shieldBubble;
    [SerializeField] private SpriteRenderer shieldBubbleSR;
@@ -97,10 +97,8 @@ public class PlayerWithShield : MonoBehaviour
           HandleShield();
           WallSlide();
           AnimationSetup();
-          if(PS.DashStock >=1 && dashSpeed >= 12)
-          {
-                Instantiate(ChargAnim, Player.transform.position, Player.transform.rotation);
-          }
+          print(PS.DashStock);
+         
       }
    }
    
@@ -115,12 +113,17 @@ public class PlayerWithShield : MonoBehaviour
       {
 
             HoldDashStartTime = Time.time;
-            
+
+            if (PS.DashStock >= 1 && HoldDashStartTime > HoldDashStartTime + 0.5f)
+            {
+
+                Instantiate(ChargAnim, Player.transform.position, Player.transform.rotation);
+            }
       }
      
       if (Input.GetKeyUp(KeyCode.LeftShift))
       {
-            float HoldDownTime = Time.time - HoldDashStartTime;
+            HoldDownTime = Time.time - HoldDashStartTime;
             dashSpeed = dashSpeed + CalculateDashTime(HoldDownTime);
             if(dashSpeed > 20) dashSpeed = 20;
             if(dashSpeed < 12 || PS.DashStock <1) dashSpeed = 10;
@@ -131,7 +134,14 @@ public class PlayerWithShield : MonoBehaviour
             GeneratPulse();
             Invoke("BackToOGDashSpeed", 0.5f);
       }
-      
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            if (PS.DashStock >= 1 && HoldDashStartTime > HoldDashStartTime + 2f)
+            {
+
+                Instantiate(ChargAnim, Player.transform.position, Player.transform.rotation);
+            }
+        }
       //Shield Inputs
       
       if (Input.GetKey(KeyCode.X) && CanShield == true)
