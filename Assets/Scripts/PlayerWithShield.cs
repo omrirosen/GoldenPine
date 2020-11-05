@@ -66,7 +66,7 @@ public class PlayerWithShield : MonoBehaviour
     bool IsDead = false;
     bool CanShield = true;
     GameObject Player;
-
+    bool DashCharging = false;
     private void Awake()
    {
       rb = GetComponent<Rigidbody2D>();
@@ -97,8 +97,7 @@ public class PlayerWithShield : MonoBehaviour
           HandleShield();
           WallSlide();
           AnimationSetup();
-          print(PS.DashStock);
-         
+          
       }
    }
    
@@ -113,16 +112,13 @@ public class PlayerWithShield : MonoBehaviour
       {
 
             HoldDashStartTime = Time.time;
-
-            if (PS.DashStock >= 1 && HoldDashStartTime > HoldDashStartTime + 0.5f)
-            {
-
-                Instantiate(ChargAnim, Player.transform.position, Player.transform.rotation);
-            }
+            DashCharging = true;
+            Invoke("SetDashChagingFalse", 0.5f);
       }
      
       if (Input.GetKeyUp(KeyCode.LeftShift))
       {
+            anim.SetBool("IsWhite", false);
             HoldDownTime = Time.time - HoldDashStartTime;
             dashSpeed = dashSpeed + CalculateDashTime(HoldDownTime);
             if(dashSpeed > 20) dashSpeed = 20;
@@ -132,16 +128,12 @@ public class PlayerWithShield : MonoBehaviour
             FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
             Buddy.Dash();
             GeneratPulse();
+            DashCharging = false;
             Invoke("BackToOGDashSpeed", 0.5f);
       }
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            if (PS.DashStock >= 1 && HoldDashStartTime > HoldDashStartTime + 2f)
-            {
-
-                Instantiate(ChargAnim, Player.transform.position, Player.transform.rotation);
-            }
-        }
+        
+        
+       
       //Shield Inputs
       
       if (Input.GetKey(KeyCode.X) && CanShield == true)
@@ -172,7 +164,19 @@ public class PlayerWithShield : MonoBehaviour
         pulseSource.GenerateImpulse();
     }
     
-   
+    private void SetDashChagingFalse()
+    {
+        if (PS.DashStock >= 1 && DashCharging == true)
+        {
+            ChargAnim.SetActive(true);
+            Invoke("SetWhite", 0.5f);
+            DashCharging = false;
+        }
+    }
+   private void SetWhite()
+   {
+        anim.SetBool("IsWhite", true);
+    }
 
    private void PlayerMovement()
    {
