@@ -121,7 +121,11 @@
             <e p="ShieldSoundManager.cs" t="Include" />
             <e p="UnihogSoundManager.cs" t="Include" />
           </e>
-          <e p="Tutorials.cs" t="Include" />
+          <e p="Tutorials" t="Include">
+            <e p="DashTutorial.cs" t="Include" />
+            <e p="JumpTutorial.cs" t="Include" />
+            <e p="WallSlideTutorial.cs" t="Include" />
+          </e>
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">
