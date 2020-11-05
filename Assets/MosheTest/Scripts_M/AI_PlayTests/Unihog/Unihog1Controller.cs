@@ -154,8 +154,9 @@ public class Unihog1Controller : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         
-        if (!isTurning && collision.tag!="Player")
+        if (!isTurning && collision.tag=="TileMapCollider")
         {
+           // print(collision.tag);
             StartCoroutine(Turn());
             transform.localScale = new Vector2(-(Mathf.Sign(rb2d.velocity.x)), transform.localScale.y);
         }

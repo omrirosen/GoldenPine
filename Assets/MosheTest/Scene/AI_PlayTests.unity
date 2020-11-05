@@ -741,18 +741,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be727525a78c7f44daf2c3849173d56a, type: 3}
---- !u!114 &1511830143 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5412783622459689583, guid: 01a25fcb8e6eef140ba7dce6fa73c80c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1960545343}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0cb7bc095a43164baedaa48a4b6749e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1676558278
 GameObject:
   m_ObjectHideFlags: 0
@@ -18769,10 +18757,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 406397053, guid: 01a25fcb8e6eef140ba7dce6fa73c80c, type: 3}
-      propertyPath: unihog
-      value: 
-      objectReference: {fileID: 1511830143}
     - target: {fileID: 5412783622459689582, guid: 01a25fcb8e6eef140ba7dce6fa73c80c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18828,12 +18812,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5412783622459689583, guid: 01a25fcb8e6eef140ba7dce6fa73c80c,
-        type: 3}
-      propertyPath: HitPartical_ins
-      value: 
-      objectReference: {fileID: 8679130280484342764, guid: 5c3f8fd6eeef3e7489c8ffaee431c7b8,
-        type: 3}
     - target: {fileID: 5412783622459689585, guid: 01a25fcb8e6eef140ba7dce6fa73c80c,
         type: 3}
       propertyPath: m_Name
@@ -18848,17 +18826,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5238089192043708505, guid: 63407609a93eeb04d962abe20e5eefd3,
-        type: 3}
-      propertyPath: HitPartical_ins
-      value: 
-      objectReference: {fileID: 8679130280484342764, guid: 5c3f8fd6eeef3e7489c8ffaee431c7b8,
-        type: 3}
-    - target: {fileID: 5238089192043708505, guid: 63407609a93eeb04d962abe20e5eefd3,
-        type: 3}
-      propertyPath: health
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 5238089192043708507, guid: 63407609a93eeb04d962abe20e5eefd3,
         type: 3}
       propertyPath: m_LocalPosition.x

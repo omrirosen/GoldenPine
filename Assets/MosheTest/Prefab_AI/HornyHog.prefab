@@ -80,7 +80,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   hogDMG: {fileID: 5238089193216047974}
-  health: 1
+  health: 2
   HitPartical_ins: {fileID: 8679130280484342764, guid: 5c3f8fd6eeef3e7489c8ffaee431c7b8,
     type: 3}
 --- !u!1 &5238089192598306450

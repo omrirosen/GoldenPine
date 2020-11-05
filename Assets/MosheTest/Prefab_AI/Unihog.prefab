@@ -284,7 +284,7 @@ MonoBehaviour:
   UnihogRollDust_ins: {fileID: 1234887506838826486, guid: c2149917dce9ad14bad2e83351dccce7,
     type: 3}
   UnihogRollDust_position: {fileID: 321481988}
-  unihog: {fileID: 0}
+  unihog: {fileID: 5412783622459689583}
   didPlayRollDust: 0
 --- !u!1 &5412783622459689585
 GameObject:
