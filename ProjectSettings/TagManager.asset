@@ -51,6 +51,12 @@ TagManager:
   - name: Foreground Tiles
     uniqueID: 3887207119
     locked: 0
+  - name: Moon
+    uniqueID: 643296115
+    locked: 0
+  - name: Clouds
+    uniqueID: 1253244289
+    locked: 0
   - name: Parallax 4
     uniqueID: 2737360977
     locked: 0
@@ -95,4 +101,7 @@ TagManager:
     locked: 0
   - name: Foreground 1
     uniqueID: 2150292123
+    locked: 0
+  - name: UI
+    uniqueID: 1296652527
     locked: 0
