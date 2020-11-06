@@ -175,7 +175,14 @@ public class PlayerWithShield : MonoBehaviour
     }
    private void SetWhite()
    {
+        anim.SetBool("TransitionToWhite", true);
         anim.SetBool("IsWhite", true);
+        Invoke("EndTransitionToWhite", 0.2f);
+   }
+
+    private void EndTransitionToWhite()
+    {
+        anim.SetBool("TransitionToWhite", false);
     }
 
    private void PlayerMovement()
