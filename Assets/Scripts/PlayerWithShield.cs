@@ -67,8 +67,9 @@ public class PlayerWithShield : MonoBehaviour
     bool CanShield = true;
     GameObject Player;
     bool DashCharging = false;
+    GameManager GM;
     private void Awake()
-   {
+    {
       rb = GetComponent<Rigidbody2D>();
       anim = GetComponent<Animator>();
       collisionCheck = GetComponent<CollisionCheck>();
@@ -76,8 +77,8 @@ public class PlayerWithShield : MonoBehaviour
       shieldBubbleSR = shieldBubble.GetComponent<SpriteRenderer>();
       shieldBubbleCC2D = shieldBubble.GetComponent<CircleCollider2D>();
         Player = this.gameObject;
-
-   }
+        GM = FindObjectOfType<GameManager>();
+    }
 
    private void Start()
    {
@@ -99,8 +100,17 @@ public class PlayerWithShield : MonoBehaviour
           AnimationSetup();
           
       }
+      else
+      {
+            Invoke("OnDeath", 2f);
+      }
+
    }
    
+    private void OnDeath()
+    {
+        GM.ResetScene();
+    }
 
    private void Inputs()
    
