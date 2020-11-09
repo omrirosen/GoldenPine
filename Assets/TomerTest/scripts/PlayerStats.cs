@@ -35,9 +35,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] Transform hitpoint1;
     [SerializeField] GameObject ShieldHit1;
     [SerializeField] ShieldBubble ShieldReff;
-    bool ShieldCoolDown = false;
+    public bool ShieldCoolDown = false;
     public bool DashAttackOn = false;
-    
     private void Awake()
     {
         OGcolor = sRenderer.color;
@@ -53,6 +52,7 @@ public class PlayerStats : MonoBehaviour
         HealPlayer();
         ShieldUp();
         Dashed();
+        print("sensetive_Parry" + sensetive_Parry);
         //print(ShieldCoolDown);
         if (Impact != null)
         {
@@ -152,19 +152,26 @@ public class PlayerStats : MonoBehaviour
 
     private void ShieldUp()
     {
-        if (Input.GetKey(KeyCode.X) && ShieldCoolDown == false)
+        if (Input.GetKeyDown(KeyCode.X) && ShieldCoolDown == false && sensetive_Parry < 3f)
         {
-
          shieldOn = true;  
          Buddy.SetActive(false);
-         sensetive_Parry += Time.deltaTime;
+         
         }
-
+        if(Input.GetKey(KeyCode.X))
+        {
+            sensetive_Parry += Time.deltaTime;
+        }
+        if(sensetive_Parry > 3)
+        {
+            shieldOn = false;
+            Buddy.SetActive(true);
+        }
         if (Input.GetKeyUp(KeyCode.X))
         {
             shieldOn = false;            
             Buddy.SetActive(true);
-            if(sensetive_Parry<=1f)
+            if(sensetive_Parry<=3f)
             {
                 ParryWindow = true;
                 Invoke("ParryEnd", 0.5f);
@@ -179,8 +186,7 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-   
-    
+
     private void ParryEnd()
     {
         ParryWindow = false;
