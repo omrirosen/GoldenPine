@@ -334,7 +334,7 @@ public class PlayerWithShield : MonoBehaviour
 
    void HandleShield()
    {
-      if (isShielding)
+      if (isShielding && PS.ShieldCoolDown == false && PS.sensetive_Parry < 3f)
       {
          shieldBubbleSR.enabled = true;
          shieldBubbleCC2D.enabled = true;
@@ -442,7 +442,7 @@ public class PlayerWithShield : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("bla");
+
         if (collision.gameObject.tag == "Enemy")
         {
             Debug.Log("hitEnemy");
