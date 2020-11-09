@@ -37,13 +37,14 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] ShieldBubble ShieldReff;
     bool ShieldCoolDown = false;
     public bool DashAttackOn = false;
-
+    
     private void Awake()
     {
         OGcolor = sRenderer.color;
         playerWithShield = this.GetComponent<PlayerWithShield>();
         rb2d = GetComponent<Rigidbody2D>();
         collisionCheck = GetComponent<CollisionCheck>();
+        
     }
     private void Update()
     {
