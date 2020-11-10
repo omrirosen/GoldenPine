@@ -44,6 +44,7 @@ public class PlayerWithShield : MonoBehaviour
    private float HoldDashTime;
    private float DashSpeedMax = 20f;
    public bool isDashing;
+   private bool DashCooldown = false;
    private FadingGhost fadingGhost;
    private float dashTime;
    private int direction;
@@ -118,7 +119,7 @@ public class PlayerWithShield : MonoBehaviour
       //Horizontal Inputs
       xMoveInput = Input.GetAxisRaw("Horizontal"); //GetAxisRaw meaning snappy movement, remove raw for fluidity
                                                   //Dash Inputs
-      if (Input.GetKeyDown(KeyCode.LeftShift))
+      if (Input.GetKeyDown(KeyCode.LeftShift) && DashCooldown == false)
       {
 
             HoldDashStartTime = Time.time;
@@ -126,7 +127,7 @@ public class PlayerWithShield : MonoBehaviour
             Invoke("SetDashChagingFalse", 0.5f);
       }
      
-      if (Input.GetKeyUp(KeyCode.LeftShift))
+      if (Input.GetKeyUp(KeyCode.LeftShift) && DashCooldown == false)
       {
             anim.SetBool("IsWhite", false);
             HoldDownTime = Time.time - HoldDashStartTime;
@@ -140,6 +141,8 @@ public class PlayerWithShield : MonoBehaviour
             GeneratPulse();
             DashCharging = false;
             Invoke("BackToOGDashSpeed", 0.5f);
+            DashCooldown = true;
+            Invoke("ResetDashCoolDown", 0.5f);
       }
         
         
@@ -172,6 +175,10 @@ public class PlayerWithShield : MonoBehaviour
     public void GeneratPulse()
     {
         pulseSource.GenerateImpulse();
+    }
+    private void ResetDashCoolDown()
+    {
+        DashCooldown = false;
     }
     
     private void SetDashChagingFalse()

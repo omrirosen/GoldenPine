@@ -20,7 +20,7 @@ public class PlayerStats : MonoBehaviour
     public bool DashAttacked = false;
     private PlayerWithShield playerWithShield;
     [SerializeField] private GameObject Buddy;
-
+    public bool HitSpikes = false;
 
     private bool isImpect_ON = false;
     private Rigidbody2D rb2d;
@@ -49,7 +49,7 @@ public class PlayerStats : MonoBehaviour
     {
         // print(playerHealth);
         print(DashAttackOn);
-        HealPlayer();
+        //HealPlayer();
         ShieldUp();
         Dashed();
         print("sensetive_Parry" + sensetive_Parry);
@@ -74,7 +74,7 @@ public class PlayerStats : MonoBehaviour
 
     public void TakeDmg(int Dmg,Vector3 dir)
     {
-        if (ShieldCoolDown == true || shieldOn == false && ParryWindow == false && playerWithShield.isDashing == false)
+        if (ShieldCoolDown == true || shieldOn == false && ParryWindow == false && playerWithShield.isDashing == false && HitSpikes == false)
         {
             playerHealth -= Dmg;
             animator.SetInteger("PlayerHealthUI", playerHealth);
@@ -85,6 +85,11 @@ public class PlayerStats : MonoBehaviour
                 Impact = rb2d.DOJump(transform.position - dir * impact_Force, impact_JumpForce, 0, 0.5f);
                 Impact.SetEase(Ease.Flash);
             }
+        }
+        if(HitSpikes == true)
+        {
+            playerHealth -= Dmg;
+            animator.SetBool("OneShot", true);
         }
 
         if(shieldOn == true && ShieldCoolDown == false)
@@ -125,7 +130,7 @@ public class PlayerStats : MonoBehaviour
         PlayerSelf.SetActive(false);
     }
     
-    public void HealPlayer()
+   /* public void HealPlayer()
     {
         if (Input.GetKeyDown(KeyCode.T))
         {
@@ -148,7 +153,7 @@ public class PlayerStats : MonoBehaviour
             }
             animator.SetInteger("PlayerHealthUI", playerHealth);
         }
-    }
+    }*/
 
     private void ShieldUp()
     {
@@ -219,7 +224,7 @@ public class PlayerStats : MonoBehaviour
         {
             DashStock = DashStock - 1;
             StaminaAnimator.SetFloat("StaminaUi", DashStock);
-            StaminaAnimator.Play("StaminaDown");
+            StaminaAnimator.Play("UsedStamina");
             playerWithShield.DashAttack = true;
             //playerWithShield.isDashing = true;
             DashAttacked = true;

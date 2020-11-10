@@ -9,6 +9,7 @@ public class SpikeDmg : MonoBehaviour
         PlayerStats PS = collision.GetComponent<PlayerStats>();
         if(PS != null)
         {
+            PS.HitSpikes = true;
             PS.TakeDmg(4, Vector3.zero);
         }
     }
