@@ -458,7 +458,7 @@ public class PlayerWithShield : MonoBehaviour
                // Debug.Log("DIE YOU PIG");
                 collision.gameObject.GetComponent<Unihog1DMG>()?.killMe(dmg);
                 collision.gameObject.GetComponent<HornyHogController>()?.TakeDMG(dmg);
-
+                collision.gameObject.GetComponent<DestructableObjects>()?.HandleDestruction();
             }
         }
        
