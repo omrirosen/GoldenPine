@@ -107,6 +107,7 @@
           <e p="CloudGeneratorScript.cs" t="Include" />
           <e p="CloudScript.cs" t="Include" />
           <e p="CollisionCheck.cs" t="Include" />
+          <e p="DeadUniHogTut.cs" t="Include" />
           <e p="DestructableObjects.cs" t="Include" />
           <e p="EnemyPatrol.cs" t="Include" />
           <e p="FadingGhost.cs" t="Include" />

@@ -45,6 +45,7 @@ public class HornyHogDMG : MonoBehaviour
             {
                 if (IsFachingRight)
                 {
+                    print("entered facing right state");
                     isdealDMG = true;
                     collision.GetComponent<PlayerStats>()?.TakeDmg(DMG, Vector3.left);
                     if(collision.GetComponent<PlayerStats>().shieldOn || collision.GetComponent<PlayerStats>().ParryWindow)
@@ -52,15 +53,24 @@ public class HornyHogDMG : MonoBehaviour
                         isBlocked = true;
                         animator.SetBool("IsBlocked", isBlocked);
                     }
+                    else
+                    {
+                        print("is null");
+                    }
                 }
                 else
                 {
+                    print("entered facing left");
                     isdealDMG = true;
                     collision.GetComponent<PlayerStats>()?.TakeDmg(DMG, Vector3.right);
                     if (collision.GetComponent<PlayerStats>().shieldOn || collision.GetComponent<PlayerStats>().ParryWindow)
                     {
                         isBlocked = true;
                         animator.SetBool("IsBlocked", isBlocked);
+                    }
+                    else
+                    {
+                        print("isnull 2");
                     }
                 }
             }

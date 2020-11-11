@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -45,15 +46,16 @@ public class PlayerStats : MonoBehaviour
         collisionCheck = GetComponent<CollisionCheck>();
         
     }
+
+    private void Start()
+    {
+        DashStock = 0f;
+    }
+
     private void Update()
     {
-        // print(playerHealth);
-        print(DashAttackOn);
-        //HealPlayer();
         ShieldUp();
         Dashed();
-        print("sensetive_Parry" + sensetive_Parry);
-        //print(ShieldCoolDown);
         if (Impact != null)
         {
             if (!Impact.IsPlaying())
@@ -69,6 +71,11 @@ public class PlayerStats : MonoBehaviour
             }
                 
             
+        }
+
+        if (DashStock > 1)
+        {
+            DashStock = 1f;
         }
     }
 
@@ -244,7 +251,6 @@ public class PlayerStats : MonoBehaviour
     {
         DashStock += 0.2f;
         StaminaAnimator.SetFloat("StaminaUi", DashStock);
-        print(DashStock);
     }
 
     private void SetShieldCoolTime()

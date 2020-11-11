@@ -23,21 +23,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Distructable_Rock Peices.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Distructable_Rock Peices.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Distructable_Rock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Distructable_Rock.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Materials/Distructable_Rock.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Rocks/Materials/Distructable_Rock.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FX/Partice_Rock Destruction.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FX/Partice_Rock Destruction.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX/Destructable Rock Dust.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX/Destructable Rock Dust.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Distructable_Rock_Dust_0.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Distructable_Rock_Dust_0.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/Dust/Distructable_Rock_Dust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/Dust/Distructable_Rock_Dust.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BlackDropPrefab/Distructable_Rock_Dust_0.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BlackDropPrefab/Distructable_Rock_Dust_0.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene 11.11.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene 11.11.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TomerTest/prefab/Player With Shield11.11.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TomerTest/prefab/Player With Shield11.11.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Eden Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/BlackDrop Clips/Black Drop Ground.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/BlackDrop Clips/Black Drop Ground.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Player_2909.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Player_2909.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogDMG.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogDMG.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BlackDropPrefab/BlackDropGround.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BlackDropPrefab/BlackDropGround.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/Testintgscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/Testintgscene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/BlackDropFalling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/BlackDropFalling.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +75,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound Managers/PlayerSoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorials/BubbleTutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/BubbleParryAir_0.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" root0="FORCE_HIGHLIGHTING" />
@@ -86,11 +102,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CamShakeSimple.cs" />
         <option value="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parallax2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParallaxNoDuplication.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CloudManagerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CloudScript.cs" />
         <option value="$PROJECT_DIR$/Assets/CloudGeneratorScript.cs" />
@@ -99,7 +113,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials/DashTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials/JumpTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials/WallSlideTutorial.cs" />
+        <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogDMG.cs" />
+        <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogController.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BlackDropFalling.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
       </list>
     </option>
   </component>
@@ -211,6 +233,7 @@
       <workItem from="1604591748733" duration="66000" />
       <workItem from="1604592759806" duration="503000" />
       <workItem from="1605008783258" duration="245000" />
+      <workItem from="1605090211141" duration="13158000" />
     </task>
     <servers />
   </component>

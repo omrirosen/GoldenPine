@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: ea74a0ada699ace48868e0e0a20dc59d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1574223219896532630
+    second: Distructable_Rock_Dust_0
+  - first:
+      213: -6320364097962866992
+    second: Distructable_Rock_Dust_1
+  - first:
+      213: -7350930127351025652
+    second: Distructable_Rock_Dust_2
+  - first:
+      213: -8353283215458667571
+    second: Distructable_Rock_Dust_3
+  - first:
+      213: 726504071462270254
+    second: Distructable_Rock_Dust_4
+  - first:
+      213: 1515313272228643141
+    second: Distructable_Rock_Dust_5
+  - first:
+      213: -4613069413172239032
+    second: Distructable_Rock_Dust_6
+  - first:
+      213: -3401084855776111389
+    second: Distructable_Rock_Dust_7
+  - first:
+      213: -5962295971071749447
+    second: Distructable_Rock_Dust_8
+  - first:
+      213: -6186988382405223039
+    second: Distructable_Rock_Dust_9
+  - first:
+      213: 4361388608599700365
+    second: Distructable_Rock_Dust_10
+  - first:
+      213: 5744788339540275470
+    second: Distructable_Rock_Dust_11
+  - first:
+      213: 1570064451107646118
+    second: Distructable_Rock_Dust_12
+  - first:
+      213: -4945868720608683806
+    second: Distructable_Rock_Dust_13
+  - first:
+      213: -8518542619382715435
+    second: Distructable_Rock_Dust_14
+  - first:
+      213: -6936287471470737511
+    second: Distructable_Rock_Dust_15
+  - first:
+      213: 4948877732116613358
+    second: Distructable_Rock_Dust_16
+  - first:
+      213: 8944735638839754454
+    second: Distructable_Rock_Dust_17
+  - first:
+      213: 1762434550213338549
+    second: Distructable_Rock_Dust_18
+  - first:
+      213: 6450763402049568029
+    second: Distructable_Rock_Dust_19
+  - first:
+      213: 4234224034908558565
+    second: Distructable_Rock_Dust_20
+  - first:
+      213: -4833232165755096228
+    second: Distructable_Rock_Dust_21
+  - first:
+      213: -273919013642151136
+    second: Distructable_Rock_Dust_22
+  - first:
+      213: 7169045446447134679
+    second: Distructable_Rock_Dust_23
+  - first:
+      213: 5307289392538869702
+    second: Distructable_Rock_Dust_24
+  - first:
+      213: 8323709466141560348
+    second: Distructable_Rock_Dust_25
+  - first:
+      213: 7620099434789078380
+    second: Distructable_Rock_Dust_26
+  - first:
+      213: 6138060670236363607
+    second: Distructable_Rock_Dust_27
+  - first:
+      213: 9032258686164075022
+    second: Distructable_Rock_Dust_28
+  - first:
+      213: -2722524992705984433
+    second: Distructable_Rock_Dust_29
+  - first:
+      213: 8499035206450036762
+    second: Distructable_Rock_Dust_30
+  - first:
+      213: -984878784835773047
+    second: Distructable_Rock_Dust_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Distructable_Rock_Dust_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6145e4725c372ae0800000000000000
+      internalID: -1574223219896532630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distructable_Rock_Dust_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d68ac1f65e8948a0800000000000000
+      internalID: -6320364097962866992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distructable_Rock_Dust_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00768efeff3cf990800000000000000
+      internalID: -7350930127351025652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distructable_Rock_Dust_3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc37a525c2d231c80800000000000000
+      internalID: -8353283215458667571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distructable_Rock_Dust_4
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2532639a9f051a00800000000000000
+      internalID: 726504071462270254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distructable_Rock_Dust_5
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5418f928469770510800000000000000
+      internalID: 1515313272228643141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Distructable_Rock_Dust_6
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84526af4fc51bffb0800000000000000
+      internalID: -4613069413172239032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

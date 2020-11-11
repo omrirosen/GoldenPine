@@ -39,7 +39,7 @@ public class HornyHogController : MonoBehaviour
             isDeath = true;
             state = StateMachine.Death;
         }
-        print("deathTime" + deathTime);
+        
     }
 
     public void StateMachineControll()

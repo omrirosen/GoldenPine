@@ -27,7 +27,6 @@ public class BlackDropFalling : MonoBehaviour
     public void CreateDrop()
     {
         Instantiate(BlackDrop2nd, InstPoint.transform.position, InstPoint.transform.rotation);
-        print("instBitch");
     }
 
     public void createTopDrop()

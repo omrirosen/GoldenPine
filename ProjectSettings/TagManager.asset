@@ -9,6 +9,7 @@ TagManager:
   - AudioManager
   - TileMapCollider
   - test
+  - UnihogTut
   layers:
   - Default
   - TransparentFX

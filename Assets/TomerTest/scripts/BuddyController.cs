@@ -23,6 +23,7 @@ public class BuddyController : MonoBehaviour
     public LayerMask AIlayer;
     public Vector2 OffsetLeft;
     public Vector2 OffsetRight;
+    private bool zCooldown = false;
     private void Awake()
     {
         Anim = GetComponent<Animator>();
@@ -86,8 +87,9 @@ public class BuddyController : MonoBehaviour
             
             SRenderer.sortingOrder = 10;
             Invoke("ResetSortingOrder", 0.7f);
-            if(NumOfClicks == 1)
+            if(NumOfClicks == 1 && !zCooldown)
             {
+                print("enter 1st att");
                 Anim.SetBool("Attack1", true);
                 MoveToAttackPoint();
                 Invoke("BackToOGPos", 0.5f);
@@ -97,12 +99,20 @@ public class BuddyController : MonoBehaviour
                 if (Enemy != null)
                 {
                     playerstats.IncreaseStamina();
+                    if (Enemy.GetComponent<DeadUniHogTut>())
+                    {
+                        print("takenhit");
+                        FindObjectOfType<DeadUniHogTut>().numOfHitTaken++;
+                        
+                    }
                 }
+                
             }
             
 
-            if (NumOfClicks == 2)
+            if (NumOfClicks == 2 && !zCooldown)
             {
+                print("enter 2nd att");
                 Anim.SetBool("Attack2", true);
                 Anim.SetBool("Attack1", false);
                 MoveToAttackPoint();
@@ -114,6 +124,29 @@ public class BuddyController : MonoBehaviour
                     playerstats.IncreaseStamina();
                 }
             }
+            if(NumOfClicks == 3 && !zCooldown)
+            {
+                print("entered 3rd attack");
+                Anim.SetBool("Attack1", true);
+                MoveToAttackPoint();
+                Invoke("BackToOGPos", 0.5f);
+                Invoke("SetAttack1False", 0.1f);
+                Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
+                //Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
+                zCooldown = true;
+                Invoke("SetZCooldownToFalse", 1f);
+                if (Enemy != null)
+                {
+                    playerstats.IncreaseStamina();
+                    if (Enemy.GetComponent<DeadUniHogTut>())
+                    {
+                        print("takenhit");
+                        FindObjectOfType<DeadUniHogTut>().numOfHitTaken++;
+                        
+                    }
+                }
+                
+            }
         }
 
         if(NumOfClicks == 0)
@@ -122,7 +155,7 @@ public class BuddyController : MonoBehaviour
             Anim.SetBool("Attack2", false);
             BackToOGPos();
         }
-        NumOfClicks = Mathf.Clamp(NumOfClicks, 0, 1);
+        NumOfClicks = Mathf.Clamp(NumOfClicks, 0, 2);
     }
 
     private void SetAttack1False()
@@ -133,7 +166,7 @@ public class BuddyController : MonoBehaviour
     private void SetAttack2False()
     {
         Anim.SetBool("Attack2", false);
-        NumOfClicks = 0;
+       // NumOfClicks = 0;
     }
 
     private void MoveToAttackPoint()
@@ -176,6 +209,11 @@ public class BuddyController : MonoBehaviour
         {
             Offset = OffsetRight;
         }
+    }
+
+    private void SetZCooldownToFalse()
+    {
+        zCooldown = false;
     }
 }
 

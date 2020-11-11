@@ -95,11 +95,11 @@ public class PlayerWithShield : MonoBehaviour
           PlayerJump();
           PlayerMovement();
           //WallJump();
-          HandleDash();
+        //  HandleDash();
           HandleShield();
           WallSlide();
           AnimationSetup();
-          
+
       }
       else
       {
@@ -107,8 +107,13 @@ public class PlayerWithShield : MonoBehaviour
       }
 
    }
-   
-    private void OnDeath()
+
+   private void FixedUpdate()
+   {
+      HandleDash();
+   }
+
+   private void OnDeath()
     {
         GM.ResetScene();
     }
@@ -133,14 +138,23 @@ public class PlayerWithShield : MonoBehaviour
             HoldDownTime = Time.time - HoldDashStartTime;
             dashSpeed = dashSpeed + CalculateDashTime(HoldDownTime);
             if(dashSpeed > 20) dashSpeed = 20;
-            if(dashSpeed < 12 || PS.DashStock <1) dashSpeed = 10;
-            if(dashSpeed >= 12) PS.DashAttackOn = true;
-            isDashing = true;
+            if (dashSpeed < 12 || PS.DashStock < 1)
+            {
+               dashSpeed = 10;
+               isDashing = true;
+            }
+            if(dashSpeed >= 12)
+            {
+               isDashing = false; 
+               PS.DashAttackOn = true;
+               
+            }
+            
             FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
             Buddy.Dash();
             GeneratPulse();
             DashCharging = false;
-            Invoke("BackToOGDashSpeed", 0.5f);
+            Invoke("BackToOGDashSpeed", 0.3f);
             DashCooldown = true;
             Invoke("ResetDashCoolDown", 0.5f);
       }
@@ -171,6 +185,7 @@ public class PlayerWithShield : MonoBehaviour
     {
         dashSpeed = 10f;
         PS.DashAttackOn = false;
+        isDashing = false;
     }
     public void GeneratPulse()
     {
@@ -290,7 +305,7 @@ public class PlayerWithShield : MonoBehaviour
    {
       if (direction == 0)
       {
-         if (isDashing)
+         if (isDashing || PS.DashAttackOn)
          {
             isDashing = true;
             if (!facingRight) // left 
@@ -447,24 +462,36 @@ public class PlayerWithShield : MonoBehaviour
         }
    }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    
+   private void OnTriggerEnter2D(Collider2D collision)
     {
 
         if (collision.gameObject.tag == "Enemy")
         {
-            Debug.Log("hitEnemy");
+           
             if (PS.DashAttacked == true)
             {
-               // Debug.Log("DIE YOU PIG");
-                collision.gameObject.GetComponent<Unihog1DMG>()?.killMe(dmg);
-                collision.gameObject.GetComponent<HornyHogController>()?.TakeDMG(dmg);
-                collision.gameObject.GetComponent<DestructableObjects>()?.HandleDestruction();
+               collision.gameObject.GetComponent<Unihog1DMG>()?.killMe(dmg);
+               collision.gameObject.GetComponent<HornyHogController>()?.TakeDMG(dmg);
             }
         }
        
     }
 
-    public void UnderImpactAnim()
+   private void OnCollisionStay2D(Collision2D other)
+   {
+      if (other.gameObject.tag == "Enemy")
+      {
+           
+         if (PS.DashAttacked == true)
+         {
+           print("i am here");
+            other.gameObject.GetComponent<DestructableObjects>()?.HandleDestruction();
+         }
+      }
+   }
+
+   public void UnderImpactAnim()
     {
         print("Impact");
         anim.SetBool("IsUnderImpact", true);
