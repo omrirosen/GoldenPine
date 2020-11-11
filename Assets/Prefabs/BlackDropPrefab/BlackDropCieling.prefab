@@ -71,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -437352587
+  m_SortingLayer: 12
   m_SortingOrder: 0
   m_Sprite: {fileID: 7765533457005036483, guid: b10b483768921dd459de477630a36056,
     type: 3}
@@ -117,8 +117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77db8d4c5206d384cbb707ef44f59f71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlackDrop2nd: {fileID: 0}
-  InstPoint: {fileID: 0}
+  BlackDrop2nd: {fileID: 5381582660656712814, guid: c94b6b34f406ccb4dbbe5916310eaa10,
+    type: 3}
+  InstPoint: {fileID: 4941004806098138214}
   BlackDropFrist: {fileID: 0}
   FirstInstpoint: {fileID: 0}
 --- !u!114 &6113487924364152574
@@ -146,7 +147,7 @@ GameObject:
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -158,7 +159,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4941004806098138213}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.43, z: 0}
+  m_LocalPosition: {x: 0, y: -0.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4941004804847551320}
