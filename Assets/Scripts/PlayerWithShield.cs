@@ -69,6 +69,7 @@ public class PlayerWithShield : MonoBehaviour
     GameObject Player;
     bool DashCharging = false;
     GameManager GM;
+    bool PirceingDash = false;
     private void Awake()
     {
       rb = GetComponent<Rigidbody2D>();
@@ -99,7 +100,7 @@ public class PlayerWithShield : MonoBehaviour
           HandleShield();
           WallSlide();
           AnimationSetup();
-
+            print("calc dashTime" + CalculateDashTime(HoldDownTime));
       }
       else
       {
@@ -130,14 +131,43 @@ public class PlayerWithShield : MonoBehaviour
             HoldDashStartTime = Time.time;
             DashCharging = true;
             Invoke("SetDashChagingFalse", 0.5f);
+           
+      }
+
+      if (Input.GetKey(KeyCode.LeftShift))
+      {
+            HoldDownTime = Time.time - HoldDashStartTime;
+            if (CalculateDashTime(HoldDownTime) > 1.2f && PS.DashStock >= 1)
+            {
+                isDashing = false;
+                PirceingDash = true;
+            }
+            if (CalculateDashTime(HoldDownTime) < 1.2f && PS.DashStock >= 1f || PS.DashStock < 1)
+            {
+                PirceingDash = false;
+
+            }
+
       }
      
       if (Input.GetKeyUp(KeyCode.LeftShift) && DashCooldown == false)
       {
             anim.SetBool("IsWhite", false);
-            HoldDownTime = Time.time - HoldDashStartTime;
-            dashSpeed = dashSpeed + CalculateDashTime(HoldDownTime);
-            if(dashSpeed > 20) dashSpeed = 20;
+            
+            //dashSpeed = dashSpeed + CalculateDashTime(HoldDownTime);
+            if(PirceingDash == true)
+            {
+                dashSpeed = 20;
+                PS.DashAttackOn = true;
+                isDashing = false;
+            }
+
+            if (PirceingDash == false)
+            {
+                isDashing = true;
+                dashSpeed = 10;
+            }
+            /*if(dashSpeed > 20) dashSpeed = 20;
             if (dashSpeed < 12 || PS.DashStock < 1)
             {
                dashSpeed = 10;
@@ -145,18 +175,19 @@ public class PlayerWithShield : MonoBehaviour
             }
             if(dashSpeed >= 12)
             {
-               isDashing = false; 
+                
                PS.DashAttackOn = true;
-               
-            }
+                Invoke("DashingToFalse", 0.1f);
+            }*/
             
             FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
             Buddy.Dash();
             GeneratPulse();
             DashCharging = false;
-            Invoke("BackToOGDashSpeed", 0.3f);
+            Invoke("BackToOGDashSpeed", 0.2f);
             DashCooldown = true;
             Invoke("ResetDashCoolDown", 0.5f);
+            CalculateDashTime(0);
       }
         
         
@@ -176,9 +207,13 @@ public class PlayerWithShield : MonoBehaviour
     private float CalculateDashTime(float HoldTime)
     {
         float MaxSpeedHoldTime = 2f;
-        float NormalizedHoldTime = Mathf.Clamp01(HoldTime / MaxSpeedHoldTime);
-        float force = NormalizedHoldTime * DashSpeedMax;
-        return force;
+        float NormalizedHoldTime = Mathf.Clamp(HoldTime ,0, MaxSpeedHoldTime);
+        //float force = NormalizedHoldTime * DashSpeedMax;
+        return NormalizedHoldTime;
+    }
+    private void DashingToFalse()
+    {
+        isDashing = false;
     }
 
     private void BackToOGDashSpeed()
@@ -186,6 +221,7 @@ public class PlayerWithShield : MonoBehaviour
         dashSpeed = 10f;
         PS.DashAttackOn = false;
         isDashing = false;
+        PirceingDash = false;
     }
     public void GeneratPulse()
     {
@@ -453,7 +489,7 @@ public class PlayerWithShield : MonoBehaviour
       anim.SetBool("isTouchingWall", collisionCheck.onWall);
       anim.SetBool("isDashing", isDashing);
       anim.SetBool("atPeakJump", reachedPeakJump);
-      anim.SetBool("IsDashAttack", DashAttack);
+      anim.SetBool("IsDashAttack", PS.DashAttackOn);
       anim.SetBool("FacingRight", facingRight);
         if (rb.velocity.y < 0 && reachedPeakJump == false)
         {
