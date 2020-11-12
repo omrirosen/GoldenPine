@@ -23,36 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX/Destructable Rock Dust.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX/Destructable Rock Dust.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Distructable_Rock_Dust_0.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Distructable_Rock_Dust_0.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/Dust/Distructable_Rock_Dust.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/Dust/Distructable_Rock_Dust.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BlackDropPrefab/Distructable_Rock_Dust_0.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/BlackDropPrefab/Distructable_Rock_Dust_0.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene 11.11.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene 11.11.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TomerTest/prefab/Player With Shield11.11.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TomerTest/prefab/Player With Shield11.11.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/BlackDrop Clips/Black Drop Ground.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/BlackDrop Clips/Black Drop Ground.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Player_2909.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Player_2909.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogDMG.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogDMG.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BlackDropPrefab/BlackDropGround.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BlackDropPrefab/BlackDropGround.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/Testintgscene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/Testintgscene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/BlackDropFalling.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/BlackDropFalling.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Distructable_Rock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Distructable_Rock.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene 11.11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene 11.11.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,6 +207,7 @@
       <workItem from="1604592759806" duration="503000" />
       <workItem from="1605008783258" duration="245000" />
       <workItem from="1605090211141" duration="13158000" />
+      <workItem from="1605175691339" duration="1201000" />
     </task>
     <servers />
   </component>
