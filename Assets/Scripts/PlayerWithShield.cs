@@ -137,12 +137,12 @@ public class PlayerWithShield : MonoBehaviour
       if (Input.GetKey(KeyCode.LeftShift))
       {
             HoldDownTime = Time.time - HoldDashStartTime;
-            if (CalculateDashTime(HoldDownTime) > 1.2f && PS.DashStock >= 1)
+            if (CalculateDashTime(HoldDownTime) > 1f && PS.DashStock >= 1)
             {
                 isDashing = false;
                 PirceingDash = true;
             }
-            if (CalculateDashTime(HoldDownTime) < 1.2f && PS.DashStock >= 1f || PS.DashStock < 1)
+            if (CalculateDashTime(HoldDownTime) < 1f && PS.DashStock >= 1f || PS.DashStock < 1)
             {
                 PirceingDash = false;
 
