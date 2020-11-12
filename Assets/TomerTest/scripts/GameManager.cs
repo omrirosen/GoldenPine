@@ -9,4 +9,17 @@ public class GameManager : MonoBehaviour
         var currentScene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentScene);
     }
+
+    private void QuitGame()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
+
+    private void Update()
+    {
+        QuitGame();
+    }
 }
