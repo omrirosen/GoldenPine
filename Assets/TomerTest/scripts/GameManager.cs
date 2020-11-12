@@ -16,6 +16,12 @@ public class GameManager : MonoBehaviour
         {
             Application.Quit();
         }
+
+        if (Input.GetKey(KeyCode.R))
+        {
+            var currentScene = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(currentScene);
+        }
     }
 
     private void Update()
