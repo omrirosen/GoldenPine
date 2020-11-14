@@ -45,32 +45,51 @@ public class HornyHogDMG : MonoBehaviour
             {
                 if (IsFachingRight)
                 {
-                    print("entered facing right state");
+                    //print("entered facing right state");
                     isdealDMG = true;
-                    collision.GetComponent<PlayerStats>()?.TakeDmg(DMG, Vector3.left);
-                    if(collision.GetComponent<PlayerStats>().shieldOn || collision.GetComponent<PlayerStats>().ParryWindow)
+                    if (collision.GetComponent<PlayerStats>() != null)
                     {
-                        isBlocked = true;
-                        animator.SetBool("IsBlocked", isBlocked);
+                        collision.GetComponent<PlayerStats>().TakeDmg(DMG, Vector3.left);
+                        if (collision.GetComponent<PlayerStats>().shieldOn || collision.GetComponent<PlayerStats>().ParryWindow)
+                        {
+                            isBlocked = true;
+                            animator.SetBool("IsBlocked", isBlocked);
+                        }
+                       
                     }
                     else
                     {
-                        print("is null");
+                        collision.GetComponent<ShieldBubble>().ConnectToTakeDMG(DMG, Vector3.left);
+                        if (collision.GetComponent<ShieldBubble>().ConnectToShidStatus())
+                        {
+                            isBlocked = true;
+                            animator.SetBool("IsBlocked", isBlocked);
+                        }
+                       
                     }
                 }
                 else
                 {
-                    print("entered facing left");
+                   // print("entered facing left");
                     isdealDMG = true;
-                    collision.GetComponent<PlayerStats>()?.TakeDmg(DMG, Vector3.right);
-                    if (collision.GetComponent<PlayerStats>().shieldOn || collision.GetComponent<PlayerStats>().ParryWindow)
+                    if (collision.GetComponent<PlayerStats>() != null)
                     {
-                        isBlocked = true;
-                        animator.SetBool("IsBlocked", isBlocked);
+                        collision.GetComponent<PlayerStats>()?.TakeDmg(DMG, Vector3.right);
+                        if (collision.GetComponent<PlayerStats>().shieldOn || collision.GetComponent<PlayerStats>().ParryWindow)
+                        {
+                            isBlocked = true;
+                            animator.SetBool("IsBlocked", isBlocked);
+                        }
                     }
                     else
                     {
-                        print("isnull 2");
+                        collision.GetComponent<ShieldBubble>().ConnectToTakeDMG(DMG, Vector3.right);
+                        if (collision.GetComponent<ShieldBubble>().ConnectToShidStatus())
+                        {
+                            isBlocked = true;
+                            animator.SetBool("IsBlocked", isBlocked);
+                        }
+                       
                     }
                 }
             }

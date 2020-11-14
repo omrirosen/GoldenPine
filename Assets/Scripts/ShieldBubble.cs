@@ -8,11 +8,13 @@ public class ShieldBubble : MonoBehaviour
 {
     private PlayerWithShield playerScript;
     private CollisionCheck collisionCheck;
+    public PlayerStats playerStats;
     private Animator shieldAnimator;
     public bool isShielding;
     public bool isGrounded;
     public bool isMoving;
     public bool reachedPeackJump;
+    
     private void Awake()
     {
         playerScript = GetComponentInParent<PlayerWithShield>();
@@ -69,6 +71,31 @@ public class ShieldBubble : MonoBehaviour
             shieldAnimator.Play("Shield Ground Pop");
         }
         //AudioManager.PlaySound(Sounds.ShieldPop);
+    }
+
+    public void ConnectToTakeDMG(int dmg,Vector3 dir )
+    {
+        if(playerStats!=null)
+        {
+            playerStats.TakeDmg(dmg, dir);
+        }
+        else
+        {
+            print("faild");
+        }
+   
+       
+       
+    }
+    public bool ConnectToShidStatus()
+    {
+        bool shildON = playerStats.shieldOn;
+        bool ParryWindow = playerStats.ParryWindow;
+        if (shildON || ParryWindow)
+        {
+            return true;
+        }
+        else return false;
     }
     
 }

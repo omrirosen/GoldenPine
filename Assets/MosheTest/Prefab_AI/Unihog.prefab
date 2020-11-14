@@ -102,8 +102,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dmg: 1
   unihog: {fileID: 5412783622459689583}
-  force: 1
-  jumpForce: 0.5
+  force: 1.5
+  jumpForce: 1
   isunderImpact: 0
 --- !u!1 &1217215457
 GameObject:
@@ -235,9 +235,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -678354843
+  m_SortingLayer: 13
+  m_SortingOrder: 1
   m_Sprite: {fileID: -141816050917497269, guid: 4e4f11cea55eb8b4395de0a15f06c262,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -298,9 +298,9 @@ GameObject:
   - component: {fileID: 5412783622459689581}
   - component: {fileID: 5412783622459689580}
   - component: {fileID: 5412783622459689583}
-  - component: {fileID: 2006446232}
   - component: {fileID: 2006446233}
   - component: {fileID: 2000855913}
+  - component: {fileID: 633323595}
   m_Layer: 11
   m_Name: Unihog
   m_TagString: Enemy
@@ -334,18 +334,18 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5412783622459689585}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &5412783622459689580
 BoxCollider2D:
@@ -360,7 +360,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.5, y: 0.12351617}
+  m_Offset: {x: 1.5, y: 0.27113652}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -371,7 +371,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.03231764, y: 0.555342}
+  m_Size: {x: 0.03231764, y: 0.5059285}
   m_EdgeRadius: 0
 --- !u!114 &5412783622459689583
 MonoBehaviour:
@@ -402,32 +402,6 @@ MonoBehaviour:
   attacking: 0
   isFlying: 0
   rb2d: {fileID: 5412783622459689581}
---- !u!61 &2006446232
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5412783622459689585}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.007411003, y: 0.21985567}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.5701699, y: 0.4318335}
-  m_EdgeRadius: 0
 --- !u!114 &2006446233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -447,7 +421,7 @@ MonoBehaviour:
   ground_Layer:
     serializedVersion: 2
     m_Bits: 512
-  originalY: 5.68
+  originalY: -3.305
 --- !u!114 &2000855913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -466,3 +440,19 @@ MonoBehaviour:
   raylayer:
     serializedVersion: 2
     m_Bits: 512
+--- !u!70 &633323595
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5412783622459689585}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.013607864, y: 0.22155729}
+  m_Size: {x: 0.5272166, y: 0.44317663}
+  m_Direction: 1

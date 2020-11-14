@@ -19,6 +19,6 @@ public class DeadUniHogTut : MonoBehaviour
     private void Update()
     {
         DestroyHog();
-        print(numOfHitTaken);
+       // print(numOfHitTaken);
     }
 }

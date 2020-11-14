@@ -100,7 +100,7 @@ public class PlayerWithShield : MonoBehaviour
           HandleShield();
           WallSlide();
           AnimationSetup();
-            print("calc dashTime" + CalculateDashTime(HoldDownTime));
+          //  print("calc dashTime" + CalculateDashTime(HoldDownTime));
       }
       else
       {
@@ -521,7 +521,7 @@ public class PlayerWithShield : MonoBehaviour
            
          if (PS.DashAttacked == true)
          {
-           print("i am here");
+          // print("i am here");
             other.gameObject.GetComponent<DestructableObjects>()?.HandleDestruction();
          }
       }
@@ -529,7 +529,7 @@ public class PlayerWithShield : MonoBehaviour
 
    public void UnderImpactAnim()
     {
-        print("Impact");
+       // print("Impact");
         anim.SetBool("IsUnderImpact", true);
         Invoke("EndImpact", 0.3f);
     }

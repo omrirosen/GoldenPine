@@ -46,6 +46,7 @@ public class Unihog1DMG : MonoBehaviour
                             Invoke("resetAttack", 0.5f);
                             impact = unihog.rb2d.DOJump((transform.position - Vector3.right * force), jumpForce, 0, 0.5f);
                             impact.SetEase(Ease.Flash);
+                            impact.SetUpdate(UpdateType.Fixed);
                             isunderImpact = true;
                             unihog.isFlying = true;
                         }
@@ -56,6 +57,7 @@ public class Unihog1DMG : MonoBehaviour
                             Invoke("resetAttack", 0.5f);
                             impact = unihog.rb2d.DOJump((transform.position - Vector3.left * force), jumpForce, 0, 0.5f);
                             impact.SetEase(Ease.Flash);
+                            impact.SetUpdate(UpdateType.Fixed);
                             isunderImpact = true;
                             unihog.isFlying = true;
                         }
@@ -73,6 +75,7 @@ public class Unihog1DMG : MonoBehaviour
                                 // print("Right");
                                 impact = unihog.rb2d.DOJump((transform.position - Vector3.right * force), jumpForce, 0, 0.5f);
                                 impact.SetEase(Ease.Flash);
+                                impact.SetUpdate(UpdateType.Fixed);
                                 isunderImpact = true;
                                 unihog.isFlying = true;
 
@@ -82,6 +85,7 @@ public class Unihog1DMG : MonoBehaviour
                                 // print("left");
                                 impact = unihog.rb2d.DOJump((transform.position - Vector3.left * force), jumpForce, 0, 0.5f);
                                 impact.SetEase(Ease.Flash);
+                                impact.SetUpdate(UpdateType.Fixed);
                                 isunderImpact = true;
                                 unihog.isFlying = true;
 
