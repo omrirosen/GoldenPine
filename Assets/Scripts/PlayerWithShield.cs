@@ -55,7 +55,7 @@ public class PlayerWithShield : MonoBehaviour
    [SerializeField] private CircleCollider2D shieldBubbleCC2D;
     public bool isShielding;
     [SerializeField] private PlayerStats PS;
-    
+    private bool isCharged = false;
     // Component Caches
    private Rigidbody2D rb;
    private Animator anim;
@@ -96,11 +96,12 @@ public class PlayerWithShield : MonoBehaviour
           PlayerJump();
           PlayerMovement();
           //WallJump();
-        //  HandleDash();
+        //HandleDash();
           HandleShield();
           WallSlide();
           AnimationSetup();
-          //  print("calc dashTime" + CalculateDashTime(HoldDownTime));
+            //  print("calc dashTime" + CalculateDashTime(HoldDownTime));
+            SetChargeAnime();
       }
       else
       {
@@ -127,71 +128,20 @@ public class PlayerWithShield : MonoBehaviour
                                                   //Dash Inputs
       if (Input.GetKeyDown(KeyCode.LeftShift) && DashCooldown == false)
       {
-
-            HoldDashStartTime = Time.time;
-            DashCharging = true;
-            Invoke("SetDashChagingFalse", 0.5f);
-           
-      }
-
-      if (Input.GetKey(KeyCode.LeftShift))
-      {
-            HoldDownTime = Time.time - HoldDashStartTime;
-            if (CalculateDashTime(HoldDownTime) > 1f && PS.DashStock >= 1)
-            {
-                isDashing = false;
-                PirceingDash = true;
-            }
-            if (CalculateDashTime(HoldDownTime) < 1f && PS.DashStock >= 1f || PS.DashStock < 1)
-            {
-                PirceingDash = false;
-
-            }
-
-      }
-     
-      if (Input.GetKeyUp(KeyCode.LeftShift) && DashCooldown == false)
-      {
-            anim.SetBool("IsWhite", false);
-            
-            //dashSpeed = dashSpeed + CalculateDashTime(HoldDownTime);
-            if(PirceingDash == true)
-            {
-                dashSpeed = 20;
-                PS.DashAttackOn = true;
-                isDashing = false;
-            }
-
-            if (PirceingDash == false)
-            {
-                isDashing = true;
-                dashSpeed = 10;
-            }
-            /*if(dashSpeed > 20) dashSpeed = 20;
-            if (dashSpeed < 12 || PS.DashStock < 1)
-            {
-               dashSpeed = 10;
-               isDashing = true;
-            }
-            if(dashSpeed >= 12)
-            {
-                
-               PS.DashAttackOn = true;
-                Invoke("DashingToFalse", 0.1f);
-            }*/
-            
+            DashCooldown = true;
+            isDashing = true;
+            Invoke("ResetDashCoolDown", 0.5f);
             FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
             Buddy.Dash();
-            GeneratPulse();
-            DashCharging = false;
-            Invoke("BackToOGDashSpeed", 0.2f);
-            DashCooldown = true;
-            Invoke("ResetDashCoolDown", 0.5f);
-            CalculateDashTime(0);
       }
-        
-        
-       
+      if(Input.GetKey(KeyCode.LeftControl) && PS.DashStock >= 1)
+      {
+            isCharged = false;
+            PS.DashAttackOn = true;
+            dashSpeed = 20f;
+            Invoke("BackToOGDashSpeed", 0.5f);
+            anim.SetBool("IsWhite", false);
+      }
       //Shield Inputs
       
       if (Input.GetKey(KeyCode.X) && CanShield == true)
@@ -204,13 +154,7 @@ public class PlayerWithShield : MonoBehaviour
          Invoke("SetIsShieldingToFalse",1f);
       }
    }
-    private float CalculateDashTime(float HoldTime)
-    {
-        float MaxSpeedHoldTime = 2f;
-        float NormalizedHoldTime = Mathf.Clamp(HoldTime ,0, MaxSpeedHoldTime);
-        //float force = NormalizedHoldTime * DashSpeedMax;
-        return NormalizedHoldTime;
-    }
+
     private void DashingToFalse()
     {
         isDashing = false;
@@ -241,11 +185,24 @@ public class PlayerWithShield : MonoBehaviour
             DashCharging = false;
         }
     }
-   private void SetWhite()
+    private void SetChargeAnime()
+    {
+        if (PS.DashStock >= 1 && isCharged == false)
+        {
+            ChargAnim.SetActive(true);
+            Invoke("SetWhite", 0.5f);
+            isCharged = true;
+        }
+    }
+   public void SetWhite()
    {
-        anim.SetBool("TransitionToWhite", true);
-        anim.SetBool("IsWhite", true);
-        Invoke("EndTransitionToWhite", 0.2f);
+        
+        
+         anim.SetBool("TransitionToWhite", true);
+         anim.SetBool("IsWhite", true);
+         Invoke("EndTransitionToWhite", 0.2f);
+        
+
    }
 
     private void EndTransitionToWhite()

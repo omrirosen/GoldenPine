@@ -222,6 +222,7 @@ public class PlayerStats : MonoBehaviour
         {
             Instantiate(ParryPopAir, transform.position, transform.rotation);
         }
+        
     }
 
 
@@ -237,7 +238,8 @@ public class PlayerStats : MonoBehaviour
             DashAttacked = true;
             playerWithShield.GeneratPulse();
             FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
-            Invoke("BackToOGColor", 0.5f); 
+            Invoke("BackToOGColor", 0.5f);
+            print("DashStok = " + DashStock);
         }
     }
 
