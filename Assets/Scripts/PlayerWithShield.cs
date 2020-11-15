@@ -136,7 +136,7 @@ public class PlayerWithShield : MonoBehaviour
       }
       if(Input.GetKey(KeyCode.LeftControl) && PS.DashStock >= 1)
       {
-            isCharged = false;
+            Invoke("ChargedTofalse", 0.5f);
             PS.DashAttackOn = true;
             dashSpeed = 20f;
             Invoke("BackToOGDashSpeed", 0.5f);
@@ -155,9 +155,9 @@ public class PlayerWithShield : MonoBehaviour
       }
    }
 
-    private void DashingToFalse()
+    private void ChargedTofalse()
     {
-        isDashing = false;
+        isCharged = false;
     }
 
     private void BackToOGDashSpeed()
