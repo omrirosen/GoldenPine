@@ -53,6 +53,7 @@ public class PlayerWithShield : MonoBehaviour
    [SerializeField] private GameObject shieldBubble;
    [SerializeField] private SpriteRenderer shieldBubbleSR;
    [SerializeField] private CircleCollider2D shieldBubbleCC2D;
+    [SerializeField] private GameObject WhitePraticale;
     public bool isShielding;
     [SerializeField] private PlayerStats PS;
     private bool isCharged = false;
@@ -139,12 +140,13 @@ public class PlayerWithShield : MonoBehaviour
             Invoke("ChargedTofalse", 0.5f);
             PS.DashAttackOn = true;
             dashSpeed = 20f;
-            Invoke("BackToOGDashSpeed", 0.5f);
+            Invoke("BackToOGDashSpeed", 0.2f);
             anim.SetBool("IsWhite", false);
-      }
+            WhitePraticale.SetActive(false);
+        }
       //Shield Inputs
       
-      if (Input.GetKey(KeyCode.X) && CanShield == true)
+      if (Input.GetKey(KeyCode.X))
       {
          isShielding = true;
       }
@@ -183,6 +185,7 @@ public class PlayerWithShield : MonoBehaviour
             ChargAnim.SetActive(true);
             Invoke("SetWhite", 0.5f);
             DashCharging = false;
+            
         }
     }
     private void SetChargeAnime()
@@ -192,6 +195,7 @@ public class PlayerWithShield : MonoBehaviour
             ChargAnim.SetActive(true);
             Invoke("SetWhite", 0.5f);
             isCharged = true;
+            WhitePraticale.SetActive(true);
         }
     }
    public void SetWhite()
@@ -267,7 +271,7 @@ public class PlayerWithShield : MonoBehaviour
          isJumping = true;
          jumpTimeCounter = jumpTime;
          rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            Buddy.Jump();
+          if(!isShielding) Buddy.Jump();
       }
 
       if (Input.GetButton("Jump") && isJumping)
@@ -349,7 +353,7 @@ public class PlayerWithShield : MonoBehaviour
 
    void HandleShield()
    {
-      if (isShielding && PS.ShieldCoolDown == false && PS.sensetive_Parry < 3f)
+      if (isShielding && PS.ShieldCoolDown == false)
       {
          shieldBubbleSR.enabled = true;
          shieldBubbleCC2D.enabled = true;

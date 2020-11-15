@@ -164,13 +164,13 @@ public class PlayerStats : MonoBehaviour
 
     private void ShieldUp()
     {
-        if (Input.GetKeyDown(KeyCode.X) && ShieldCoolDown == false && sensetive_Parry < 3f)
+        if (Input.GetKeyDown(KeyCode.X) && ShieldCoolDown == false )
         {
          shieldOn = true;  
          Buddy.SetActive(false);
          
         }
-        if(Input.GetKey(KeyCode.X))
+        /*if(Input.GetKey(KeyCode.X))
         {
             sensetive_Parry += Time.deltaTime;
         }
@@ -178,22 +178,24 @@ public class PlayerStats : MonoBehaviour
         {
             shieldOn = false;
             Buddy.SetActive(true);
-        }
+        }*/
         if (Input.GetKeyUp(KeyCode.X))
         {
             shieldOn = false;            
             Buddy.SetActive(true);
-            if(sensetive_Parry<=3f)
+            ParryWindow = true;
+            Invoke("ParryEnd", 0.5f);
+            /*if(sensetive_Parry<=3f)
             {
-                ParryWindow = true;
-                Invoke("ParryEnd", 0.5f);
+               
+                
                 sensetive_Parry = 0f;
             }
             else
             {
                 sensetive_Parry = 0f;
-            }
-            
+            }*/
+
 
         }
     }

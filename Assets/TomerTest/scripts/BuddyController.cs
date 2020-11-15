@@ -80,7 +80,7 @@ public class BuddyController : MonoBehaviour
             
         }
 
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z) && !zCooldown)
         {
             LastClickedTime = Time.time;
             NumOfClicks++;
@@ -134,7 +134,7 @@ public class BuddyController : MonoBehaviour
                 Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
                 //Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
                 zCooldown = true;
-                Invoke("SetZCooldownToFalse", 1f);
+                Invoke("SetZCooldownToFalse", 0.3f);
                 if (Enemy != null)
                 {
                     playerstats.IncreaseStamina();

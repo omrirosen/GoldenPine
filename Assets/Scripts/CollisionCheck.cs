@@ -6,7 +6,7 @@ public class CollisionCheck : MonoBehaviour
 {
     [Header("Layers")]
     public LayerMask groundLayer;
-
+    public LayerMask wallLayer;
     [Space]
 
     public bool onGround;
@@ -25,12 +25,13 @@ public class CollisionCheck : MonoBehaviour
     
     void Update()
     {
-        onGround = Physics2D.OverlapCircle((Vector2)transform.position + bottomOffset, collisionRadius, groundLayer);
-        onWall = Physics2D.OverlapCircle((Vector2)transform.position + rightOffset, collisionRadius, groundLayer) 
-                 || Physics2D.OverlapCircle((Vector2)transform.position + leftOffset, collisionRadius, groundLayer);
+        onGround = Physics2D.OverlapCircle((Vector2)transform.position + bottomOffset, collisionRadius, groundLayer) 
+                  || Physics2D.OverlapCircle((Vector2)transform.position + SecndBotoom, collisionRadius, groundLayer);
+        onWall = Physics2D.OverlapCircle((Vector2)transform.position + rightOffset, collisionRadius, wallLayer) 
+                 || Physics2D.OverlapCircle((Vector2)transform.position + leftOffset, collisionRadius, wallLayer);
 
-        onRightWall = Physics2D.OverlapCircle((Vector2)transform.position + rightOffset, collisionRadius, groundLayer);
-        onLeftWall = Physics2D.OverlapCircle((Vector2)transform.position + leftOffset, collisionRadius, groundLayer);
+        onRightWall = Physics2D.OverlapCircle((Vector2)transform.position + rightOffset, collisionRadius, wallLayer);
+        onLeftWall = Physics2D.OverlapCircle((Vector2)transform.position + leftOffset, collisionRadius, wallLayer);
 
         wallSide = onRightWall ? -1 : 1;
     }
@@ -44,5 +45,6 @@ public class CollisionCheck : MonoBehaviour
         Gizmos.DrawWireSphere((Vector2)transform.position  + bottomOffset, collisionRadius);
         Gizmos.DrawWireSphere((Vector2)transform.position + rightOffset, collisionRadius);
         Gizmos.DrawWireSphere((Vector2)transform.position + leftOffset, collisionRadius);
+        Gizmos.DrawWireSphere((Vector2)transform.position + SecndBotoom, collisionRadius);
     }
 }

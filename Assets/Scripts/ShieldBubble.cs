@@ -61,7 +61,7 @@ public class ShieldBubble : MonoBehaviour
 
     public void HitShield()
     {
-        
+        print("hit Shield");
         if (isGrounded)
         {
             shieldAnimator.Play("Shield Ground Pop");
