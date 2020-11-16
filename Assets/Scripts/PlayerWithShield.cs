@@ -49,6 +49,7 @@ public class PlayerWithShield : MonoBehaviour
    private float dashTime;
    private int direction;
     float HoldDownTime;
+    
    [Header("ShieldBubble Config")] 
    [SerializeField] private GameObject shieldBubble;
    [SerializeField] private SpriteRenderer shieldBubbleSR;
@@ -57,6 +58,9 @@ public class PlayerWithShield : MonoBehaviour
     public bool isShielding;
     [SerializeField] private PlayerStats PS;
     private bool isCharged = false;
+
+    private SpriteRenderer playerSpriteRenderer;
+    
     // Component Caches
    private Rigidbody2D rb;
    private Animator anim;
@@ -81,6 +85,7 @@ public class PlayerWithShield : MonoBehaviour
       shieldBubbleCC2D = shieldBubble.GetComponent<CircleCollider2D>();
         Player = this.gameObject;
         GM = FindObjectOfType<GameManager>();
+        playerSpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
    private void Start()
@@ -96,13 +101,10 @@ public class PlayerWithShield : MonoBehaviour
           Inputs();
           PlayerJump();
           PlayerMovement();
-          //WallJump();
-        //HandleDash();
           HandleShield();
           WallSlide();
           AnimationSetup();
-            //  print("calc dashTime" + CalculateDashTime(HoldDownTime));
-            SetChargeAnime();
+          SetChargeAnime();
       }
       else
       {
@@ -200,13 +202,10 @@ public class PlayerWithShield : MonoBehaviour
     }
    public void SetWhite()
    {
-        
-        
          anim.SetBool("TransitionToWhite", true);
          anim.SetBool("IsWhite", true);
          Invoke("EndTransitionToWhite", 0.2f);
-        
-
+      
    }
 
     private void EndTransitionToWhite()
@@ -221,7 +220,7 @@ public class PlayerWithShield : MonoBehaviour
       {
          isMoving = true;
             Buddy.Run();
-           // print("Running");
+           
       }
       else
       {
@@ -257,6 +256,12 @@ public class PlayerWithShield : MonoBehaviour
       else if (xMoveInput > 0 && !facingRight)
       {
          FlipSprite();
+      }
+      
+      // if on ground
+      if (collisionCheck.onGround)
+      {
+         reachedPeakJump = false;
       }
 
    }
@@ -393,6 +398,12 @@ public class PlayerWithShield : MonoBehaviour
       {
          rb.velocity = new Vector2(rb.velocity.x, -wallSlideSpeed);
       }
+
+      if (collisionCheck.onRightWall && xMoveInput < 0 || collisionCheck.onLeftWall && xMoveInput > 0)
+      {
+         isWallSliding = false;
+         anim.SetBool("StartSlide", false);
+      }
    }
 
    void WallJump()
@@ -414,9 +425,12 @@ public class PlayerWithShield : MonoBehaviour
       if (!collisionCheck.onWall)
       {
          wallJumpDirection *= -1;
+         playerSpriteRenderer.flipX = facingRight;
          facingRight = !facingRight;
-         transform.Rotate(0, 180, 0);
-            Buddy.flip();
+         
+         //transform.Rotate(0, 180, 0);
+         
+         Buddy.flip();
             Buddy.SetHitOffset();
       }
    }

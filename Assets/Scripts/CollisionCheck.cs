@@ -19,19 +19,21 @@ public class CollisionCheck : MonoBehaviour
 
     [Header("Collision")]
 
-    public float collisionRadius = 0.25f;
-    public Vector2 bottomOffset, rightOffset, leftOffset, SecndBotoom;
+    [SerializeField] private float wallCollisionRadius = 0.25f;
+    [SerializeField] private float bottomCollisionRadius = 0.25f;
+
+    public Vector2 bottomLeftOffset, bottomRightOffset, rightOffset, leftOffset;
     private Color debugCollisionColor = Color.red;
     
     void Update()
     {
-        onGround = Physics2D.OverlapCircle((Vector2)transform.position + bottomOffset, collisionRadius, groundLayer) 
-                  || Physics2D.OverlapCircle((Vector2)transform.position + SecndBotoom, collisionRadius, groundLayer);
-        onWall = Physics2D.OverlapCircle((Vector2)transform.position + rightOffset, collisionRadius, wallLayer) 
-                 || Physics2D.OverlapCircle((Vector2)transform.position + leftOffset, collisionRadius, wallLayer);
+        onGround = Physics2D.OverlapCircle((Vector2) transform.position + bottomLeftOffset, bottomCollisionRadius, groundLayer)
+                  || Physics2D.OverlapCircle((Vector2)transform.position + bottomRightOffset, bottomCollisionRadius, groundLayer);
+        onWall = Physics2D.OverlapCircle((Vector2)transform.position + rightOffset, wallCollisionRadius, wallLayer) 
+                 || Physics2D.OverlapCircle((Vector2)transform.position + leftOffset, wallCollisionRadius, wallLayer);
 
-        onRightWall = Physics2D.OverlapCircle((Vector2)transform.position + rightOffset, collisionRadius, wallLayer);
-        onLeftWall = Physics2D.OverlapCircle((Vector2)transform.position + leftOffset, collisionRadius, wallLayer);
+        onRightWall = Physics2D.OverlapCircle((Vector2)transform.position + rightOffset, wallCollisionRadius, wallLayer);
+        onLeftWall = Physics2D.OverlapCircle((Vector2)transform.position + leftOffset, wallCollisionRadius, wallLayer);
 
         wallSide = onRightWall ? -1 : 1;
     }
@@ -40,11 +42,11 @@ public class CollisionCheck : MonoBehaviour
     {
         Gizmos.color = Color.red;
 
-        var positions = new Vector2[] { bottomOffset, rightOffset, leftOffset };
+        var positions = new Vector2[] { bottomLeftOffset, rightOffset, leftOffset };
 
-        Gizmos.DrawWireSphere((Vector2)transform.position  + bottomOffset, collisionRadius);
-        Gizmos.DrawWireSphere((Vector2)transform.position + rightOffset, collisionRadius);
-        Gizmos.DrawWireSphere((Vector2)transform.position + leftOffset, collisionRadius);
-        Gizmos.DrawWireSphere((Vector2)transform.position + SecndBotoom, collisionRadius);
+        Gizmos.DrawWireSphere((Vector2)transform.position  + bottomLeftOffset, bottomCollisionRadius);
+        Gizmos.DrawWireSphere((Vector2)transform.position + rightOffset, wallCollisionRadius);
+        Gizmos.DrawWireSphere((Vector2)transform.position + leftOffset, wallCollisionRadius);
+        Gizmos.DrawWireSphere((Vector2)transform.position + bottomRightOffset, bottomCollisionRadius);
     }
 }

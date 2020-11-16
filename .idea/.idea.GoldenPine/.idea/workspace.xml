@@ -23,9 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Player Slippery Material.physicsMaterial2D" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Player Slippery Material.physicsMaterial2D.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Distructable_Rock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Distructable_Rock.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Player_2909.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Player_2909.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Player Material.physicsMaterial2D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Player Material.physicsMaterial2D.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene 11.11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene 11.11.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +72,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimationManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player3.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCeleste.cs" />
@@ -88,13 +97,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials/WallSlideTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogDMG.cs" />
         <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogController.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BlackDropFalling.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" />
       </list>
     </option>
   </component>
@@ -208,6 +218,7 @@
       <workItem from="1605008783258" duration="245000" />
       <workItem from="1605090211141" duration="13158000" />
       <workItem from="1605175691339" duration="1201000" />
+      <workItem from="1605530662799" duration="6620000" />
     </task>
     <servers />
   </component>

@@ -11,8 +11,8 @@ public class PlayerStats : MonoBehaviour
     private int playerHealth = 4;
     public float DashStock = 0;
     [SerializeField] private GameObject PlayerSelf;
-    [SerializeField] private Animator animator;
-    [SerializeField] private Animator StaminaAnimator;
+    [SerializeField] private Animator healthAnimator;
+    [SerializeField] private Animator staminaAnimator;
     [SerializeField] private SpriteRenderer sRenderer;
     public bool shieldOn = false;
     public bool ParryWindow = false;
@@ -84,7 +84,7 @@ public class PlayerStats : MonoBehaviour
         if (ShieldCoolDown == true || shieldOn == false && ParryWindow == false && playerWithShield.isDashing == false && HitSpikes == false)
         {
             playerHealth -= Dmg;
-            animator.SetInteger("PlayerHealthUI", playerHealth);
+            healthAnimator.SetInteger("PlayerHealthUI", playerHealth);
             playerWithShield.UnderImpactAnim();
             if (!isImpect_ON)
             {
@@ -96,7 +96,7 @@ public class PlayerStats : MonoBehaviour
         if(HitSpikes == true)
         {
             playerHealth -= Dmg;
-            animator.SetBool("OneShot", true);
+            healthAnimator.SetBool("OneShot", true);
         }
 
         if(shieldOn == true && ShieldCoolDown == false)
@@ -212,7 +212,7 @@ public class PlayerStats : MonoBehaviour
         if (DashStock < 1)
         {
             DashStock = DashStock +1;
-            StaminaAnimator.SetFloat("StaminaUi", DashStock);
+            staminaAnimator.SetFloat("StaminaUi", DashStock);
             
         }
 
@@ -233,8 +233,8 @@ public class PlayerStats : MonoBehaviour
         if (DashStock >= 1 && DashAttackOn == true)
         {
             DashStock = DashStock - 1;
-            StaminaAnimator.SetFloat("StaminaUi", DashStock);
-            StaminaAnimator.Play("UsedStamina");
+            staminaAnimator.SetFloat("StaminaUi", DashStock);
+            staminaAnimator.Play("UsedStamina");
             playerWithShield.DashAttack = true;
             //playerWithShield.isDashing = true;
             DashAttacked = true;
@@ -254,7 +254,7 @@ public class PlayerStats : MonoBehaviour
     public void IncreaseStamina()
     {
         DashStock += 0.2f;
-        StaminaAnimator.SetFloat("StaminaUi", DashStock);
+        staminaAnimator.SetFloat("StaminaUi", DashStock);
     }
 
     private void SetShieldCoolTime()

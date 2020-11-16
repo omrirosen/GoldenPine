@@ -26,6 +26,7 @@
             <e p="RippleEffect.shader" t="Include" />
           </e>
         </e>
+        <e p="EndOfDemo.cs" t="Include" />
         <e p="MosheTest" t="Include">
           <e p="Scripts_M" t="Include">
             <e p="AI_PlayTests" t="Include">
