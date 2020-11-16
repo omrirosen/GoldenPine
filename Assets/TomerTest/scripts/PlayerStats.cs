@@ -232,6 +232,7 @@ public class PlayerStats : MonoBehaviour
     {
         if (DashStock >= 1 && DashAttackOn == true)
         {
+            Buddy.SetActive(false);
             DashStock = DashStock - 1;
             staminaAnimator.SetFloat("StaminaUi", DashStock);
             staminaAnimator.Play("UsedStamina");
@@ -240,15 +241,16 @@ public class PlayerStats : MonoBehaviour
             DashAttacked = true;
             playerWithShield.GeneratPulse();
             FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
-            Invoke("BackToOGColor", 0.5f);
+            Invoke("ResetConditions", 0.5f);
             print("DashStok = " + DashStock);
         }
     }
 
-    private void BackToOGColor()
+    private void ResetConditions()
     {
         DashAttacked = false;
         playerWithShield.isDashing = false;
+        Buddy.SetActive(true);
     }
 
     public void IncreaseStamina()

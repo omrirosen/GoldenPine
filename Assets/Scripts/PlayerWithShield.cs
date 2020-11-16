@@ -74,7 +74,7 @@ public class PlayerWithShield : MonoBehaviour
     GameObject Player;
     bool DashCharging = false;
     GameManager GM;
-    bool PirceingDash = false;
+    public bool canPierceDash = false;
     private void Awake()
     {
       rb = GetComponent<Rigidbody2D>();
@@ -86,6 +86,7 @@ public class PlayerWithShield : MonoBehaviour
         Player = this.gameObject;
         GM = FindObjectOfType<GameManager>();
         playerSpriteRenderer = GetComponent<SpriteRenderer>();
+       
     }
 
    private void Start()
@@ -136,9 +137,11 @@ public class PlayerWithShield : MonoBehaviour
             Invoke("ResetDashCoolDown", 0.5f);
             FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
             Buddy.Dash();
+            
       }
-      if(Input.GetKey(KeyCode.LeftControl) && PS.DashStock >= 1)
+      if(Input.GetKey(KeyCode.Z) && PS.DashStock >= 1 && canPierceDash)
       {
+            canPierceDash = false;
             Invoke("ChargedTofalse", 0.5f);
             PS.DashAttackOn = true;
             dashSpeed = 20f;
@@ -169,7 +172,7 @@ public class PlayerWithShield : MonoBehaviour
         dashSpeed = 10f;
         PS.DashAttackOn = false;
         isDashing = false;
-        PirceingDash = false;
+       
     }
     public void GeneratPulse()
     {
@@ -425,13 +428,14 @@ public class PlayerWithShield : MonoBehaviour
       if (!collisionCheck.onWall)
       {
          wallJumpDirection *= -1;
-         playerSpriteRenderer.flipX = facingRight;
+         //playerSpriteRenderer.flipX = facingRight;
          facingRight = !facingRight;
          
-         //transform.Rotate(0, 180, 0);
+         transform.Rotate(0, 180, 0);
          
          Buddy.flip();
             Buddy.SetHitOffset();
+            //Buddy.FlipAttackPoint();
       }
    }
 

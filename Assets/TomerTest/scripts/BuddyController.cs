@@ -24,12 +24,14 @@ public class BuddyController : MonoBehaviour
     public Vector2 OffsetLeft;
     public Vector2 OffsetRight;
     private bool zCooldown = false;
+    private PlayerStats PS;
     private void Awake()
     {
         Anim = GetComponent<Animator>();
         Self = this.gameObject;
         AttackColl = GetComponent<BoxCollider2D>();
         SRenderer = GetComponent<SpriteRenderer>();
+        PS = GetComponentInParent<PlayerStats>();
     }
 
     private void Update()
@@ -80,7 +82,7 @@ public class BuddyController : MonoBehaviour
             
         }
 
-        if (Input.GetKeyDown(KeyCode.Z) && !zCooldown)
+        if (Input.GetKeyDown(KeyCode.Z) && !zCooldown && PS.DashStock < 1)
         {
             LastClickedTime = Time.time;
             NumOfClicks++;
@@ -185,11 +187,6 @@ public class BuddyController : MonoBehaviour
         SRenderer.sortingOrder = 1;
     }
 
-    private void ComboTimeOut()
-    {
-        JustAttacked = false;
-    }
-
 
     private void OnDrawGizmos()
     {
@@ -215,6 +212,8 @@ public class BuddyController : MonoBehaviour
     {
         zCooldown = false;
     }
+
+   
 }
 
 

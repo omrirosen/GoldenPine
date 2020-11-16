@@ -7,10 +7,11 @@ public class DestroyParryPop : MonoBehaviour
 {
     public GameObject BlackDropInstPoint;
     private BoxCollider2D myCollider2D;
-
+    private PlayerWithShield playerSctript;
     private void Awake()
     {
         myCollider2D = GetComponent<BoxCollider2D>();
+        playerSctript = FindObjectOfType<PlayerWithShield>();
     }
 
     public void DieShiled(GameObject popPrefab)
@@ -35,4 +36,9 @@ public class DestroyParryPop : MonoBehaviour
     {
         Destroy(myCollider2D);
     }
+
+    public void CanPierceDash()
+    {
+        playerSctript.canPierceDash = true;
+    }   
 }
