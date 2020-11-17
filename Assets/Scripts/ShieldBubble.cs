@@ -53,7 +53,7 @@ public class ShieldBubble : MonoBehaviour
             }
             else
             {
-                shieldAnimator.Play("Shield Ground Pop");
+                shieldAnimator.Play("Shield Air Pop");
             }
             
         }
@@ -68,7 +68,7 @@ public class ShieldBubble : MonoBehaviour
         }
         if(!isGrounded)
         {
-            shieldAnimator.Play("Shield Ground Pop");
+            shieldAnimator.Play("Shield Air Pop");
         }
         //AudioManager.PlaySound(Sounds.ShieldPop);
     }

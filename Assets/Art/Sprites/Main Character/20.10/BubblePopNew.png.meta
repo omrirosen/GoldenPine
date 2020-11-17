@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 3a1a78fbdc2cf5b4abc17e195466c13c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 799393489604120757
+    second: BubblePopNew_0
+  - first:
+      213: -767981238143829474
+    second: BubblePopNew_1
+  - first:
+      213: -7311573610582442778
+    second: BubblePopNew_2
+  - first:
+      213: -2001682442592804606
+    second: BubblePopNew_3
+  - first:
+      213: 9163542378241479449
+    second: BubblePopNew_4
+  - first:
+      213: -4367415544698928640
+    second: BubblePopNew_5
+  - first:
+      213: 2879440424832907163
+    second: BubblePopNew_0
+  - first:
+      213: 10509133286273159
+    second: BubblePopNew_1
+  - first:
+      213: 8698305399400419423
+    second: BubblePopNew_2
+  - first:
+      213: 4893141044152811166
+    second: BubblePopNew_3
+  - first:
+      213: 6833866813407373791
+    second: BubblePopNew_4
+  - first:
+      213: -2876003194905444827
+    second: BubblePopNew_5
+  - first:
+      213: 4516017052420530646
+    second: BubblePopNew_6
+  - first:
+      213: -2061676244096036182
+    second: BubblePopNew_7
+  - first:
+      213: 1324683700150902430
+    second: BubblePopNew_8
+  - first:
+      213: -8727722092748530544
+    second: BubblePopNew_9
+  - first:
+      213: -5641653138134557395
+    second: BubblePopNew_10
+  - first:
+      213: -3086772213009875863
+    second: BubblePopNew_11
+  - first:
+      213: -2043511399693374243
+    second: BubblePopNew_12
+  - first:
+      213: -8677363672339744995
+    second: BubblePopNew_13
+  - first:
+      213: 6826883797863883426
+    second: BubblePopNew_14
+  - first:
+      213: 4130463322409861451
+    second: BubblePopNew_15
+  - first:
+      213: -7007860189348696205
+    second: BubblePopNew_16
+  - first:
+      213: 6267392813882009130
+    second: BubblePopNew_17
+  - first:
+      213: -3717043831779297994
+    second: BubblePopNew_18
+  - first:
+      213: 9142806268779235786
+    second: BubblePopNew_19
+  - first:
+      213: 894010541468174136
+    second: BubblePopNew_20
+  - first:
+      213: 2757573017249980379
+    second: BubblePopNew_21
+  - first:
+      213: 2076244516093883587
+    second: BubblePopNew_22
+  - first:
+      213: 117395295182415204
+    second: BubblePopNew_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BubblePopNew_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97b01a7fc3d5f720800000000000000
+      internalID: 2879440424832907163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubblePopNew_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780fc644006552000800000000000000
+      internalID: 10509133286273159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubblePopNew_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50df17dca696b870800000000000000
+      internalID: 8698305399400419423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubblePopNew_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ebc9ccadde7e340800000000000000
+      internalID: 4893141044152811166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubblePopNew_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd92a7fc8a5c6de50800000000000000
+      internalID: 6833866813407373791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubblePopNew_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52eb5caf4526618d0800000000000000
+      internalID: -2876003194905444827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

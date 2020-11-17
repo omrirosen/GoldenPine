@@ -95,7 +95,8 @@ public class PlayerWithShield : MonoBehaviour
    {
       dashTime = startDashTime;
       wallJumpAngle.Normalize();
-   }
+      shieldBubbleSR.enabled = false;
+    }
 
    private void Update()
    {
@@ -365,7 +366,7 @@ public class PlayerWithShield : MonoBehaviour
 
    void HandleShield()
    {
-      if (isShielding && PS.ShieldCoolDown == false)
+      if (isShielding)
       {
          shieldBubbleSR.enabled = true;
          shieldBubbleCC2D.enabled = true;
@@ -376,15 +377,16 @@ public class PlayerWithShield : MonoBehaviour
       }
       else
       {
-         shieldBubbleSR.enabled = false;
+         //shieldBubbleSR.enabled = false;
          shieldBubbleCC2D.enabled = false;
          playerSpeed = originalPlayerSpeed;
          airMoveSpeed = originalPlayerSpeed;
          jumpForce = originalJumpForce;
          rb.gravityScale = 4;
+         
       }
    }
-   
+ 
 
    void WallSlide()
    {
