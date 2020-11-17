@@ -22,7 +22,7 @@ public class PlayerStats : MonoBehaviour
     private PlayerWithShield playerWithShield;
     [SerializeField] private GameObject Buddy;
     public bool HitSpikes = false;
-
+    public float parrywindowTime =0.3f;
     private bool isImpect_ON = false;
     private Rigidbody2D rb2d;
     [SerializeField] float impact_Force;
@@ -81,7 +81,7 @@ public class PlayerStats : MonoBehaviour
 
     public void TakeDmg(int Dmg,Vector3 dir)
     {
-        if (ShieldCoolDown == true || shieldOn == false && ParryWindow == false && playerWithShield.isDashing == false && HitSpikes == false)
+        if (shieldOn == false && ParryWindow == false && playerWithShield.isDashing == false && HitSpikes == false)
         {
             playerHealth -= Dmg;
             healthAnimator.SetInteger("PlayerHealthUI", playerHealth);
@@ -99,7 +99,7 @@ public class PlayerStats : MonoBehaviour
             healthAnimator.SetBool("OneShot", true);
         }
 
-        if(shieldOn == true && ShieldCoolDown == false)
+        if(shieldOn == true)
         {
             ShieldCoolDown = true;
             shieldOn = false;
@@ -164,7 +164,7 @@ public class PlayerStats : MonoBehaviour
 
     private void ShieldUp()
     {
-        if (Input.GetKeyDown(KeyCode.X) && ShieldCoolDown == false )
+        if (Input.GetKeyDown(KeyCode.X)  )
         {
          shieldOn = true;  
          Buddy.SetActive(false);
@@ -184,7 +184,7 @@ public class PlayerStats : MonoBehaviour
             shieldOn = false;            
             Buddy.SetActive(true);
             ParryWindow = true;
-            Invoke("ParryEnd", 0.5f);
+            Invoke("ParryEnd", parrywindowTime);
             /*if(sensetive_Parry<=3f)
             {
                

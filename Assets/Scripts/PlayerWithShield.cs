@@ -75,6 +75,7 @@ public class PlayerWithShield : MonoBehaviour
     bool DashCharging = false;
     GameManager GM;
     public bool canPierceDash = false;
+    bool isUnderImpact = false;
     private void Awake()
     {
       rb = GetComponent<Rigidbody2D>();
@@ -97,7 +98,7 @@ public class PlayerWithShield : MonoBehaviour
 
    private void Update()
    {
-      if(IsDead == false) 
+      if(IsDead == false && isUnderImpact == false) 
       {
           Inputs();
           PlayerJump();
@@ -107,7 +108,7 @@ public class PlayerWithShield : MonoBehaviour
           AnimationSetup();
           SetChargeAnime();
       }
-      else
+      if(IsDead == true)
       {
             Invoke("OnDeath", 2f);
       }
@@ -510,12 +511,15 @@ public class PlayerWithShield : MonoBehaviour
     {
        // print("Impact");
         anim.SetBool("IsUnderImpact", true);
+        isUnderImpact = true;
         Invoke("EndImpact", 0.3f);
+        
     }
 
     private void EndImpact()
     {
         anim.SetBool("IsUnderImpact", false);
+        isUnderImpact = false;
     }
    
     public void PlayerDeath()

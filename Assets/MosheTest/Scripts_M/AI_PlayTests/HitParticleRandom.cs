@@ -12,7 +12,7 @@ public class HitParticleRandom : MonoBehaviour
         animator = GetComponent<Animator>();
         index = GiveRandomInt();
         animator.SetInteger("Index", index);
-        print(index);
+        //print(index);
     }
 
 
