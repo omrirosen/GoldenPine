@@ -23,19 +23,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Player Slippery Material.physicsMaterial2D" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Player Slippery Material.physicsMaterial2D.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX/White FX 1.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX/White FX 1.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/FX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/FX/White Fx 1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/FX/White Fx 1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/Circle Black.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/Circle Black.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/Cirle White.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/Cirle White.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Charged 2.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Charged 2.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Charged.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Charged.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX 2.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX 2.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX 3.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX 3.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX 4.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX 4.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX Charge 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX Charge 2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX Charge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX Charge.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Fx Circle 100px White Stroke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Fx Circle 100px White Stroke.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Fx Circle 100px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Fx Circle 100px.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_70x77px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_70x77px.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_72x70px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_72x70px.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_74x73px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_74x73px.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_75x77px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_75x77px.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Player_2909.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Player_2909.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Player Material.physicsMaterial2D" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Player Material.physicsMaterial2D.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene 11.11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene 11.11.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,8 +130,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
       </list>
     </option>
   </component>
@@ -219,6 +246,7 @@
       <workItem from="1605090211141" duration="13158000" />
       <workItem from="1605175691339" duration="1201000" />
       <workItem from="1605530662799" duration="6620000" />
+      <workItem from="1605627261142" duration="359000" />
     </task>
     <servers />
   </component>

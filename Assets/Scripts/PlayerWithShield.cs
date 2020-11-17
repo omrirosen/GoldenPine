@@ -55,6 +55,7 @@ public class PlayerWithShield : MonoBehaviour
    [SerializeField] private SpriteRenderer shieldBubbleSR;
    [SerializeField] private CircleCollider2D shieldBubbleCC2D;
     [SerializeField] private GameObject WhitePraticale;
+    [SerializeField] private GameObject whiteParticleFX;
     public bool isShielding;
     [SerializeField] private PlayerStats PS;
     private bool isCharged = false;
@@ -149,6 +150,7 @@ public class PlayerWithShield : MonoBehaviour
             Invoke("BackToOGDashSpeed", 0.2f);
             anim.SetBool("IsWhite", false);
             WhitePraticale.SetActive(false);
+           // whiteParticleFX.SetActive(false);
         }
       //Shield Inputs
       
@@ -202,6 +204,7 @@ public class PlayerWithShield : MonoBehaviour
             Invoke("SetWhite", 0.5f);
             isCharged = true;
             WhitePraticale.SetActive(true);
+           // whiteParticleFX.SetActive(true);
         }
     }
    public void SetWhite()
