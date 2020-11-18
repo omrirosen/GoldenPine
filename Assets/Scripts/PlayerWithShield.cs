@@ -162,7 +162,8 @@ public class PlayerWithShield : MonoBehaviour
       
       else
       {
-         Invoke("SetIsShieldingToFalse",1f);
+            isShielding = false;
+        // Invoke("SetIsShieldingToFalse",0.3f);
       }
    }
 
