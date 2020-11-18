@@ -81,7 +81,7 @@ public class PlayerStats : MonoBehaviour
 
     public void TakeDmg(int Dmg,Vector3 dir)
     {
-        if (shieldOn == false && ParryWindow == false && playerWithShield.isDashing == false && HitSpikes == false)
+        if (shieldOn == false && ParryWindow == false  && HitSpikes == false)
         {
             playerHealth -= Dmg;
             healthAnimator.SetInteger("PlayerHealthUI", playerHealth);
