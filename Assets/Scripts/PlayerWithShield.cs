@@ -257,11 +257,11 @@ public class PlayerWithShield : MonoBehaviour
       
       
       // for flipping
-      if (xMoveInput < 0 && facingRight )
+      if (xMoveInput < 0 && facingRight && isDashing ==false )
       {
          FlipSprite();
       }
-      else if (xMoveInput > 0 && !facingRight)
+      else if (xMoveInput > 0 && !facingRight && isDashing == false)
       {
          FlipSprite();
       }
@@ -317,49 +317,70 @@ public class PlayerWithShield : MonoBehaviour
       {
          if (isDashing || PS.DashAttackOn)
          {
-            isDashing = true;
-            if (!facingRight) // left 
-            {
-               fadingGhost.createGhost = true;
-               Invoke("SetCreateGhostToFalse",dashTime);
-               direction = 1;
-               //JSAM.AudioManager.PlaySound(Sounds.DashLeft);
-            }
-            else if (facingRight) // right 
-            {
-               fadingGhost.createGhost = true;
-               Invoke("SetCreateGhostToFalse",dashTime);
-               direction = 2;
-               //JSAM.AudioManager.PlaySound(Sounds.DashRight);
-            }
+                if (collisionCheck.onWall == false)
+                {
+                    isDashing = true;
+                    if (!facingRight) // left 
+                    {
+                        fadingGhost.createGhost = true;
+                        Invoke("SetCreateGhostToFalse", dashTime);
+                        direction = 1;
+                        //JSAM.AudioManager.PlaySound(Sounds.DashLeft);
+                    }
+                    else if (facingRight) // right 
+                    {
+                        fadingGhost.createGhost = true;
+                        Invoke("SetCreateGhostToFalse", dashTime);
+                        direction = 2;
+                        //JSAM.AudioManager.PlaySound(Sounds.DashRight);
+                    }
+                }
+                else if(collisionCheck.onWall == true)
+                {
+                    if (collisionCheck.onRightWall)
+                    {
+                        fadingGhost.createGhost = true;
+                        Invoke("SetCreateGhostToFalse", dashTime);
+                        direction = 1;
+                        FlipSprite();
+                    }
+                    if (collisionCheck.onLeftWall)
+                    {
+                        fadingGhost.createGhost = true;
+                        Invoke("SetCreateGhostToFalse", dashTime);
+                        direction = 2;
+                        FlipSprite();
+                    }
+                }
          }
       }
       else
       {
-         if (dashTime <= 0)
-         {
-            direction = 0;
-            dashTime = startDashTime;
-            rb.velocity = Vector2.zero;
-            Invoke("SetIsDashingToFalse",0.2f);
-         }
-         else
-         {
-            fadingGhost.createGhost = true;
-            Invoke("SetCreateGhostToFalse",dashTime);
-            dashTime -= Time.deltaTime;
-            if (direction == 1)
+            if (dashTime <= 0)
             {
-               rb.velocity = Vector2.left * dashSpeed;
-               Invoke("SetIsDashingToFalse",0.2f);
-               
+                direction = 0;
+                dashTime = startDashTime;
+                rb.velocity = Vector2.zero;
+                Invoke("SetIsDashingToFalse", 0.2f);
             }
-            else if (direction == 2)
+            else
             {
-               rb.velocity = Vector2.right * dashSpeed;
-               Invoke("SetIsDashingToFalse",0.2f);
+                fadingGhost.createGhost = true;
+                Invoke("SetCreateGhostToFalse", dashTime);
+                dashTime -= Time.deltaTime;
+                if (direction == 1)
+                {
+                    rb.velocity = Vector2.left * dashSpeed;
+                    Invoke("SetIsDashingToFalse", 0.2f);
+
+                }
+                else if (direction == 2)
+                {
+                     rb.velocity = Vector2.right * dashSpeed;
+                     Invoke("SetIsDashingToFalse",0.2f);
+                }
             }
-         }
+
       }
       
    }
@@ -431,8 +452,7 @@ public class PlayerWithShield : MonoBehaviour
 
    void FlipSprite()
    {
-      if (!collisionCheck.onWall)
-      {
+      
          wallJumpDirection *= -1;
          //playerSpriteRenderer.flipX = facingRight;
          facingRight = !facingRight;
@@ -442,7 +462,7 @@ public class PlayerWithShield : MonoBehaviour
          Buddy.flip();
             Buddy.SetHitOffset();
             //Buddy.FlipAttackPoint();
-      }
+     
    }
 
    private void SetCreateGhostToFalse()
