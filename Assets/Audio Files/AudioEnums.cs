@@ -1,5 +1,6 @@
 namespace JSAM {
     public enum Sounds {
+        BreakingRock,
         BuddyHit,
         Dash,
         Footsteps,

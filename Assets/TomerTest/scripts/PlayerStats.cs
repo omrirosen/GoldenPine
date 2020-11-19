@@ -86,6 +86,7 @@ public class PlayerStats : MonoBehaviour
             playerHealth -= Dmg;
             healthAnimator.SetInteger("PlayerHealthUI", playerHealth);
             playerWithShield.UnderImpactAnim();
+            playerWithShield.isDashing = false;
             if (!isImpect_ON)
             {
                 isImpect_ON = true;
@@ -136,71 +137,79 @@ public class PlayerStats : MonoBehaviour
        
         PlayerSelf.SetActive(false);
     }
-    
-   /* public void HealPlayer()
-    {
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            if (playerHealth == 1)
-            {
-                animator.Play("IncreaseHealth");
-                playerHealth = 4;
-            }
 
-            if(playerHealth == 2)
-            {
-                animator.Play("IncreaseHealth_2");
-                playerHealth = 4;
-            }
+    /* public void HealPlayer()
+     {
+         if (Input.GetKeyDown(KeyCode.T))
+         {
+             if (playerHealth == 1)
+             {
+                 animator.Play("IncreaseHealth");
+                 playerHealth = 4;
+             }
 
-            if(playerHealth == 3)
-            {
-                animator.Play("IncreaseHealth_3");
-                playerHealth = 4;
-            }
-            animator.SetInteger("PlayerHealthUI", playerHealth);
-        }
-    }*/
+             if(playerHealth == 2)
+             {
+                 animator.Play("IncreaseHealth_2");
+                 playerHealth = 4;
+             }
+
+             if(playerHealth == 3)
+             {
+                 animator.Play("IncreaseHealth_3");
+                 playerHealth = 4;
+             }
+             animator.SetInteger("PlayerHealthUI", playerHealth);
+         }
+     }*/
 
     private void ShieldUp()
     {
-        if (Input.GetKeyDown(KeyCode.X)  )
+        if (playerWithShield.isDashing == false)
         {
-         shieldOn = true;  
-         Buddy.SetActive(false);
-         ParryWindow = true;
-         Invoke("ParryEnd", parrywindowTime);
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                shieldOn = true;
+                Buddy.SetActive(false);
+                ParryWindow = true;
+                Invoke("ParryEnd", parrywindowTime);
 
+            }
+            /*if(Input.GetKey(KeyCode.X))
+            {
+                sensetive_Parry += Time.deltaTime;
+            }
+            if(sensetive_Parry > 3)
+            {
+                shieldOn = false;
+                Buddy.SetActive(true);
+            }*/
+            if (Input.GetKeyUp(KeyCode.X))
+            {
+                shieldOn = false;
+                Buddy.SetActive(true);
+
+                /*if(sensetive_Parry<=3f)
+                {
+
+
+                    sensetive_Parry = 0f;
+                }
+                else
+                {
+                    sensetive_Parry = 0f;
+                }*/
+
+
+            }
         }
-        /*if(Input.GetKey(KeyCode.X))
-        {
-            sensetive_Parry += Time.deltaTime;
-        }
-        if(sensetive_Parry > 3)
+        if (playerWithShield.isDashing == true)
         {
             shieldOn = false;
             Buddy.SetActive(true);
-        }*/
-        if (Input.GetKeyUp(KeyCode.X))
-        {
-            shieldOn = false;            
-            Buddy.SetActive(true);
-            
-            /*if(sensetive_Parry<=3f)
-            {
-               
-                
-                sensetive_Parry = 0f;
-            }
-            else
-            {
-                sensetive_Parry = 0f;
-            }*/
-
 
         }
     }
-
 
     private void ParryEnd()
     {

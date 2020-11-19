@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using JSAM;
 
 public class DestructableObjects : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class DestructableObjects : MonoBehaviour
     {
         Instantiate(destructionEffect, transform.position, quaternion.identity);
         Instantiate(destructionDustEffect, transform.position, quaternion.identity);
+        JSAM.AudioManager.PlaySound(Sounds.BreakingRock);
             Destroy(gameObject);
     }
 }

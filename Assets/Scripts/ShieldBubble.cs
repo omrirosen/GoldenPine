@@ -44,19 +44,21 @@ public class ShieldBubble : MonoBehaviour
             shieldAnimator.SetTrigger("startedShielding");
             //AudioManager.PlaySound(Sounds.ShieldUp);
         }
-
-        if (Input.GetKeyUp(KeyCode.X))
+        if (playerScript.isShielding)
         {
-          // AudioManager.PlaySound(Sounds.ShieldPop);
-            if (isGrounded)
+            if (Input.GetKeyUp(KeyCode.X) || Input.GetKey(KeyCode.LeftShift))
             {
-                shieldAnimator.Play("Shield Ground Pop");
+                // AudioManager.PlaySound(Sounds.ShieldPop);
+                if (isGrounded)
+                {
+                    shieldAnimator.Play("Shield Ground Pop");
+                }
+                else
+                {
+                    shieldAnimator.Play("Shield Air Pop");
+                }
+
             }
-            else
-            {
-                shieldAnimator.Play("Shield Air Pop");
-            }
-            
         }
     }
 

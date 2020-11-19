@@ -14,10 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   file: {fileID: 8300000, guid: 8459bd2cbdf4bfa4fa732b69227aeff4, type: 3}
   files:
-  - {fileID: 8300000, guid: 8459bd2cbdf4bfa4fa732b69227aeff4, type: 3}
-  - {fileID: 8300000, guid: 4f92eb82eedcaa749beb0ae6fb2486f2, type: 3}
   - {fileID: 8300000, guid: a2492ef5f345e284d8b1c5ed5dcc63a1, type: 3}
-  - {fileID: 8300000, guid: 6b624fd7d21813947b708147748df3b5, type: 3}
+  - {fileID: 8300000, guid: 8459bd2cbdf4bfa4fa732b69227aeff4, type: 3}
   useLibrary: 1
   neverRepeat: 0
   lastClipIndex: -1

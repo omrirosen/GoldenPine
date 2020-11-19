@@ -141,7 +141,11 @@ public class PlayerWithShield : MonoBehaviour
             Invoke("ResetDashCoolDown", 0.5f);
             FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
             Buddy.Dash();
-            
+            if (isShielding)
+            {
+                isShielding = false;
+                HitShield();
+            }
       }
       if(Input.GetKey(KeyCode.Z) && PS.DashStock >= 1 && canPierceDash)
       {
@@ -156,12 +160,12 @@ public class PlayerWithShield : MonoBehaviour
         }
       //Shield Inputs
       
-      if (Input.GetKey(KeyCode.X))
+      if (Input.GetKeyDown(KeyCode.X))
       {
          isShielding = true;
       }
       
-      else
+      if(Input.GetKeyUp(KeyCode.X))
       {
             isShielding = false;
         // Invoke("SetIsShieldingToFalse",0.3f);
@@ -389,7 +393,7 @@ public class PlayerWithShield : MonoBehaviour
 
    void HandleShield()
    {
-      if (isShielding)
+      if (isShielding && !isDashing)
       {
          shieldBubbleSR.enabled = true;
          shieldBubbleCC2D.enabled = true;

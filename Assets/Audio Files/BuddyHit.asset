@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   file: {fileID: 0}
   files:
-  - {fileID: 8300000, guid: 602219d6baf9c8d4996e04cd4c983a87, type: 3}
-  - {fileID: 8300000, guid: c6ede2dbcdf03094285e1ba8a29c245e, type: 3}
-  - {fileID: 8300000, guid: 50aa2f4b166804544a155b57e2e807a8, type: 3}
-  - {fileID: 8300000, guid: aa1438bfa27e74546a4ef14f356ab3e6, type: 3}
+  - {fileID: 8300000, guid: 49ad1b8ab696ea24fb3afeec49ed48ec, type: 3}
+  - {fileID: 8300000, guid: 8ab81370fc0c71046bf6e566a7888184, type: 3}
+  - {fileID: 8300000, guid: fc14b8840977aa447b5ba3addb74f061, type: 3}
+  - {fileID: 8300000, guid: 2b485f0e4c867b14da25d55616c802d2, type: 3}
   useLibrary: 1
   neverRepeat: 0
   lastClipIndex: -1
   category: 
-  relativeVolume: 0.665
+  relativeVolume: 0.388
   spatialize: 0
   maxDistance: 0
   priority: 128
