@@ -168,7 +168,9 @@ public class PlayerStats : MonoBehaviour
         {
          shieldOn = true;  
          Buddy.SetActive(false);
-         
+         ParryWindow = true;
+         Invoke("ParryEnd", parrywindowTime);
+
         }
         /*if(Input.GetKey(KeyCode.X))
         {
@@ -183,8 +185,7 @@ public class PlayerStats : MonoBehaviour
         {
             shieldOn = false;            
             Buddy.SetActive(true);
-            ParryWindow = true;
-            Invoke("ParryEnd", parrywindowTime);
+            
             /*if(sensetive_Parry<=3f)
             {
                

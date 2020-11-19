@@ -12,18 +12,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d15ae218647a2d4f85e14306846c10c, type: 3}
   m_Name: BuddyHit
   m_EditorClassIdentifier: 
-  file: {fileID: 8300000, guid: 1c5a901a84edbf3459f1a27f631eb8e8, type: 3}
-  files: []
-  useLibrary: 0
+  file: {fileID: 0}
+  files:
+  - {fileID: 8300000, guid: 602219d6baf9c8d4996e04cd4c983a87, type: 3}
+  - {fileID: 8300000, guid: c6ede2dbcdf03094285e1ba8a29c245e, type: 3}
+  - {fileID: 8300000, guid: 50aa2f4b166804544a155b57e2e807a8, type: 3}
+  - {fileID: 8300000, guid: aa1438bfa27e74546a4ef14f356ab3e6, type: 3}
+  useLibrary: 1
   neverRepeat: 0
   lastClipIndex: -1
   category: 
-  relativeVolume: 1
+  relativeVolume: 0.665
   spatialize: 0
   maxDistance: 0
   priority: 128
   startingPitch: 1
-  pitchShift: 0.5
+  pitchShift: 0
   playReversed: 0
   delay: 0
   ignoreTimeScale: 0

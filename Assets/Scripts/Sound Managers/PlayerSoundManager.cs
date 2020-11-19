@@ -12,11 +12,11 @@ public class PlayerSoundManager : MonoBehaviour
 
     public void PlayDashSound()
     {
-        AudioManager.PlaySound(Sounds.DashLeft);
+        AudioManager.PlaySound(Sounds.Dash);
     }
 
     public void PlayJumpSound()
     {
-        AudioManager.PlaySound(Sounds.Jump);
+        //AudioManager.PlaySound(Sounds.Jump);
     }
 }

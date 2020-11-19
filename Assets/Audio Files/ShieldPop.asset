@@ -12,20 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d15ae218647a2d4f85e14306846c10c, type: 3}
   m_Name: ShieldPop
   m_EditorClassIdentifier: 
-  file: {fileID: 8300000, guid: f1d151d64aa8a1249a8df1e5492d50eb, type: 3}
-  files:
-  - {fileID: 8300000, guid: f1d151d64aa8a1249a8df1e5492d50eb, type: 3}
-  - {fileID: 8300000, guid: d6100b0b5410e1f45a3e5fe93ae1ff35, type: 3}
-  useLibrary: 1
+  file: {fileID: 8300000, guid: ebd3829135a90894fa0d2070c1f77fc8, type: 3}
+  files: []
+  useLibrary: 0
   neverRepeat: 0
   lastClipIndex: -1
   category: 
-  relativeVolume: 0.116
+  relativeVolume: 0.561
   spatialize: 0
   maxDistance: 0
   priority: 128
   startingPitch: 1
-  pitchShift: 0.05
+  pitchShift: 0
   playReversed: 0
   delay: 0
   ignoreTimeScale: 0

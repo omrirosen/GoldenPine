@@ -86,7 +86,7 @@ public class BuddyController : MonoBehaviour
         {
             LastClickedTime = Time.time;
             NumOfClicks++;
-            
+            JSAM.AudioManager.PlaySound(Sounds.BuddyHit);
             SRenderer.sortingOrder = 10;
             Invoke("ResetSortingOrder", 0.7f);
             if(NumOfClicks == 1 && !zCooldown)

@@ -135,6 +135,7 @@ public class PlayerWithShield : MonoBehaviour
                                                   //Dash Inputs
       if (Input.GetKeyDown(KeyCode.LeftShift) && DashCooldown == false)
       {
+            JSAM.AudioManager.PlaySound(Sounds.Dash);
             DashCooldown = true;
             isDashing = true;
             Invoke("ResetDashCoolDown", 0.5f);
@@ -280,7 +281,7 @@ public class PlayerWithShield : MonoBehaviour
       
       if (Input.GetButtonDown("Jump") && collisionCheck.onGround)
       {
-         //JSAM.AudioManager.PlaySound(Sounds.Jump); 
+         JSAM.AudioManager.PlaySound(Sounds.Jump); 
          anim.SetTrigger("takeOff");
          isJumping = true;
          jumpTimeCounter = jumpTime;
@@ -326,14 +327,14 @@ public class PlayerWithShield : MonoBehaviour
                         fadingGhost.createGhost = true;
                         Invoke("SetCreateGhostToFalse", dashTime);
                         direction = 1;
-                        //JSAM.AudioManager.PlaySound(Sounds.DashLeft);
+                        //JSAM.AudioManager.PlaySound(Sounds.Dash);
                     }
                     else if (facingRight) // right 
                     {
                         fadingGhost.createGhost = true;
                         Invoke("SetCreateGhostToFalse", dashTime);
                         direction = 2;
-                        //JSAM.AudioManager.PlaySound(Sounds.DashRight);
+                        //JSAM.AudioManager.PlaySound(Sounds.Dash);
                     }
                 }
                 else if(collisionCheck.onWall == true)

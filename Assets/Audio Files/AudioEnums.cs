@@ -1,8 +1,7 @@
 namespace JSAM {
     public enum Sounds {
         BuddyHit,
-        DashLeft,
-        DashRight,
+        Dash,
         Footsteps,
         Jump,
         ShieldPop,
