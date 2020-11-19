@@ -21,12 +21,12 @@ MonoBehaviour:
   neverRepeat: 0
   lastClipIndex: -1
   category: 
-  relativeVolume: 0.549
+  relativeVolume: 0
   spatialize: 0
   maxDistance: 0
   priority: 128
   startingPitch: 1
-  pitchShift: 0.05
+  pitchShift: 0
   playReversed: 0
   delay: 0
   ignoreTimeScale: 0
