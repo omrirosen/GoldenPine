@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Combined Scene Eden Tests.unity
-    guid: 6c76aadd6117e494f860caf654feaf97
+    path: Assets/Scenes/Combined Scene Eden Tests 1.unity
+    guid: 3fd7357cd162d464a859d1ca1d3fa6dd
   m_configObjects: {}
