@@ -2,9 +2,13 @@ namespace JSAM {
     public enum Sounds {
         BreakingRock,
         BuddyHit,
+        ChargeAnim,
         Dash,
         Footsteps,
+        HitEnemy,
         Jump,
+        Parry,
+        PirciengDash,
         ShieldPop,
         ShieldUp
     }

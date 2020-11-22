@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using JSAM;
 public class DestroyParryPop : MonoBehaviour
 {
     public GameObject BlackDropInstPoint;
@@ -41,4 +41,9 @@ public class DestroyParryPop : MonoBehaviour
     {
         playerSctript.canPierceDash = true;
     }   
+
+    public void PlayChargeSound()
+    {
+        JSAM.AudioManager.PlaySound(Sounds.ChargeAnim);
+    }
 }

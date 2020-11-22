@@ -42,13 +42,13 @@ public class ShieldBubble : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             shieldAnimator.SetTrigger("startedShielding");
-            //AudioManager.PlaySound(Sounds.ShieldUp);
+            AudioManager.PlaySound(Sounds.ShieldUp);
         }
         if (playerScript.isShielding)
         {
             if (Input.GetKeyUp(KeyCode.X) || Input.GetKey(KeyCode.LeftShift))
             {
-                // AudioManager.PlaySound(Sounds.ShieldPop);
+                 //AudioManager.PlaySound(Sounds.ShieldPop);
                 if (isGrounded)
                 {
                     shieldAnimator.Play("Shield Ground Pop");
@@ -64,6 +64,7 @@ public class ShieldBubble : MonoBehaviour
 
     public void HitShield()
     {
+        //AudioManager.PlaySound(Sounds.ShieldPop);
         print("hit Shield");
         if (isGrounded)
         {
@@ -73,7 +74,7 @@ public class ShieldBubble : MonoBehaviour
         {
             shieldAnimator.Play("Shield Air Pop");
         }
-       // AudioManager.PlaySound(Sounds.ShieldPop);
+       
     }
 
     public void ConnectToTakeDMG(int dmg,Vector3 dir )

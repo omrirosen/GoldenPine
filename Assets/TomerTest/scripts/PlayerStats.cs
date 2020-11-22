@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
-
+using JSAM;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -218,6 +218,7 @@ public class PlayerStats : MonoBehaviour
     
     private void Parry()
     {
+        JSAM.AudioManager.PlaySound(Sounds.Parry);
        
         if (DashStock < 1)
         {

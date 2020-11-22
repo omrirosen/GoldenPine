@@ -77,6 +77,7 @@ public class PlayerWithShield : MonoBehaviour
     GameManager GM;
     public bool canPierceDash = false;
     bool isUnderImpact = false;
+    [SerializeField] GameObject DustRun;
     private void Awake()
     {
       rb = GetComponent<Rigidbody2D>();
@@ -156,6 +157,7 @@ public class PlayerWithShield : MonoBehaviour
             Invoke("BackToOGDashSpeed", 0.2f);
             anim.SetBool("IsWhite", false);
             WhitePraticale.SetActive(false);
+            JSAM.AudioManager.PlaySound(Sounds.PirciengDash);
            // whiteParticleFX.SetActive(false);
         }
       //Shield Inputs
@@ -207,6 +209,7 @@ public class PlayerWithShield : MonoBehaviour
     {
         if (PS.DashStock >= 1 && isCharged == false)
         {
+            //JSAM.AudioManager.PlaySound(Sounds.ChargeAnim);
             ChargAnim.SetActive(true);
             Invoke("SetWhite", 0.5f);
             isCharged = true;
@@ -234,13 +237,15 @@ public class PlayerWithShield : MonoBehaviour
       {
          isMoving = true;
             Buddy.Run();
-           
-      }
+            //if (collisionCheck.onGround) DustRun.SetActive(true);
+            //if (collisionCheck.onGround == false || isUnderImpact) DustRun.SetActive(false);
+        }
       else
       {
          isMoving = false;
             Buddy.StopRun();
-      }
+            DustRun.SetActive(false);
+        }
       
       // for movement
       if (isMoving)
@@ -515,10 +520,11 @@ public class PlayerWithShield : MonoBehaviour
 
         if (collision.gameObject.tag == "Enemy")
         {
-           
+            
             if (PS.DashAttacked == true)
             {
-               collision.gameObject.GetComponent<Unihog1DMG>()?.killMe(dmg);
+                JSAM.AudioManager.PlaySound(Sounds.HitEnemy);
+                collision.gameObject.GetComponent<Unihog1DMG>()?.killMe(dmg);
                collision.gameObject.GetComponent<HornyHogController>()?.TakeDMG(dmg);
             }
         }

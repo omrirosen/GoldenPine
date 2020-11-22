@@ -12,16 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d15ae218647a2d4f85e14306846c10c, type: 3}
   m_Name: Jump
   m_EditorClassIdentifier: 
-  file: {fileID: 8300000, guid: d70c80b4dcfc5824fb61bba7c658b3a3, type: 3}
+  file: {fileID: 8300000, guid: e2a773495fbb43644b1c9790acd9cb11, type: 3}
   files:
-  - {fileID: 8300000, guid: 208ddbbba458f8e42bb9f92dc85229db, type: 3}
-  - {fileID: 8300000, guid: 59e18f53c17d1094683b69a9a834fdd9, type: 3}
-  - {fileID: 8300000, guid: d70c80b4dcfc5824fb61bba7c658b3a3, type: 3}
-  useLibrary: 1
+  - {fileID: 8300000, guid: e2a773495fbb43644b1c9790acd9cb11, type: 3}
+  - {fileID: 0}
+  useLibrary: 0
   neverRepeat: 0
   lastClipIndex: -1
   category: 
-  relativeVolume: 0
+  relativeVolume: 0.382
   spatialize: 0
   maxDistance: 0
   priority: 128
