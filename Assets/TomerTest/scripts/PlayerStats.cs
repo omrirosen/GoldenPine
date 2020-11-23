@@ -38,6 +38,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] ShieldBubble ShieldReff;
     public bool ShieldCoolDown = false;
     public bool DashAttackOn = false;
+    bool isInvinsable = false;
     private void Awake()
     {
         OGcolor = sRenderer.color;
@@ -81,8 +82,9 @@ public class PlayerStats : MonoBehaviour
 
     public void TakeDmg(int Dmg,Vector3 dir)
     {
-        if (shieldOn == false && ParryWindow == false  && HitSpikes == false)
+        if (shieldOn == false && ParryWindow == false  && HitSpikes == false && isInvinsable == false)
         {
+            StartCoroutine("Blinker");
             playerHealth -= Dmg;
             healthAnimator.SetInteger("PlayerHealthUI", playerHealth);
             playerWithShield.UnderImpactAnim();
@@ -273,5 +275,59 @@ public class PlayerStats : MonoBehaviour
     private void SetShieldCoolTime()
     {
          ShieldCoolDown = false;
+    }
+
+    IEnumerator Blinker()
+    {
+        Color tmp = sRenderer.color;
+        sRenderer.color = tmp;
+        isInvinsable = true;
+
+        sRenderer.color = tmp;
+        tmp.a = 255;
+
+        yield return new WaitForSeconds(0.10f);
+        sRenderer.color = tmp;
+        tmp.a = 0;
+
+        yield return new WaitForSeconds(0.10f);
+        sRenderer.color = tmp;
+        tmp.a = 255f;
+
+        yield return new WaitForSeconds(0.10f);
+        sRenderer.color = tmp;
+        tmp.a = 0;
+
+        yield return new WaitForSeconds(0.10f);
+        sRenderer.color = tmp;
+
+        tmp.a = 155f;
+
+        yield return new WaitForSeconds(0.10f);
+        sRenderer.color = tmp;
+
+        tmp.a = 0;
+
+        yield return new WaitForSeconds(0.10f);
+        sRenderer.color = tmp;
+
+        tmp.a = 55f;
+
+        yield return new WaitForSeconds(0.10f);
+        sRenderer.color = tmp;
+
+        tmp.a = 0;
+
+        yield return new WaitForSeconds(0.10f);
+        sRenderer.color = tmp;
+
+        tmp.a = 25f;
+
+        yield return new WaitForSeconds(0.10f);
+        sRenderer.color = tmp;
+
+        tmp.a = 0;
+        isInvinsable = false;
+        StopCoroutine("Blinker");
     }
 }
