@@ -23,42 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX/White FX 1.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX/White FX 1.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/FX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/FX/White Fx 1.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/FX/White Fx 1.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/Circle Black.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/Circle Black.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/Cirle White.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/Cirle White.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Charged 2.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Charged 2.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Charged.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Charged.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX 2.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX 2.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX 3.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX 3.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX 4.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX 4.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX Charge 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX Charge 2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX Charge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White FX Charge.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Fx Circle 100px White Stroke.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Fx Circle 100px White Stroke.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Fx Circle 100px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Fx Circle 100px.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_70x77px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_70x77px.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_72x70px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_72x70px.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_74x73px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_74x73px.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_75x77px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_75x77px.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests.unity" afterDir="false" />
@@ -161,6 +126,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../../../Desktop/Desktop Random Folder/Shenkar Builds/Pondora Build 22.11\Pondora.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\EdenA\OneDrive\Desktop\Desktop Random Folder\Shenkar Builds\Pondora Build 22.11" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -247,6 +220,7 @@
       <workItem from="1605175691339" duration="1201000" />
       <workItem from="1605530662799" duration="6620000" />
       <workItem from="1605627261142" duration="359000" />
+      <workItem from="1606123126773" duration="78000" />
     </task>
     <servers />
   </component>

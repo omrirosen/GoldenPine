@@ -76,8 +76,8 @@ public class PlayerWithShield : MonoBehaviour
     bool DashCharging = false;
     GameManager GM;
     public bool canPierceDash = false;
-    bool isUnderImpact = false;
-    [SerializeField] GameObject DustRun;
+    bool isUnderImpact = false; 
+    //[SerializeField] GameObject DustRun;
     private void Awake()
     {
       rb = GetComponent<Rigidbody2D>();
@@ -244,7 +244,7 @@ public class PlayerWithShield : MonoBehaviour
       {
          isMoving = false;
             Buddy.StopRun();
-            DustRun.SetActive(false);
+           // DustRun.SetActive(false);
         }
       
       // for movement

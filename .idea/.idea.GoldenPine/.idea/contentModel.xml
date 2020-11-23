@@ -213,6 +213,7 @@
             <e p="DoDmg.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="PlayerStats.cs" t="Include" />
+            <e p="SheildAnimationManager.cs" t="Include" />
             <e p="SpikeDmg.cs" t="Include" />
           </e>
         </e>
