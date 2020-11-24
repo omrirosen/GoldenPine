@@ -89,7 +89,7 @@ public class PlayerWithShield : MonoBehaviour
         Player = this.gameObject;
         GM = FindObjectOfType<GameManager>();
         playerSpriteRenderer = GetComponent<SpriteRenderer>();
-       
+        canPierceDash = false;
     }
 
    private void Start()
@@ -97,7 +97,7 @@ public class PlayerWithShield : MonoBehaviour
       dashTime = startDashTime;
       wallJumpAngle.Normalize();
       shieldBubbleSR.enabled = false;
-    }
+   }
 
    private void Update()
    {
