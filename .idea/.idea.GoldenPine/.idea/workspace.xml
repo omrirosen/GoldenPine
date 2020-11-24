@@ -23,8 +23,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/CHANGELOG.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/CHANGELOG.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/CODE_OF_CONDUCT.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/CODE_OF_CONDUCT.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/CONTRIBUTING.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/CONTRIBUTING.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/LICENSE.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/LICENSE.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/README.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/README.md.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/AnimatableProperty.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/AnimatableProperty.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/BakingCamera.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/BakingCamera.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Coffee.UIParticle.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Coffee.UIParticle.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/CombineInstanceEx.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/CombineInstanceEx.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/AnimatedPropertiesEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/AnimatedPropertiesEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/Coffee.UIParticle.Editor.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/Coffee.UIParticle.Editor.asmdef.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/ImportSampleMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/ImportSampleMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/UIParticleEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/UIParticleEditor.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/UIParticleMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/UIParticleMenu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/MeshHelper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/MeshHelper.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/ModifiedMaterial.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/ModifiedMaterial.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/UIParticle.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/UIParticle.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/UIParticleUpdater.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/UIParticleUpdater.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Utils.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Utils.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Shaders.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Shaders.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Shaders/UIAdditive.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Shaders/UIAdditive.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/package.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/package.json.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,6 +241,7 @@
       <workItem from="1605627261142" duration="359000" />
       <workItem from="1606123126773" duration="78000" />
       <workItem from="1606147095378" duration="1427000" />
+      <workItem from="1606249778041" duration="1000" />
     </task>
     <servers />
   </component>
