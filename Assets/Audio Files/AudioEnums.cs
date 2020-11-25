@@ -4,6 +4,7 @@ namespace JSAM {
         BuddyHit,
         ChargeAnim,
         Dash,
+        Death,
         Footsteps,
         HitEnemy,
         Jump,

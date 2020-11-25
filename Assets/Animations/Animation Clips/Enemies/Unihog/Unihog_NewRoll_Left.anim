@@ -20,34 +20,34 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -1620180502937103439, guid: 750796a9decdbc446baa816c734a845f,
+      value: {fileID: -1541513601985774774, guid: 4455ef2260b111246a3354d83eed6e71,
         type: 3}
     - time: 0.015625
-      value: {fileID: -5819541429551007007, guid: 750796a9decdbc446baa816c734a845f,
+      value: {fileID: -7983745396288232634, guid: 4455ef2260b111246a3354d83eed6e71,
         type: 3}
     - time: 0.03125
-      value: {fileID: 3079065204320400841, guid: 750796a9decdbc446baa816c734a845f,
+      value: {fileID: -7351514667388473569, guid: 4455ef2260b111246a3354d83eed6e71,
         type: 3}
     - time: 0.046875
-      value: {fileID: 7981975211204153708, guid: 750796a9decdbc446baa816c734a845f,
+      value: {fileID: 5034399978413682347, guid: 4455ef2260b111246a3354d83eed6e71,
         type: 3}
     - time: 0.0625
-      value: {fileID: 1686626926348576048, guid: 750796a9decdbc446baa816c734a845f,
+      value: {fileID: 4811183109302650746, guid: 4455ef2260b111246a3354d83eed6e71,
         type: 3}
     - time: 0.078125
-      value: {fileID: -1731166168461260968, guid: 750796a9decdbc446baa816c734a845f,
+      value: {fileID: -6445079334599217287, guid: 4455ef2260b111246a3354d83eed6e71,
         type: 3}
     - time: 0.09375
-      value: {fileID: -4066882079291064010, guid: 750796a9decdbc446baa816c734a845f,
+      value: {fileID: 2626317227864578352, guid: 4455ef2260b111246a3354d83eed6e71,
         type: 3}
     - time: 0.109375
-      value: {fileID: -6008933579096537527, guid: 750796a9decdbc446baa816c734a845f,
+      value: {fileID: -7728431268270919474, guid: 4455ef2260b111246a3354d83eed6e71,
         type: 3}
     - time: 0.125
-      value: {fileID: 6691895360183819992, guid: 750796a9decdbc446baa816c734a845f,
+      value: {fileID: 3882943003405358031, guid: 4455ef2260b111246a3354d83eed6e71,
         type: 3}
     - time: 0.140625
-      value: {fileID: -7234410752556522808, guid: 750796a9decdbc446baa816c734a845f,
+      value: {fileID: -7208605204860794167, guid: 4455ef2260b111246a3354d83eed6e71,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -68,16 +68,16 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -1620180502937103439, guid: 750796a9decdbc446baa816c734a845f, type: 3}
-    - {fileID: -5819541429551007007, guid: 750796a9decdbc446baa816c734a845f, type: 3}
-    - {fileID: 3079065204320400841, guid: 750796a9decdbc446baa816c734a845f, type: 3}
-    - {fileID: 7981975211204153708, guid: 750796a9decdbc446baa816c734a845f, type: 3}
-    - {fileID: 1686626926348576048, guid: 750796a9decdbc446baa816c734a845f, type: 3}
-    - {fileID: -1731166168461260968, guid: 750796a9decdbc446baa816c734a845f, type: 3}
-    - {fileID: -4066882079291064010, guid: 750796a9decdbc446baa816c734a845f, type: 3}
-    - {fileID: -6008933579096537527, guid: 750796a9decdbc446baa816c734a845f, type: 3}
-    - {fileID: 6691895360183819992, guid: 750796a9decdbc446baa816c734a845f, type: 3}
-    - {fileID: -7234410752556522808, guid: 750796a9decdbc446baa816c734a845f, type: 3}
+    - {fileID: -1541513601985774774, guid: 4455ef2260b111246a3354d83eed6e71, type: 3}
+    - {fileID: -7983745396288232634, guid: 4455ef2260b111246a3354d83eed6e71, type: 3}
+    - {fileID: -7351514667388473569, guid: 4455ef2260b111246a3354d83eed6e71, type: 3}
+    - {fileID: 5034399978413682347, guid: 4455ef2260b111246a3354d83eed6e71, type: 3}
+    - {fileID: 4811183109302650746, guid: 4455ef2260b111246a3354d83eed6e71, type: 3}
+    - {fileID: -6445079334599217287, guid: 4455ef2260b111246a3354d83eed6e71, type: 3}
+    - {fileID: 2626317227864578352, guid: 4455ef2260b111246a3354d83eed6e71, type: 3}
+    - {fileID: -7728431268270919474, guid: 4455ef2260b111246a3354d83eed6e71, type: 3}
+    - {fileID: 3882943003405358031, guid: 4455ef2260b111246a3354d83eed6e71, type: 3}
+    - {fileID: -7208605204860794167, guid: 4455ef2260b111246a3354d83eed6e71, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

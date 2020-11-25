@@ -6,19 +6,33 @@ using UnityEngine;
 public class DeadUniHogTut : MonoBehaviour
 {
     public int numOfHitTaken = 0;
+    private Animator uniAnimator;
+    private BoxCollider2D myBoxCollider;
 
-    void DestroyHog()
+    private void Start()
     {
-        if (numOfHitTaken >= 3)
-        {
-            Destroy(this.gameObject);
-        }
-        
+        uniAnimator = GetComponent<Animator>();
+        myBoxCollider = GetComponent<BoxCollider2D>();
     }
 
     private void Update()
     {
-        DestroyHog();
-       // print(numOfHitTaken);
+        HandleDeathAnimation();
+    }
+    
+    void HandleDeathAnimation()
+    {
+        if (numOfHitTaken >= 2)
+        {
+            myBoxCollider.enabled = false;
+            uniAnimator.SetBool("isDead", true);
+            Invoke("DestroyHog", 1);
+        }
+        
+    }
+
+    void DestroyHog()
+    {
+        Destroy(this.gameObject);
     }
 }

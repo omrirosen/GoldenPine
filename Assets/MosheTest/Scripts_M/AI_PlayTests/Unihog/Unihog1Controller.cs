@@ -118,6 +118,11 @@ public class Unihog1Controller : MonoBehaviour
                     
                     animator.SetBool("isDeath", false);
                 }
+
+                if (deathloop >= 9f)
+                {
+                    animator.SetBool("Evaporate", true);
+                }
                 if(deathloop>=10f)
                 {
                     Destroy(gameObject);

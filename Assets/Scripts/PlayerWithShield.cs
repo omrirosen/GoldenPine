@@ -70,7 +70,7 @@ public class PlayerWithShield : MonoBehaviour
    [SerializeField] private CinemachineImpulseSource pulseSource;
    public bool DashAttack = false;
     [SerializeField] GameObject ChargAnim;
-    bool IsDead = false;
+    public bool IsDead = false;
     bool CanShield = true;
     GameObject Player;
     bool DashCharging = false;
@@ -78,6 +78,7 @@ public class PlayerWithShield : MonoBehaviour
     public bool canPierceDash = false;
     bool isUnderImpact = false; 
     //[SerializeField] GameObject DustRun;
+    [SerializeField] private GameObject whiteUiParticleEffect;
     private void Awake()
     {
       rb = GetComponent<Rigidbody2D>();
@@ -97,6 +98,7 @@ public class PlayerWithShield : MonoBehaviour
       dashTime = startDashTime;
       wallJumpAngle.Normalize();
       shieldBubbleSR.enabled = false;
+      whiteUiParticleEffect.SetActive(false);
    }
 
    private void Update()
@@ -114,6 +116,7 @@ public class PlayerWithShield : MonoBehaviour
       if(IsDead == true)
       {
             Invoke("OnDeath", 2f);
+            IsDead = false;
       }
 
    }
@@ -150,6 +153,7 @@ public class PlayerWithShield : MonoBehaviour
       }
       if(Input.GetKey(KeyCode.Z) && PS.DashStock >= 1 && canPierceDash)
       {
+          anim.Play("DashAttack");
             canPierceDash = false;
             Invoke("ChargedTofalse", 0.5f);
             PS.DashAttackOn = true;
@@ -157,6 +161,7 @@ public class PlayerWithShield : MonoBehaviour
             Invoke("BackToOGDashSpeed", 0.2f);
             anim.SetBool("IsWhite", false);
             WhitePraticale.SetActive(false);
+            whiteUiParticleEffect.SetActive(false);
             JSAM.AudioManager.PlaySound(Sounds.PirciengDash);
            // whiteParticleFX.SetActive(false);
         }
@@ -195,6 +200,7 @@ public class PlayerWithShield : MonoBehaviour
         DashCooldown = false;
     }
     
+  /*
     private void SetDashChagingFalse()
     {
         if (PS.DashStock >= 1 && DashCharging == true)
@@ -205,11 +211,13 @@ public class PlayerWithShield : MonoBehaviour
             
         }
     }
+    */
     private void SetChargeAnime()
     {
         if (PS.DashStock >= 1 && isCharged == false)
         {
             //JSAM.AudioManager.PlaySound(Sounds.ChargeAnim);
+            whiteUiParticleEffect.SetActive(true);
             ChargAnim.SetActive(true);
             Invoke("SetWhite", 0.5f);
             isCharged = true;
@@ -561,6 +569,8 @@ public class PlayerWithShield : MonoBehaviour
    
     public void PlayerDeath()
     {
+        JSAM.AudioManager.PlaySound(Sounds.Death);
+        rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
         IsDead = true;
         anim.Play("Death");
         anim.SetBool("isMoving", false);

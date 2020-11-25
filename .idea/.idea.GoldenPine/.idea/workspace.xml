@@ -23,30 +23,147 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/CHANGELOG.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/CHANGELOG.md.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/CODE_OF_CONDUCT.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/CODE_OF_CONDUCT.md.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/CONTRIBUTING.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/CONTRIBUTING.md.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/LICENSE.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/LICENSE.md.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/README.md.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/README.md.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/AnimatableProperty.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/AnimatableProperty.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/BakingCamera.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/BakingCamera.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Coffee.UIParticle.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Coffee.UIParticle.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/CombineInstanceEx.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/CombineInstanceEx.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/AnimatedPropertiesEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/AnimatedPropertiesEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/Coffee.UIParticle.Editor.asmdef.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/Coffee.UIParticle.Editor.asmdef.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/ImportSampleMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/ImportSampleMenu.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/UIParticleEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/UIParticleEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/UIParticleMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Editor/UIParticleMenu.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/MeshHelper.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/MeshHelper.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/ModifiedMaterial.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/ModifiedMaterial.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/UIParticle.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/UIParticle.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/UIParticleUpdater.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/UIParticleUpdater.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Utils.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Scripts/Utils.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Shaders.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Shaders.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Shaders/UIAdditive.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/Shaders/UIAdditive.shader.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/package.json.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ParticleEffectForUGUI-3.3.0/package.json.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_Dead Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_Dead Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_dead Praticle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_dead Praticle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/UI/Stamina Fade.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/UI/Stamina Fade.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/UI/Stamina Particles Fade.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/UI/Stamina Particles Fade.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Enemies/Dead Unihog.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Enemies/Dead Unihog.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Enemies/Unihog evaportaes.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Enemies/Unihog evaportaes.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Tutorials Controllers/Tutorial_StaminaParticels.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Tutorials Controllers/Tutorial_StaminaParticels.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Tutorials Controllers/Tutorial_WhiteShaking.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Tutorials Controllers/Tutorial_WhiteShaking.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/UI/New Stamina Bar/StaminaWhiteBig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/UI/New Stamina Bar/StaminaWhiteBig.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/UI/New Stamina Bar/StaminaWhiteSmall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/UI/New Stamina Bar/StaminaWhiteSmall.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/UI/New Stamina Bar/Tutorial Shake.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/UI/New Stamina Bar/Tutorial Shake.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_10.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_11.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_12.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_13.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_14.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_15.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_16.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_17.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_18.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_19.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_20.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_21.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_22.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_23.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_24.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_25.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_26.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_27.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_28.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_29.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_7.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_8.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/Unighog Evaporates/render.png_9.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/DeadIdle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/DeadIdle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/DeathAnimation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/DeathAnimation.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/Idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/Idle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/PreCharge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/PreCharge.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/Roll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/Roll.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/RollDust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/RollDust.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/RollEnd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/RollEnd.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/Turn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/Turn.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/Walk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Unihog/UnihogNew/Walk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/Death.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio Files/Death.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Ambience/Forest/ambience1_windAndOwl.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Ambience/Forest/ambience1_windAndOwl.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/New Sound effects 19.11/Death.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/New Sound effects 19.11/Death/DIE.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/New Sound effects 19.11/Death/DIE.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_Death.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_Death.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_Death_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_Death_Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_Idle_Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_Idle_Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_NewRoll_Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_NewRoll_Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_NewWalk_Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_NewWalk_Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_PostRoll_Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_PostRoll_Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_PreRoll_Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_PreRoll_Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_Turn.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_Turn.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/UI/HPandStaminaBars/StaminaBar/UsedStamina.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/UI/HPandStaminaBars/StaminaBar/UsedStamina.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/UI/Stamina Bar Filling To Full.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/UI/Stamina Bar Filling To Full.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Enemies/Unihog.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Enemies/Unihog.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Player_2909.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Player_2909.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Shield Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Shield Controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/AudioEnums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/AudioEnums.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/ChargeAnim.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/ChargeAnim.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/Dash.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/Dash.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/Footsteps.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/Footsteps.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/HitEnemy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/HitEnemy.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/Jump.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/Jump.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/Parry.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/Parry.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/PirciengDash.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/PirciengDash.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Prefab_AI/Unihog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Prefab_AI/Unihog.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BlackDropPrefab/BlackDropGround.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BlackDropPrefab/BlackDropGround.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,14 +225,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials/WallSlideTutorial.cs" />
         <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogDMG.cs" />
         <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BlackDropFalling.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" />
+        <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" />
       </list>
     </option>
   </component>
@@ -242,6 +360,7 @@
       <workItem from="1606123126773" duration="78000" />
       <workItem from="1606147095378" duration="1427000" />
       <workItem from="1606249778041" duration="1000" />
+      <workItem from="1606300892451" duration="5501000" />
     </task>
     <servers />
   </component>

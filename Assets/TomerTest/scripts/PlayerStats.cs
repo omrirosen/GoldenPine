@@ -127,6 +127,7 @@ public class PlayerStats : MonoBehaviour
 
        if (playerHealth <= 0)
        {
+           
             Invoke("Die", 1f);
             playerWithShield.PlayerDeath();
        }

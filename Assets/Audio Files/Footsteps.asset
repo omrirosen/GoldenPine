@@ -25,7 +25,7 @@ MonoBehaviour:
   neverRepeat: 1
   lastClipIndex: 1
   category: 
-  relativeVolume: 0.05
+  relativeVolume: 0.23
   spatialize: 0
   maxDistance: 0
   priority: 128
