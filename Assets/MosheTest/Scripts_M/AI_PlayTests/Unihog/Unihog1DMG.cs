@@ -106,10 +106,6 @@ public class Unihog1DMG : MonoBehaviour
         }
     }
 
-    public void killMe(int dmg)
-    {
-        unihog.killme(dmg);
-    }
 
     public void resetAttack()
     {

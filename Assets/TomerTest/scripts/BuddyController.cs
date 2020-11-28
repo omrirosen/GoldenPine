@@ -213,7 +213,11 @@ public class BuddyController : MonoBehaviour
         zCooldown = false;
     }
 
-   
+   private void flipBuddy()
+   {
+        transform.Rotate(0, 180, 0);
+        SetHitOffset();
+   }
 }
 
 

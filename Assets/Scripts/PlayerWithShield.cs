@@ -17,7 +17,8 @@ public class PlayerWithShield : MonoBehaviour
    private float xMoveInput;
    public bool isMoving;
    private bool facingRight = true;
-   
+   private float yVelocity;
+
    [Header("Jump Config")]
    [SerializeField] private float jumpForce = 5f;
    [SerializeField] private float jumpTime = .35f;
@@ -35,7 +36,7 @@ public class PlayerWithShield : MonoBehaviour
    [SerializeField] private Vector2 wallJumpAngle;
    [SerializeField] private float wallJumpForce;
    private float wallJumpDirection = -1;
-
+    
    [Header("DashConfig")] 
    [SerializeField] private float dashSpeed = 10f;
    [SerializeField] private float startDashTime;
@@ -136,7 +137,7 @@ public class PlayerWithShield : MonoBehaviour
    {
       //Horizontal Inputs
       xMoveInput = Input.GetAxisRaw("Horizontal"); //GetAxisRaw meaning snappy movement, remove raw for fluidity
-                                                  //Dash Inputs
+        yVelocity = rb.velocity.y;                                            //Dash Inputs
       if (Input.GetKeyDown(KeyCode.LeftShift) && DashCooldown == false)
       {
             JSAM.AudioManager.PlaySound(Sounds.Dash);
@@ -515,6 +516,7 @@ public class PlayerWithShield : MonoBehaviour
       anim.SetBool("atPeakJump", reachedPeakJump);
       anim.SetBool("IsDashAttack", PS.DashAttackOn);
       anim.SetBool("FacingRight", facingRight);
+      anim.SetFloat("YVelocity", yVelocity);
         if (rb.velocity.y < 0 && reachedPeakJump == false)
         {
          reachedPeakJump = true;
@@ -532,9 +534,9 @@ public class PlayerWithShield : MonoBehaviour
             if (PS.DashAttacked == true)
             {
                 JSAM.AudioManager.PlaySound(Sounds.HitEnemy);
-                collision.gameObject.GetComponent<Unihog1DMG>()?.killMe(dmg);
+                collision.gameObject.GetComponent<UnihogGettingHit>()?.killMe(dmg);
                collision.gameObject.GetComponent<HornyHogTakeDmg>()?.TakeDMG(dmg);
-                print("hit");
+               
             }
         }
        

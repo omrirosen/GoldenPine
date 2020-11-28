@@ -208,7 +208,7 @@ public class Unihog1Controller : MonoBehaviour
             {
                 
                 state = stateMachine.Flying;
-                print(hit2D.collider);
+                
             }
         }
         else
@@ -225,7 +225,7 @@ public class Unihog1Controller : MonoBehaviour
     {
         health -= dmg;
         var temp = Instantiate(HitPartical_ins, transform.position, Quaternion.identity);
-   
+       
     }
 
    
