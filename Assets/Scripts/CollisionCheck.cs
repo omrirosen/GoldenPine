@@ -7,6 +7,7 @@ public class CollisionCheck : MonoBehaviour
     [Header("Layers")]
     public LayerMask groundLayer;
     public LayerMask wallLayer;
+    public LayerMask doTweenLayer;
     [Space]
 
     public bool onGround;
@@ -14,13 +15,14 @@ public class CollisionCheck : MonoBehaviour
     public bool onRightWall;
     public bool onLeftWall;
     public int wallSide;
-
+    public bool onDoTween;
     [Space]
 
     [Header("Collision")]
 
     [SerializeField] private float wallCollisionRadius = 0.25f;
     [SerializeField] private float bottomCollisionRadius = 0.25f;
+    [SerializeField] private float doTweenRadius = 0.25f;
 
     public Vector2 bottomLeftOffset, bottomRightOffset, rightOffset, leftOffset;
     private Color debugCollisionColor = Color.red;
@@ -35,6 +37,7 @@ public class CollisionCheck : MonoBehaviour
         onRightWall = Physics2D.OverlapCircle((Vector2)transform.position + rightOffset, wallCollisionRadius, wallLayer);
         onLeftWall = Physics2D.OverlapCircle((Vector2)transform.position + leftOffset, wallCollisionRadius, wallLayer);
 
+        onDoTween = Physics2D.OverlapCircle((Vector2)transform.position, doTweenRadius, doTweenLayer);
         wallSide = onRightWall ? -1 : 1;
     }
 
@@ -48,5 +51,6 @@ public class CollisionCheck : MonoBehaviour
         Gizmos.DrawWireSphere((Vector2)transform.position + rightOffset, wallCollisionRadius);
         Gizmos.DrawWireSphere((Vector2)transform.position + leftOffset, wallCollisionRadius);
         Gizmos.DrawWireSphere((Vector2)transform.position + bottomRightOffset, bottomCollisionRadius);
+        Gizmos.DrawWireSphere((Vector2)transform.position, doTweenRadius);
     }
 }

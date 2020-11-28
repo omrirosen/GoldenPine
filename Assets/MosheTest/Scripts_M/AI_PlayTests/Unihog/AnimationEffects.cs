@@ -31,7 +31,7 @@ public class AnimationEffects :MonoBehaviour
         
     }
 
-   
+
 
 
 }

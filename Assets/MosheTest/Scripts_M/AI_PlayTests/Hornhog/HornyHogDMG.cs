@@ -7,7 +7,7 @@ public class HornyHogDMG : MonoBehaviour
     [SerializeField] int DMG;
     [SerializeField] Animator animator;
     [SerializeField] BoxCollider2D dmg_Collider;
-    
+    [SerializeField] HornyHogController hornyHogController;
     public bool IsFachingRight;
     public bool isdealDMG = false;
     public bool isActive = false;
@@ -38,6 +38,7 @@ public class HornyHogDMG : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if (collision.gameObject.CompareTag("Player"))
         {
             
@@ -102,7 +103,7 @@ public class HornyHogDMG : MonoBehaviour
         isBlocked = false;
         animator.SetBool("IsBlocked", isBlocked);
     }
-
+  
 
 
 }

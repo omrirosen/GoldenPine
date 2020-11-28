@@ -12,14 +12,20 @@ public class Unihog1DMG : MonoBehaviour
     public bool isunderImpact = false;
     private Tween impact;
     private bool attack = false;
-
+    [SerializeField]private GroundCheck groundCheck;
     private void Update()
     {
-        
+       
         
         if (impact!=null)
         {
-            if(!impact.IsPlaying())
+            if (groundCheck.onDoTweenLayer)
+            {
+                impact.Kill();
+                isunderImpact = false;
+                unihog.isFlying = false;
+            }
+             if(!impact.IsPlaying())
             {
                 isunderImpact = false;
                 unihog.isFlying = false;

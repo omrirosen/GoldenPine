@@ -10,8 +10,11 @@ public class GroundCheck : MonoBehaviour
     [SerializeField] Rigidbody2D rb2d;
     [SerializeField] LayerMask ground_Layer;
     [SerializeField] float originalY;
+    [SerializeField] LayerMask doTweenLayer;
+    [SerializeField] Vector2 offsetCricle;
+    public bool onDoTweenLayer;
     private Unihog1Controller unihog;
-
+    public float physicsCircleRadius;
     private void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -39,7 +42,13 @@ public class GroundCheck : MonoBehaviour
                 unihog.health = 0;
             }
         }
-       
+        onDoTweenLayer = Physics2D.OverlapCircle((Vector2)transform.position + offsetCricle, physicsCircleRadius, doTweenLayer);
         //Debug.DrawRay(check_Pos.position, Vector2.down * ray_Distance, Color.black);
     }
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere((Vector2)transform.position + offsetCricle, physicsCircleRadius);
+    }
+
 }

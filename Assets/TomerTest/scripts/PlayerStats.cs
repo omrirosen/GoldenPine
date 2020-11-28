@@ -65,10 +65,11 @@ public class PlayerStats : MonoBehaviour
             }
             else
             {
-                if(collisionCheck.onWall)
+                if(collisionCheck.onDoTween)
                 {
                     Impact.Kill();
                 }
+             
             }
                 
             
@@ -82,7 +83,7 @@ public class PlayerStats : MonoBehaviour
 
     public void TakeDmg(int Dmg,Vector3 dir)
     {
-        if (shieldOn == false && ParryWindow == false  && HitSpikes == false && isInvinsable == false)
+        if (shieldOn == false && ParryWindow == false  && HitSpikes == false && isInvinsable == false && playerWithShield.DashAttack == false)
         {
             StartCoroutine("Blinker");
             playerHealth -= Dmg;

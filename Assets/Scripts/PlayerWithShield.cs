@@ -533,7 +533,8 @@ public class PlayerWithShield : MonoBehaviour
             {
                 JSAM.AudioManager.PlaySound(Sounds.HitEnemy);
                 collision.gameObject.GetComponent<Unihog1DMG>()?.killMe(dmg);
-               collision.gameObject.GetComponent<HornyHogController>()?.TakeDMG(dmg);
+               collision.gameObject.GetComponent<HornyHogTakeDmg>()?.TakeDMG(dmg);
+                print("hit");
             }
         }
        

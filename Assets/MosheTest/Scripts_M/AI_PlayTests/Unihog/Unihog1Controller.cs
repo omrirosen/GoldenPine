@@ -208,7 +208,7 @@ public class Unihog1Controller : MonoBehaviour
             {
                 
                 state = stateMachine.Flying;
-                
+                print(hit2D.collider);
             }
         }
         else
