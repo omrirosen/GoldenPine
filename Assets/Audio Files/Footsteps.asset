@@ -23,9 +23,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 19b77e2c99030104a874d4ff1f45f9f4, type: 3}
   useLibrary: 1
   neverRepeat: 1
-  lastClipIndex: 1
+  lastClipIndex: 3
   category: 
-  relativeVolume: 0.23
+  relativeVolume: 0.067
   spatialize: 0
   maxDistance: 0
   priority: 128
