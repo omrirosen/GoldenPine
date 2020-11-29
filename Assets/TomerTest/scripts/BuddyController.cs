@@ -25,6 +25,9 @@ public class BuddyController : MonoBehaviour
     public Vector2 OffsetRight;
     private bool zCooldown = false;
     private PlayerStats PS;
+    public bool isBuddyFlipped = false;
+    private CollisionCheck playerCollisionCheck;
+    bool movedToAttackPoint = false;
     private void Awake()
     {
         Anim = GetComponent<Animator>();
@@ -32,12 +35,15 @@ public class BuddyController : MonoBehaviour
         AttackColl = GetComponent<BoxCollider2D>();
         SRenderer = GetComponent<SpriteRenderer>();
         PS = GetComponentInParent<PlayerStats>();
+        playerCollisionCheck = GetComponentInParent<CollisionCheck>();
     }
 
     private void Update()
     {
-        Attack();
+        flipBuddy();
+       Attack();
        MoveSpeed = Speed * Time.deltaTime;
+     
     }
 
     public void flip()
@@ -94,10 +100,10 @@ public class BuddyController : MonoBehaviour
                 print("enter 1st att");
                 Anim.SetBool("Attack1", true);
                 MoveToAttackPoint();
-                Invoke("BackToOGPos", 0.5f);
+                
                 Invoke("SetAttack1False", 0.1f);
-                Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
-                //Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
+                Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position , 0.25f, AIlayer);//transform pos had +offset before. NEED TO CHECK IF ANYTHING CHANGED WITH ENEMY INTERACTION!!!!
+                
                 if (Enemy != null)
                 {
                     playerstats.IncreaseStamina();
@@ -117,9 +123,8 @@ public class BuddyController : MonoBehaviour
                 print("enter 2nd att");
                 Anim.SetBool("Attack2", true);
                 Anim.SetBool("Attack1", false);
-                MoveToAttackPoint();
-                //Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
-                Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
+                
+                Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position, 0.25f, AIlayer);//transform pos had +offset before. NEED TO CHECK IF ANYTHING CHANGED WITH ENEMY INTERACTION!!!!
                 Invoke("SetAttack2False", 0.1f);
                 if(Enemy != null)
                 {
@@ -130,11 +135,10 @@ public class BuddyController : MonoBehaviour
             {
                 print("entered 3rd attack");
                 Anim.SetBool("Attack1", true);
-                MoveToAttackPoint();
-                Invoke("BackToOGPos", 0.5f);
+                
                 Invoke("SetAttack1False", 0.1f);
-                Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
-                //Physics2D.OverlapCircle((Vector2)transform.position + Offset, 0.25f, AIlayer);
+                Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position , 0.25f, AIlayer);//transform pos had +offset before. NEED TO CHECK IF ANYTHING CHANGED WITH ENEMY INTERACTION!!!!
+
                 zCooldown = true;
                 Invoke("SetZCooldownToFalse", 0.3f);
                 if (Enemy != null)
@@ -173,13 +177,21 @@ public class BuddyController : MonoBehaviour
 
     private void MoveToAttackPoint()
     {
-        Self.transform.position = AttackTransform.position;
+        if (!movedToAttackPoint)
+        {
+            Self.transform.position = AttackTransform.position;
+            movedToAttackPoint = true;
+        }
     }
 
     private void BackToOGPos()
     {
         
         Self.transform.position = Vector3.MoveTowards(Self.transform.position, OGTransform.position , MoveSpeed );
+        if (Self.transform.position == OGTransform.position)
+        {
+            movedToAttackPoint = false;
+        }
     }
 
     private void ResetSortingOrder()
@@ -197,7 +209,7 @@ public class BuddyController : MonoBehaviour
 
     public void SetHitOffset()
     {
-        if(Offset == OffsetRight)
+        /*if(Offset == OffsetRight)
         {
             Offset = OffsetLeft;
         }
@@ -205,7 +217,7 @@ public class BuddyController : MonoBehaviour
         if (Offset == OffsetLeft)
         {
             Offset = OffsetRight;
-        }
+        }*/
     }
 
     private void SetZCooldownToFalse()
@@ -213,11 +225,34 @@ public class BuddyController : MonoBehaviour
         zCooldown = false;
     }
 
-   private void flipBuddy()
+   public void flipBuddy()
    {
-        transform.Rotate(0, 180, 0);
-        SetHitOffset();
+        if (playerCollisionCheck.onWall)
+        {
+            if (!isBuddyFlipped)
+            {
+               
+                transform.Rotate(0, 180, 0);
+                
+                isBuddyFlipped = true;
+                
+            }
+        }
+
+        if (!playerCollisionCheck.onWall)
+        {
+            if (isBuddyFlipped)
+            {
+                
+                transform.Rotate(0, 180, 0);
+                
+                isBuddyFlipped = false;
+            }
+        }
+       
+
    }
+    
 }
 
 

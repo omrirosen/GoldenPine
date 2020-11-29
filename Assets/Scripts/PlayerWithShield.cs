@@ -30,7 +30,7 @@ public class PlayerWithShield : MonoBehaviour
    [Header("Wall Slide Config")]
    [SerializeField] private float wallSlideSpeed = .5f;
    private bool isTouchingWall;
-   private bool isWallSliding;
+  [SerializeField] private bool isWallSliding;
    
    [Header("Wall Jump Config")]
    [SerializeField] private Vector2 wallJumpAngle;
@@ -390,12 +390,14 @@ public class PlayerWithShield : MonoBehaviour
                 dashTime -= Time.deltaTime;
                 if (direction == 1)
                 {
+                    rb.gravityScale = 0;
                     rb.velocity = Vector2.left * dashSpeed;
                     Invoke("SetIsDashingToFalse", 0.2f);
 
                 }
                 else if (direction == 2)
                 {
+                    rb.gravityScale = 0;
                      rb.velocity = Vector2.right * dashSpeed;
                      Invoke("SetIsDashingToFalse",0.2f);
                 }
@@ -436,13 +438,18 @@ public class PlayerWithShield : MonoBehaviour
       {
          anim.SetTrigger("touchedWall");
          isWallSliding = true;
-            anim.SetBool("StartSlide", true);
-        }
+         anim.SetBool("StartSlide", true);
+         
+         
+          
+         
+      }
       else
       {
          isWallSliding = false;
-            anim.SetBool("StartSlide", false);
-        }
+         anim.SetBool("StartSlide", false);
+           
+      }
 
       if (isWallSliding)
       {
@@ -480,7 +487,7 @@ public class PlayerWithShield : MonoBehaviour
          transform.Rotate(0, 180, 0);
          
          Buddy.flip();
-            Buddy.SetHitOffset();
+            //Buddy.SetHitOffset();
             //Buddy.FlipAttackPoint();
      
    }
