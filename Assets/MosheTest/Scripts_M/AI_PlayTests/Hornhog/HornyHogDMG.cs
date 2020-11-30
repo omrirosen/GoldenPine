@@ -55,6 +55,7 @@ public class HornyHogDMG : MonoBehaviour
                         {
                             isBlocked = true;
                             animator.SetBool("IsBlocked", isBlocked);
+                            Invoke("resetBlock", 0.2f);
                         }
                        
                     }
@@ -65,6 +66,7 @@ public class HornyHogDMG : MonoBehaviour
                         {
                             isBlocked = true;
                             animator.SetBool("IsBlocked", isBlocked);
+                            Invoke("resetBlock", 0.2f);
                         }
                        
                     }
@@ -80,6 +82,7 @@ public class HornyHogDMG : MonoBehaviour
                         {
                             isBlocked = true;
                             animator.SetBool("IsBlocked", isBlocked);
+                            Invoke("resetBlock", 0.2f);
                         }
                     }
                     else
@@ -89,6 +92,7 @@ public class HornyHogDMG : MonoBehaviour
                         {
                             isBlocked = true;
                             animator.SetBool("IsBlocked", isBlocked);
+                            Invoke("resetBlock", 0.2f);
                         }
                        
                     }

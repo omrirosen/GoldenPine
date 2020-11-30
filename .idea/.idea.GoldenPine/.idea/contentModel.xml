@@ -27,6 +27,7 @@
           </e>
         </e>
         <e p="EndOfDemo.cs" t="Include" />
+        <e p="HornyHogTakeDmg.cs" t="Include" />
         <e p="MosheTest" t="Include">
           <e p="Scripts_M" t="Include">
             <e p="AI_PlayTests" t="Include">
@@ -240,6 +241,7 @@
             <e p="SpikeDmg.cs" t="Include" />
           </e>
         </e>
+        <e p="UnihogGettingHit.cs" t="Include" />
       </e>
       <e p="Coffee.UIParticle.csproj" t="IncludeRecursive" />
       <e p="Coffee.UIParticle.Editor.csproj" t="IncludeRecursive" />
