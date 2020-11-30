@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] Transform pos1;
+    [SerializeField] Transform pos2;
+    [SerializeField] GameObject Player;
     public void ResetScene()
     {
         var currentScene = SceneManager.GetActiveScene().buildIndex;
@@ -27,5 +30,19 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         QuitGame();
+        DebugPositions();
+    }
+
+    private void DebugPositions()
+    {
+        if (Input.GetKey(KeyCode.Alpha1))
+        {
+            Player.transform.position = pos1.position;
+        }
+
+        if (Input.GetKey(KeyCode.Alpha2))
+        {
+            Player.transform.position = pos2.position;
+        }
     }
 }

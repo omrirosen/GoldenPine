@@ -11,7 +11,9 @@ namespace JSAM {
         Parry,
         PirciengDash,
         ShieldPop,
-        ShieldUp
+        ShieldUp,
+        StaminaFull,
+        WallSlide
     }
     public enum Music {
         BG_Music,

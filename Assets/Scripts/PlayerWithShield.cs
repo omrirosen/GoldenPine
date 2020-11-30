@@ -80,6 +80,7 @@ public class PlayerWithShield : MonoBehaviour
     bool isUnderImpact = false; 
     //[SerializeField] GameObject DustRun;
     [SerializeField] private GameObject whiteUiParticleEffect;
+    bool wallSlideSoundIsPlaying = false;
     private void Awake()
     {
       rb = GetComponent<Rigidbody2D>();
@@ -114,17 +115,20 @@ public class PlayerWithShield : MonoBehaviour
           AnimationSetup();
           SetChargeAnime();
       }
-      if(IsDead == true)
+      else if(IsDead == true)
       {
             Invoke("OnDeath", 2f);
-            IsDead = false;
+         
       }
 
    }
 
    private void FixedUpdate()
    {
-      HandleDash();
+        if (IsDead == false && isUnderImpact == false)
+        {
+            HandleDash();
+        }
    }
 
    private void OnDeath()
@@ -439,16 +443,20 @@ public class PlayerWithShield : MonoBehaviour
          anim.SetTrigger("touchedWall");
          isWallSliding = true;
          anim.SetBool("StartSlide", true);
-         
-         
+            if (!wallSlideSoundIsPlaying)
+            {
+                JSAM.AudioManager.PlaySound(Sounds.WallSlide);
+                wallSlideSoundIsPlaying = true;
+            }
           
          
       }
       else
       {
+            JSAM.AudioManager.StopSound(Sounds.WallSlide);
          isWallSliding = false;
          anim.SetBool("StartSlide", false);
-           
+         wallSlideSoundIsPlaying = false;
       }
 
       if (isWallSliding)
@@ -579,10 +587,11 @@ public class PlayerWithShield : MonoBehaviour
    
     public void PlayerDeath()
     {
+        print("dead");
+        IsDead = true;
         JSAM.AudioManager.PlaySound(Sounds.Death);
         rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
-        IsDead = true;
-        anim.Play("Death");
+        anim.SetBool("IsDead", true);
         anim.SetBool("isMoving", false);
         anim.SetBool("isGrounded", false);
         anim.SetBool("isTouchingWall", false);
@@ -591,6 +600,8 @@ public class PlayerWithShield : MonoBehaviour
         anim.SetBool("IsDashAttack", false);
         anim.SetBool("FacingRight", false);
         anim.SetBool("IsUnderImpact", false);
+        
+       
     }
 
     public void HitShield()

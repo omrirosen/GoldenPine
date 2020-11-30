@@ -39,6 +39,7 @@ public class PlayerStats : MonoBehaviour
     public bool ShieldCoolDown = false;
     public bool DashAttackOn = false;
     bool isInvinsable = false;
+    
     private void Awake()
     {
         OGcolor = sRenderer.color;
@@ -78,6 +79,14 @@ public class PlayerStats : MonoBehaviour
         if (DashStock > 1)
         {
             DashStock = 1f;
+        }
+
+        
+
+        if (DashStock < 1)
+        {
+            JSAM.AudioManager.StopSoundLoop(Sounds.StaminaFull);
+            JSAM.AudioManager.StopSound(Sounds.StaminaFull);
         }
     }
 
@@ -128,9 +137,9 @@ public class PlayerStats : MonoBehaviour
 
        if (playerHealth <= 0)
        {
-           
-            Invoke("Die", 1f);
             playerWithShield.PlayerDeath();
+            Invoke("Die", 1f);
+            
        }
     }
 
