@@ -101,6 +101,7 @@ public class PlayerWithShield : MonoBehaviour
       wallJumpAngle.Normalize();
       shieldBubbleSR.enabled = false;
       whiteUiParticleEffect.SetActive(false);
+        JSAM.AudioManager.PlaySound(Sounds.Respawn);
    }
 
    private void Update()
@@ -114,6 +115,7 @@ public class PlayerWithShield : MonoBehaviour
           WallSlide();
           AnimationSetup();
           SetChargeAnime();
+          LookTowardWall();
       }
       else if(IsDead == true)
       {
@@ -130,7 +132,7 @@ public class PlayerWithShield : MonoBehaviour
             HandleDash();
         }
    }
-
+    
    private void OnDeath()
     {
         GM.ResetScene();
@@ -453,7 +455,7 @@ public class PlayerWithShield : MonoBehaviour
       }
       else
       {
-            JSAM.AudioManager.StopSound(Sounds.WallSlide);
+         JSAM.AudioManager.StopSound(Sounds.WallSlide);
          isWallSliding = false;
          anim.SetBool("StartSlide", false);
          wallSlideSoundIsPlaying = false;
@@ -470,7 +472,28 @@ public class PlayerWithShield : MonoBehaviour
          anim.SetBool("StartSlide", false);
       }
    }
+    private void LookTowardWall()
+    {
+        if (isWallSliding == true)
+        {
+            if (collisionCheck.onLeftWall)
+            {
+                if (facingRight)
+                {
+                    FlipSprite();
+                }
+            }
 
+            if (collisionCheck.onRightWall)
+            {
+                if (!facingRight)
+                {
+                    FlipSprite();
+                }
+            }
+            
+        }
+    }
    void WallJump()
    {
       if (Input.GetButtonDown("Jump"))

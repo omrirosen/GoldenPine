@@ -107,6 +107,7 @@ public class BuddyController : MonoBehaviour
                 if (Enemy != null)
                 {
                     playerstats.IncreaseStamina();
+                    JSAM.AudioManager.PlaySound(Sounds.Zabsorbtion);
                     if (Enemy.GetComponent<DeadUniHogTut>())
                     {
                         print("takenhit");
@@ -128,6 +129,7 @@ public class BuddyController : MonoBehaviour
                 Invoke("SetAttack2False", 0.1f);
                 if(Enemy != null)
                 {
+                    JSAM.AudioManager.PlaySound(Sounds.Zabsorbtion);
                     playerstats.IncreaseStamina();
                 }
             }
@@ -144,6 +146,7 @@ public class BuddyController : MonoBehaviour
                 if (Enemy != null)
                 {
                     playerstats.IncreaseStamina();
+                    JSAM.AudioManager.PlaySound(Sounds.Zabsorbtion);
                     if (Enemy.GetComponent<DeadUniHogTut>())
                     {
                         print("takenhit");

@@ -10,10 +10,12 @@ namespace JSAM {
         Jump,
         Parry,
         PirciengDash,
+        Respawn,
         ShieldPop,
         ShieldUp,
         StaminaFull,
-        WallSlide
+        WallSlide,
+        Zabsorbtion
     }
     public enum Music {
         BG_Music,
