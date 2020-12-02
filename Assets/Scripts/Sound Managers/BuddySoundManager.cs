@@ -7,6 +7,6 @@ public class BuddySoundManager : MonoBehaviour
 {
     public void PlayHitSound()
     {
-        AudioManager.PlaySound(Sounds.BuddyHit);
+      //  AudioManager.PlaySound(Sounds.BuddyHit);
     }
 }

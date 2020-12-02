@@ -85,8 +85,8 @@ public class PlayerStats : MonoBehaviour
 
         if (DashStock < 1)
         {
-            JSAM.AudioManager.StopSoundLoop(Sounds.StaminaFull);
-            JSAM.AudioManager.StopSound(Sounds.StaminaFull);
+          //  JSAM.AudioManager.StopSoundLoop(Sounds.StaminaFull);
+          //  JSAM.AudioManager.StopSound(Sounds.StaminaFull);
         }
     }
 
@@ -231,8 +231,8 @@ public class PlayerStats : MonoBehaviour
     
     private void Parry()
     {
-        JSAM.AudioManager.PlaySound(Sounds.Parry);
-       
+        // JSAM.AudioManager.PlaySound(Sounds.Parry);
+
         if (DashStock < 1)
         {
             DashStock = DashStock +1;

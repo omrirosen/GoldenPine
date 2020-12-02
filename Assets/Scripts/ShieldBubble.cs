@@ -42,7 +42,7 @@ public class ShieldBubble : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             shieldAnimator.SetTrigger("startedShielding");
-            AudioManager.PlaySound(Sounds.ShieldUp);
+            //AudioManager.PlaySound(Sounds.ShieldUp);
         }
         if (playerScript.isShielding)
         {

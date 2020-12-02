@@ -44,11 +44,11 @@ public class DestroyParryPop : MonoBehaviour
 
     public void PlayChargeSound()
     {
-        JSAM.AudioManager.PlaySound(Sounds.ChargeAnim);
+       // JSAM.AudioManager.PlaySound(Sounds.ChargeAnim);
     }
 
     public void StaminaFullSound()
     {
-        JSAM.AudioManager.PlaySoundLoop(Sounds.StaminaFull);
+       // JSAM.AudioManager.PlaySoundLoop(Sounds.StaminaFull);
     }
 }

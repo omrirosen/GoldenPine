@@ -101,7 +101,8 @@ public class PlayerWithShield : MonoBehaviour
       wallJumpAngle.Normalize();
       shieldBubbleSR.enabled = false;
       whiteUiParticleEffect.SetActive(false);
-        JSAM.AudioManager.PlaySound(Sounds.Respawn);
+        //JSAM.AudioManager.PlaySound(Sounds.Respawn);
+        
    }
 
    private void Update()
@@ -146,7 +147,7 @@ public class PlayerWithShield : MonoBehaviour
         yVelocity = rb.velocity.y;                                            //Dash Inputs
       if (Input.GetKeyDown(KeyCode.LeftShift) && DashCooldown == false)
       {
-            JSAM.AudioManager.PlaySound(Sounds.Dash);
+           // JSAM.AudioManager.PlaySound(Sounds.Dash);
             DashCooldown = true;
             isDashing = true;
             Invoke("ResetDashCoolDown", 0.5f);
@@ -169,7 +170,7 @@ public class PlayerWithShield : MonoBehaviour
             anim.SetBool("IsWhite", false);
             WhitePraticale.SetActive(false);
             whiteUiParticleEffect.SetActive(false);
-            JSAM.AudioManager.PlaySound(Sounds.PirciengDash);
+            //JSAM.AudioManager.PlaySound(Sounds.PirciengDash);
            // whiteParticleFX.SetActive(false);
         }
       //Shield Inputs
@@ -305,7 +306,7 @@ public class PlayerWithShield : MonoBehaviour
       
       if (Input.GetButtonDown("Jump") && collisionCheck.onGround)
       {
-         JSAM.AudioManager.PlaySound(Sounds.Jump); 
+        // JSAM.AudioManager.PlaySound(Sounds.Jump); 
          anim.SetTrigger("takeOff");
          isJumping = true;
          jumpTimeCounter = jumpTime;
@@ -447,7 +448,7 @@ public class PlayerWithShield : MonoBehaviour
          anim.SetBool("StartSlide", true);
             if (!wallSlideSoundIsPlaying)
             {
-                JSAM.AudioManager.PlaySound(Sounds.WallSlide);
+              //  JSAM.AudioManager.PlaySound(Sounds.WallSlide);
                 wallSlideSoundIsPlaying = true;
             }
           
@@ -455,7 +456,7 @@ public class PlayerWithShield : MonoBehaviour
       }
       else
       {
-         JSAM.AudioManager.StopSound(Sounds.WallSlide);
+        // JSAM.AudioManager.StopSound(Sounds.WallSlide);
          isWallSliding = false;
          anim.SetBool("StartSlide", false);
          wallSlideSoundIsPlaying = false;
@@ -571,7 +572,7 @@ public class PlayerWithShield : MonoBehaviour
             
             if (PS.DashAttacked == true)
             {
-                JSAM.AudioManager.PlaySound(Sounds.HitEnemy);
+               // JSAM.AudioManager.PlaySound(Sounds.HitEnemy);
                 collision.gameObject.GetComponent<UnihogGettingHit>()?.killMe(dmg);
                collision.gameObject.GetComponent<HornyHogTakeDmg>()?.TakeDMG(dmg);
                
@@ -612,7 +613,7 @@ public class PlayerWithShield : MonoBehaviour
     {
         print("dead");
         IsDead = true;
-        JSAM.AudioManager.PlaySound(Sounds.Death);
+       // JSAM.AudioManager.PlaySound(Sounds.Death);
         rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
         anim.SetBool("IsDead", true);
         anim.SetBool("isMoving", false);

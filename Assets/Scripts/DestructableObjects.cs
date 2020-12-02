@@ -15,7 +15,7 @@ public class DestructableObjects : MonoBehaviour
     {
         Instantiate(destructionEffect, transform.position, quaternion.identity);
         Instantiate(destructionDustEffect, transform.position, quaternion.identity);
-        JSAM.AudioManager.PlaySound(Sounds.BreakingRock);
+       // JSAM.AudioManager.PlaySound(Sounds.BreakingRock);
             Destroy(gameObject);
     }
 }
