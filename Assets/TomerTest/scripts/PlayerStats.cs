@@ -36,6 +36,8 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] Transform hitpoint1;
     [SerializeField] GameObject ShieldHit1;
     [SerializeField] ShieldBubble ShieldReff;
+    [SerializeField] GameObject DamagedEffect;
+    [SerializeField] GameObject DamagedParticale;
     public bool ShieldCoolDown = false;
     public bool DashAttackOn = false;
     bool isInvinsable = false;
@@ -347,6 +349,8 @@ public class PlayerStats : MonoBehaviour
     {
         playerWithShield.GeneratPulse();
         Time.timeScale = 0.1f;
+        Instantiate(DamagedEffect, transform.position, Quaternion.identity);
+        Instantiate(DamagedParticale, transform.position, Quaternion.identity);
         yield return new WaitForSecondsRealtime(0.3f);
         
         Time.timeScale = 1;
