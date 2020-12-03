@@ -128,7 +128,6 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="AudioManagerNew.cs" t="Include" />
           <e p="BetterJumping.cs" t="Include" />
           <e p="CloudGeneratorScript.cs" t="Include" />
           <e p="CloudScript.cs" t="Include" />
@@ -149,7 +148,8 @@
             <e p="ShieldSoundManager.cs" t="Include" />
             <e p="UnihogSoundManager.cs" t="Include" />
           </e>
-          <e p="Sounds.cs" t="Include" />
+          <e p="Sound.cs" t="Include" />
+          <e p="SoundManager.cs" t="Include" />
           <e p="Tutorials" t="Include">
             <e p="BubbleTutorial.cs" t="Include" />
             <e p="DashTutorial.cs" t="Include" />

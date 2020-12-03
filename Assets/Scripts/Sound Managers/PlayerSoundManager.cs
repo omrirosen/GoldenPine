@@ -6,16 +6,16 @@ using JSAM;
 
 public class PlayerSoundManager : MonoBehaviour
 {
-    private AudioManagerNew audioManager;
+    private SoundManager soundManager;
 
     private void Awake()
     {
-        audioManager = FindObjectOfType<AudioManagerNew>();
+        soundManager = FindObjectOfType<SoundManager>();
     }
 
     public void PlayFootstepsSound()
     {
-        audioManager.PlaySound("Footsteps");
+        soundManager.PlayArraySound();
        // AudioManager.PlaySound(Sounds.Footsteps);
     }
 

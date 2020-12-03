@@ -23,42 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Mixer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Mixer/Mixer Test.mixer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Mixer/Mixer Test.mixer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/New Sound effects 19.11/Player Getting Hit.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/New Sound effects 19.11/Player Getting Hit/PM_BBI_Bullet_Impact_Hit_Body_Flesh_2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/New Sound effects 19.11/Player Getting Hit/PM_BBI_Bullet_Impact_Hit_Body_Flesh_2.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/New Sound effects 19.11/Player Getting Hit/PM_BBI_Bullet_Impact_Hit_Body_Flesh_31.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/New Sound effects 19.11/Player Getting Hit/PM_BBI_Bullet_Impact_Hit_Body_Flesh_31.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManagerNew.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManagerNew.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sounds.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sound.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/BreakingRock.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/BreakingRock.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/ChargeAnim.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/ChargeAnim.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/Dash.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/Dash.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/Death.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/Death.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/HitEnemy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/HitEnemy.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/Parry.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/Parry.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/PirciengDash.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/PirciengDash.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/Respawn.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/Respawn.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio Files/WallSlide.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio Files/WallSlide.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound Managers/BuddySoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound Managers/BuddySoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixer/Mixer Test.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixer/Mixer Test.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManagerNew.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManagerNew.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound Managers/PlayerSoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound Managers/PlayerSoundManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sounds.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sounds.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +51,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound Managers/BuddySoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound Managers/PlayerSoundManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -87,6 +63,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorials/WallSlideTutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -131,9 +108,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManagerNew.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/PlayerSoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sounds.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManagerNew.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
       </list>
     </option>
   </component>
@@ -263,6 +242,7 @@
       <workItem from="1606300892451" duration="5501000" />
       <workItem from="1606756932694" duration="280000" />
       <workItem from="1606907812369" duration="8613000" />
+      <workItem from="1607001738800" duration="2842000" />
     </task>
     <servers />
   </component>
