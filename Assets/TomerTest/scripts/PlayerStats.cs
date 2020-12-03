@@ -94,6 +94,7 @@ public class PlayerStats : MonoBehaviour
     {
         if (shieldOn == false && ParryWindow == false  && HitSpikes == false && isInvinsable == false && playerWithShield.DashAttack == false)
         {
+            StartCoroutine("FreezFrame");
             StartCoroutine("Blinker");
             playerHealth -= Dmg;
             healthAnimator.SetInteger("PlayerHealthUI", playerHealth);
@@ -340,5 +341,14 @@ public class PlayerStats : MonoBehaviour
         tmp.a = 0;
         isInvinsable = false;
         StopCoroutine("Blinker");
+    }
+
+    IEnumerator FreezFrame()
+    {
+        playerWithShield.GeneratPulse();
+        Time.timeScale = 0.1f;
+        yield return new WaitForSecondsRealtime(0.3f);
+        
+        Time.timeScale = 1;
     }
 }

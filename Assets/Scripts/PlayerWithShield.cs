@@ -202,7 +202,10 @@ public class PlayerWithShield : MonoBehaviour
     public void GeneratPulse()
     {
         pulseSource.GenerateImpulse();
+       
     }
+
+   
     private void ResetDashCoolDown()
     {
         DashCooldown = false;
@@ -573,7 +576,7 @@ public class PlayerWithShield : MonoBehaviour
             if (PS.DashAttacked == true)
             {
                // JSAM.AudioManager.PlaySound(Sounds.HitEnemy);
-                collision.gameObject.GetComponent<UnihogGettingHit>()?.killMe(dmg);
+               collision.gameObject.GetComponent<UnihogGettingHit>()?.killMe(dmg);
                collision.gameObject.GetComponent<HornyHogTakeDmg>()?.TakeDMG(dmg);
                
             }

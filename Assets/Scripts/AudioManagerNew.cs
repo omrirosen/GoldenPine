@@ -26,7 +26,7 @@ public class AudioManagerNew : MonoBehaviour
     foreach (var s in sounds)
     {
       s.audioSource = gameObject.AddComponent<AudioSource>();
-      s.audioSource.clip = s.audioClip[UnityEngine.Random.Range(0, s.audioClip.Length)];
+     // s.audioSource.clip = s.audioClip[UnityEngine.Random.Range(0, s.audioClip.Length)];
       s.audioSource.volume = s.volume;
       s.audioSource.pitch = s.pitch;
       s.audioSource.outputAudioMixerGroup = s.audioMixerGroup;
