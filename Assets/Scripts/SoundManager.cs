@@ -5,12 +5,16 @@ using UnityEngine.Audio;
 public class SoundManager : MonoBehaviour {
     public Sound[] sounds;      // store all our sounds
     public Sound[] footstepsArray;    // store all our music
+    public Sound[] dashArray;
+    public Sound[] zButtonArray;
 
-    private int currentPlayingIndex = 999; // set high to signify no song playing
-
+    private int currentPlayingFootStepsIndex = 999; // set high to signify no song playing
+    private int currentPlayingDashIndex = 999;
+    private int currentPlayingZButton = 999;
     // a play music flag so we can stop playing music during cutscenes etc
-    private bool shouldPlayMusic = false; 
-
+    private bool shouldPlayMusic = false;
+    private bool shouldPlayDashArray = false;
+    private bool shouldPlayZButtonArray = false;
     public static SoundManager instance; // will hold a reference to the first AudioManager created
 
     private float mvol; // Global music volume
@@ -18,10 +22,10 @@ public class SoundManager : MonoBehaviour {
 
     private void Start() 
     {
-        //start the music
-        PlayArraySound();
+        
         PlayOneSound("Ambient Forest");
         PlayOneSound("Ambient Wind");
+        
     }
 
 
@@ -45,7 +49,14 @@ public class SoundManager : MonoBehaviour {
 
         createAudioSources(sounds, evol);     // create sources for effects
         createAudioSources(footstepsArray, mvol);   // create sources for music
-
+        createAudioSources(dashArray, mvol);
+        createAudioSources(zButtonArray, mvol);
+    }
+    void Update()
+    {
+        FootStepsIndex();
+        DashIndex();
+        ZButtonIndex();
     }
 
     // create sources
@@ -73,48 +84,119 @@ public class SoundManager : MonoBehaviour {
         s.source.Play(); // play the sound
     }
 
-    public void PlayArraySound()
+    public void PlayFootStepsArray()
     {
         if (shouldPlayMusic == false) 
         {
             shouldPlayMusic = true;
             // pick a random song from our playlist
-            currentPlayingIndex = UnityEngine.Random.Range(0, footstepsArray.Length - 1);
-            footstepsArray[currentPlayingIndex].source.volume = footstepsArray[0].volume * mvol; // set the volume
-            footstepsArray[currentPlayingIndex].source.Play(); // play it
+            currentPlayingFootStepsIndex = UnityEngine.Random.Range(0, footstepsArray.Length - 1);
+            footstepsArray[currentPlayingFootStepsIndex].source.volume = footstepsArray[0].volume * mvol; // set the volume
+            footstepsArray[currentPlayingFootStepsIndex].source.Play(); // play it
             StopMusic();
         }
     }
 
+    private void FootStepsIndex()
+    {
+        // if we are playing a track from the playlist && it has stopped playing
+        if (currentPlayingFootStepsIndex != 999 && !footstepsArray[currentPlayingFootStepsIndex].source.isPlaying)
+        {
+            currentPlayingFootStepsIndex++; // set next index
+            if (currentPlayingFootStepsIndex >= footstepsArray.Length)
+            { //have we went too high
+                currentPlayingFootStepsIndex = 0; // reset list when max reached
+            }
+            footstepsArray[currentPlayingFootStepsIndex].source.Play(); // play that funky music
+        }
+
+    }
+
+    public void PlayDashArray()
+    {
+        if (shouldPlayDashArray == false)
+        {
+            shouldPlayDashArray = true;
+            // pick a random song from our playlist
+            currentPlayingDashIndex = UnityEngine.Random.Range(0, dashArray.Length - 1);
+            dashArray[currentPlayingDashIndex].source.volume = dashArray[0].volume * mvol; // set the volume
+            dashArray[currentPlayingDashIndex].source.Play(); // play it
+            StopMusic();
+        }
+    }
+    private void DashIndex()
+    {
+        // if we are playing a track from the playlist && it has stopped playing
+        if (currentPlayingDashIndex != 999 && !dashArray[currentPlayingDashIndex].source.isPlaying)
+        {
+            currentPlayingDashIndex++; // set next index
+            if (currentPlayingDashIndex >= dashArray.Length)
+            { //have we went too high
+                currentPlayingDashIndex = 0; // reset list when max reached
+            }
+            dashArray[currentPlayingDashIndex].source.Play(); // play that funky music
+        }
+
+    }
+
+
+
+     public void PlayzButtonArray()
+     {
+         if (shouldPlayZButtonArray == false)
+         {
+            shouldPlayZButtonArray = true;
+            // pick a random song from our playlist
+            currentPlayingZButton = UnityEngine.Random.Range(0, zButtonArray.Length - 1);
+             zButtonArray[currentPlayingZButton].source.volume = zButtonArray[0].volume * mvol; // set the volume
+             zButtonArray[currentPlayingZButton].source.Play(); // play it
+             StopMusic();
+         }
+     }
+
+    private void ZButtonIndex()
+    {
+        // if we are playing a track from the playlist && it has stopped playing
+        if (currentPlayingZButton != 999 && !zButtonArray[currentPlayingZButton].source.isPlaying)
+        {
+            currentPlayingZButton++; // set next index
+            if (currentPlayingZButton >= zButtonArray.Length)
+            { //have we went too high
+                currentPlayingZButton = 0; // reset list when max reached
+            }
+            zButtonArray[currentPlayingZButton].source.Play(); // play that funky music
+        }
+    }
     // stop music
     public void StopMusic()
     {
         if (shouldPlayMusic == true) 
         {
             shouldPlayMusic = false;
-            currentPlayingIndex = 999; // reset playlist counter
+            
+            currentPlayingFootStepsIndex = 999; // reset playlist counter
+            
+        }
+
+        if(shouldPlayDashArray == true)
+        {
+            shouldPlayDashArray = false;
+            currentPlayingDashIndex = 999;
+        }
+        if(shouldPlayZButtonArray == true)
+        {
+            shouldPlayZButtonArray = false;
+            currentPlayingZButton = 999;
         }
     }
 
-    void Update()
-    {
-        // if we are playing a track from the playlist && it has stopped playing
-        if (currentPlayingIndex != 999 && !footstepsArray[currentPlayingIndex].source.isPlaying) 
-        {
-            currentPlayingIndex++; // set next index
-            if (currentPlayingIndex >= footstepsArray.Length)
-            { //have we went too high
-                currentPlayingIndex = 0; // reset list when max reached
-            }
-            footstepsArray[currentPlayingIndex].source.Play(); // play that funky music
-        }
-    }
+
 
     // get the song name
-    public String getSongName()
+  /*  public String getSongName()
     {
-        return footstepsArray[currentPlayingIndex].name;
-    }
+        return footstepsArray[currentPlayingFootStepsIndex].name;
+    }*/
 
     // if the music volume change update all the audio sources
     public void musicVolumeChanged()

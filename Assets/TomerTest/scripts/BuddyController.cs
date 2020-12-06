@@ -28,8 +28,10 @@ public class BuddyController : MonoBehaviour
     public bool isBuddyFlipped = false;
     private CollisionCheck playerCollisionCheck;
     bool movedToAttackPoint = false;
+    [SerializeField] private SoundManager soundManager;
     private void Awake()
     {
+        soundManager = FindObjectOfType<SoundManager>();
         Anim = GetComponent<Animator>();
         Self = this.gameObject;
         AttackColl = GetComponent<BoxCollider2D>();
@@ -92,7 +94,8 @@ public class BuddyController : MonoBehaviour
         {
             LastClickedTime = Time.time;
             NumOfClicks++;
-          //  JSAM.AudioManager.PlaySound(Sounds.BuddyHit);
+            //  JSAM.AudioManager.PlaySound(Sounds.BuddyHit);
+            soundManager.PlayzButtonArray();
             SRenderer.sortingOrder = 10;
             Invoke("ResetSortingOrder", 0.7f);
             if(NumOfClicks == 1 && !zCooldown)

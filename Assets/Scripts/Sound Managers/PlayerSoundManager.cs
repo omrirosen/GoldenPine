@@ -15,7 +15,7 @@ public class PlayerSoundManager : MonoBehaviour
 
     public void PlayFootstepsSound()
     {
-        soundManager.PlayArraySound();
+        soundManager.PlayFootStepsArray();
        // AudioManager.PlaySound(Sounds.Footsteps);
     }
 

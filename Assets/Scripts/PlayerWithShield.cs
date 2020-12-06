@@ -62,8 +62,9 @@ public class PlayerWithShield : MonoBehaviour
     private bool isCharged = false;
 
     private SpriteRenderer playerSpriteRenderer;
-    
+
     // Component Caches
+    [SerializeField] SoundManager soundManager;
    private Rigidbody2D rb;
    private Animator anim;
    public BuddyController Buddy;
@@ -147,7 +148,8 @@ public class PlayerWithShield : MonoBehaviour
         yVelocity = rb.velocity.y;                                            //Dash Inputs
       if (Input.GetKeyDown(KeyCode.LeftShift) && DashCooldown == false)
       {
-           // JSAM.AudioManager.PlaySound(Sounds.Dash);
+            soundManager.PlayDashArray();
+            // JSAM.AudioManager.PlaySound(Sounds.Dash);
             DashCooldown = true;
             isDashing = true;
             Invoke("ResetDashCoolDown", 0.5f);
