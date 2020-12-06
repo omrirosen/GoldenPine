@@ -23,17 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Sound.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixer/Mixer Test.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixer/Mixer Test.mixer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManagerNew.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManagerNew.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound Managers/PlayerSoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound Managers/PlayerSoundManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sounds.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sounds.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorials/JumpTutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
@@ -100,19 +102,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" />
         <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogDMG.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/BuddySoundManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManagerNew.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/PlayerSoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
       </list>
     </option>
   </component>
@@ -243,6 +245,8 @@
       <workItem from="1606756932694" duration="280000" />
       <workItem from="1606907812369" duration="8613000" />
       <workItem from="1607001738800" duration="2842000" />
+      <workItem from="1607261614901" duration="77000" />
+      <workItem from="1607261771411" duration="1472000" />
     </task>
     <servers />
   </component>

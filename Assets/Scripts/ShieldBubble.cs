@@ -14,12 +14,14 @@ public class ShieldBubble : MonoBehaviour
     public bool isGrounded;
     public bool isMoving;
     public bool reachedPeackJump;
+    private SoundManager soundManager;
     
     private void Awake()
     {
         playerScript = GetComponentInParent<PlayerWithShield>();
         collisionCheck = GetComponentInParent<CollisionCheck>();
         shieldAnimator = GetComponent<Animator>();
+        soundManager = FindObjectOfType<SoundManager>();
     }
 
     private void Update()
@@ -42,6 +44,7 @@ public class ShieldBubble : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             shieldAnimator.SetTrigger("startedShielding");
+            soundManager.PlayOneSound("Shield Up");
             //AudioManager.PlaySound(Sounds.ShieldUp);
         }
         if (playerScript.isShielding)
@@ -49,7 +52,7 @@ public class ShieldBubble : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.X) || Input.GetKey(KeyCode.LeftShift))
             {
                  //AudioManager.PlaySound(Sounds.ShieldPop);
-                if (isGrounded)
+                 if (isGrounded)
                 {
                     shieldAnimator.Play("Shield Ground Pop");
                 }

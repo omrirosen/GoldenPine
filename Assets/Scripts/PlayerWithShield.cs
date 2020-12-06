@@ -94,6 +94,7 @@ public class PlayerWithShield : MonoBehaviour
         GM = FindObjectOfType<GameManager>();
         playerSpriteRenderer = GetComponent<SpriteRenderer>();
         canPierceDash = false;
+        soundManager = FindObjectOfType<SoundManager>();
     }
 
    private void Start()
@@ -102,7 +103,7 @@ public class PlayerWithShield : MonoBehaviour
       wallJumpAngle.Normalize();
       shieldBubbleSR.enabled = false;
       whiteUiParticleEffect.SetActive(false);
-        //JSAM.AudioManager.PlaySound(Sounds.Respawn);
+      soundManager.PlayOneSound("Respawn");
         
    }
 
@@ -149,7 +150,6 @@ public class PlayerWithShield : MonoBehaviour
       if (Input.GetKeyDown(KeyCode.LeftShift) && DashCooldown == false)
       {
             soundManager.PlayDashArray();
-            // JSAM.AudioManager.PlaySound(Sounds.Dash);
             DashCooldown = true;
             isDashing = true;
             Invoke("ResetDashCoolDown", 0.5f);
@@ -172,7 +172,7 @@ public class PlayerWithShield : MonoBehaviour
             anim.SetBool("IsWhite", false);
             WhitePraticale.SetActive(false);
             whiteUiParticleEffect.SetActive(false);
-            //JSAM.AudioManager.PlaySound(Sounds.PirciengDash);
+            soundManager.PlayOneSound("Pircieng Dash");
            // whiteParticleFX.SetActive(false);
         }
       //Shield Inputs
@@ -229,7 +229,6 @@ public class PlayerWithShield : MonoBehaviour
     {
         if (PS.DashStock >= 1 && isCharged == false)
         {
-            //JSAM.AudioManager.PlaySound(Sounds.ChargeAnim);
             whiteUiParticleEffect.SetActive(true);
             ChargAnim.SetActive(true);
             Invoke("SetWhite", 0.5f);
@@ -311,7 +310,7 @@ public class PlayerWithShield : MonoBehaviour
       
       if (Input.GetButtonDown("Jump") && collisionCheck.onGround)
       {
-        // JSAM.AudioManager.PlaySound(Sounds.Jump); 
+          soundManager.PlayOneSound("Jump");
          anim.SetTrigger("takeOff");
          isJumping = true;
          jumpTimeCounter = jumpTime;
@@ -357,14 +356,12 @@ public class PlayerWithShield : MonoBehaviour
                         fadingGhost.createGhost = true;
                         Invoke("SetCreateGhostToFalse", dashTime);
                         direction = 1;
-                        //JSAM.AudioManager.PlaySound(Sounds.Dash);
                     }
                     else if (facingRight) // right 
                     {
                         fadingGhost.createGhost = true;
                         Invoke("SetCreateGhostToFalse", dashTime);
                         direction = 2;
-                        //JSAM.AudioManager.PlaySound(Sounds.Dash);
                     }
                 }
                 else if(collisionCheck.onWall == true)
@@ -453,7 +450,7 @@ public class PlayerWithShield : MonoBehaviour
          anim.SetBool("StartSlide", true);
             if (!wallSlideSoundIsPlaying)
             {
-              //  JSAM.AudioManager.PlaySound(Sounds.WallSlide);
+                soundManager.PlayOneSound("Wall Slide");
                 wallSlideSoundIsPlaying = true;
             }
           
@@ -461,7 +458,7 @@ public class PlayerWithShield : MonoBehaviour
       }
       else
       {
-        // JSAM.AudioManager.StopSound(Sounds.WallSlide);
+        soundManager.StopOneSound("Wall Slide");
          isWallSliding = false;
          anim.SetBool("StartSlide", false);
          wallSlideSoundIsPlaying = false;
@@ -577,7 +574,7 @@ public class PlayerWithShield : MonoBehaviour
             
             if (PS.DashAttacked == true)
             {
-               // JSAM.AudioManager.PlaySound(Sounds.HitEnemy);
+                soundManager.PlayOneSound("Hit Enemy");
                collision.gameObject.GetComponent<UnihogGettingHit>()?.killMe(dmg);
                collision.gameObject.GetComponent<HornyHogTakeDmg>()?.TakeDMG(dmg);
                
@@ -618,7 +615,7 @@ public class PlayerWithShield : MonoBehaviour
     {
         print("dead");
         IsDead = true;
-       // JSAM.AudioManager.PlaySound(Sounds.Death);
+       soundManager.PlayOneSound("Death");
         rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
         anim.SetBool("IsDead", true);
         anim.SetBool("isMoving", false);

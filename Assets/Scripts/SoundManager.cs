@@ -12,7 +12,7 @@ public class SoundManager : MonoBehaviour {
     private int currentPlayingDashIndex = 999;
     private int currentPlayingZButton = 999;
     // a play music flag so we can stop playing music during cutscenes etc
-    private bool shouldPlayMusic = false;
+    private bool shouldPlayFootstepsArray = false;
     private bool shouldPlayDashArray = false;
     private bool shouldPlayZButtonArray = false;
     public static SoundManager instance; // will hold a reference to the first AudioManager created
@@ -83,12 +83,24 @@ public class SoundManager : MonoBehaviour {
         }
         s.source.Play(); // play the sound
     }
+    
+    public void StopOneSound(string name)
+    {
+        // here we get the Sound from our array with the name passed in the methods parameters
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        if (s == null)
+        {
+            Debug.LogError("Unable to play sound " + name);
+            return;
+        }
+        s.source.Stop(); // stop the sound
+    }
 
     public void PlayFootStepsArray()
     {
-        if (shouldPlayMusic == false) 
+        if (shouldPlayFootstepsArray == false) 
         {
-            shouldPlayMusic = true;
+            shouldPlayFootstepsArray = true;
             // pick a random song from our playlist
             currentPlayingFootStepsIndex = UnityEngine.Random.Range(0, footstepsArray.Length - 1);
             footstepsArray[currentPlayingFootStepsIndex].source.volume = footstepsArray[0].volume * mvol; // set the volume
@@ -170,9 +182,9 @@ public class SoundManager : MonoBehaviour {
     // stop music
     public void StopMusic()
     {
-        if (shouldPlayMusic == true) 
+        if (shouldPlayFootstepsArray == true) 
         {
-            shouldPlayMusic = false;
+            shouldPlayFootstepsArray = false;
             
             currentPlayingFootStepsIndex = 999; // reset playlist counter
             

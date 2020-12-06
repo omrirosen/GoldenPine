@@ -94,7 +94,6 @@ public class BuddyController : MonoBehaviour
         {
             LastClickedTime = Time.time;
             NumOfClicks++;
-            //  JSAM.AudioManager.PlaySound(Sounds.BuddyHit);
             soundManager.PlayzButtonArray();
             SRenderer.sortingOrder = 10;
             Invoke("ResetSortingOrder", 0.7f);
@@ -110,7 +109,7 @@ public class BuddyController : MonoBehaviour
                 if (Enemy != null)
                 {
                     playerstats.IncreaseStamina();
-                  //  JSAM.AudioManager.PlaySound(Sounds.Zabsorbtion);
+                    soundManager.PlayOneSound("Z Absorbtion");
                     if (Enemy.GetComponent<DeadUniHogTut>())
                     {
                         print("takenhit");
@@ -132,7 +131,7 @@ public class BuddyController : MonoBehaviour
                 Invoke("SetAttack2False", 0.1f);
                 if(Enemy != null)
                 {
-                   // JSAM.AudioManager.PlaySound(Sounds.Zabsorbtion);
+                    soundManager.PlayOneSound("Z Absorbtion");
                     playerstats.IncreaseStamina();
                 }
             }
@@ -149,7 +148,7 @@ public class BuddyController : MonoBehaviour
                 if (Enemy != null)
                 {
                     playerstats.IncreaseStamina();
-                  //  JSAM.AudioManager.PlaySound(Sounds.Zabsorbtion);
+                    soundManager.PlayOneSound("Z Absorbtion");
                     if (Enemy.GetComponent<DeadUniHogTut>())
                     {
                         print("takenhit");

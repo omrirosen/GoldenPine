@@ -41,6 +41,7 @@ public class PlayerStats : MonoBehaviour
     public bool ShieldCoolDown = false;
     public bool DashAttackOn = false;
     bool isInvinsable = false;
+    private SoundManager soundManager;
     
     private void Awake()
     {
@@ -48,7 +49,8 @@ public class PlayerStats : MonoBehaviour
         playerWithShield = this.GetComponent<PlayerWithShield>();
         rb2d = GetComponent<Rigidbody2D>();
         collisionCheck = GetComponent<CollisionCheck>();
-        
+        soundManager = FindObjectOfType<SoundManager>();
+
     }
 
     private void Start()
@@ -87,8 +89,7 @@ public class PlayerStats : MonoBehaviour
 
         if (DashStock < 1)
         {
-          //  JSAM.AudioManager.StopSoundLoop(Sounds.StaminaFull);
-          //  JSAM.AudioManager.StopSound(Sounds.StaminaFull);
+            soundManager.StopOneSound("Stamina Full");
         }
     }
 
@@ -234,7 +235,7 @@ public class PlayerStats : MonoBehaviour
     
     private void Parry()
     {
-        // JSAM.AudioManager.PlaySound(Sounds.Parry);
+        soundManager.PlayOneSound("Parry");
 
         if (DashStock < 1)
         {
@@ -349,8 +350,8 @@ public class PlayerStats : MonoBehaviour
     {
         playerWithShield.GeneratPulse();
         Time.timeScale = 0.1f;
-        Instantiate(DamagedEffect, transform.position, Quaternion.identity);
-        Instantiate(DamagedParticale, transform.position, Quaternion.identity);
+        // Instantiate(DamagedEffect, transform.position, Quaternion.identity);
+        // Instantiate(DamagedParticale, transform.position, Quaternion.identity);
         yield return new WaitForSecondsRealtime(0.3f);
         
         Time.timeScale = 1;

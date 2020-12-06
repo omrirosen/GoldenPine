@@ -128,7 +128,6 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="BetterJumping.cs" t="Include" />
           <e p="CloudGeneratorScript.cs" t="Include" />
           <e p="CloudScript.cs" t="Include" />
           <e p="CollisionCheck.cs" t="Include" />

@@ -8,10 +8,12 @@ public class DestroyParryPop : MonoBehaviour
     public GameObject BlackDropInstPoint;
     private BoxCollider2D myCollider2D;
     private PlayerWithShield playerSctript;
+    private SoundManager soundManager;
     private void Awake()
     {
         myCollider2D = GetComponent<BoxCollider2D>();
         playerSctript = FindObjectOfType<PlayerWithShield>();
+        soundManager = FindObjectOfType<SoundManager>();
     }
 
     public void DieShiled(GameObject popPrefab)
@@ -45,10 +47,12 @@ public class DestroyParryPop : MonoBehaviour
     public void PlayChargeSound()
     {
        // JSAM.AudioManager.PlaySound(Sounds.ChargeAnim);
+       soundManager.PlayOneSound("Charge Anim");
     }
 
     public void StaminaFullSound()
     {
        // JSAM.AudioManager.PlaySoundLoop(Sounds.StaminaFull);
+       soundManager.PlayOneSound("Stamina Full");
     }
 }
