@@ -23,15 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX/Player Taken Hit Effect.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX/Player Taken Hit Effect.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/FX/Player Taken Hit Effect.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/FX/Player Taken Hit Effect.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/Particle/PondoraHitParticle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/Particle/PondoraHitParticle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FX/Player Taken Hit Effect.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FX/Player Taken Hit Effect.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/New Sound effects 19.11/Player Taken Hit.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/New Sound effects 19.11/Player Taken Hit/HitPlayer.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/New Sound effects 19.11/Player Taken Hit/HitPlayer.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixer/Master Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixer/Master Mixer.mixer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,13 +101,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/PlayerSoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sounds.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
       </list>
     </option>
@@ -242,7 +240,7 @@
       <workItem from="1606907812369" duration="8613000" />
       <workItem from="1607001738800" duration="2842000" />
       <workItem from="1607261614901" duration="77000" />
-      <workItem from="1607261771411" duration="1912000" />
+      <workItem from="1607261771411" duration="3753000" />
     </task>
     <servers />
   </component>

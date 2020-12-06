@@ -97,6 +97,7 @@ public class PlayerStats : MonoBehaviour
     {
         if (shieldOn == false && ParryWindow == false  && HitSpikes == false && isInvinsable == false && playerWithShield.DashAttack == false)
         {
+            soundManager.PlayOneSound("Player Taken Hit");
             StartCoroutine("FreezFrame");
             StartCoroutine("Blinker");
             playerHealth -= Dmg;
@@ -112,6 +113,7 @@ public class PlayerStats : MonoBehaviour
         }
         if(HitSpikes == true)
         {
+            soundManager.PlayOneSound("Player Taken Hit");
             playerHealth -= Dmg;
             healthAnimator.SetBool("OneShot", true);
         }

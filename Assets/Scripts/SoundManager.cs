@@ -23,8 +23,8 @@ public class SoundManager : MonoBehaviour {
     private void Start() 
     {
         
-        PlayOneSound("Ambient Forest");
-        PlayOneSound("Ambient Wind");
+        PlayOneSound("Ambient Forest Wind");
+        PlayOneSound("Ambient Music");
         
     }
 
