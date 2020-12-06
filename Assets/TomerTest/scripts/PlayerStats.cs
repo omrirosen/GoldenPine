@@ -350,7 +350,7 @@ public class PlayerStats : MonoBehaviour
     {
         playerWithShield.GeneratPulse();
         Time.timeScale = 0.1f;
-        // Instantiate(DamagedEffect, transform.position, Quaternion.identity);
+        Instantiate(DamagedEffect, transform.position, Quaternion.identity);
         // Instantiate(DamagedParticale, transform.position, Quaternion.identity);
         yield return new WaitForSecondsRealtime(0.3f);
         
