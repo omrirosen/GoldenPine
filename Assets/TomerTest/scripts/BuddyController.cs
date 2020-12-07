@@ -29,6 +29,7 @@ public class BuddyController : MonoBehaviour
     private CollisionCheck playerCollisionCheck;
     bool movedToAttackPoint = false;
     [SerializeField] private SoundManager soundManager;
+    public bool playerIsDead = false;
     private void Awake()
     {
         soundManager = FindObjectOfType<SoundManager>();
@@ -42,10 +43,12 @@ public class BuddyController : MonoBehaviour
 
     private void Update()
     {
-        flipBuddy();
-       Attack();
-       MoveSpeed = Speed * Time.deltaTime;
-     
+        if (!playerIsDead)
+        {
+            flipBuddy();
+            Attack();
+            MoveSpeed = Speed * Time.deltaTime;
+        }
     }
 
     public void flip()
@@ -257,6 +260,15 @@ public class BuddyController : MonoBehaviour
        
 
    }
+
+    public void BuddyDie()
+    {
+        Anim.SetBool("IsJumping", false);
+        Anim.SetBool("IsMoving", false);
+        Anim.SetBool("Attack1", false);
+        Anim.SetBool("Attack2", false);
+        Anim.Play("Buddy_Die");
+    }
     
 }
 

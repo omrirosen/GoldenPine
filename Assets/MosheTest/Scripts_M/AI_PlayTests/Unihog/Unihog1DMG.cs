@@ -55,6 +55,7 @@ public class Unihog1DMG : MonoBehaviour
                             impact.SetUpdate(UpdateType.Fixed);
                             isunderImpact = true;
                             unihog.isFlying = true;
+                            
                         }
                         else if (!unihog.IsFacingRight())
                         {
@@ -66,6 +67,7 @@ public class Unihog1DMG : MonoBehaviour
                             impact.SetUpdate(UpdateType.Fixed);
                             isunderImpact = true;
                             unihog.isFlying = true;
+                            
                         }
 
                     }
@@ -84,7 +86,7 @@ public class Unihog1DMG : MonoBehaviour
                                 impact.SetUpdate(UpdateType.Fixed);
                                 isunderImpact = true;
                                 unihog.isFlying = true;
-
+                                
                             }
                             else if (!unihog.IsFacingRight())
                             {
@@ -94,7 +96,7 @@ public class Unihog1DMG : MonoBehaviour
                                 impact.SetUpdate(UpdateType.Fixed);
                                 isunderImpact = true;
                                 unihog.isFlying = true;
-
+                                
                             }
                         }
 

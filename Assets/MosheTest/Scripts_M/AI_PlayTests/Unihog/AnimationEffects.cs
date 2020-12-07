@@ -8,22 +8,31 @@ public class AnimationEffects :MonoBehaviour
     [SerializeField] Transform UnihogRollDust_position;
     [SerializeField] Unihog1Controller unihog;
     public bool didPlayRollDust = false;
-
+    [SerializeField] float x;
+        
+    private void Update()
+    {
+       x = unihog.transform.localScale.x;
+       
+    }
     public void playRollDust()
     {
-       // print("Dust");
+        
         if (!didPlayRollDust)
         {
+            
             didPlayRollDust = true;
-            if (unihog.IsFacingRight())
+            if (x > 0f)
             {
                 GameObject temp = Instantiate(UnihogRollDust_ins, UnihogRollDust_position.position, Quaternion.identity);
                 temp.GetComponentInChildren<SpriteRenderer>().flipX = true;
+                print("facingRight");
             }
             else
             {
                 GameObject temp = Instantiate(UnihogRollDust_ins, UnihogRollDust_position.position, Quaternion.identity);
                 temp.GetComponentInChildren<SpriteRenderer>().flipX = false;
+                print("facingleft");
             }
 
         }

@@ -62,6 +62,7 @@ public class PlayerStats : MonoBehaviour
     {
         ShieldUp();
         Dashed();
+
         if (Impact != null)
         {
             if (!Impact.IsPlaying())
@@ -104,7 +105,7 @@ public class PlayerStats : MonoBehaviour
             healthAnimator.SetInteger("PlayerHealthUI", playerHealth);
             playerWithShield.UnderImpactAnim();
             playerWithShield.isDashing = false;
-            if (!isImpect_ON)
+            if (!isImpect_ON && playerHealth >0)
             {
                 isImpect_ON = true;
                 Impact = rb2d.DOJump(transform.position - dir * impact_Force, impact_JumpForce, 0, 0.5f);

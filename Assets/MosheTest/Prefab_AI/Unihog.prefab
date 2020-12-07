@@ -470,10 +470,13 @@ MonoBehaviour:
   effects: {fileID: 406397053}
   HitPartical_ins: {fileID: 8679130280484342764, guid: 5c3f8fd6eeef3e7489c8ffaee431c7b8,
     type: 3}
+  wiggleTimer: 0
   isTurning: 0
   state: 0
+  target: {fileID: 0}
   attacking: 0
   isFlying: 0
+  RandomSec: 0
   rb2d: {fileID: 5412783622459689581}
 --- !u!114 &2006446233
 MonoBehaviour:

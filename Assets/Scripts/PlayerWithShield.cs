@@ -123,7 +123,7 @@ public class PlayerWithShield : MonoBehaviour
       else if(IsDead == true)
       {
             Invoke("OnDeath", 2f);
-         
+            
       }
 
    }
@@ -613,6 +613,7 @@ public class PlayerWithShield : MonoBehaviour
    
     public void PlayerDeath()
     {
+        Buddy.playerIsDead = true;
         print("dead");
         IsDead = true;
        soundManager.PlayOneSound("Death");
@@ -626,6 +627,7 @@ public class PlayerWithShield : MonoBehaviour
         anim.SetBool("IsDashAttack", false);
         anim.SetBool("FacingRight", false);
         anim.SetBool("IsUnderImpact", false);
+        Buddy.BuddyDie();
         
        
     }
