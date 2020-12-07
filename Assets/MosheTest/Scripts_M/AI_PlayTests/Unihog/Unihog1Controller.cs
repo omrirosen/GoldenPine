@@ -14,15 +14,15 @@ public class Unihog1Controller : MonoBehaviour
     [SerializeField] public int health;
     [SerializeField] AnimationEffects effects;
     [SerializeField] GameObject HitPartical_ins;
-
+    [SerializeField] float wiggleTimer;
     public bool isTurning = false;
-    public enum stateMachine { roming, attack,death,Flying };
+    public enum stateMachine { roming, attack,death,Flying,Wiggle };
     public stateMachine state;
-    private GameObject target;
+    public GameObject target;
     public bool attacking = false;
     public bool isFlying = false;
-    
-
+    bool isWiggleOn = false;
+    public float RandomSec = 0f;
 
    public Rigidbody2D rb2d;
     
@@ -83,10 +83,12 @@ public class Unihog1Controller : MonoBehaviour
 
                 break;
             case stateMachine.attack:
+                wiggleTimer = 0f;
                 attacking = true;
+                isWiggleOn = false;
                 animator.SetBool("isAttacking", true);
-                
-                    transform.localScale = new Vector2((Mathf.Sign(rb2d.velocity.x)), transform.localScale.y);
+                animator.SetBool("IsWiggle", false);
+                transform.localScale = new Vector2((Mathf.Sign(rb2d.velocity.x)), transform.localScale.y);
                     float dirX = target.transform.position.x - transform.position.x;
                     if (Mathf.Abs(dirX) > 0.2f)
                     {
@@ -131,6 +133,25 @@ public class Unihog1Controller : MonoBehaviour
 
             case stateMachine.Flying:
                 animator.Play("Unihog_NewRoll_Left");
+
+                break;
+
+            case stateMachine.Wiggle:
+                isWiggleOn = true;
+                
+                animator.SetBool("IsMoving", false);
+                animator.SetBool("isAttacking", false);
+                animator.SetBool("IsWiggle", true);
+                rb2d.velocity = Vector2.zero;
+                wiggleTimer += Time.deltaTime;
+                if (wiggleTimer >= RandomSec)
+                {
+                    attacking = true;
+                    state = stateMachine.attack;
+                }
+
+
+
 
                 break;
         }
@@ -186,15 +207,16 @@ public class Unihog1Controller : MonoBehaviour
                 eyes_Range, eyes_Layer);
             if (hit2D.collider != null )
             {
-                if (hit2D.collider.CompareTag("Player"))
+                if (hit2D.collider.CompareTag("Player") && !attacking)
                 {
                     // print("see");
+                    RandomSec = Random.Range(0.5f, 2.5f);
                     target = hit2D.collider.gameObject;
-                    state = stateMachine.attack;
+                    state = stateMachine.Wiggle;
                 }
                
             }
-            else if (hit2D.collider == null && !isFlying)
+            else if (hit2D.collider == null && !isFlying && !isWiggleOn)
             {
               //  print("CantSee");
                 moveSpeed = Mathf.Lerp(moveSpeed, 1f, 5f*Time.deltaTime);
