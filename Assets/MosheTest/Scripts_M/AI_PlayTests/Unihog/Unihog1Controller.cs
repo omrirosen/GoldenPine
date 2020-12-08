@@ -27,12 +27,15 @@ public class Unihog1Controller : MonoBehaviour
     [SerializeField] float wiggleMaxTime = 2.5f;
     public Rigidbody2D rb2d;
     float ogMoveSpeed;
-    
+    SoundManager soundManager;
+    [SerializeField] GameObject noseSmokeEffect;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         state = stateMachine.roming;
         ogMoveSpeed = moveSpeed;
+        soundManager = FindObjectOfType<SoundManager>();
+        
     }
 
     // Update is called once per frame
@@ -63,6 +66,7 @@ public class Unihog1Controller : MonoBehaviour
         switch (state)
         {
             case stateMachine.roming:
+                
                 moveSpeed = ogMoveSpeed;
                  attacking = false;
                 if (!isTurning)
@@ -116,6 +120,7 @@ public class Unihog1Controller : MonoBehaviour
 
                 break;
             case stateMachine.death:
+                
                 float deathloop = animator.GetFloat("DeatLoop");
                 attacking = false;
                 rb2d.velocity = Vector2.zero;
@@ -129,11 +134,11 @@ public class Unihog1Controller : MonoBehaviour
                     animator.SetBool("isDeath", false);
                 }
 
-                if (deathloop >= 9f)
+                if (deathloop >= 3f)
                 {
                     animator.SetBool("Evaporate", true);
                 }
-                if(deathloop>=10f)
+                if(deathloop>=3.5f)
                 {
                     Destroy(gameObject);
                 }
@@ -145,6 +150,7 @@ public class Unihog1Controller : MonoBehaviour
                 break;
 
             case stateMachine.Wiggle:
+                noseSmokeEffect.SetActive(true);
                 print(transform.localScale.x);
                 isWiggleOn = true;
                 animator.speed = 1f;
@@ -155,8 +161,10 @@ public class Unihog1Controller : MonoBehaviour
                 wiggleTimer += Time.deltaTime;
                 if (wiggleTimer >= RandomSec)
                 {
+                    noseSmokeEffect.SetActive(false);
                     //attacking = true;
                     state = stateMachine.attack;
+                    //soundManager.PlayOneSound("UnihogRoll");
                 }
 
 
@@ -222,6 +230,7 @@ public class Unihog1Controller : MonoBehaviour
                     // print("see");
                     RandomSec = Random.Range(wiggleMinTime, wiggleMaxTime);
                     target = hit2D.collider.gameObject;
+                    soundManager.PlayOneSound("PigSnore1");
                     state = stateMachine.Wiggle;
                 }
                

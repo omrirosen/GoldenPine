@@ -255,7 +255,11 @@ public class PlayerStats : MonoBehaviour
         {
             Instantiate(ParryPopAir, transform.position, transform.rotation);
         }
-        
+        if(playerHealth <= 1)
+        {
+            playerHealth = playerHealth + 1;
+            healthAnimator.SetInteger("PlayerHealthUI", playerHealth);
+        }
     }
 
 

@@ -180,15 +180,20 @@ public class PlayerWithShield : MonoBehaviour
       if (Input.GetKeyDown(KeyCode.X))
       {
          isShielding = true;
+         Invoke("DidShieldTrue", 0.05f);
       }
       
       if(Input.GetKeyUp(KeyCode.X))
       {
             isShielding = false;
-        // Invoke("SetIsShieldingToFalse",0.3f);
+            anim.SetBool("DidShield", false);
+            // Invoke("SetIsShieldingToFalse",0.3f);
       }
    }
-
+    private void DidShieldTrue()
+    {
+        anim.SetBool("DidShield", true);
+    }
     private void ChargedTofalse()
     {
         isCharged = false;
@@ -259,13 +264,13 @@ public class PlayerWithShield : MonoBehaviour
             Buddy.Run();
             //if (collisionCheck.onGround) DustRun.SetActive(true);
             //if (collisionCheck.onGround == false || isUnderImpact) DustRun.SetActive(false);
-        }
+      }
       else
       {
          isMoving = false;
             Buddy.StopRun();
            // DustRun.SetActive(false);
-        }
+      }
       
       // for movement
       if (isMoving)
@@ -558,6 +563,7 @@ public class PlayerWithShield : MonoBehaviour
       anim.SetBool("IsDashAttack", PS.DashAttackOn);
       anim.SetBool("FacingRight", facingRight);
       anim.SetFloat("YVelocity", yVelocity);
+      anim.SetBool("isShielding", isShielding);
         if (rb.velocity.y < 0 && reachedPeakJump == false)
         {
          reachedPeakJump = true;

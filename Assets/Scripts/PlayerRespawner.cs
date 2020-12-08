@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayerRespawner : MonoBehaviour
 {
     [SerializeField] GameObject Player;
-
     private void Awake()
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
+        //Player = GameObject.FindGameObjectWithTag("Player");
+       
     }
     private void Start()
     {
