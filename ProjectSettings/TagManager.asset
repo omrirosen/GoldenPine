@@ -10,6 +10,8 @@ TagManager:
   - TileMapCollider
   - test
   - UnihogTut
+  - DevPos1
+  - DevPos2
   layers:
   - Default
   - TransparentFX

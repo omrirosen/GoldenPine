@@ -27,14 +27,14 @@ public class Unihog1Controller : MonoBehaviour
     [SerializeField] float wiggleMaxTime = 2.5f;
     public Rigidbody2D rb2d;
     float ogMoveSpeed;
-    SoundManager soundManager;
+    EnemySoundManager soundManager;
     [SerializeField] GameObject noseSmokeEffect;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         state = stateMachine.roming;
         ogMoveSpeed = moveSpeed;
-        soundManager = FindObjectOfType<SoundManager>();
+        soundManager = GetComponent<EnemySoundManager>();
         
     }
 
@@ -123,6 +123,7 @@ public class Unihog1Controller : MonoBehaviour
                 
                 float deathloop = animator.GetFloat("DeatLoop");
                 attacking = false;
+                noseSmokeEffect.SetActive(false);
                 rb2d.velocity = Vector2.zero;
                 animator.SetBool("IsMoving", false);
                 animator.SetBool("isAttacking", false);
@@ -230,7 +231,7 @@ public class Unihog1Controller : MonoBehaviour
                     // print("see");
                     RandomSec = Random.Range(wiggleMinTime, wiggleMaxTime);
                     target = hit2D.collider.gameObject;
-                    soundManager.PlayOneSound("PigSnore1");
+                    soundManager.PlayOneSound("Snore");
                     state = stateMachine.Wiggle;
                 }
                

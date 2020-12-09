@@ -23,18 +23,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Ambience/Forest/WindAndOwl2mp.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Ambience/Forest/WindAndOwl2mp.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Checkpoints.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/UnihogIdle1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/UnihogIdle1.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/UnihogIdle2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/UnihogIdle2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemySoundManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_NewWalk_Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_NewWalk_Left.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixer/Master Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixer/Master Mixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Prefab_AI/Unihog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Prefab_AI/Unihog.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/AnimationEffects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/AnimationEffects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CheckPointSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CheckPointSystem.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerRespawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerRespawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Sound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Sound.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +70,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/BubbleParryAir_0.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorials/WallSlideTutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -99,25 +108,27 @@
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BlackDropFalling.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" />
-        <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogDMG.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/BuddySoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManagerNew.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/PlayerSoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CheckPointSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoints.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/AnimationEffects.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerRespawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemySoundManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Sound.cs" />
+        <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -250,7 +261,7 @@
       <workItem from="1607001738800" duration="2842000" />
       <workItem from="1607261614901" duration="77000" />
       <workItem from="1607261771411" duration="3753000" />
-      <workItem from="1607509081300" duration="4492000" />
+      <workItem from="1607509081300" duration="13535000" />
     </task>
     <servers />
   </component>

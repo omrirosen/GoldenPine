@@ -476,6 +476,7 @@ GameObject:
   - component: {fileID: 2006446233}
   - component: {fileID: 2000855913}
   - component: {fileID: 633323595}
+  - component: {fileID: 392557951}
   m_Layer: 11
   m_Name: Unihog
   m_TagString: Enemy
@@ -645,3 +646,65 @@ CapsuleCollider2D:
   m_Offset: {x: -0.013607864, y: 0.22155729}
   m_Size: {x: 0.5272166, y: 0.44317663}
   m_Direction: 1
+--- !u!114 &392557951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5412783622459689585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4c20e411b87304b809b249df3c23a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Roll
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 1
+    maxDistanceSound: 500
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 4185643465778141177, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Snore
+    clip: {fileID: 8300000, guid: a44a7e5743b3c7e4ca078bc4d6c728bd, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 1
+    maxDistanceSound: 500
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -8035906585638390199, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Idle 1
+    clip: {fileID: 8300000, guid: fc85e77477e89904e99b712d880c0e39, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 1
+    maxDistanceSound: 500
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 7662054922825986499, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Idle 2
+    clip: {fileID: 8300000, guid: 721cfb5f703be5742b3b474b349ed069, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 1
+    maxDistanceSound: 500
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -4078151621366864010, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  enemyArraySounds: []

@@ -13,6 +13,7 @@ public class PlayerRespawner : MonoBehaviour
     }
     private void Start()
     {
+        gameObject.SetActive(true);
         if (gameManager.passedCertainCheckpoint)
         {
             transform.position = gameManager.lastCheckpointReached;   

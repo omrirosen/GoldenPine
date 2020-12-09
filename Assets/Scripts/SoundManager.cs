@@ -63,7 +63,7 @@ public class SoundManager : MonoBehaviour {
     private void createAudioSources(Sound[] sounds, float volume)
     {
         foreach (Sound s in sounds) {   // loop through each music/effect
-            s.source = gameObject.AddComponent<AudioSource>(); // create anew audio source(where the sound splays from in the world)
+            s.source = gameObject.AddComponent<AudioSource>(); // create anew audio source(where the sounds plays from in the world)
             s.source.clip = s.clip;     // the actual music/effect clip
             s.source.volume = s.volume * volume; // set volume based on parameter
             s.source.pitch = s.pitch;   // set the pitch

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +10,13 @@ public class AnimationEffects :MonoBehaviour
     [SerializeField] Unihog1Controller unihog;
     public bool didPlayRollDust = false;
     [SerializeField] float x;
-        
+    private EnemySoundManager enemySoundManager;
+
+    private void Awake()
+    {
+        enemySoundManager = FindObjectOfType<EnemySoundManager>();
+    }
+
     private void Update()
     {
        x = unihog.transform.localScale.x;
@@ -38,6 +45,16 @@ public class AnimationEffects :MonoBehaviour
         }
         
         
+    }
+
+    public void PlayIdleSoundOne()
+    {
+        enemySoundManager.PlayOneSound("Idle 1");
+    }
+
+    public void PlayIdleSoundTwo()
+    {
+        enemySoundManager.PlayOneSound("Idle 2");
     }
 
 

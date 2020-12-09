@@ -12,8 +12,15 @@ public class Sound
     public float volume;    //Store our volume
     [Range(0.1f, 3f)]       //Limit the Range again
     public float pitch;     // set the picth for our music/effect
+    [Range(0f, 1f)]
+    public float spatialBlend;
+
+    public float minDistanceSound;
+    public float maxDistanceSound;
+    public AudioRolloffMode audioRolloffMode;
     [HideInInspector]       //Hide this variable from the Editor
     public AudioSource source;// the source that will play the sound
     public AudioMixerGroup audioMixerGroup;
     public bool loop = false;// should this sound loop
+    
 }

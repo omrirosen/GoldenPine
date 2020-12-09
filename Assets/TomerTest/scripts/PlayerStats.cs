@@ -276,7 +276,7 @@ public class PlayerStats : MonoBehaviour
             DashAttacked = true;
             playerWithShield.GeneratPulse();
             FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
-            Invoke("ResetConditions", 0.5f);
+            Invoke("ResetConditions", 0.3f);
             print("DashStok = " + DashStock);
         }
     }

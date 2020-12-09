@@ -104,6 +104,7 @@ public class PlayerWithShield : MonoBehaviour
       shieldBubbleSR.enabled = false;
       whiteUiParticleEffect.SetActive(false);
       soundManager.PlayOneSound("Respawn");
+      GM.populateRefrences();
         
    }
 
