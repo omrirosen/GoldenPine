@@ -23,24 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/Unihog Roll.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/Unihog Roll/Buff Attack 1.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/Unihog Roll/Buff Attack 1.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/Unihog Roll/Cast 09.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/Unihog Roll/Cast 09.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/Unihog Roll/Magic Whoosh 2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/Unihog Roll/Magic Whoosh 2.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/Unihog Roll/Magic Whoosh 3.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/Unihog Roll/Magic Whoosh 3.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_PostRoll_Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_PostRoll_Left.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_PreRoll_Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_PreRoll_Left.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixer/Master Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixer/Master Mixer.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Prefab_AI/Unihog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Prefab_AI/Unihog.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/AnimationEffects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/AnimationEffects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,10 +106,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemySoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
         <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/AnimationEffects.cs" />
         <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -262,6 +244,7 @@
       <workItem from="1607261771411" duration="3753000" />
       <workItem from="1607509081300" duration="13535000" />
       <workItem from="1607532275694" duration="3204000" />
+      <workItem from="1607535862350" duration="16000" />
     </task>
     <servers />
   </component>
