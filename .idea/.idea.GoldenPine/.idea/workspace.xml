@@ -23,14 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/New Sound effects 19.11/Player Taken Hit.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/New Sound effects 19.11/Player Taken Hit/HitPlayer.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/New Sound effects 19.11/Player Taken Hit/HitPlayer.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Ambience/Forest/WindAndOwl2mp.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Ambience/Forest/WindAndOwl2mp.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Checkpoints.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixer/Master Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixer/Master Mixer.mixer" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CheckPointSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CheckPointSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerRespawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerRespawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorials/DashTutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorials/JumpTutorial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Checkpoints.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
@@ -109,6 +114,10 @@
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CheckPointSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoints.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerRespawner.cs" />
       </list>
     </option>
   </component>
@@ -241,6 +250,7 @@
       <workItem from="1607001738800" duration="2842000" />
       <workItem from="1607261614901" duration="77000" />
       <workItem from="1607261771411" duration="3753000" />
+      <workItem from="1607509081300" duration="4492000" />
     </task>
     <servers />
   </component>

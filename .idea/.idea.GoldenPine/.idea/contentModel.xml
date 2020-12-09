@@ -128,6 +128,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Checkpoints.cs" t="Include" />
           <e p="CloudGeneratorScript.cs" t="Include" />
           <e p="CloudScript.cs" t="Include" />
           <e p="CollisionCheck.cs" t="Include" />
@@ -139,6 +140,7 @@
           <e p="ParallaxNoDuplication.cs" t="Include" />
           <e p="PlayerAnimation.cs" t="Include" />
           <e p="PlayerCeleste.cs" t="Include" />
+          <e p="PlayerRespawner.cs" t="Include" />
           <e p="PlayerWithShield.cs" t="Include" />
           <e p="ShieldBubble.cs" t="Include" />
           <e p="Sound Managers" t="Include">

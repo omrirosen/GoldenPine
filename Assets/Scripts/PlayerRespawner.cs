@@ -5,15 +5,23 @@ using UnityEngine;
 public class PlayerRespawner : MonoBehaviour
 {
     [SerializeField] GameObject Player;
+    private GameManager gameManager;
     private void Awake()
     {
-        //Player = GameObject.FindGameObjectWithTag("Player");
-       
+        gameManager = FindObjectOfType<GameManager>();
+        Player.SetActive(false);
     }
     private void Start()
     {
-        Player.SetActive(false);
-        Player.transform.position = this.transform.position;
+        if (gameManager.passedCertainCheckpoint)
+        {
+            transform.position = gameManager.lastCheckpointReached;   
+        }
+        else
+        {
+            transform.position = transform.position;
+        }
+        Player.transform.position = transform.position;
     }
 
     public void RespawnPlayer()
@@ -23,6 +31,6 @@ public class PlayerRespawner : MonoBehaviour
 
     public void DestroySelf()
     {
-        this.gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
 }
