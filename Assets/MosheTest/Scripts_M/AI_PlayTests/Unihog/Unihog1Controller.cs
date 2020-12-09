@@ -27,14 +27,14 @@ public class Unihog1Controller : MonoBehaviour
     [SerializeField] float wiggleMaxTime = 2.5f;
     public Rigidbody2D rb2d;
     float ogMoveSpeed;
-    EnemySoundManager soundManager;
+    EnemySoundManager enemySoundManager;
     [SerializeField] GameObject noseSmokeEffect;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         state = stateMachine.roming;
         ogMoveSpeed = moveSpeed;
-        soundManager = GetComponent<EnemySoundManager>();
+        enemySoundManager = GetComponent<EnemySoundManager>();
         
     }
 
@@ -95,7 +95,6 @@ public class Unihog1Controller : MonoBehaviour
                 break;
             case stateMachine.attack:
                 wiggleTimer = 0f;
-                
                 attacking = true;
                 isWiggleOn = false;
                 animator.SetBool("isAttacking", true);
@@ -113,9 +112,8 @@ public class Unihog1Controller : MonoBehaviour
                     animator.speed= Mathf.Lerp(moveSpeed, 1f, 5f * Time.deltaTime);
                     //print("reach target");
                     animator.SetBool("isAttacking", false);
-                    
-
                     }
+                
                 
 
                 break;
@@ -165,11 +163,9 @@ public class Unihog1Controller : MonoBehaviour
                     noseSmokeEffect.SetActive(false);
                     //attacking = true;
                     state = stateMachine.attack;
-                    //soundManager.PlayOneSound("UnihogRoll");
+                    enemySoundManager.PlayOneSound("Roll");   
                 }
-
-
-
+                
 
                 break;
         }
@@ -231,7 +227,7 @@ public class Unihog1Controller : MonoBehaviour
                     // print("see");
                     RandomSec = Random.Range(wiggleMinTime, wiggleMaxTime);
                     target = hit2D.collider.gameObject;
-                    soundManager.PlayOneSound("Snore");
+                    enemySoundManager.PlayOneSound("Snore");
                     state = stateMachine.Wiggle;
                 }
                

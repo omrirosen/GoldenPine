@@ -581,6 +581,7 @@ MonoBehaviour:
   target: {fileID: 0}
   attacking: 0
   isFlying: 0
+  rollSoundPlayed: 0
   RandomSec: 0
   wiggleMinTime: 0.5
   wiggleMaxTime: 2.5
@@ -660,7 +661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Roll
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 532ca43c00d953f4e88d814996c29cb4, type: 3}
     volume: 1
     pitch: 1
     spatialBlend: 0

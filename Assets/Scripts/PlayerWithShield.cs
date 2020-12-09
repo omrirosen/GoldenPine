@@ -490,6 +490,10 @@ public class PlayerWithShield : MonoBehaviour
                 if (facingRight)
                 {
                     FlipSprite();
+                    if (Input.GetKey(KeyCode.LeftShift))
+                    {
+                        FlipSprite();
+                    }
                 }
             }
 
@@ -498,6 +502,10 @@ public class PlayerWithShield : MonoBehaviour
                 if (!facingRight)
                 {
                     FlipSprite();
+                    if (Input.GetKey(KeyCode.LeftShift))
+                    {
+                        FlipSprite();
+                    }
                 }
             }
             

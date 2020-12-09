@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         QuitGame();
-        //DebugPositions();
+        DebugPositions();
     }
 
     public void ResetScene()

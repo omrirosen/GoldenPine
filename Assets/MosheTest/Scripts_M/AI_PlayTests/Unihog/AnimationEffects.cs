@@ -57,6 +57,7 @@ public class AnimationEffects :MonoBehaviour
         enemySoundManager.PlayOneSound("Idle 2");
     }
 
+    
 
 
 
