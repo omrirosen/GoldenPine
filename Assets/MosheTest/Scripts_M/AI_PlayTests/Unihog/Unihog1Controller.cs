@@ -163,7 +163,7 @@ public class Unihog1Controller : MonoBehaviour
                     noseSmokeEffect.SetActive(false);
                     //attacking = true;
                     state = stateMachine.attack;
-                    enemySoundManager.PlayOneSound("Roll");   
+                  //  enemySoundManager.PlayOneSound("Roll");   
                 }
                 
 
@@ -263,7 +263,6 @@ public class Unihog1Controller : MonoBehaviour
     {
         health -= dmg;
         var temp = Instantiate(HitPartical_ins, transform.position, Quaternion.identity);
-       
     }
 
     public void JustAttacked()

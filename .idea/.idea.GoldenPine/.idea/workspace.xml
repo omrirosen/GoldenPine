@@ -23,7 +23,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX/Extract Test.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX/Extract Test.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/FX/White Extract.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/FX/White Extract.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Extract Particle Anim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Extract Particle Anim.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Extract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/White Extract.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_100x100 White spell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/FX/White FX Test/_100x100 White spell.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/Evaporates.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Sound Effects/New audio effects 22.11/Evaporates.wav.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_NewRoll_Left.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_NewRoll_Left.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_dead Praticle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Unihog/Unihog_dead Praticle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX/White FX 1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/FX/White FX 1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Buddy_controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Buddy_controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Enemies/Unihog evaportaes.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Enemies/Unihog evaportaes.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/FX/White Fx 1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/FX/White Fx 1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixer/Master Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixer/Master Mixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Prefab_AI/Unihog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Prefab_AI/Unihog.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/AnimationEffects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/AnimationEffects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EnemyParticaleHolder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/EnemyParticaleHolder.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +115,6 @@
         <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogController.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BlackDropFalling.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" />
         <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogDMG.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/BuddySoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManagerNew.cs" />
@@ -97,7 +123,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CheckPointSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoints.cs" />
@@ -107,9 +132,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Sound.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
-        <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/AnimationEffects.cs" />
-        <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" />
+        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/AnimationEffects.cs" />
       </list>
     </option>
   </component>
@@ -245,6 +272,7 @@
       <workItem from="1607509081300" duration="13535000" />
       <workItem from="1607532275694" duration="3204000" />
       <workItem from="1607535862350" duration="16000" />
+      <workItem from="1607607137554" duration="6986000" />
     </task>
     <servers />
   </component>

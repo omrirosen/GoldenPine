@@ -134,6 +134,7 @@
           <e p="CollisionCheck.cs" t="Include" />
           <e p="DeadUniHogTut.cs" t="Include" />
           <e p="DestructableObjects.cs" t="Include" />
+          <e p="EnemyParticleMover.cs" t="Include" />
           <e p="EnemyPatrol.cs" t="Include" />
           <e p="EnemySoundManager.cs" t="Include" />
           <e p="FadingGhost.cs" t="Include" />

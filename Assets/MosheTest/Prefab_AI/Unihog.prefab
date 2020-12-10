@@ -313,7 +313,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0057411194, y: 0.2143768}
+  m_Offset: {x: 0.05756378, y: 0.19246042}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -324,7 +324,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.44379425, y: 0.37454104}
+  m_Size: {x: 1.5038605, y: 0.7305105}
   m_EdgeRadius: 0
 --- !u!114 &1573686780
 MonoBehaviour:
@@ -581,7 +581,6 @@ MonoBehaviour:
   target: {fileID: 0}
   attacking: 0
   isFlying: 0
-  rollSoundPlayed: 0
   RandomSec: 0
   wiggleMinTime: 0.5
   wiggleMaxTime: 2.5
@@ -606,7 +605,7 @@ MonoBehaviour:
   ground_Layer:
     serializedVersion: 2
     m_Bits: 512
-  originalY: -3.305
+  originalY: -1.31
   doTweenLayer:
     serializedVersion: 2
     m_Bits: 32768
@@ -660,7 +659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Roll
+  - name: Roll Attack
     clip: {fileID: 8300000, guid: 532ca43c00d953f4e88d814996c29cb4, type: 3}
     volume: 1
     pitch: 1
@@ -706,6 +705,18 @@ MonoBehaviour:
     audioRolloffMode: 0
     source: {fileID: 0}
     audioMixerGroup: {fileID: -4078151621366864010, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Evaporate
+    clip: {fileID: 8300000, guid: 8a02276370404724f9e48e48b91a4969, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 1
+    maxDistanceSound: 500
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -4657409179708467759, guid: a7d93f51957be744b9a609504f63095f,
       type: 2}
     loop: 0
   enemyArraySounds: []

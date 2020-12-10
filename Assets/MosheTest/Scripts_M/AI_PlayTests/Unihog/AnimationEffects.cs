@@ -57,6 +57,16 @@ public class AnimationEffects :MonoBehaviour
         enemySoundManager.PlayOneSound("Idle 2");
     }
 
+    public void PlayEvaporateSound()
+    {
+        enemySoundManager.PlayOneSound("Evaporate");
+    }
+
+    public void PlayRollSound()
+    {
+        enemySoundManager.PlayOneSound("Roll Attack");
+    }
+
     
 
 

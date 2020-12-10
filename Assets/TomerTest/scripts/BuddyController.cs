@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using JSAM;
 using UnityEngine;
+using Random = System.Random;
 
 public class BuddyController : MonoBehaviour
 {
@@ -13,7 +14,8 @@ public class BuddyController : MonoBehaviour
     bool JustAttacked = false;
     int NumOfClicks = 0;
     float LastClickedTime = 0f;
-    float MaxComboDelay = 0.5f;
+    [SerializeField] private float MaxComboDelay = 0.3f;
+    [SerializeField] private float zCooldownTimer = 0.3f;
     [SerializeField] private Transform AttackTransform;
     [SerializeField]private Transform OGTransform;
     [SerializeField]float Speed = 1f;
@@ -40,6 +42,7 @@ public class BuddyController : MonoBehaviour
         SRenderer = GetComponent<SpriteRenderer>();
         PS = GetComponentInParent<PlayerStats>();
         playerCollisionCheck = GetComponentInParent<CollisionCheck>();
+        
     }
 
     private void Update()
@@ -50,6 +53,7 @@ public class BuddyController : MonoBehaviour
             Attack();
             MoveSpeed = Speed * Time.deltaTime;
         }
+        Anim.SetInteger("numbOfClicks", NumOfClicks);
     }
 
     public void flip()
@@ -96,9 +100,11 @@ public class BuddyController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Z) && !zCooldown && PS.DashStock < 1)
         {
+          
             LastClickedTime = Time.time;
             NumOfClicks++;
-            soundManager.PlayzButtonArray();
+            print(NumOfClicks);
+            
             SRenderer.sortingOrder = 10;
             Invoke("ResetSortingOrder", 0.7f);
             if(NumOfClicks == 1 && !zCooldown)
@@ -106,18 +112,21 @@ public class BuddyController : MonoBehaviour
                 print("enter 1st att");
                 Anim.SetBool("Attack1", true);
                 MoveToAttackPoint();
-                
+                soundManager.PlayzButtonArray();
                 Invoke("SetAttack1False", 0.1f);
                 Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position , 0.25f, AIlayer);//transform pos had +offset before. NEED TO CHECK IF ANYTHING CHANGED WITH ENEMY INTERACTION!!!!
-                
                 if (Enemy != null)
                 {
-                    //playerstats.IncreaseStamina();
                     soundManager.PlayOneSound("Z Absorbtion");
-                    Instantiate(EnemyParticle, AttackTransform.position, transform.rotation);
+                    playerstats.IncreaseStamina();
+                    /*
+                    GameObject extractWhite =  Instantiate(EnemyParticle, AttackTransform.position, transform.rotation);
+                    float randomScale;
+                    randomScale = UnityEngine.Random.Range(0.3f, 0.7f);
+                    extractWhite.transform.localScale = new Vector3(randomScale, randomScale, randomScale);
+                    */
                     if (Enemy.GetComponent<DeadUniHogTut>())
                     {
-                        print("takenhit");
                         FindObjectOfType<DeadUniHogTut>().numOfHitTaken++;
                     }
                 }
@@ -128,33 +137,44 @@ public class BuddyController : MonoBehaviour
             if (NumOfClicks == 2 && !zCooldown)
             {
                 print("enter 2nd att");
-                Anim.SetBool("Attack2", true);
                 Anim.SetBool("Attack1", false);
-                
+                Anim.SetBool("Attack2", true);
+                soundManager.PlayzButtonArray();
                 Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position, 0.25f, AIlayer);//transform pos had +offset before. NEED TO CHECK IF ANYTHING CHANGED WITH ENEMY INTERACTION!!!!
-                Invoke("SetAttack2False", 0.1f);
+                Invoke("SetAttack2False", 1f);
+
                 if(Enemy != null)
                 {
-                    Instantiate(EnemyParticle, AttackTransform.position, transform.rotation);
                     soundManager.PlayOneSound("Z Absorbtion");
-                   // playerstats.IncreaseStamina();
+                    playerstats.IncreaseStamina();
+                    /*
+                   GameObject extractWhite =  Instantiate(EnemyParticle, AttackTransform.position, transform.rotation);
+                   float randomScale;
+                   randomScale = UnityEngine.Random.Range(0.3f, 0.7f);
+                   extractWhite.transform.localScale = new Vector3(randomScale, randomScale, randomScale);
+                   */
                 }
             }
             if(NumOfClicks == 3 && !zCooldown)
             {
                 print("entered 3rd attack");
                 Anim.SetBool("Attack1", true);
-                
+                soundManager.PlayzButtonArray();
                 Invoke("SetAttack1False", 0.1f);
                 Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position , 0.25f, AIlayer);//transform pos had +offset before. NEED TO CHECK IF ANYTHING CHANGED WITH ENEMY INTERACTION!!!!
-
                 zCooldown = true;
-                Invoke("SetZCooldownToFalse", 0.3f);
+                Invoke("SetZCooldownToFalse", zCooldownTimer);
+                
                 if (Enemy != null)
                 {
-                    Instantiate(EnemyParticle, AttackTransform.position, transform.rotation);
-                   // playerstats.IncreaseStamina();
                     soundManager.PlayOneSound("Z Absorbtion");
+                    playerstats.IncreaseStamina();
+                    /*
+                   GameObject extractWhite =  Instantiate(EnemyParticle, AttackTransform.position, transform.rotation);
+                   float randomScale;
+                   randomScale = UnityEngine.Random.Range(0.3f, 0.7f);
+                   extractWhite.transform.localScale = new Vector3(randomScale, randomScale, randomScale);
+                   */
                     if (Enemy.GetComponent<DeadUniHogTut>())
                     {
                         print("takenhit");
@@ -182,7 +202,6 @@ public class BuddyController : MonoBehaviour
     private void SetAttack2False()
     {
         Anim.SetBool("Attack2", false);
-       // NumOfClicks = 0;
     }
 
     private void MoveToAttackPoint()
