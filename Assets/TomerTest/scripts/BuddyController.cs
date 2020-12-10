@@ -30,6 +30,7 @@ public class BuddyController : MonoBehaviour
     bool movedToAttackPoint = false;
     [SerializeField] private SoundManager soundManager;
     public bool playerIsDead = false;
+    [SerializeField] GameObject EnemyParticle;
     private void Awake()
     {
         soundManager = FindObjectOfType<SoundManager>();
@@ -111,13 +112,13 @@ public class BuddyController : MonoBehaviour
                 
                 if (Enemy != null)
                 {
-                    playerstats.IncreaseStamina();
+                    //playerstats.IncreaseStamina();
                     soundManager.PlayOneSound("Z Absorbtion");
+                    Instantiate(EnemyParticle, AttackTransform.position, transform.rotation);
                     if (Enemy.GetComponent<DeadUniHogTut>())
                     {
                         print("takenhit");
                         FindObjectOfType<DeadUniHogTut>().numOfHitTaken++;
-                        
                     }
                 }
                 
@@ -134,8 +135,9 @@ public class BuddyController : MonoBehaviour
                 Invoke("SetAttack2False", 0.1f);
                 if(Enemy != null)
                 {
+                    Instantiate(EnemyParticle, AttackTransform.position, transform.rotation);
                     soundManager.PlayOneSound("Z Absorbtion");
-                    playerstats.IncreaseStamina();
+                   // playerstats.IncreaseStamina();
                 }
             }
             if(NumOfClicks == 3 && !zCooldown)
@@ -150,13 +152,13 @@ public class BuddyController : MonoBehaviour
                 Invoke("SetZCooldownToFalse", 0.3f);
                 if (Enemy != null)
                 {
-                    playerstats.IncreaseStamina();
+                    Instantiate(EnemyParticle, AttackTransform.position, transform.rotation);
+                   // playerstats.IncreaseStamina();
                     soundManager.PlayOneSound("Z Absorbtion");
                     if (Enemy.GetComponent<DeadUniHogTut>())
                     {
                         print("takenhit");
                         FindObjectOfType<DeadUniHogTut>().numOfHitTaken++;
-                        
                     }
                 }
                 
