@@ -15,8 +15,9 @@ public class Unihog1Controller : MonoBehaviour
     [SerializeField] AnimationEffects effects;
     [SerializeField] GameObject HitPartical_ins;
     [SerializeField] float wiggleTimer;
+    [SerializeField] float chaseTimer;
     public bool isTurning = false;
-    public enum stateMachine { roming, attack,death,Flying,Wiggle };
+    public enum stateMachine { roming, attack, death, Flying, Wiggle, Chase};
     public stateMachine state;
     public GameObject target;
     public bool attacking = false;
@@ -29,19 +30,21 @@ public class Unihog1Controller : MonoBehaviour
     float ogMoveSpeed;
     EnemySoundManager enemySoundManager;
     [SerializeField] GameObject noseSmokeEffect;
+    [SerializeField] GameObject player;
+    [SerializeField] bool hasSpotedPlayer = false;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
         state = stateMachine.roming;
         ogMoveSpeed = moveSpeed;
         enemySoundManager = GetComponent<EnemySoundManager>();
-        
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+        print(hasSpotedPlayer);
         if (health <= 0)
         {
             state = stateMachine.death;
@@ -66,7 +69,7 @@ public class Unihog1Controller : MonoBehaviour
         switch (state)
         {
             case stateMachine.roming:
-                
+                chaseTimer = 0f;
                 moveSpeed = ogMoveSpeed;
                  attacking = false;
                 if (!isTurning)
@@ -149,6 +152,7 @@ public class Unihog1Controller : MonoBehaviour
                 break;
 
             case stateMachine.Wiggle:
+                chaseTimer = 0f;
                 noseSmokeEffect.SetActive(true);
                 print(transform.localScale.x);
                 isWiggleOn = true;
@@ -167,6 +171,55 @@ public class Unihog1Controller : MonoBehaviour
                 }
                 
 
+                break;
+
+            case stateMachine.Chase:
+                chaseTimer += Time.deltaTime;
+                print("in chase state");
+                moveSpeed = ogMoveSpeed;
+                attacking = false;
+                if (chaseTimer <= 5f)
+                {
+                    float dirXPlayer = player.transform.position.x - transform.position.x;
+                    if (!isTurning)
+                    {
+                        if (IsFacingRight() && dirXPlayer < transform.position.x)
+                        {
+                            rb2d.velocity = new Vector2(moveSpeed, 0);
+                            
+                            animator.SetBool("IsMoving", true);
+                            effects.didPlayRollDust = false;
+
+                        }
+                        else
+                        {
+                            rb2d.velocity = new Vector2(-moveSpeed, 0);
+                            animator.SetBool("IsMoving", true);
+                            effects.didPlayRollDust = false;
+                        }
+                    }
+                    else
+                    {
+                        rb2d.velocity = Vector2.zero;
+                        animator.SetBool("IsMoving", false);
+                    }
+                }
+                else
+                {
+
+                    state = stateMachine.roming;
+                }
+                /*
+                if (target == null)
+                {
+                    chaseTimer = 0f;
+                    state = stateMachine.roming;
+                }
+                else if()
+                {
+                    state = stateMachine.Wiggle;
+                }
+                */
                 break;
         }
     }
@@ -222,9 +275,11 @@ public class Unihog1Controller : MonoBehaviour
                 eyes_Range, eyes_Layer);
             if (hit2D.collider != null )
             {
-                if (hit2D.collider.CompareTag("Player") && !attacking)
+                
+                if (hit2D.collider.CompareTag("Player") && !attacking && state != stateMachine.Chase)
                 {
                     // print("see");
+                    hasSpotedPlayer = true;
                     RandomSec = Random.Range(wiggleMinTime, wiggleMaxTime);
                     target = hit2D.collider.gameObject;
                     enemySoundManager.PlayOneSound("Snore");
@@ -232,7 +287,7 @@ public class Unihog1Controller : MonoBehaviour
                 }
                
             }
-            else if (hit2D.collider == null && !isFlying && !isWiggleOn)
+            else if (hit2D.collider == null && !isFlying && !isWiggleOn && state != stateMachine.Chase)
             {
               //  print("CantSee");
                 moveSpeed = Mathf.Lerp(moveSpeed, 1f, 5f*Time.deltaTime);
@@ -254,7 +309,14 @@ public class Unihog1Controller : MonoBehaviour
             state = stateMachine.death;
             
         }
-       
+        if(hasSpotedPlayer && target == null)
+        {
+            state = stateMachine.Chase;
+            print("chasing");
+            hasSpotedPlayer = false;
+            
+        }
+     
 
     }
 
