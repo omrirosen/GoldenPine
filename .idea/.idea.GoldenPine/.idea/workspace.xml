@@ -23,8 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Buddy_controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Buddy_controller.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Player_2909.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Player_2909.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Combined Scene Eden Tests Mixer.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,83 +43,33 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorials/DashTutorial.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorials/JumpTutorial.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Checkpoints.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound Managers/BuddySoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound Managers/PlayerSoundManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorials/BubbleTutorial.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorials/WallSlideTutorial.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/BubbleParryAir_0.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySoundManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorials/WallSlideTutorial.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound Managers/BuddySoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.3.4/Runtime/Impulse/CinemachineImpulseSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Checkpoints.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Sound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tutorials/BubbleTutorial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Jacky's Simple Audio Manager/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySoundManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimationManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FadingGhost.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player3.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BetterJumping.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerCeleste.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/ShieldBubble.cs" />
-        <option value="$PROJECT_DIR$/Assets/Omri/Scripts/ShieldBubble1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Audio Manager/Scripts/Carter Games/Audio Manager/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CamShakeSimple.cs" />
-        <option value="$PROJECT_DIR$/Assets/Omri/Scripts/PlayerWithShield1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Parallax2.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ParallaxNoDuplication.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Parallax.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CloudManagerScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CloudScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/CloudGeneratorScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials/BubbleTutorial.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials/DashTutorial.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials/JumpTutorial.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Tutorials/WallSlideTutorial.cs" />
-        <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogController.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BlackDropFalling.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CollisionCheck.cs" />
-        <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogDMG.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/BuddySoundManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManagerNew.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/PlayerSoundManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Sounds.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ShieldBubble.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Sound Managers/ShieldSoundManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DestructableObjects.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/DestroyParryPop.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CheckPointSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Checkpoints.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerRespawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemySoundManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Sound.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWithShield.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
-        <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" />
-        <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/AnimationEffects.cs" />
-        <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/PlayerStats.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/DeadUniHogTut.cs" />
+      <option value="$PROJECT_DIR$/Assets/TomerTest/scripts/BuddyController.cs" />
+      <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1hrsTjL8BblhWitVKK5FjnLoeoE" />
   <component name="ProjectLevelVcsManager">
@@ -153,7 +110,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -162,7 +119,7 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -248,6 +205,7 @@
       <workItem from="1607535862350" duration="16000" />
       <workItem from="1607607137554" duration="6986000" />
       <workItem from="1607674540862" duration="160000" />
+      <workItem from="1608643247285" duration="4511000" />
     </task>
     <servers />
   </component>

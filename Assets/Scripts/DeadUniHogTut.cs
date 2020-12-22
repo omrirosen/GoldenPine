@@ -22,7 +22,7 @@ public class DeadUniHogTut : MonoBehaviour
     
     void HandleDeathAnimation()
     {
-        if (numOfHitTaken >= 2)
+        if (numOfHitTaken >= 999)
         {
             myBoxCollider.enabled = false;
             uniAnimator.SetBool("isDead", true);

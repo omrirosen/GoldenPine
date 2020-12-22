@@ -137,11 +137,12 @@ public class BuddyController : MonoBehaviour
             if (NumOfClicks == 2 && !zCooldown)
             {
                 print("enter 2nd att");
+                MoveToAttackPoint();
                 Anim.SetBool("Attack1", false);
                 Anim.SetBool("Attack2", true);
                 soundManager.PlayzButtonArray();
                 Collider2D Enemy = Physics2D.OverlapCircle((Vector2)transform.position, 0.25f, AIlayer);//transform pos had +offset before. NEED TO CHECK IF ANYTHING CHANGED WITH ENEMY INTERACTION!!!!
-                Invoke("SetAttack2False", 1f);
+                Invoke("SetAttack2False", 0.1f);
 
                 if(Enemy != null)
                 {
@@ -158,6 +159,7 @@ public class BuddyController : MonoBehaviour
             if(NumOfClicks == 3 && !zCooldown)
             {
                 print("entered 3rd attack");
+                MoveToAttackPoint();
                 Anim.SetBool("Attack1", true);
                 soundManager.PlayzButtonArray();
                 Invoke("SetAttack1False", 0.1f);
@@ -206,11 +208,11 @@ public class BuddyController : MonoBehaviour
 
     private void MoveToAttackPoint()
     {
-        if (!movedToAttackPoint)
-        {
+        //if (!movedToAttackPoint)
+        //{
             Self.transform.position = AttackTransform.position;
             movedToAttackPoint = true;
-        }
+       // }
     }
 
     private void BackToOGPos()

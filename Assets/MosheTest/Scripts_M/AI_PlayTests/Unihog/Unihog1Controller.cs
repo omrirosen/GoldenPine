@@ -169,10 +169,10 @@ public class Unihog1Controller : MonoBehaviour
                     state = stateMachine.attack;
                   //  enemySoundManager.PlayOneSound("Roll");   
                 }
-                
-
                 break;
 
+                
+            /*
             case stateMachine.Chase:
                 chaseTimer += Time.deltaTime;
                 print("in chase state");
@@ -220,7 +220,7 @@ public class Unihog1Controller : MonoBehaviour
                     state = stateMachine.Wiggle;
                 }
                 */
-                break;
+                
         }
     }
 
@@ -276,7 +276,7 @@ public class Unihog1Controller : MonoBehaviour
             if (hit2D.collider != null )
             {
                 
-                if (hit2D.collider.CompareTag("Player") && !attacking && state != stateMachine.Chase)
+                if (hit2D.collider.CompareTag("Player") && !attacking )
                 {
                     // print("see");
                     hasSpotedPlayer = true;
@@ -287,7 +287,7 @@ public class Unihog1Controller : MonoBehaviour
                 }
                
             }
-            else if (hit2D.collider == null && !isFlying && !isWiggleOn && state != stateMachine.Chase)
+            else if (hit2D.collider == null && !isFlying && !isWiggleOn  )
             {
               //  print("CantSee");
                 moveSpeed = Mathf.Lerp(moveSpeed, 1f, 5f*Time.deltaTime);
@@ -309,13 +309,7 @@ public class Unihog1Controller : MonoBehaviour
             state = stateMachine.death;
             
         }
-        if(hasSpotedPlayer && target == null)
-        {
-            state = stateMachine.Chase;
-            print("chasing");
-            hasSpotedPlayer = false;
-            
-        }
+        
      
 
     }
