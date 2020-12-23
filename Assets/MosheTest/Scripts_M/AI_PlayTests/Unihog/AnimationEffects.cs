@@ -33,13 +33,13 @@ public class AnimationEffects :MonoBehaviour
             {
                 GameObject temp = Instantiate(UnihogRollDust_ins, UnihogRollDust_position.position, Quaternion.identity);
                 temp.GetComponentInChildren<SpriteRenderer>().flipX = true;
-                print("facingRight");
+
             }
             else
             {
                 GameObject temp = Instantiate(UnihogRollDust_ins, UnihogRollDust_position.position, Quaternion.identity);
                 temp.GetComponentInChildren<SpriteRenderer>().flipX = false;
-                print("facingleft");
+                
             }
 
         }

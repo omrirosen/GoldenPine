@@ -17,7 +17,7 @@ public class Unihog1Controller : MonoBehaviour
     [SerializeField] float wiggleTimer;
     [SerializeField] float chaseTimer;
     public bool isTurning = false;
-    public enum stateMachine { roming, attack, death, Flying, Wiggle, Chase};
+    public enum stateMachine { roming, attack, death, Flying, Wiggle, Chase, Kick};
     public stateMachine state;
     public GameObject target;
     public bool attacking = false;
@@ -32,6 +32,8 @@ public class Unihog1Controller : MonoBehaviour
     [SerializeField] GameObject noseSmokeEffect;
     [SerializeField] GameObject player;
     [SerializeField] bool hasSpotedPlayer = false;
+    public bool kicking = false;
+    bool test = false;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -44,7 +46,7 @@ public class Unihog1Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(hasSpotedPlayer);
+      
         if (health <= 0)
         {
             state = stateMachine.death;
@@ -69,6 +71,7 @@ public class Unihog1Controller : MonoBehaviour
         switch (state)
         {
             case stateMachine.roming:
+                
                 chaseTimer = 0f;
                 moveSpeed = ogMoveSpeed;
                  attacking = false;
@@ -100,6 +103,7 @@ public class Unihog1Controller : MonoBehaviour
                 wiggleTimer = 0f;
                 attacking = true;
                 isWiggleOn = false;
+                
                 animator.SetBool("isAttacking", true);
                 animator.SetBool("IsWiggle", false);
                 transform.localScale = new Vector2((Mathf.Sign(rb2d.velocity.x)), transform.localScale.y);
@@ -126,6 +130,7 @@ public class Unihog1Controller : MonoBehaviour
                 attacking = false;
                 noseSmokeEffect.SetActive(false);
                 rb2d.velocity = Vector2.zero;
+                animator.SetBool("isKicking", false);
                 animator.SetBool("IsMoving", false);
                 animator.SetBool("isAttacking", false);
                 animator.SetBool("isDeath", true);
@@ -154,10 +159,11 @@ public class Unihog1Controller : MonoBehaviour
             case stateMachine.Wiggle:
                 chaseTimer = 0f;
                 noseSmokeEffect.SetActive(true);
-                print(transform.localScale.x);
+
                 isWiggleOn = true;
                 animator.speed = 1f;
-               animator.SetBool("IsMoving", false);
+                animator.SetBool("isKicking", false);
+                animator.SetBool("IsMoving", false);
                 animator.SetBool("isAttacking", false);
                 animator.SetBool("IsWiggle", true);
                 rb2d.velocity = Vector2.zero;
@@ -171,6 +177,19 @@ public class Unihog1Controller : MonoBehaviour
                 }
                 break;
 
+            case stateMachine.Kick:
+                
+                StartCoroutine("KickPlayer");
+                animator.SetBool("IsMoving", false);
+                animator.SetBool("isAttacking", false);
+                animator.SetBool("IsWiggle", false);
+                
+                target = null;
+                if(target = null)
+                {
+                    state = stateMachine.roming;
+                }
+                break;
                 
             /*
             case stateMachine.Chase:
@@ -276,7 +295,7 @@ public class Unihog1Controller : MonoBehaviour
             if (hit2D.collider != null )
             {
                 
-                if (hit2D.collider.CompareTag("Player") && !attacking )
+                if (hit2D.collider.CompareTag("Player") && !attacking && !isWiggleOn)
                 {
                     // print("see");
                     hasSpotedPlayer = true;
@@ -289,13 +308,13 @@ public class Unihog1Controller : MonoBehaviour
             }
             else if (hit2D.collider == null && !isFlying && !isWiggleOn  )
             {
-              //  print("CantSee");
+              print("CantSee");
                 moveSpeed = Mathf.Lerp(moveSpeed, 1f, 5f*Time.deltaTime);
                 animator.speed = Mathf.Lerp(moveSpeed, 1f, 5f * Time.deltaTime);
                 target = null;
                 animator.SetBool("isAttacking", false);
                 state = stateMachine.roming;
-               
+                print(animator.GetBool("isAttacking"));
             }
             else if (hit2D.collider == null && isFlying)
             {
@@ -325,5 +344,19 @@ public class Unihog1Controller : MonoBehaviour
     {
         state = stateMachine.roming;
     }
-   
+   public void NeedForKick()
+   {
+        
+        state = stateMachine.Kick;
+   }
+
+    private IEnumerator KickPlayer()
+    {
+
+        yield return new WaitForSeconds(1f);
+        kicking = true;
+        animator.SetBool("isKicking", true);
+      
+        
+    }
 }
