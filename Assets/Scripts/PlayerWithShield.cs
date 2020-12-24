@@ -78,7 +78,8 @@ public class PlayerWithShield : MonoBehaviour
     bool DashCharging = false;
     GameManager GM;
     public bool canPierceDash = false;
-    bool isUnderImpact = false; 
+    bool isUnderImpact = false;
+    [SerializeField] ParticleSystem dust;
     //[SerializeField] GameObject DustRun;
     [SerializeField] private GameObject whiteUiParticleEffect;
     bool wallSlideSoundIsPlaying = false;
@@ -316,6 +317,7 @@ public class PlayerWithShield : MonoBehaviour
       
       if (Input.GetButtonDown("Jump") && collisionCheck.onGround)
       {
+            CreateDust();
           soundManager.PlayOneSound("Jump");
          anim.SetTrigger("takeOff");
          isJumping = true;
@@ -659,5 +661,9 @@ public class PlayerWithShield : MonoBehaviour
         CanShield = true;
     }
 
+    public void CreateDust()
+    {
+        dust.Play();
+    }
 
 }

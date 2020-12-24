@@ -119,6 +119,10 @@ public class BuddyController : MonoBehaviour
                 {
                     soundManager.PlayOneSound("Z Absorbtion");
                     playerstats.IncreaseStamina();
+                    if (Enemy.GetComponent<Unihog1Controller>())
+                    {
+                        Enemy.GetComponent<Unihog1Controller>().TurnToPlayer();
+                    }
                     /*
                     GameObject extractWhite =  Instantiate(EnemyParticle, AttackTransform.position, transform.rotation);
                     float randomScale;

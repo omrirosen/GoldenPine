@@ -283,8 +283,16 @@ public class Unihog1Controller : MonoBehaviour
         yield return new WaitForSeconds(0.3f);  
         isTurning = false;
         animator.SetBool("IsTurning", isTurning);
+   }
+    public void TurnToPlayer()
+    {
+        if (!isTurning && target == null)
+        {
+            // print(collision.tag);
+            StartCoroutine(Turn());
+            transform.localScale = new Vector2(-(Mathf.Sign(rb2d.velocity.x)), transform.localScale.y);
+        }
     }
-
     private void LookForTarget()
     {
 
@@ -308,7 +316,7 @@ public class Unihog1Controller : MonoBehaviour
             }
             else if (hit2D.collider == null && !isFlying && !isWiggleOn  )
             {
-              print("CantSee");
+
                 moveSpeed = Mathf.Lerp(moveSpeed, 1f, 5f*Time.deltaTime);
                 animator.speed = Mathf.Lerp(moveSpeed, 1f, 5f * Time.deltaTime);
                 target = null;
