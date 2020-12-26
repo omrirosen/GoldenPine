@@ -34,6 +34,9 @@ public class Unihog1Controller : MonoBehaviour
     [SerializeField] bool hasSpotedPlayer = false;
     public bool kicking = false;
     bool test = false;
+    float targetLastSeen_posX;
+
+
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -192,54 +195,39 @@ public class Unihog1Controller : MonoBehaviour
                 }
                 break;
                 
-            /*
+            
             case stateMachine.Chase:
-                chaseTimer += Time.deltaTime;
-                print("in chase state");
-                moveSpeed = ogMoveSpeed;
                 attacking = false;
-                if (chaseTimer <= 5f)
+                chaseTimer += Time.deltaTime;
+                if (chaseTimer <= 2f)
                 {
-                    float dirXPlayer = player.transform.position.x - transform.position.x;
-                    if (!isTurning)
-                    {
-                        if (IsFacingRight() && dirXPlayer < transform.position.x)
+              
+                        moveSpeed = 1f;
+                        float positionX = targetLastSeen_posX - transform.position.x;
+                        if (transform.position.x > positionX)
                         {
-                            rb2d.velocity = new Vector2(moveSpeed, 0);
-                            
+                            transform.localScale = new Vector2((Mathf.Sign(rb2d.velocity.x)), transform.localScale.y);
+                        }
+
+                        print(positionX);
+                        if (Mathf.Abs(positionX) > 0.002)
+                        {
+                            rb2d.velocity = new Vector2(positionX, 0).normalized * moveSpeed;
                             animator.SetBool("IsMoving", true);
                             effects.didPlayRollDust = false;
 
                         }
-                        else
-                        {
-                            rb2d.velocity = new Vector2(-moveSpeed, 0);
-                            animator.SetBool("IsMoving", true);
-                            effects.didPlayRollDust = false;
-                        }
-                    }
-                    else
-                    {
-                        rb2d.velocity = Vector2.zero;
-                        animator.SetBool("IsMoving", false);
-                    }
+  
                 }
                 else
                 {
+                    moveSpeed = -moveSpeed;
+                    target = null;
+                    hasSpotedPlayer = false;
+                }
 
-                    state = stateMachine.roming;
-                }
-                /*
-                if (target == null)
-                {
-                    chaseTimer = 0f;
-                    state = stateMachine.roming;
-                }
-                else if()
-                {
-                    state = stateMachine.Wiggle;
-                }
-                */
+                break;
+
                 
         }
     }
@@ -270,6 +258,7 @@ public class Unihog1Controller : MonoBehaviour
         
         if (!isTurning && collision.tag=="TileMapCollider")
         {
+            chaseTimer = 6;
            // print(collision.tag);
             StartCoroutine(Turn());
             transform.localScale = new Vector2(-(Mathf.Sign(rb2d.velocity.x)), transform.localScale.y);
@@ -317,13 +306,23 @@ public class Unihog1Controller : MonoBehaviour
             }
             else if (hit2D.collider == null && !isFlying && !isWiggleOn  )
             {
-
+                
+                if (target != null && hasSpotedPlayer)
+                {
+                    animator.SetBool("isAttacking", false);
+                    targetLastSeen_posX = target.transform.position.x;
+                    state = stateMachine.Chase;
+                    return;
+                }
+                chaseTimer = 0;
                 moveSpeed = Mathf.Lerp(moveSpeed, 1f, 5f*Time.deltaTime);
                 animator.speed = Mathf.Lerp(moveSpeed, 1f, 5f * Time.deltaTime);
-                target = null;
                 animator.SetBool("isAttacking", false);
+                
+
                 state = stateMachine.roming;
-                print(animator.GetBool("isAttacking"));
+               // print(animator.GetBool("isAttacking"));
+                
             }
             else if (hit2D.collider == null && isFlying)
             {
