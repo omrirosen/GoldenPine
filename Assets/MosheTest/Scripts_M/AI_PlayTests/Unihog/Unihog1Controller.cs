@@ -108,7 +108,7 @@ public class Unihog1Controller : MonoBehaviour
                 animator.SetBool("IsWiggle", false);
                 transform.localScale = new Vector2((Mathf.Sign(rb2d.velocity.x)), transform.localScale.y);
                     float dirX = target.transform.position.x - transform.position.x;
-                    if (Mathf.Abs(dirX) > 0.2f)
+                    if (Mathf.Abs(dirX) > 0.002f)
                     {
                         rb2d.velocity = (new Vector2(dirX, 0).normalized * moveSpeed );
                         MaxRollSpeed(rb2d);
@@ -119,6 +119,7 @@ public class Unihog1Controller : MonoBehaviour
                     animator.speed= Mathf.Lerp(moveSpeed, 1f, 5f * Time.deltaTime);
                     //print("reach target");
                     animator.SetBool("isAttacking", false);
+
                     }
                 
                 
