@@ -83,6 +83,7 @@ public class PlayerWithShield : MonoBehaviour
     //[SerializeField] GameObject DustRun;
     [SerializeField] private GameObject whiteUiParticleEffect;
     bool wallSlideSoundIsPlaying = false;
+    [SerializeField] ParticleSystem leafPatricle;
     private void Awake()
     {
       rb = GetComponent<Rigidbody2D>();
@@ -666,4 +667,8 @@ public class PlayerWithShield : MonoBehaviour
         dust.Play();
     }
 
+    public void CreateLeavs()
+    {
+        leafPatricle.Play();
+    }
 }

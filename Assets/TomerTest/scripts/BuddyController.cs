@@ -121,7 +121,7 @@ public class BuddyController : MonoBehaviour
                     playerstats.IncreaseStamina();
                     if (Enemy.GetComponent<Unihog1Controller>())
                     {
-                        Enemy.GetComponent<Unihog1Controller>().TurnToPlayer();
+                       Enemy.GetComponent<Unihog1Controller>().TurnToPlayer();
                     }
                     /*
                     GameObject extractWhite =  Instantiate(EnemyParticle, AttackTransform.position, transform.rotation);

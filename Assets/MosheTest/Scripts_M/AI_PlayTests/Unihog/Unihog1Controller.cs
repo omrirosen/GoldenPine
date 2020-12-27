@@ -35,7 +35,7 @@ public class Unihog1Controller : MonoBehaviour
     public bool kicking = false;
     bool test = false;
     float targetLastSeen_posX;
-
+    [SerializeField] GameObject Twinkle;
 
     void Start()
     {
@@ -118,10 +118,10 @@ public class Unihog1Controller : MonoBehaviour
                     }
                     else
                     {
-                    moveSpeed = Mathf.Lerp(moveSpeed, 1f, 5f * Time.deltaTime);
-                    animator.speed= Mathf.Lerp(moveSpeed, 1f, 5f * Time.deltaTime);
-                    //print("reach target");
-                    animator.SetBool("isAttacking", false);
+                        moveSpeed = Mathf.Lerp(moveSpeed, 1f, 5f * Time.deltaTime);
+                        animator.speed= Mathf.Lerp(moveSpeed, 1f, 5f * Time.deltaTime);
+                   
+                        animator.SetBool("isAttacking", false);
 
                     }
                 
@@ -157,7 +157,7 @@ public class Unihog1Controller : MonoBehaviour
 
             case stateMachine.Flying:
                 animator.Play("Unihog_NewRoll_Left");
-
+                attacking = false;
                 break;
 
             case stateMachine.Wiggle:
@@ -172,12 +172,16 @@ public class Unihog1Controller : MonoBehaviour
                 animator.SetBool("IsWiggle", true);
                 rb2d.velocity = Vector2.zero;
                 wiggleTimer += Time.deltaTime;
-                if (wiggleTimer >= RandomSec)
+                if (wiggleTimer >= RandomSec - 0.3f)
                 {
-                    noseSmokeEffect.SetActive(false);
-                    //attacking = true;
-                    state = stateMachine.attack;
-                  //  enemySoundManager.PlayOneSound("Roll");   
+                    Twinkle.SetActive(true);
+                    if (wiggleTimer >= RandomSec)
+                    {
+                        noseSmokeEffect.SetActive(false);
+                        Twinkle.SetActive(false);
+                        state = stateMachine.attack;
+                           
+                    }
                 }
                 break;
 
@@ -259,7 +263,7 @@ public class Unihog1Controller : MonoBehaviour
         if (!isTurning && collision.tag=="TileMapCollider")
         {
             chaseTimer = 6;
-           // print(collision.tag);
+            print(collision.tag);
             StartCoroutine(Turn());
             transform.localScale = new Vector2(-(Mathf.Sign(rb2d.velocity.x)), transform.localScale.y);
         }
@@ -267,7 +271,7 @@ public class Unihog1Controller : MonoBehaviour
     
 
    public IEnumerator Turn()
-    {
+   {
         isTurning = true;
         animator.SetBool("IsTurning", isTurning);
         yield return new WaitForSeconds(0.3f);  
