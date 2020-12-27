@@ -159,6 +159,8 @@
             <e p="JumpTutorial.cs" t="Include" />
             <e p="WallSlideTutorial.cs" t="Include" />
           </e>
+          <e p="UnihogKick.cs" t="Include" />
+          <e p="UnihogKickDetection.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">
