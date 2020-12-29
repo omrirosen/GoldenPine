@@ -645,6 +645,7 @@ public class PlayerWithShield : MonoBehaviour
         anim.SetBool("IsDashAttack", false);
         anim.SetBool("FacingRight", false);
         anim.SetBool("IsUnderImpact", false);
+        anim.SetBool("IsWhite", false);
         Buddy.BuddyDie();
         
        
