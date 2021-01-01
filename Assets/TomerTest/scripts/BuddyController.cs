@@ -33,6 +33,7 @@ public class BuddyController : MonoBehaviour
     [SerializeField] private SoundManager soundManager;
     public bool playerIsDead = false;
     [SerializeField] GameObject EnemyParticle;
+    [SerializeField] int dmg;
     private void Awake()
     {
         soundManager = FindObjectOfType<SoundManager>();
@@ -122,6 +123,7 @@ public class BuddyController : MonoBehaviour
                     if (Enemy.GetComponent<Unihog1Controller>())
                     {
                        Enemy.GetComponent<Unihog1Controller>().TurnToPlayer();
+                       Enemy.GetComponent<Unihog1Controller>().killme(dmg);
                     }
                     /*
                     GameObject extractWhite =  Instantiate(EnemyParticle, AttackTransform.position, transform.rotation);

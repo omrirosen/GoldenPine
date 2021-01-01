@@ -585,7 +585,7 @@ public class PlayerWithShield : MonoBehaviour
 
     
    private void OnTriggerEnter2D(Collider2D collision)
-    {
+   {
 
         if (collision.gameObject.tag == "Enemy")
         {
@@ -599,9 +599,22 @@ public class PlayerWithShield : MonoBehaviour
             }
         }
        
-    }
+   }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy")
+        {
 
-   private void OnCollisionStay2D(Collision2D other)
+            if (PS.DashAttacked == true)
+            {
+                soundManager.PlayOneSound("Hit Enemy");
+                collision.gameObject.GetComponent<UnihogGettingHit>()?.killMe(dmg);
+                collision.gameObject.GetComponent<HornyHogTakeDmg>()?.TakeDMG(dmg);
+
+            }
+        }
+    }
+    private void OnCollisionStay2D(Collision2D other)
    {
       if (other.gameObject.tag == "Enemy")
       {

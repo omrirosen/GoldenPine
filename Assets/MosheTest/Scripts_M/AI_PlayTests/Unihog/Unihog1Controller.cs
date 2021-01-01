@@ -36,7 +36,7 @@ public class Unihog1Controller : MonoBehaviour
     bool test = false;
     float targetLastSeen_posX;
     [SerializeField] GameObject Twinkle;
-
+    [SerializeField] ParticleSystem leafParticle;
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -64,9 +64,11 @@ public class Unihog1Controller : MonoBehaviour
         LookForTarget();
         if (isFlying)
         {
+            leafParticle.Stop();
             state = stateMachine.Flying;
         }
-
+        FaceTarget();
+        
     }
 
     private void StateMachineControll()
@@ -74,7 +76,7 @@ public class Unihog1Controller : MonoBehaviour
         switch (state)
         {
             case stateMachine.roming:
-                
+                leafParticle.Stop();
                 chaseTimer = 0f;
                 moveSpeed = ogMoveSpeed;
                  attacking = false;
@@ -129,7 +131,8 @@ public class Unihog1Controller : MonoBehaviour
 
                 break;
             case stateMachine.death:
-                
+                leafParticle.Stop();
+                target = null;
                 float deathloop = animator.GetFloat("DeatLoop");
                 attacking = false;
                 noseSmokeEffect.SetActive(false);
@@ -161,6 +164,7 @@ public class Unihog1Controller : MonoBehaviour
                 break;
 
             case stateMachine.Wiggle:
+                leafParticle.Stop();
                 chaseTimer = 0f;
                 noseSmokeEffect.SetActive(true);
 
@@ -180,7 +184,7 @@ public class Unihog1Controller : MonoBehaviour
                         noseSmokeEffect.SetActive(false);
                         Twinkle.SetActive(false);
                         state = stateMachine.attack;
-                           
+                        leafParticle.Play();
                     }
                 }
                 break;
@@ -201,6 +205,7 @@ public class Unihog1Controller : MonoBehaviour
                 
             
             case stateMachine.Chase:
+                leafParticle.Stop();
                 attacking = false;
                 chaseTimer += Time.deltaTime;
                 if (chaseTimer <= 2f)
@@ -213,7 +218,7 @@ public class Unihog1Controller : MonoBehaviour
                             transform.localScale = new Vector2((Mathf.Sign(rb2d.velocity.x)), transform.localScale.y);
                         }
 
-                        print(positionX);
+                        
                         if (Mathf.Abs(positionX) > 0.002)
                         {
                             rb2d.velocity = new Vector2(positionX, 0).normalized * moveSpeed;
@@ -290,7 +295,7 @@ public class Unihog1Controller : MonoBehaviour
     private void LookForTarget()
     {
 
-        if (rb2d != null || health > 0)
+        if (rb2d != null && health > 0)
         {
             RaycastHit2D hit2D = Physics2D.Raycast(transform.position + offset, transform.TransformDirection(rb2d.velocity),
                 eyes_Range, eyes_Layer);
@@ -350,6 +355,7 @@ public class Unihog1Controller : MonoBehaviour
     {
         health -= dmg;
         var temp = Instantiate(HitPartical_ins, transform.position, Quaternion.identity);
+        print(health);
     }
 
     public void JustAttacked()
@@ -364,11 +370,24 @@ public class Unihog1Controller : MonoBehaviour
 
     private IEnumerator KickPlayer()
     {
-
         yield return new WaitForSeconds(1f);
         kicking = true;
         animator.SetBool("isKicking", true);
-      
-        
+    }
+
+    private void FaceTarget()
+    {
+        if(target != null)
+        {
+            
+            if (transform.position.x > target.transform.position.x)
+            {
+                transform.localScale = new Vector2(-1, 1);
+            }
+            else
+            {
+                transform.localScale = new Vector2(1, 1);
+            }
+        }
     }
 }
