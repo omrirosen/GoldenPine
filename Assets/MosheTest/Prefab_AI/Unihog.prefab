@@ -5460,8 +5460,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5412783622459689585}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.57, y: -1.02, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -7.57, y: -8.324, z: 0}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
   - {fileID: 5412783621431076576}
   - {fileID: 505488983}
@@ -5562,6 +5562,7 @@ MonoBehaviour:
   kicking: 0
   Twinkle: {fileID: 297557745}
   leafParticle: {fileID: 1878902924}
+  uniSpawner: {fileID: 0}
 --- !u!114 &2006446233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5581,7 +5582,7 @@ MonoBehaviour:
   ground_Layer:
     serializedVersion: 2
     m_Bits: 512
-  originalY: -3.305
+  originalY: -8.324
   doTweenLayer:
     serializedVersion: 2
     m_Bits: 32768
