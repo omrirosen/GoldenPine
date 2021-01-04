@@ -44,7 +44,10 @@ public class Unihog1Controller : MonoBehaviour
     }
     void Start()
     {
-        uniSpawner.numOfUnihogs++;
+        if (uniSpawner != null)
+        {
+            uniSpawner.numOfUnihogs++;
+        }
         rb2d = GetComponent<Rigidbody2D>();
         state = stateMachine.roming;
         ogMoveSpeed = moveSpeed;
@@ -160,7 +163,10 @@ public class Unihog1Controller : MonoBehaviour
                 }
                 if(deathloop>=3.5f)
                 {
-                    uniSpawner.numOfUnihogs--;
+                    if (uniSpawner != null)
+                    {
+                        uniSpawner.numOfUnihogs--;
+                    }
                     Destroy(gameObject);
                 }
                 break;
