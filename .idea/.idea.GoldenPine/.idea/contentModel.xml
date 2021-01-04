@@ -161,6 +161,7 @@
           </e>
           <e p="UnihogKick.cs" t="Include" />
           <e p="UnihogKickDetection.cs" t="Include" />
+          <e p="UniSpawner.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">
