@@ -5582,7 +5582,7 @@ MonoBehaviour:
   ground_Layer:
     serializedVersion: 2
     m_Bits: 512
-  originalY: -8.324
+  originalY: 0.3383666
   doTweenLayer:
     serializedVersion: 2
     m_Bits: 32768
@@ -5606,7 +5606,7 @@ MonoBehaviour:
   dMG: {fileID: 505488984}
   raylayer:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 16896
 --- !u!70 &633323595
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
