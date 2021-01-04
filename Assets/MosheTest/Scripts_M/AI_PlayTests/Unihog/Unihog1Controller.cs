@@ -37,16 +37,16 @@ public class Unihog1Controller : MonoBehaviour
     float targetLastSeen_posX;
     [SerializeField] GameObject Twinkle;
     [SerializeField] ParticleSystem leafParticle;
-    [SerializeField] UniSpawner uniSpawner;
+    [SerializeField] EnemySpawner enemySpawner;
     private void Awake()
     {
-        uniSpawner = FindObjectOfType<UniSpawner>();
+        enemySpawner = FindObjectOfType<EnemySpawner>();
     }
     void Start()
     {
-        if (uniSpawner != null)
+        if (enemySpawner != null)
         {
-            uniSpawner.numOfUnihogs++;
+            enemySpawner.numbOfEnemies++;
         }
         rb2d = GetComponent<Rigidbody2D>();
         state = stateMachine.roming;
@@ -163,9 +163,9 @@ public class Unihog1Controller : MonoBehaviour
                 }
                 if(deathloop>=3.5f)
                 {
-                    if (uniSpawner != null)
+                    if (enemySpawner != null)
                     {
-                        uniSpawner.numOfUnihogs--;
+                        enemySpawner.numbOfEnemies--;
                     }
                     Destroy(gameObject);
                 }

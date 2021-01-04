@@ -45,7 +45,7 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.32044983, y: 0.43031955}
+  m_Offset: {x: 0, y: 0.43031955}
   m_Size: {x: 0.59155273, y: 0.9999995}
   m_Direction: 0
 --- !u!114 &1593570899
@@ -72,6 +72,7 @@ GameObject:
   - component: {fileID: 5238089192043708507}
   - component: {fileID: 5238089192043708506}
   - component: {fileID: 5238089192043708505}
+  - component: {fileID: 424280483}
   m_Layer: 11
   m_Name: HornyHog
   m_TagString: Enemy
@@ -110,7 +111,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.45}
+  m_Offset: {x: -0.53953564, y: 0.45}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -121,7 +122,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.59, y: 0.9}
+  m_Size: {x: 0.5617129, y: 0.9}
   m_EdgeRadius: 0
 --- !u!114 &5238089192043708505
 MonoBehaviour:
@@ -142,9 +143,35 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   hogDMG: {fileID: 5238089193216047974}
-  health: 2
+  health: 200
   HitPartical_ins: {fileID: 8679130280484342764, guid: 5c3f8fd6eeef3e7489c8ffaee431c7b8,
     type: 3}
+  moveSpeed: 0
+  isAttacking: 0
+  circleRadius: 10
+  closeRangeRadius: 2.08
+  state: 0
+--- !u!50 &424280483
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5238089192043708508}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 6
 --- !u!1 &5238089192598306450
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,7 +260,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5238089193216047995}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.33, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5238089192043708507}
@@ -322,7 +349,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.45247602, y: 0.4700927}
+  m_Offset: {x: -0.40221798, y: 0.4700927}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -333,7 +360,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.77352715, y: 0.8145422}
+  m_Size: {x: 0.7769952, y: 1.0164766}
   m_EdgeRadius: 0
 --- !u!114 &5238089193216047974
 MonoBehaviour:

@@ -16,7 +16,9 @@ public class HornyHogController : MonoBehaviour
     private bool isDeath = false;
     private float deathTime = 0;
     [SerializeField] private float moveSpeed;
-    private bool isAttacking;
+    public bool isAttacking;
+    private EnemySpawner enemySpawner;
+
     
     //Circle Config
     [SerializeField] private float circleRadius;
@@ -33,26 +35,32 @@ public class HornyHogController : MonoBehaviour
     {
         animator = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        enemySpawner = FindObjectOfType<EnemySpawner>();
+        snapToCorrectY();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        state = StateMachine.Idle;
+        state = StateMachine.Chase;
+        enemySpawner.numbOfEnemies++;
     }
 
     // Update is called once per frame
     void Update()
     {
-        LookForPlayer();
-        FaceTarget();
+        if (!isDeath)
+        {
+            LookForPlayer();
+            FaceTarget();
+        }
         StateMachineControll();
         if (health <= 0 && !isDeath)
         {
             isDeath = true;
             state = StateMachine.Death;
         }
-        print(state);
+        
     }
 
     public void StateMachineControll()
@@ -82,7 +90,7 @@ public class HornyHogController : MonoBehaviour
         }
     }
 
-
+/*
     public void IdleState()
     {
         animator.SetBool("IsAttacking", false);
@@ -116,8 +124,8 @@ public class HornyHogController : MonoBehaviour
                 }
             }
         }
-
     }
+    */
 
     public void LookForPlayer()
     {
@@ -127,50 +135,72 @@ public class HornyHogController : MonoBehaviour
             if (player != null)
             {
                 target = player.transform;
-                state = StateMachine.Chase;
             }
         }
-        
-        
     }
 
     public void Chase()
     {
+        
         isAttacking = false;
         moveSpeed = 1f;
-        float positionX = target.position.x - transform.position.x;
-        if (transform.position.x > positionX)
+        animator.SetBool("IsMoving", true);
+        if (target != null)
         {
-            transform.localScale = new Vector2((Mathf.Sign(rb.velocity.x)), transform.localScale.y);
-        }
-        if (Mathf.Abs(positionX) > 0.2)
-        {
-            rb.velocity = new Vector2(positionX, 0).normalized * moveSpeed;
-        }
-        
-        
-        Collider2D playerInCloseRange = Physics2D.OverlapCircle(transform.position, closeRangeRadius, eyes_Layer);
-        if (playerInCloseRange)
-        {
-            if (CanAttack(playerInCloseRange.transform))
+            float positionX = target.position.x - transform.position.x;
+            if (Mathf.Abs(positionX) > 0.2f)
             {
-                state = StateMachine.Attack;
+                rb.velocity = new Vector2(positionX, 0).normalized * moveSpeed;
             }
-            
-        }
         
+            if(IsFachingRight())
+            {
+                RaycastHit2D hit = Physics2D.Raycast(eyes_Transform.position, transform.TransformDirection(Vector2.right),
+                    eyes_Range, eyes_Layer);
+                Debug.DrawRay(eyes_Transform.position, transform.TransformDirection(Vector2.right) * eyes_Range, Color.blue);
+                if(hit.collider!=null)
+                {
+                    // print("I see You");
+                    if( CanAttack(hit.transform))
+                    {
+                        target = hit.transform;
+                        state = StateMachine.Attack;
+                    }
+                }
+            }
+            else
+            {
+                RaycastHit2D hit = Physics2D.Raycast(eyes_Transform.position, transform.TransformDirection(Vector2.left),
+                    eyes_Range, eyes_Layer);
+                Debug.DrawRay(eyes_Transform.position, transform.TransformDirection(Vector2.left) * eyes_Range, Color.blue);
+                if (hit.collider != null)
+                {
+                    //  print("I see You");
+                    if (CanAttack(hit.transform))
+                    {
+                        target = hit.transform;
+                        state = StateMachine.Attack;
+                    }
+                }
+            }
+        }
+        else
+        {
+            state = StateMachine.Chase;
+        }
     }
 
     public void AttackState()
     {
-        moveSpeed = 0;
-        isAttacking = true;
+        rb.velocity = Vector2.zero;
+        //isAttacking = true;
+        animator.SetBool("IsMoving", false);
         animator.SetBool("IsAttacking", true);
         hogDMG.IsFachingRight = IsFachingRight();
         if (!CanAttack(target))
         {
             animator.SetBool("IsAttacking", false);
-            hogDMG.isActive = false;
+            //hogDMG.isActive = false;
             state = StateMachine.Chase;
         }
         
@@ -180,6 +210,7 @@ public class HornyHogController : MonoBehaviour
     {
         animator.SetBool("IsAttacking", false);
         animator.SetBool("IsDeath", true);
+        animator.SetBool("IsMoving", false);
         if(deathTime<=0.7f)
         {
             deathTime += Time.deltaTime;
@@ -190,8 +221,12 @@ public class HornyHogController : MonoBehaviour
             animator.SetFloat("DeathTime", 0.8f);
         }
         
-        else if(deathTime >=10f)
+        else if(deathTime >=4f)
         {
+            if (enemySpawner != null)
+            {
+                enemySpawner.numbOfEnemies--;
+            }
             Destroy(gameObject);
         }
 
@@ -230,15 +265,14 @@ public class HornyHogController : MonoBehaviour
     {
         if(target != null)
         {
-            
-            if (transform.position.x > target.transform.position.x)
+
+            if (transform.position.x < target.transform.position.x)
             {
-                transform.localScale = new Vector2(1, 1);
+                transform.localScale = new Vector2(-1, 1);
             }
             else
             {
-                
-                transform.localScale = new Vector2(-1, 1);
+                transform.localScale = new Vector2(1, 1);
             }
         }
     }
@@ -248,6 +282,11 @@ public class HornyHogController : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere((Vector2)transform.position, closeRangeRadius);
         Gizmos.DrawWireSphere((Vector2) transform.position, circleRadius);
+    }
+
+    private void snapToCorrectY()
+    {
+        transform.position = new Vector2(transform.position.x, 0.363f);
     }
  
 }
