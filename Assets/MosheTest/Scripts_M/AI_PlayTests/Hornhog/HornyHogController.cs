@@ -215,18 +215,22 @@ public class HornyHogController : MonoBehaviour
         {
             deathTime += Time.deltaTime;
         }
-        else if(deathTime > 0.7f && deathTime < 8f)
+        if(deathTime > 0.7f && deathTime < 8f)
         {
             deathTime += Time.deltaTime;
             animator.SetFloat("DeathTime", 0.8f);
         }
-        
-        else if(deathTime >=4f)
+         if (deathTime >= 3f)
+        {
+            animator.SetBool("Evaporate", true);
+        }
+        if(deathTime >= 3.8f)
         {
             if (enemySpawner != null)
             {
                 enemySpawner.numbOfEnemies--;
             }
+
             Destroy(gameObject);
         }
 
@@ -257,7 +261,7 @@ public class HornyHogController : MonoBehaviour
             health -= dmg;
             var temp = Instantiate(HitPartical_ins, transform.position, Quaternion.identity);
         }
-        print("TakeDMG");
+
        
     }
     

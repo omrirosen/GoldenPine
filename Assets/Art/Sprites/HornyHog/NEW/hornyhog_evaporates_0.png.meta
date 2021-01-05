@@ -1,0 +1,920 @@
+fileFormatVersion: 2
+guid: d59246cd6a5ffdc4b946eb7e1680e7c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2819606195941050925
+    second: hornyhog_evaporates_0_0
+  - first:
+      213: -7379736849730731989
+    second: hornyhog_evaporates_0_1
+  - first:
+      213: 2078282728263058664
+    second: hornyhog_evaporates_0_2
+  - first:
+      213: -4508975030132050925
+    second: hornyhog_evaporates_0_3
+  - first:
+      213: 3211216603383395582
+    second: hornyhog_evaporates_0_4
+  - first:
+      213: 386767728912268484
+    second: hornyhog_evaporates_0_5
+  - first:
+      213: 574975223965964406
+    second: hornyhog_evaporates_0_6
+  - first:
+      213: 3869687149122201820
+    second: hornyhog_evaporates_0_7
+  - first:
+      213: 7110722705840986717
+    second: hornyhog_evaporates_0_8
+  - first:
+      213: 8303965584132238760
+    second: hornyhog_evaporates_0_9
+  - first:
+      213: 182645837543073576
+    second: hornyhog_evaporates_0_10
+  - first:
+      213: -21711753950193474
+    second: hornyhog_evaporates_0_11
+  - first:
+      213: -3782374932112010696
+    second: hornyhog_evaporates_0_12
+  - first:
+      213: 8675399057600681238
+    second: hornyhog_evaporates_0_13
+  - first:
+      213: 8628299591441585652
+    second: hornyhog_evaporates_0_14
+  - first:
+      213: 5300959591716303559
+    second: hornyhog_evaporates_0_15
+  - first:
+      213: 442652465027491153
+    second: hornyhog_evaporates_0_16
+  - first:
+      213: 7714674812158810340
+    second: hornyhog_evaporates_0_17
+  - first:
+      213: 3501568739421869026
+    second: hornyhog_evaporates_0_18
+  - first:
+      213: 4019850393498825802
+    second: hornyhog_evaporates_0_19
+  - first:
+      213: -7650482359787612797
+    second: hornyhog_evaporates_0_20
+  - first:
+      213: -2079944159562972301
+    second: hornyhog_evaporates_0_21
+  - first:
+      213: 5798699827908132103
+    second: hornyhog_evaporates_0_22
+  - first:
+      213: 1267686481459117446
+    second: hornyhog_evaporates_0_23
+  - first:
+      213: -8531728289307878851
+    second: hornyhog_evaporates_0_24
+  - first:
+      213: -6932376622223603963
+    second: hornyhog_evaporates_0_25
+  - first:
+      213: 8947186207282106313
+    second: hornyhog_evaporates_0_26
+  - first:
+      213: -5281959871636687378
+    second: hornyhog_evaporates_0_27
+  - first:
+      213: -1219110888183124534
+    second: hornyhog_evaporates_0_0
+  - first:
+      213: 6263060602551474109
+    second: hornyhog_evaporates_0_1
+  - first:
+      213: -2318725083726986539
+    second: hornyhog_evaporates_0_2
+  - first:
+      213: -859213051195493388
+    second: hornyhog_evaporates_0_3
+  - first:
+      213: 8782224500067608814
+    second: hornyhog_evaporates_0_4
+  - first:
+      213: -515077425349093928
+    second: hornyhog_evaporates_0_5
+  - first:
+      213: -2177375637340221008
+    second: hornyhog_evaporates_0_6
+  - first:
+      213: 5674209653146400210
+    second: hornyhog_evaporates_0_7
+  - first:
+      213: -2604860582357044417
+    second: hornyhog_evaporates_0_8
+  - first:
+      213: 2608587702088372205
+    second: hornyhog_evaporates_0_9
+  - first:
+      213: -3196543080996695417
+    second: hornyhog_evaporates_0_10
+  - first:
+      213: 8738231027976060856
+    second: hornyhog_evaporates_0_11
+  - first:
+      213: -5610920667151928736
+    second: hornyhog_evaporates_0_12
+  - first:
+      213: -8576489884143064242
+    second: hornyhog_evaporates_0_13
+  - first:
+      213: -4817865272175102415
+    second: hornyhog_evaporates_0_14
+  - first:
+      213: 8881405102512704086
+    second: hornyhog_evaporates_0_15
+  - first:
+      213: 1865275038928182792
+    second: hornyhog_evaporates_0_16
+  - first:
+      213: -5226005117286837583
+    second: hornyhog_evaporates_0_17
+  - first:
+      213: 6808506203762086188
+    second: hornyhog_evaporates_0_18
+  - first:
+      213: 2550444320185304986
+    second: hornyhog_evaporates_0_19
+  - first:
+      213: -3409240710948574610
+    second: hornyhog_evaporates_0_20
+  - first:
+      213: -5532931897489803655
+    second: hornyhog_evaporates_0_21
+  - first:
+      213: 6161527536663565344
+    second: hornyhog_evaporates_0_22
+  - first:
+      213: -5271227579509956617
+    second: hornyhog_evaporates_0_23
+  - first:
+      213: -1728445321558508736
+    second: hornyhog_evaporates_0_24
+  - first:
+      213: 5659699406819704793
+    second: hornyhog_evaporates_0_25
+  - first:
+      213: 51308487447943527
+    second: hornyhog_evaporates_0_26
+  - first:
+      213: -6848771176584528564
+    second: hornyhog_evaporates_0_27
+  - first:
+      213: 4519219461732984167
+    second: hornyhog_evaporates_0_28
+  - first:
+      213: -7930106559316043606
+    second: hornyhog_evaporates_0_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acda8083b19d41fe0800000000000000
+      internalID: -1219110888183124534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db713d55f6cdae650800000000000000
+      internalID: 6263060602551474109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d24aac42db32dfd0800000000000000
+      internalID: -2318725083726986539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3fc1148467314f0800000000000000
+      internalID: -859213051195493388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8234017aab0e970800000000000000
+      internalID: 8782224500067608814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_5
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d59e368fc31ad8f0800000000000000
+      internalID: -515077425349093928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_6
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b11fb1e46868c1e0800000000000000
+      internalID: -2177375637340221008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_7
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d532e4cd97debe40800000000000000
+      internalID: 5674209653146400210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_8
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33f03bf91da9dbd0800000000000000
+      internalID: -2604860582357044417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_9
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def0e64b1b0933420800000000000000
+      internalID: 2608587702088372205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_10
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78295fbf00993a3d0800000000000000
+      internalID: -3196543080996695417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_11
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf3fc3a2de644970800000000000000
+      internalID: 8738231027976060856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_12
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062f28391610222b0800000000000000
+      internalID: -5610920667151928736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_13
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bebebf3ef2af880800000000000000
+      internalID: -8576489884143064242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_14
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136ff44af01832db0800000000000000
+      internalID: -4817865272175102415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_15
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a8c9192e6114b70800000000000000
+      internalID: 8881405102512704086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_16
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e97b7e3c9c2e910800000000000000
+      internalID: 1865275038928182792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_17
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b29ebdc8008977b0800000000000000
+      internalID: -5226005117286837583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_18
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21584eb15cac7e50800000000000000
+      internalID: 6808506203762086188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_19
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97ce0ca89ff46320800000000000000
+      internalID: 2550444320185304986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_20
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a2c16e2a1ffa0d0800000000000000
+      internalID: -3409240710948574610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_21
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97631b301c31733b0800000000000000
+      internalID: -5532931897489803655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_22
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0249e9046a4228550800000000000000
+      internalID: 6161527536663565344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_23
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff1111d176d8d6b0800000000000000
+      internalID: -5271227579509956617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_24
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bb1d243245308e0800000000000000
+      internalID: -1728445321558508736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_25
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df3af6cf9a4b8e40800000000000000
+      internalID: 5659699406819704793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_26
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7691c482cc846b000800000000000000
+      internalID: 51308487447943527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_27
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dbeb7b6e644f0a0800000000000000
+      internalID: -6848771176584528564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_28
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76560a6182e77be30800000000000000
+      internalID: 4519219461732984167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hornyhog_evaporates_0_29
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 0
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8d8fc891a92f190800000000000000
+      internalID: -7930106559316043606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

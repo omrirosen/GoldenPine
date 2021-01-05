@@ -281,7 +281,7 @@ public class Unihog1Controller : MonoBehaviour
         if (!isTurning && collision.tag=="TileMapCollider")
         {
             chaseTimer = 6;
-            print(collision.tag);
+
             StartCoroutine(Turn());
             transform.localScale = new Vector2(-(Mathf.Sign(rb2d.velocity.x)), transform.localScale.y);
         }
@@ -368,7 +368,7 @@ public class Unihog1Controller : MonoBehaviour
     {
         health -= dmg;
         var temp = Instantiate(HitPartical_ins, transform.position, Quaternion.identity);
-        print(health);
+
     }
 
     public void JustAttacked()

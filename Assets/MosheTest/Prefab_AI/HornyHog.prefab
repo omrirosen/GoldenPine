@@ -61,6 +61,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hornyHogController: {fileID: 5238089192043708505}
+  sRenderer: {fileID: 5238089193216047993}
+  ogColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &5238089192043708508
 GameObject:
   m_ObjectHideFlags: 0

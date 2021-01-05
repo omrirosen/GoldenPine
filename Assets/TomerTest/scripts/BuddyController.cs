@@ -104,13 +104,13 @@ public class BuddyController : MonoBehaviour
           
             LastClickedTime = Time.time;
             NumOfClicks++;
-            print(NumOfClicks);
+
             
             SRenderer.sortingOrder = 10;
             Invoke("ResetSortingOrder", 0.7f);
             if(NumOfClicks == 1 && !zCooldown)
             {
-                print("enter 1st att");
+
                 Anim.SetBool("Attack1", true);
                 MoveToAttackPoint();
                 soundManager.PlayzButtonArray();
@@ -142,7 +142,7 @@ public class BuddyController : MonoBehaviour
 
             if (NumOfClicks == 2 && !zCooldown)
             {
-                print("enter 2nd att");
+
                 MoveToAttackPoint();
                 Anim.SetBool("Attack1", false);
                 Anim.SetBool("Attack2", true);
@@ -164,7 +164,7 @@ public class BuddyController : MonoBehaviour
             }
             if(NumOfClicks == 3 && !zCooldown)
             {
-                print("entered 3rd attack");
+
                 MoveToAttackPoint();
                 Anim.SetBool("Attack1", true);
                 soundManager.PlayzButtonArray();

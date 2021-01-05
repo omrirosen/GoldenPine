@@ -68,7 +68,7 @@ public class ShieldBubble : MonoBehaviour
     public void HitShield()
     {
         //AudioManager.PlaySound(Sounds.ShieldPop);
-        print("hit Shield");
+
         if (isGrounded)
         {
             shieldAnimator.Play("Shield Ground Pop");

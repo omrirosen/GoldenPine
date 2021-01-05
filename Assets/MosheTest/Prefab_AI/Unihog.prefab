@@ -527,6 +527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unihog: {fileID: 5412783622459689583}
+  sRenderer: {fileID: 5412783621431076574}
 --- !u!1 &1878902921
 GameObject:
   m_ObjectHideFlags: 0

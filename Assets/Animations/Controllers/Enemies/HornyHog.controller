@@ -35,7 +35,8 @@ AnimatorState:
   m_Name: HornyHogLeft_DeathIdle
   m_Speed: 1
   m_CycleOffset: 0
-  m_Transitions: []
+  m_Transitions:
+  - {fileID: 4977835708086813810}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -173,22 +174,25 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 25978900406763444}
-    m_Position: {x: 30, y: 340, z: 0}
+    m_Position: {x: 330, y: 210, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 74535063547620423}
-    m_Position: {x: -210, y: 520, z: 0}
+    m_Position: {x: 90, y: 390, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4301565095545927387}
-    m_Position: {x: 220, y: 520, z: 0}
+    m_Position: {x: 520, y: 390, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7778420643178771892}
-    m_Position: {x: 370, y: 660, z: 0}
+    m_Position: {x: 670, y: 530, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5399603313362747954}
-    m_Position: {x: -380, y: 400, z: 0}
+    m_Position: {x: -50, y: 230, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5121334795277307093}
-    m_Position: {x: -220, y: 250, z: 0}
+    m_Position: {x: -280, y: 220, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 6937492720830600815}
+    m_Position: {x: 850, y: 390, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 2575687465022864425}
@@ -197,7 +201,7 @@ AnimatorStateMachine:
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
-  m_ExitPosition: {x: -190, y: 50, z: 0}
+  m_ExitPosition: {x: -230, y: 20, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 25978900406763444}
 --- !u!91 &9100000
@@ -234,6 +238,12 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: IsMoving
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Evaporate
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -409,6 +419,31 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 0
+--- !u!1101 &4977835708086813810
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Evaporate
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 6937492720830600815}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1102 &5121334795277307093
 AnimatorState:
   serializedVersion: 5
@@ -431,6 +466,32 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 7725fe9381474214293d1d90fc444a28, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &6937492720830600815
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HornyHog_Evaporates
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 3c800f65cb9f2d343a99944da0db18c0, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

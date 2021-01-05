@@ -645,7 +645,7 @@ public class PlayerWithShield : MonoBehaviour
     public void PlayerDeath()
     {
         Buddy.playerIsDead = true;
-        print("dead");
+
         IsDead = true;
        soundManager.PlayOneSound("Death");
         rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
