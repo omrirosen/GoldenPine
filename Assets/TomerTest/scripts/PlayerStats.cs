@@ -96,58 +96,61 @@ public class PlayerStats : MonoBehaviour
 
     public void TakeDmg(int Dmg,Vector3 dir)
     {
-        if (shieldOn == false && ParryWindow == false  && HitSpikes == false && isInvinsable == false && playerWithShield.DashAttack == false)
+        if (playerHealth > 0)
         {
-            soundManager.PlayOneSound("Player Taken Hit");
-            StartCoroutine("FreezFrame");
-            StartCoroutine("Blinker");
-            playerHealth -= Dmg;
-            healthAnimator.SetInteger("PlayerHealthUI", playerHealth);
-            playerWithShield.UnderImpactAnim();
-            playerWithShield.isDashing = false;
-            if (!isImpect_ON && playerHealth >0)
+            if (shieldOn == false && ParryWindow == false && HitSpikes == false && isInvinsable == false && playerWithShield.DashAttack == false)
             {
-                isImpect_ON = true;
-                Impact = rb2d.DOJump(transform.position - dir * impact_Force, impact_JumpForce, 0, 0.5f);
-                Impact.SetEase(Ease.Flash);
+                soundManager.PlayOneSound("Player Taken Hit");
+                StartCoroutine("FreezFrame");
+                StartCoroutine("Blinker");
+                playerHealth -= Dmg;
+                healthAnimator.SetInteger("PlayerHealthUI", playerHealth);
+                playerWithShield.UnderImpactAnim();
+                playerWithShield.isDashing = false;
+                if (!isImpect_ON && playerHealth > 0)
+                {
+                    isImpect_ON = true;
+                    Impact = rb2d.DOJump(transform.position - dir * impact_Force, impact_JumpForce, 0, 0.5f);
+                    Impact.SetEase(Ease.Flash);
+                }
+            }
+            if (HitSpikes == true)
+            {
+                soundManager.PlayOneSound("Player Taken Hit");
+                playerHealth -= Dmg;
+                healthAnimator.SetBool("OneShot", true);
+            }
+
+            if (shieldOn == true)
+            {
+                ShieldCoolDown = true;
+                shieldOn = false;
+                Invoke("SetShieldCoolTime", 1.5f);
+                if (dir.x <= 0)
+                {
+                    Instantiate(ShieldHit1, hitpoint.transform.position, transform.rotation);
+                }
+                if (dir.x >= 0)
+                {
+                    Instantiate(ShieldHit1, hitpoint1.transform.position, transform.rotation);
+                }
+                ShieldReff.HitShield();
+                playerWithShield.HitShield();
+            }
+
+            if (ParryWindow == true)
+            {
+
+                Parry();
+            }
+
+            if (playerHealth <= 0)
+            {
+                playerWithShield.PlayerDeath();
+                Invoke("Die", 1f);
+
             }
         }
-        if(HitSpikes == true)
-        {
-            soundManager.PlayOneSound("Player Taken Hit");
-            playerHealth -= Dmg;
-            healthAnimator.SetBool("OneShot", true);
-        }
-
-        if(shieldOn == true)
-        {
-            ShieldCoolDown = true;
-            shieldOn = false;
-            Invoke("SetShieldCoolTime", 1.5f);
-            if (dir.x <= 0)
-            {
-                Instantiate(ShieldHit1, hitpoint.transform.position, transform.rotation);
-            }
-            if (dir.x >= 0)
-            {
-                Instantiate(ShieldHit1, hitpoint1.transform.position, transform.rotation);
-            }
-            ShieldReff.HitShield();
-            playerWithShield.HitShield();
-        }
-
-       if ( ParryWindow == true) 
-       {
-            
-            Parry();
-       }
-
-       if (playerHealth <= 0)
-       {
-            playerWithShield.PlayerDeath();
-            Invoke("Die", 1f);
-            
-       }
     }
 
     

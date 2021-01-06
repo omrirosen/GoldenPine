@@ -143,7 +143,7 @@ public class HornyHogController : MonoBehaviour
     {
         
         isAttacking = false;
-        moveSpeed = 1f;
+        moveSpeed = 2f;
         animator.SetBool("IsMoving", true);
         if (target != null)
         {
