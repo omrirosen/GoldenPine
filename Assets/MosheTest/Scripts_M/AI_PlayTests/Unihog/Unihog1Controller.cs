@@ -166,6 +166,7 @@ public class Unihog1Controller : MonoBehaviour
                     if (enemySpawner != null)
                     {
                         enemySpawner.numbOfEnemies--;
+                        enemySpawner.enemiesDefeated++;
                     }
                     Destroy(gameObject);
                 }

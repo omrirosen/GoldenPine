@@ -229,6 +229,7 @@ public class HornyHogController : MonoBehaviour
             if (enemySpawner != null)
             {
                 enemySpawner.numbOfEnemies--;
+                enemySpawner.enemiesDefeated++;
             }
 
             Destroy(gameObject);

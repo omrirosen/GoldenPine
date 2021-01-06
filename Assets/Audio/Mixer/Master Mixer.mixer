@@ -127,6 +127,39 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
+--- !u!243 &-7396328190322550571
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hornyhog Evaporates
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 8ad37ff170e074c4ba21b2d6477dfc71
+  m_Children: []
+  m_Volume: 59ba2184c5da70e4d852976ec016a92a
+  m_Pitch: 52ef3c699c76db74c969d5a230fcc9f2
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -2426670666930708114}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &-6511383845409034347
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 2382d947d2f6e4d4d8ab2a295a27b661
+  m_EffectName: Attenuation
+  m_MixLevel: b43ede7edcf68db4594dbfe5f278afcf
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &-5804373569481506632
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -373,7 +406,9 @@ AudioMixerGroupController:
   m_Name: Horny Hog
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: 2aaae6aafbce26d4b9a15a1e19c92b1a
-  m_Children: []
+  m_Children:
+  - {fileID: -7396328190322550571}
+  - {fileID: 4676109776075708177}
   m_Volume: 2898be4a690ec6b4e8970f44141644e8
   m_Pitch: be82d893b6450144baf67cdd4c515427
   m_Send: 00000000000000000000000000000000
@@ -440,6 +475,20 @@ AudioMixerEffectController:
   m_EffectID: 5e170d9b7f6483f44b2b8d2d17fb5857
   m_EffectName: Attenuation
   m_MixLevel: a78704777f1316b4d8bf4a8a005cebd9
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &-2426670666930708114
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 9b793d21a6d3009418d5bba5423502b2
+  m_EffectName: Attenuation
+  m_MixLevel: 408274a8949aa134db8eadf57f3d5609
   m_Parameters: []
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
@@ -669,6 +718,8 @@ AudioMixerController:
     - 2aaae6aafbce26d4b9a15a1e19c92b1a
     - 45adcebb2311d5e4996776a44a7c367b
     - e6f68d6a50308e5438c42c0379fc0053
+    - 8ad37ff170e074c4ba21b2d6477dfc71
+    - 74711a7de4fd23e4991299afe849e7d3
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -1069,6 +1120,25 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 3899496165849636671}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &4676109776075708177
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HornyHog HitGround
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 74711a7de4fd23e4991299afe849e7d3
+  m_Children: []
+  m_Volume: e227155a73025e0428cb6e0e8ac14afb
+  m_Pitch: b460f77054b01dc45b05c8f0b8cf542e
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -6511383845409034347}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0

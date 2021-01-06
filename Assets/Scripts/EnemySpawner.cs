@@ -12,7 +12,8 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private float randomSpawnTime;
     public int numbOfEnemies;
     [SerializeField] private int randomSpawn;
-    
+    public int enemiesDefeated;
+    [SerializeField]private int maxNumOfEnemies = 4;
 
     private void Awake()
     {
@@ -23,18 +24,19 @@ public class EnemySpawner : MonoBehaviour
 
     private void Update()
     {
-        if (numbOfEnemies < 4)
+        if (numbOfEnemies < maxNumOfEnemies)
         {
             timeToSpawn += Time.deltaTime;
         }
         
         CreateUnihog();
+        IncreasMax();
     }
 
     private void CreateUnihog()
     {
         
-        if (numbOfEnemies < 4 && timeToSpawn > randomSpawnTime)
+        if (numbOfEnemies < maxNumOfEnemies && timeToSpawn > randomSpawnTime)
         {
             timeToSpawn = 0f;
             randomSpawnTime = Random.Range(2.5f, 4f);
@@ -53,6 +55,15 @@ public class EnemySpawner : MonoBehaviour
                 enemyPrefab[1].transform.localScale = spawnerLeft.transform.localScale;
             }
             
+        }
+    }
+
+    private void IncreasMax()
+    {
+        if(enemiesDefeated == 6)
+        {
+            maxNumOfEnemies++;
+            enemiesDefeated = 0;
         }
     }
 }
