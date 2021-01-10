@@ -61,7 +61,11 @@ public class EnemySoundManager : MonoBehaviour
             Debug.LogError("Unable to play sound " + name);
             return;
         }
-        s.source.Play(); // play the sound
+        else
+        {
+            s.source.Play(); // play the sound 
+        }
+        
     }
     
     public void StopOneSound(string name)

@@ -139,6 +139,7 @@
           <e p="EnemySoundManager.cs" t="Include" />
           <e p="EnemySpawner.cs" t="Include" />
           <e p="FadingGhost.cs" t="Include" />
+          <e p="HornyHogAnimationEvents.cs" t="Include" />
           <e p="Parallax.cs" t="Include" />
           <e p="ParallaxNoDuplication.cs" t="Include" />
           <e p="PlayerAnimation.cs" t="Include" />

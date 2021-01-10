@@ -14,7 +14,7 @@ public class AnimationEffects :MonoBehaviour
 
     private void Awake()
     {
-        enemySoundManager = FindObjectOfType<EnemySoundManager>();
+        enemySoundManager = GetComponentInParent<EnemySoundManager>();
     }
 
     private void Update()
