@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 1d1991c041f7cb842a49b2b67f864f0a
+  - enabled: 1
+    path: Assets/Scenes/Combined Scene Eden Tests Mixer.unity
+    guid: efecd05b6619e6343ab9e615d7ef1b93
+  - enabled: 1
     path: Assets/Scenes/Cave Scene Endless Spawn.unity
     guid: e5a695f959a9d8d4ca5f1ae21ab3d300
   m_configObjects: {}
