@@ -6,13 +6,15 @@ public class MenuButton : MonoBehaviour
 {
 	[SerializeField] MenuButtonController menuButtonController;
 	[SerializeField] Animator animator;
-	
+	[SerializeField] MainMenuSoundManager soundManager;
 	[SerializeField] int thisIndex;
     private void Awake()
     {
 		menuButtonController = GetComponentInParent<MenuButtonController>();
 		animator = GetComponent<Animator>();
-    }
+		soundManager = GetComponentInParent<MainMenuSoundManager>();
+
+	}
     
     
     void Update()
@@ -33,5 +35,15 @@ public class MenuButton : MonoBehaviour
 		{
 			animator.SetBool("selected", false);
 		}
+	}
+
+	public void PlayPressedSound()
+    {
+		soundManager.PlayOneSound("Pressed");
+    }
+
+	public void PlaySelectedSound()
+    {
+		soundManager.PlayOneSound("Selected");
 	}
 }
