@@ -13,7 +13,8 @@ public class MenuButton : MonoBehaviour
 		menuButtonController = GetComponentInParent<MenuButtonController>();
 		animator = GetComponent<Animator>();
     }
-    // Update is called once per frame
+    
+    
     void Update()
 	{
 		if (menuButtonController.index == thisIndex)
@@ -26,7 +27,6 @@ public class MenuButton : MonoBehaviour
 			else if (animator.GetBool("pressed"))
 			{
 				animator.SetBool("pressed", false);
-				
 			}
 		}
 		else

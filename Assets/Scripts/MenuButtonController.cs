@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class MenuButtonController : MonoBehaviour
 {
-
-	// Use this for initialization
+	
 	public int index;
 	[SerializeField] bool keyDown;
 	[SerializeField] int maxIndex;
