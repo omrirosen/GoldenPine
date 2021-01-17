@@ -18,7 +18,7 @@ public class HornyHogController : MonoBehaviour
     [SerializeField] private float moveSpeed;
     public bool isAttacking;
     private EnemySpawner enemySpawner;
-
+    private bool scoreCalculated = false;
     
     //Circle Config
     [SerializeField] private float circleRadius;
@@ -211,6 +211,11 @@ public class HornyHogController : MonoBehaviour
         animator.SetBool("IsAttacking", false);
         animator.SetBool("IsDeath", true);
         animator.SetBool("IsMoving", false);
+        if (!scoreCalculated)
+        {
+            enemySpawner.IncreasScore();
+            scoreCalculated = true;
+        }
         if(deathTime<=0.7f)
         {
             deathTime += Time.deltaTime;

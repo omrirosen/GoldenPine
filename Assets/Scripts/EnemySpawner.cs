@@ -13,12 +13,14 @@ public class EnemySpawner : MonoBehaviour
     public int numbOfEnemies;
     [SerializeField] private int randomSpawn;
     public int enemiesDefeated;
-    [SerializeField]private int maxNumOfEnemies = 4;
-
+    [SerializeField]private int maxNumOfEnemies = 1;
+    [SerializeField]private ScoreManager scoreManager;
+    [SerializeField]private int maxSpawnSize = 1;
     private void Awake()
     {
         spawnerRight = GameObject.Find("Spawner Right");
         spawnerLeft = GameObject.Find("Spawner Left");
+        scoreManager = FindObjectOfType<ScoreManager>();
         randomSpawnTime = 3f;
     }
 
@@ -60,10 +62,16 @@ public class EnemySpawner : MonoBehaviour
 
     private void IncreasMax()
     {
-        if(enemiesDefeated == 6)
+        if(enemiesDefeated == maxSpawnSize)
         {
             maxNumOfEnemies++;
+            maxSpawnSize++;
             enemiesDefeated = 0;
         }
+    }
+    
+    public void IncreasScore()
+    {
+        scoreManager.AddToScore();
     }
 }

@@ -6,12 +6,23 @@ using UnityEngine;
 public class JumpTutorial : MonoBehaviour
 {
     [SerializeField] private GameObject jumpTutorialCanvas;
-    
+    private SoundManager soundManager;
+    bool PlayedSound = false;
+    private void Awake()
+    {
+        soundManager = FindObjectOfType<SoundManager>();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             jumpTutorialCanvas.SetActive(true);
+            if (!PlayedSound)
+            {
+                soundManager.PlayOneSound("Tutorials Opening");
+                PlayedSound = true;
+            }
         }
         
     }

@@ -38,6 +38,7 @@ public class Unihog1Controller : MonoBehaviour
     [SerializeField] GameObject Twinkle;
     [SerializeField] ParticleSystem leafParticle;
     [SerializeField] EnemySpawner enemySpawner;
+    private bool scoreCalculated = false;
     private void Awake()
     {
         enemySpawner = FindObjectOfType<EnemySpawner>();
@@ -151,7 +152,12 @@ public class Unihog1Controller : MonoBehaviour
                 animator.SetBool("isAttacking", false);
                 animator.SetBool("isDeath", true);
                 animator.SetFloat("DeatLoop", deathloop += Time.deltaTime);
-                if(deathloop>=1.5f)
+                if (!scoreCalculated)
+                {
+                    enemySpawner.IncreasScore();
+                    scoreCalculated = true;
+                }
+                if (deathloop>=1.5f)
                 {
                     
                     animator.SetBool("isDeath", false);

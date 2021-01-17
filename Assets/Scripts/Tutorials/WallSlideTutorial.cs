@@ -6,12 +6,23 @@ using UnityEngine;
 public class WallSlideTutorial : MonoBehaviour
 {
     [SerializeField] private GameObject wallslideTutorialCanvas;
-    
+    private SoundManager soundManager;
+    bool PlayedSound = false;
+    private void Awake()
+    {
+        soundManager = FindObjectOfType<SoundManager>();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             wallslideTutorialCanvas.SetActive(true);
+            if (!PlayedSound)
+            {
+                soundManager.PlayOneSound("Tutorials Opening");
+                PlayedSound = true;
+            }
         }
         
     }
