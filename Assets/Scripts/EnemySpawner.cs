@@ -13,15 +13,20 @@ public class EnemySpawner : MonoBehaviour
     public int numbOfEnemies;
     [SerializeField] private int randomSpawn;
     public int enemiesDefeated;
-    [SerializeField]private int maxNumOfEnemies = 1;
-    [SerializeField]private ScoreManager scoreManager;
-    [SerializeField]private int maxSpawnSize = 1;
+    [SerializeField] private int maxNumOfEnemies = 1;
+    [SerializeField] private ScoreManager scoreManager;
+    [SerializeField] private int maxSpawnSize = 1;
+    [SerializeField] private float maxSpawnTime = 4f;
+    [SerializeField] private float minSpawnTime = 2.5f;
+    private bool DecreasdSpawnTimer = false;
     private void Awake()
     {
         spawnerRight = GameObject.Find("Spawner Right");
         spawnerLeft = GameObject.Find("Spawner Left");
         scoreManager = FindObjectOfType<ScoreManager>();
         randomSpawnTime = 3f;
+        minSpawnTime = 2.5f;
+        maxSpawnTime = 4f;
     }
 
     private void Update()
@@ -30,7 +35,22 @@ public class EnemySpawner : MonoBehaviour
         {
             timeToSpawn += Time.deltaTime;
         }
+
+        /*if(enemiesDefeated == 3 && !DecreasdSpawnTimer)
+        {
+            DecreasSpawnTimer();
+            DecreasdSpawnTimer = true;
+        }*/
+        if (scoreManager.currentScore %5 == 0 && scoreManager.currentScore !=0 && !DecreasdSpawnTimer)
+        {
+            DecreasSpawnTimer();
+            DecreasdSpawnTimer = true;
+        }
         
+        if(scoreManager.currentScore %5 != 0)
+        {
+            DecreasdSpawnTimer = false;
+        }
         CreateUnihog();
         IncreasMax();
     }
@@ -41,7 +61,7 @@ public class EnemySpawner : MonoBehaviour
         if (numbOfEnemies < maxNumOfEnemies && timeToSpawn > randomSpawnTime)
         {
             timeToSpawn = 0f;
-            randomSpawnTime = Random.Range(2.5f, 4f);
+            randomSpawnTime = Random.Range(minSpawnTime, maxSpawnTime);
             randomSpawn = Random.Range(1, 3);
             if (randomSpawn == 1)
             {
@@ -67,11 +87,26 @@ public class EnemySpawner : MonoBehaviour
             maxNumOfEnemies++;
             maxSpawnSize++;
             enemiesDefeated = 0;
+            
         }
     }
     
     public void IncreasScore()
     {
         scoreManager.AddToScore();
+    }
+
+    private void DecreasSpawnTimer()
+    {
+        if (minSpawnTime > 1f)
+        {
+            maxSpawnTime = maxSpawnTime - 0.2f;
+            minSpawnTime = minSpawnTime - 0.2f;
+        }
+
+        if(minSpawnTime <= 1f)
+        {
+            minSpawnTime = 1f;
+        }
     }
 }
