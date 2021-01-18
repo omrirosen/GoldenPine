@@ -41,7 +41,8 @@ public class Unihog1Controller : MonoBehaviour
     private bool scoreCalculated = false;
     private void Awake()
     {
-        enemySpawner = FindObjectOfType<EnemySpawner>();
+        enemySpawner = FindObjectOfType<EnemySpawner>(); 
+        Twinkle.SetActive(false);
     }
     void Start()
     {
