@@ -35,7 +35,8 @@ public class SoundManager : MonoBehaviour {
         if (instance == null)
         {     // if the instance var is null this is first AudioManager
             instance = this;        //save this AudioManager in instance 
-        } else
+        }
+        else
         {
             Destroy(gameObject);    // this isnt the first so destroy it
             return;                 // since this isn't the first return so no other code is run

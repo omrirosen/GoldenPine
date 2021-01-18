@@ -61,6 +61,9 @@ TagManager:
   - name: Clouds
     uniqueID: 1253244289
     locked: 0
+  - name: Parallax 6
+    uniqueID: 3355429249
+    locked: 0
   - name: Parallax 5
     uniqueID: 223644487
     locked: 0

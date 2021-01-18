@@ -69,7 +69,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -678354843
-  m_SortingLayer: 12
+  m_SortingLayer: 13
   m_SortingOrder: 10
   m_Sprite: {fileID: -6944526487280410323, guid: 197d5cd3b5b9b23419bc6a1c9b317f36,
     type: 3}
@@ -216,7 +216,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.53953564, y: 0.45}
+  m_Offset: {x: 0, y: 0.45}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -317,19 +317,7 @@ MonoBehaviour:
     maxDistanceSound: 0
     audioRolloffMode: 0
     source: {fileID: 0}
-    audioMixerGroup: {fileID: -7396328190322550571, guid: a7d93f51957be744b9a609504f63095f,
-      type: 2}
-    loop: 0
-  - name: PreAttack
-    clip: {fileID: 8300000, guid: d5e9494d4d3c04a4c95b9bf99ecad022, type: 3}
-    volume: 1
-    pitch: 1
-    spatialBlend: 0
-    minDistanceSound: 0
-    maxDistanceSound: 0
-    audioRolloffMode: 0
-    source: {fileID: 0}
-    audioMixerGroup: {fileID: -7396328190322550571, guid: a7d93f51957be744b9a609504f63095f,
+    audioMixerGroup: {fileID: 4676109776075708177, guid: a7d93f51957be744b9a609504f63095f,
       type: 2}
     loop: 0
   enemyArraySounds: []
@@ -466,7 +454,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -678354843
-  m_SortingLayer: 12
+  m_SortingLayer: 13
   m_SortingOrder: 1
   m_Sprite: {fileID: 2868380616643299060, guid: 80599c1901fc0644cbfe0c76c4c6d80c,
     type: 3}

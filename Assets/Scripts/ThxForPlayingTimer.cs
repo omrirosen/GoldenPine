@@ -4,23 +4,26 @@ using UnityEngine;
 
 public class ThxForPlayingTimer : MonoBehaviour
 {
-    [SerializeField]private GameObject endText;
-    [SerializeField]private int txtShowScore =5;
-    private ScoreManager scoreManager;
-   
+    [SerializeField] private float fadeTextTimer = 10f;
+    private float timePassed = 0f;
+    private Animator animator;
     
-    public static ThxForPlayingTimer instance;
     private void Awake()
     {
-        scoreManager = FindObjectOfType<ScoreManager>();
+        animator = GetComponent<Animator>();
+        timePassed = 0f;
     }
-  
+    
 
     private void Update()
-    {
-      if(scoreManager.currentScore >= txtShowScore)
+    { 
+        timePassed += Time.deltaTime;
+        
+      if (timePassed >= fadeTextTimer)
       {
-            endText.SetActive(true);
+          animator.SetBool("FadeText", true);
       }
     }
+    
+    
 }

@@ -32,7 +32,6 @@ public class EnemySpawner : MonoBehaviour
 
     private void Update()
     {
-        print(isOnRightTrigger + "IsOnRightTrigger");
         if (numbOfEnemies < maxNumOfEnemies)
         {
             timeToSpawn += Time.deltaTime;

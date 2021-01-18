@@ -1,0 +1,421 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6088713036855512614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6088713036855512632}
+  - component: {fileID: 6088713036855512633}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6088713036855512632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6088713036855512614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 45.77194, y: -3.3310463, z: -0.04454176}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6088713036855512633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6088713036855512614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3ac90ce06f2db4a9feda7cdaaac7a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Ambient Forest Wind
+    clip: {fileID: 8300000, guid: 794d271cb6fec2a458067414115c2f10, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -7617649289910805984, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 1
+  - name: Ambient Music
+    clip: {fileID: 8300000, guid: 9cb9a71175d3cd24782d4e513295b2e6, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 5365779380814620222, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 1
+  - name: Breaking Rock
+    clip: {fileID: 8300000, guid: cc312690d1b464c4dbf68bdc6be5a416, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 8795708921173556434, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Charge Anim
+    clip: {fileID: 8300000, guid: d07c8d786ae0a8e4fa73e5c0ba4748d6, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 2846398549053732057, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Death
+    clip: {fileID: 8300000, guid: 6bc591345b2e3bb46b1c6c4236b8e9fb, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -2834947105553931713, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Hit Enemy
+    clip: {fileID: 8300000, guid: 37de056a9171d4f41b68e62b842079fb, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -1014876692999685822, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Jump
+    clip: {fileID: 8300000, guid: e2a773495fbb43644b1c9790acd9cb11, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 5009213373500634939, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Parry
+    clip: {fileID: 8300000, guid: 8be873d3be877e14db6c19d8afc803bb, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 7500171379119596977, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Pircieng Dash
+    clip: {fileID: 8300000, guid: e483fe78b1b280347b16278c340291a5, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 6477098739858610125, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Respawn
+    clip: {fileID: 8300000, guid: b7427c285fe23e14593fb955079c701e, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -7822448818273183956, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Shield Pop
+    clip: {fileID: 8300000, guid: 118de9f948cb79844a41fa1cc584297f, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -4337548375901791902, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Shield Up
+    clip: {fileID: 8300000, guid: a733780dec7d6e448baede5d1d4c72b3, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -2205242458556613213, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Stamina Full
+    clip: {fileID: 8300000, guid: b5e83d95480018948902f64f0e3648f6, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 1825247806758320734, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 1
+  - name: Wall Slide
+    clip: {fileID: 8300000, guid: 9426ac4b6a081664485b61caad0d8a96, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 2911593633374317934, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Z Absorbtion
+    clip: {fileID: 8300000, guid: a91cb722a8b75f3479258ec6d27262b4, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 8628785509816425017, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Player Taken Hit
+    clip: {fileID: 8300000, guid: a071a0c9758edd048929f623a5e21ee6, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -75942668693322486, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Tutorials Opening
+    clip: {fileID: 8300000, guid: 09c5b7e6c03b6314f832e700c671fd51, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -7100206814316032856, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Ambient Cave Wind (No Owl)
+    clip: {fileID: 8300000, guid: 7295701bf15b58b46a980d108b33e34a, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -7617649289910805984, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  footstepsArray:
+  - name: Step 1
+    clip: {fileID: 8300000, guid: d118991b7d4386044a1ab4ed4204a05b, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -5804373569481506632, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Step 2
+    clip: {fileID: 8300000, guid: d00755085a562e64584cb5ddb2c819f6, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -5804373569481506632, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Step 3
+    clip: {fileID: 8300000, guid: 56ff6acbb6f317749af0346b84971c1d, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -5804373569481506632, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Step 4
+    clip: {fileID: 8300000, guid: f85750ae5aef5484cb655efd3834459b, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -5804373569481506632, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Step 5
+    clip: {fileID: 8300000, guid: 9f9259b021df9f64bb7e3c52ca534856, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -5804373569481506632, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Step 6
+    clip: {fileID: 8300000, guid: 63ea6fbe9e4012043bef11efdc236d94, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -5804373569481506632, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Step 7
+    clip: {fileID: 8300000, guid: 19b77e2c99030104a874d4ff1f45f9f4, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -5804373569481506632, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  dashArray:
+  - name: Whoosh3
+    clip: {fileID: 8300000, guid: a2492ef5f345e284d8b1c5ed5dcc63a1, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -4182117011748023501, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Whoosh1
+    clip: {fileID: 8300000, guid: 8459bd2cbdf4bfa4fa732b69227aeff4, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -4182117011748023501, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  zButtonArray:
+  - name: absorb1new
+    clip: {fileID: 8300000, guid: 2b485f0e4c867b14da25d55616c802d2, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 3611091003279383475, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: absorb2new
+    clip: {fileID: 8300000, guid: fc14b8840977aa447b5ba3addb74f061, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 3611091003279383475, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: absorb3new
+    clip: {fileID: 8300000, guid: 8ab81370fc0c71046bf6e566a7888184, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 3611091003279383475, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: absorb4new
+    clip: {fileID: 8300000, guid: 49ad1b8ab696ea24fb3afeec49ed48ec, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: 3611091003279383475, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
