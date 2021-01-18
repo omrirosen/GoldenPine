@@ -152,11 +152,15 @@ public class Unihog1Controller : MonoBehaviour
                 animator.SetBool("isAttacking", false);
                 animator.SetBool("isDeath", true);
                 animator.SetFloat("DeatLoop", deathloop += Time.deltaTime);
-                if (!scoreCalculated)
+                if (enemySpawner != null)
                 {
-                    enemySpawner.IncreasScore();
-                    scoreCalculated = true;
+                    if (!scoreCalculated)
+                    {
+                        enemySpawner.IncreasScore();
+                        scoreCalculated = true;
+                    }
                 }
+               
                 if (deathloop>=1.5f)
                 {
                     
@@ -305,7 +309,7 @@ public class Unihog1Controller : MonoBehaviour
    }
     public void TurnToPlayer()
     {
-        if (!isTurning && target == null)
+        if (!isTurning && target == null && health > 0)
         {
             // print(collision.tag);
             StartCoroutine(Turn());

@@ -252,6 +252,12 @@ MonoBehaviour:
   HitPartical_ins: {fileID: 8679130280484342764, guid: 5c3f8fd6eeef3e7489c8ffaee431c7b8,
     type: 3}
   moveSpeed: 2
+  ogMoveSpeed:
+  - 1.8
+  - 1.9
+  - 2
+  - 2.1
+  - 2.2
   isAttacking: 0
   circleRadius: 10
   closeRangeRadius: 2.08

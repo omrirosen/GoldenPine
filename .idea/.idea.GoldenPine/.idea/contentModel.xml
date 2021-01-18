@@ -140,6 +140,7 @@
           <e p="EnemySpawner.cs" t="Include" />
           <e p="FadingGhost.cs" t="Include" />
           <e p="HornyHogAnimationEvents.cs" t="Include" />
+          <e p="MainMenuSoundManager.cs" t="Include" />
           <e p="MenuButton.cs" t="Include" />
           <e p="MenuButtonController.cs" t="Include" />
           <e p="MenuManager.cs" t="Include" />
@@ -150,6 +151,7 @@
           <e p="PlayerRespawner.cs" t="Include" />
           <e p="PlayerWithShield.cs" t="Include" />
           <e p="SceneLoader.cs" t="Include" />
+          <e p="ScoreManager.cs" t="Include" />
           <e p="ShieldBubble.cs" t="Include" />
           <e p="Sound Managers" t="Include">
             <e p="BuddySoundManager.cs" t="Include" />

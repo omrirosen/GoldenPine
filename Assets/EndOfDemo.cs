@@ -1,25 +1,27 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EndOfDemo : MonoBehaviour
 {
-    [SerializeField] GameObject EndText;
+    private SceneLoader SceneLoader;
+
+    
+    
+    
+    private void Awake()
+    {
+        SceneLoader = FindObjectOfType<SceneLoader>();
+    }
+    
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            EndText.SetActive(true);
+            SceneLoader.LoadNextLevel();
         }
     }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            EndText.SetActive(false);
-        }
-    }
-
 
 }

@@ -16,9 +16,11 @@ public class HornyHogController : MonoBehaviour
     private bool isDeath = false;
     private float deathTime = 0;
     [SerializeField] private float moveSpeed;
+    [SerializeField] private float []ogMoveSpeed;
     public bool isAttacking;
     private EnemySpawner enemySpawner;
     private bool scoreCalculated = false;
+    
     
     //Circle Config
     [SerializeField] private float circleRadius;
@@ -44,6 +46,7 @@ public class HornyHogController : MonoBehaviour
     {
         state = StateMachine.Chase;
         enemySpawner.numbOfEnemies++;
+        moveSpeed = ogMoveSpeed[Random.Range(0, ogMoveSpeed.Length)];
     }
 
     // Update is called once per frame
@@ -143,7 +146,6 @@ public class HornyHogController : MonoBehaviour
     {
         
         isAttacking = false;
-        moveSpeed = 2f;
         animator.SetBool("IsMoving", true);
         if (target != null)
         {
@@ -208,6 +210,7 @@ public class HornyHogController : MonoBehaviour
 
     public void DeathState()
     {
+        rb.velocity = Vector2.zero;
         animator.SetBool("IsAttacking", false);
         animator.SetBool("IsDeath", true);
         animator.SetBool("IsMoving", false);

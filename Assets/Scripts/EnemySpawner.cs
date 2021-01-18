@@ -19,6 +19,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private float maxSpawnTime = 4f;
     [SerializeField] private float minSpawnTime = 2.5f;
     private bool DecreasdSpawnTimer = false;
+    private bool isOnRightTrigger;
     private void Awake()
     {
         spawnerRight = GameObject.Find("Spawner Right");
@@ -31,16 +32,12 @@ public class EnemySpawner : MonoBehaviour
 
     private void Update()
     {
+        print(isOnRightTrigger + "IsOnRightTrigger");
         if (numbOfEnemies < maxNumOfEnemies)
         {
             timeToSpawn += Time.deltaTime;
         }
-
-        /*if(enemiesDefeated == 3 && !DecreasdSpawnTimer)
-        {
-            DecreasSpawnTimer();
-            DecreasdSpawnTimer = true;
-        }*/
+        
         if (scoreManager.currentScore %5 == 0 && scoreManager.currentScore !=0 && !DecreasdSpawnTimer)
         {
             DecreasSpawnTimer();
@@ -62,8 +59,8 @@ public class EnemySpawner : MonoBehaviour
         {
             timeToSpawn = 0f;
             randomSpawnTime = Random.Range(minSpawnTime, maxSpawnTime);
-            randomSpawn = Random.Range(1, 3);
-            if (randomSpawn == 1)
+           // randomSpawn = Random.Range(1, 3);
+            if (!isOnRightTrigger)
             {
                 Instantiate(enemyPrefab[Random.Range(0, enemyPrefab.Length)], spawnerRight.transform.position, Quaternion.identity, spawnerRight.transform.parent);
                 enemyPrefab[0].transform.localScale = spawnerRight.transform.localScale;
@@ -103,10 +100,26 @@ public class EnemySpawner : MonoBehaviour
             maxSpawnTime = maxSpawnTime - 0.2f;
             minSpawnTime = minSpawnTime - 0.2f;
         }
-
+        
         if(minSpawnTime <= 1f)
         {
             minSpawnTime = 1f;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            isOnRightTrigger = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            isOnRightTrigger = false;
         }
     }
 }
