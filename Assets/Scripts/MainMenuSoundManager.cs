@@ -20,7 +20,7 @@ public class MainMenuSoundManager : MonoBehaviour
         evol = PlayerPrefs.GetFloat("EffectsVolume", 0.75f);
 
         createAudioSources(sounds, evol);     // create sources for effects
-        
+        PlayOneSound("MenuMusic");
     }
  
 

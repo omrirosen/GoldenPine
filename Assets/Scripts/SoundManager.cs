@@ -7,14 +7,17 @@ public class SoundManager : MonoBehaviour {
     public Sound[] footstepsArray;    // store all our music
     public Sound[] dashArray;
     public Sound[] zButtonArray;
+    public Sound[] caveFootStepsArray;
 
     private int currentPlayingFootStepsIndex = 999; // set high to signify no song playing
     private int currentPlayingDashIndex = 999;
     private int currentPlayingZButton = 999;
+    private int currentPlayingCaveFootStepsIndex = 999;
     // a play music flag so we can stop playing music during cutscenes etc
     private bool shouldPlayFootstepsArray = false;
     private bool shouldPlayDashArray = false;
     private bool shouldPlayZButtonArray = false;
+    private bool shouldPlayCaveFootstepsArray = false;
     public static SoundManager instance; // will hold a reference to the first AudioManager created
 
     private float mvol; // Global music volume
@@ -52,9 +55,11 @@ public class SoundManager : MonoBehaviour {
         createAudioSources(footstepsArray, mvol);   // create sources for music
         createAudioSources(dashArray, mvol);
         createAudioSources(zButtonArray, mvol);
+        createAudioSources(caveFootStepsArray, mvol);
     }
     void Update()
     {
+        CaveFootStepsIndex();
         FootStepsIndex();
         DashIndex();
         ZButtonIndex();
@@ -121,6 +126,33 @@ public class SoundManager : MonoBehaviour {
                 currentPlayingFootStepsIndex = 0; // reset list when max reached
             }
             footstepsArray[currentPlayingFootStepsIndex].source.Play(); // play that funky music
+        }
+
+    }
+    public void PlayCaveFootStepsArray()
+    {
+        if (shouldPlayCaveFootstepsArray == false)
+        {
+            shouldPlayCaveFootstepsArray = true;
+            // pick a random song from our playlist
+            currentPlayingCaveFootStepsIndex = UnityEngine.Random.Range(0, caveFootStepsArray.Length - 1);
+            caveFootStepsArray[currentPlayingCaveFootStepsIndex].source.volume = caveFootStepsArray[0].volume * mvol; // set the volume
+            caveFootStepsArray[currentPlayingCaveFootStepsIndex].source.Play(); // play it
+            StopMusic();
+        }
+    }
+
+    private void CaveFootStepsIndex()
+    {
+        // if we are playing a track from the playlist && it has stopped playing
+        if (currentPlayingCaveFootStepsIndex != 999 && !caveFootStepsArray[currentPlayingCaveFootStepsIndex].source.isPlaying)
+        {
+            currentPlayingCaveFootStepsIndex++; // set next index
+            if (currentPlayingCaveFootStepsIndex >= caveFootStepsArray.Length)
+            { //have we went too high
+                currentPlayingCaveFootStepsIndex = 0; // reset list when max reached
+            }
+            caveFootStepsArray[currentPlayingCaveFootStepsIndex].source.Play(); // play that funky music
         }
 
     }
@@ -200,6 +232,11 @@ public class SoundManager : MonoBehaviour {
         {
             shouldPlayZButtonArray = false;
             currentPlayingZButton = 999;
+        }
+        if(shouldPlayCaveFootstepsArray == true)
+        {
+            shouldPlayCaveFootstepsArray = false;
+            currentPlayingCaveFootStepsIndex = 999;
         }
     }
 

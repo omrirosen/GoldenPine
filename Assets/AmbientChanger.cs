@@ -7,11 +7,12 @@ public class AmbientChanger : MonoBehaviour
 {
    public static AmbientChanger instance;
    private SoundManager soundManager;
-   
+   private PlayerSoundManager playerSoundManager;
 
    private void Awake()
    {
       soundManager = FindObjectOfType<SoundManager>();
+      playerSoundManager = FindObjectOfType<PlayerSoundManager>();
       if (instance == null)
       {     
          instance = this;        
@@ -29,5 +30,7 @@ public class AmbientChanger : MonoBehaviour
    {
       soundManager.StopOneSound("Ambient Forest Wind");
       soundManager.PlayOneSound("Ambient Cave Wind (No Owl)");
+      soundManager.StopOneSound("Ambient Music");
+      playerSoundManager.inCave = true;
    }
 }

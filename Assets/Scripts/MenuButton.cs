@@ -8,12 +8,12 @@ public class MenuButton : MonoBehaviour
 	[SerializeField] Animator animator;
 	[SerializeField] MainMenuSoundManager soundManager;
 	[SerializeField] int thisIndex;
+	[SerializeField] Animator panleAnimator;
     private void Awake()
     {
 		menuButtonController = GetComponentInParent<MenuButtonController>();
 		animator = GetComponent<Animator>();
 		soundManager = GetComponentInParent<MainMenuSoundManager>();
-
 	}
     
     
@@ -39,6 +39,7 @@ public class MenuButton : MonoBehaviour
 
 	public void PlayPressedSound()
     {
+		panleAnimator.SetBool("Fade", true);
 		soundManager.PlayOneSound("Pressed");
     }
 

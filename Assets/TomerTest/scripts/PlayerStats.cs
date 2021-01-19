@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 using JSAM;
+using UnityEngine.Rendering.PostProcessing;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -42,7 +43,8 @@ public class PlayerStats : MonoBehaviour
     public bool DashAttackOn = false;
     bool isInvinsable = false;
     private SoundManager soundManager;
-    
+    [SerializeField] private PostProcessVolume pps;
+    [SerializeField] private Vignette vignette;
     private void Awake()
     {
         OGcolor = sRenderer.color;
@@ -50,7 +52,6 @@ public class PlayerStats : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         collisionCheck = GetComponent<CollisionCheck>();
         soundManager = FindObjectOfType<SoundManager>();
-
     }
 
     private void Start()

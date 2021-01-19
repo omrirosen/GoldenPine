@@ -7,7 +7,7 @@ using JSAM;
 public class PlayerSoundManager : MonoBehaviour
 {
     private SoundManager soundManager;
-
+    public bool inCave = false;
     private void Awake()
     {
         soundManager = FindObjectOfType<SoundManager>();
@@ -15,7 +15,14 @@ public class PlayerSoundManager : MonoBehaviour
 
     public void PlayFootstepsSound()
     {
-        soundManager.PlayFootStepsArray();
+        if (!inCave)
+        {
+            soundManager.PlayFootStepsArray();
+        }
+        else
+        {
+            soundManager.PlayCaveFootStepsArray();
+        }
        // AudioManager.PlaySound(Sounds.Footsteps);
     }
 

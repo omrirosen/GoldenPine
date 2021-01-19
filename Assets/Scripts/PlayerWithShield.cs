@@ -239,7 +239,7 @@ public class PlayerWithShield : MonoBehaviour
         {
             whiteUiParticleEffect.SetActive(true);
             ChargAnim.SetActive(true);
-            Invoke("SetWhite", 0.5f);
+            Invoke("SetWhite", 0.2f);
             isCharged = true;
             WhitePraticale.SetActive(true);
            // whiteParticleFX.SetActive(true);
