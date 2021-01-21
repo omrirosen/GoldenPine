@@ -112,7 +112,13 @@ public class HornyHogDMG : MonoBehaviour
         isBlocked = false;
         animator.SetBool("IsBlocked", isBlocked);
     }
-    
+
+    public void ResetChoice()
+    {
+        hornyHogController.choseAttack = false;
+        animator.SetBool("IsAttacking", false);
+        animator.SetBool("IsSwingAttack", false);
+    }
   
 
 

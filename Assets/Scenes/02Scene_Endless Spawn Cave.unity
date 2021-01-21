@@ -1391,21 +1391,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: HornyHog
       objectReference: {fileID: 0}
-    - target: {fileID: 5238089192043708508, guid: 63407609a93eeb04d962abe20e5eefd3,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5238089193216047974, guid: 63407609a93eeb04d962abe20e5eefd3,
-        type: 3}
-      propertyPath: isActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5238089193216047974, guid: 63407609a93eeb04d962abe20e5eefd3,
-        type: 3}
-      propertyPath: isdealDMG
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63407609a93eeb04d962abe20e5eefd3, type: 3}
 --- !u!1 &334986485
@@ -26058,7 +26043,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5806318962373928393}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.9902172, y: 6.702418, z: 25.454689}
+  m_LocalPosition: {x: -3.9836712, y: 6.702418, z: 25.454689}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1816055325240989977}
@@ -32980,7 +32965,7 @@ MonoBehaviour:
     loop: 0
   caveFootStepsArray:
   - name: Cave Step 1
-    clip: {fileID: 8300000, guid: 3a1a3e17f609ebb4f93900ac48d83438, type: 3}
+    clip: {fileID: 8300000, guid: 45392c5f4e7b3fa479466725631879f8, type: 3}
     volume: 1
     pitch: 1
     spatialBlend: 0
@@ -32992,7 +32977,31 @@ MonoBehaviour:
       type: 2}
     loop: 0
   - name: Cave Steo 2
-    clip: {fileID: 8300000, guid: b14369e93335cb141943b6eef53ddf8b, type: 3}
+    clip: {fileID: 8300000, guid: 75bef45f98498e34ca7b79f16d2cec03, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -3009491209184753460, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Cave Step 4
+    clip: {fileID: 8300000, guid: 75bef45f98498e34ca7b79f16d2cec03, type: 3}
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+    minDistanceSound: 0
+    maxDistanceSound: 0
+    audioRolloffMode: 0
+    source: {fileID: 0}
+    audioMixerGroup: {fileID: -3009491209184753460, guid: a7d93f51957be744b9a609504f63095f,
+      type: 2}
+    loop: 0
+  - name: Cave Step 5
+    clip: {fileID: 8300000, guid: 5b0919195f254544cb25a23611232020, type: 3}
     volume: 1
     pitch: 1
     spatialBlend: 0
@@ -33004,19 +33013,7 @@ MonoBehaviour:
       type: 2}
     loop: 0
   - name: Cave Step 3
-    clip: {fileID: 8300000, guid: a3c2577650f95ec428ce08f747d18322, type: 3}
-    volume: 1
-    pitch: 1
-    spatialBlend: 0
-    minDistanceSound: 0
-    maxDistanceSound: 0
-    audioRolloffMode: 0
-    source: {fileID: 0}
-    audioMixerGroup: {fileID: -3009491209184753460, guid: a7d93f51957be744b9a609504f63095f,
-      type: 2}
-    loop: 0
-  - name: Cave step 4
-    clip: {fileID: 8300000, guid: 4e99b5607f505ca498531a55f82b256b, type: 3}
+    clip: {fileID: 8300000, guid: 5b0919195f254544cb25a23611232020, type: 3}
     volume: 1
     pitch: 1
     spatialBlend: 0

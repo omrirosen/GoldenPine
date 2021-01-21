@@ -259,6 +259,8 @@ MonoBehaviour:
   - 2.1
   - 2.2
   isAttacking: 0
+  randomAttack: 0
+  choseAttack: 0
   circleRadius: 10
   closeRangeRadius: 2.08
   state: 0

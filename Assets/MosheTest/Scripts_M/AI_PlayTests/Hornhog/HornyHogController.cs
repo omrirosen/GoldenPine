@@ -21,7 +21,7 @@ public class HornyHogController : MonoBehaviour
     private EnemySpawner enemySpawner;
     private bool scoreCalculated = false;
     [SerializeField] private float randomAttack;
-    private bool choseAttack;
+    public bool choseAttack = false;
     
     
     //Circle Config
@@ -49,6 +49,8 @@ public class HornyHogController : MonoBehaviour
         state = StateMachine.Chase;
         enemySpawner.numbOfEnemies++;
         moveSpeed = ogMoveSpeed[Random.Range(0, ogMoveSpeed.Length)];
+        randomAttack = Random.Range(0, 2);
+        choseAttack = false;
     }
 
     // Update is called once per frame
@@ -198,8 +200,12 @@ public class HornyHogController : MonoBehaviour
     public void AttackState()
     {
         rb.velocity = Vector2.zero;
-        randomAttack = Random.Range(0,2);
-        if (randomAttack <= 1)
+        if (!choseAttack)
+        {
+            randomAttack = Random.Range(0, 2);
+            choseAttack = true;
+        }
+        if (randomAttack == 0)
         {
             animator.SetBool("IsMoving", false);
             animator.SetBool("IsAttacking", true);
@@ -210,7 +216,7 @@ public class HornyHogController : MonoBehaviour
                 state = StateMachine.Chase;
             }
         }
-        else if(randomAttack > 1)
+        if(randomAttack == 1)
         {
             animator.SetBool("IsMoving", false);
             animator.SetBool("IsSwingAttack", true);
