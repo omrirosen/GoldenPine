@@ -23,66 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="553e0ced-a9eb-4ae9-8c55-b1363ec4df18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/AmbientChanger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/UI/Thanks for playing Fade out.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/UI/Thanks for playing Fade out.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/BG5Ground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/BG5Ground.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/BG5PoleLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/BG5PoleLeft.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/BG5PoleMiddle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/BG5PoleMiddle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/BG5PoleRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/BG5PoleRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/BG6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/BG6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/Ceiling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/Ceiling.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/New 4.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/New 4/BG5PoleRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/New 4/BG5PoleRight.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/New 4/BG6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/New 4/BG6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/New 4/Ceiling2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/New 4/Ceiling2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/New 4/Ceiling3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/Cave1/New 3/New 4/Ceiling3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Ambience/Forest/WindForCave.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Audio/Ambience/Forest/WindForCave.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas_BlackFade.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas_BlackFade.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/SoundManager.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/SoundManager.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Unihog Cave.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Unihog Cave.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/00Scene_MainMenu.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/00Scene_MainMenu.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/01Scene_Pondora Tutorial.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/01Scene_Pondora Tutorial.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/02Scene_Endless Spawn Cave.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/02Scene_Endless Spawn Cave.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SceneFader.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Hornyhog/HornyHog_Swing Attack.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Hornyhog/HornyHog_Swing Attack.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/HornyHog/NEW/HornyHogSwing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Sprites/HornyHog/NEW/HornyHogSwing.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GoldenPine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/UI/ThxForPlayingText.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/UI/ThxForPlayingText.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/EndText.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/EndText.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Audio/Mixer/Master Mixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Audio/Mixer/Master Mixer.mixer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Alkhemikal SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Alkhemikal SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Prefab_AI/HornyHog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Prefab_AI/HornyHog.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Prefab_AI/Unihog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Prefab_AI/Unihog.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cave Scene Endless Spawn.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cave Scene Endless Spawn.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Pondora Tutorial.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Pondora Tutorial.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ThxForPlayingTimer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ThxForPlayingTimer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Hornyhog/HornyHogLeft_Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Hornyhog/HornyHogLeft_Attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Hornyhog/HornyHogLeft_Death.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Animation Clips/Enemies/Hornyhog/HornyHogLeft_Death.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Controllers/Enemies/HornyHog.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Controllers/Enemies/HornyHog.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/02Scene_Endless Spawn Cave.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/02Scene_Endless Spawn Cave.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,12 +80,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/MenuButton.cs" />
       <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Unihog/Unihog1Controller.cs" />
       <option value="$PROJECT_DIR$/Assets/EndOfDemo.cs" />
-      <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneFader.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ThxForPlayingTimer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/AmbientChanger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/MosheTest/Scripts_M/AI_PlayTests/Hornhog/HornyHogController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1hrsTjL8BblhWitVKK5FjnLoeoE" />
@@ -282,6 +232,7 @@
       <workItem from="1610357512161" duration="1779000" />
       <workItem from="1610967332203" duration="3461000" />
       <workItem from="1610982854465" duration="4519000" />
+      <workItem from="1611237348089" duration="1368000" />
     </task>
     <servers />
   </component>

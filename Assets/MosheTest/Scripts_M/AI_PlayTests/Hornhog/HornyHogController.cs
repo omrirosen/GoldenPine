@@ -20,6 +20,8 @@ public class HornyHogController : MonoBehaviour
     public bool isAttacking;
     private EnemySpawner enemySpawner;
     private bool scoreCalculated = false;
+    [SerializeField] private float randomAttack;
+    private bool choseAttack;
     
     
     //Circle Config
@@ -63,6 +65,7 @@ public class HornyHogController : MonoBehaviour
             isDeath = true;
             state = StateMachine.Death;
         }
+        print(randomAttack + "random Attack");
         
     }
 
@@ -195,16 +198,30 @@ public class HornyHogController : MonoBehaviour
     public void AttackState()
     {
         rb.velocity = Vector2.zero;
-        //isAttacking = true;
-        animator.SetBool("IsMoving", false);
-        animator.SetBool("IsAttacking", true);
-        hogDMG.IsFachingRight = IsFachingRight();
-        if (!CanAttack(target))
+        randomAttack = Random.Range(0,2);
+        if (randomAttack <= 1)
         {
-            animator.SetBool("IsAttacking", false);
-            //hogDMG.isActive = false;
-            state = StateMachine.Chase;
+            animator.SetBool("IsMoving", false);
+            animator.SetBool("IsAttacking", true);
+            hogDMG.IsFachingRight = IsFachingRight();
+            if (!CanAttack(target))
+            {
+                animator.SetBool("IsAttacking", false);
+                state = StateMachine.Chase;
+            }
         }
+        else if(randomAttack > 1)
+        {
+            animator.SetBool("IsMoving", false);
+            animator.SetBool("IsSwingAttack", true);
+            hogDMG.IsFachingRight = IsFachingRight();
+            if (!CanAttack(target))
+            {
+                animator.SetBool("IsSwingAttack", false);
+                state = StateMachine.Chase;
+            }
+        }
+       
         
     }
 

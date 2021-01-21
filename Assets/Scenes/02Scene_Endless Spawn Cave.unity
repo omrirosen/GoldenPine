@@ -1394,6 +1394,16 @@ PrefabInstance:
     - target: {fileID: 5238089192043708508, guid: 63407609a93eeb04d962abe20e5eefd3,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5238089193216047974, guid: 63407609a93eeb04d962abe20e5eefd3,
+        type: 3}
+      propertyPath: isActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5238089193216047974, guid: 63407609a93eeb04d962abe20e5eefd3,
+        type: 3}
+      propertyPath: isdealDMG
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -26048,7 +26058,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5806318962373928393}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.9755, y: 6.702418, z: 25.454689}
+  m_LocalPosition: {x: -3.9902172, y: 6.702418, z: 25.454689}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1816055325240989977}
@@ -26790,7 +26800,7 @@ MonoBehaviour:
   onRightWall: 0
   onLeftWall: 0
   wallSide: 1
-  onDoTween: 1
+  onDoTween: 0
   wallCollisionRadius: 0.04
   bottomCollisionRadius: 0.03
   doTweenRadius: 0.43
