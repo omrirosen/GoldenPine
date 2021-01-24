@@ -1391,6 +1391,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HornyHog
       objectReference: {fileID: 0}
+    - target: {fileID: 5238089192043708508, guid: 63407609a93eeb04d962abe20e5eefd3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63407609a93eeb04d962abe20e5eefd3, type: 3}
 --- !u!1 &334986485
@@ -3465,7 +3470,7 @@ PrefabInstance:
     - target: {fileID: 8186380546045310834, guid: 9e04e064281664c45bb0c393c05ffb95,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8186380546045310839, guid: 9e04e064281664c45bb0c393c05ffb95,
         type: 3}

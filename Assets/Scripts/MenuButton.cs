@@ -9,14 +9,19 @@ public class MenuButton : MonoBehaviour
 	[SerializeField] MainMenuSoundManager soundManager;
 	[SerializeField] int thisIndex;
 	[SerializeField] Animator panleAnimator;
+	bool canPlay = false;
     private void Awake()
     {
 		menuButtonController = GetComponentInParent<MenuButtonController>();
 		animator = GetComponent<Animator>();
 		soundManager = GetComponentInParent<MainMenuSoundManager>();
+		canPlay = false;
 	}
-    
-    
+    private void Start()
+    {
+		Invoke("ChangeCanPlay", 1f);
+    }
+
     void Update()
 	{
 		if (menuButtonController.index == thisIndex)
@@ -45,6 +50,14 @@ public class MenuButton : MonoBehaviour
 
 	public void PlaySelectedSound()
     {
-		soundManager.PlayOneSound("Selected");
+		if (canPlay)
+		{
+			soundManager.PlayOneSound("Selected");
+		}
 	}
+
+	private void ChangeCanPlay()
+    {
+		canPlay = true;
+    }
 }
